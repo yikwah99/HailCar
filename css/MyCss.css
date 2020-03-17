@@ -104,7 +104,7 @@ background-color:yellow;
 }
 
 .BGI{
-	background-image: url("GrabAunty.jpg");
+	background-image: url("../img/GrabAunty.jpg");
 	background-repeat:no-repeat;
 	background-size:contain;
 	background-position:center center;
@@ -191,7 +191,7 @@ background-color:yellow;
 
 }
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("delivery1.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/delivery1.png");
   height: 50%;
   background-position: center;
   background-repeat: no-repeat;

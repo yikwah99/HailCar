@@ -3,7 +3,7 @@
 	margin:auto;
 	background-position: center top;
 	background-size:100% auto;
-	background-image: url("image-1.jpg");
+	background-image: url("../img/image-1.jpg");
 }
 
 ul#list-nav {

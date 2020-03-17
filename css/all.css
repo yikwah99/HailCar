@@ -404,7 +404,7 @@
 }
 		
 .wood{
-	background-image:URL(wood.jpg);
+	background-image:URL(../img/wood.jpg);
 	background-repeat:no-repeat;
 	background-size:cover;
 	padding-bottom:20px;

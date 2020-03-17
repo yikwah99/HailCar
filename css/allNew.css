@@ -280,7 +280,7 @@
 }
 		
 .wood{
-	background-image:URL(wood.jpg);
+	background-image:URL(../img/wood.jpg);
 	background-repeat:no-repeat;
 	background-size:cover;
 	padding-bottom:20px;
@@ -368,7 +368,7 @@
 }
 
 .container{
-    background-image: URL(thinking.jpg)
+    background-image: URL(../img/thinking.jpg)
 }
 
 
@@ -429,7 +429,7 @@ font-size: 20px;
 }
 
 .BGI{
-	background-image: url("GrabAunty.jpg");
+	background-image: url("../img/GrabAunty.jpg");
 	background-repeat:no-repeat;
 	background-size:contain;
 	background-position:center center;
