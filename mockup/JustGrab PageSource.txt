@@ -1,0 +1,1142 @@
+
+<!DOCTYPE html>
+<html lang="en-MY" class="no-js">
+	<head>
+		<meta charset="UTF-8">
+		<title>
+			JustGrab &#8211; Fixed Fare On-Demand Service | Grab MY
+		</title>
+		<link href="//www.google-analytics.com" rel="dns-prefetch">
+				<link href="https://www.grab.com/my/wp-content/themes/grabsg/images/favicon.ico" rel="shortcut icon">
+		<meta name="msvalidate.01" content="62D708192352CDCE3B73BA9B4A94A95C" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script type='text/javascript' src='https://www.grab.com/sg/wp-content/uploads/media/js/secure-filters.js?ver=1.32110'></script>
+		<!-- <meta name="description" content=""> -->
+
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+			<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+
+		<!-- Google Optimize - Page Hiding Snippet-->
+		<script>        (function (a, s, y, n, c, h, i, d, e) {
+	            s.className += ' ' + y; h.start = 1 * new Date;
+	            h.end = i = function () { s.className = s.className.replace(RegExp(' ?' + y), '') };
+	            (a[n] = a[n] || []).hide = h; setTimeout(function () { i(); h.end = null }, c); h.timeout = c;
+	        })(window, document.documentElement, 'async-hide', 'dataLayer', 4000,
+	{ 'GTM-KSQQ83R': true });</script>
+	    <!-- End of Google Optimize - Page Hiding Snippet -->
+	    <!-- Google Optimize - Modified Analytics Tracking Code -->
+	    <script>
+	        (function (i, s, o, g, r, a, m) {
+	            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+	                (i[r].q = i[r].q || []).push(arguments)
+	            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+	 m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+	        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+	        ga('create', 'UA-73060858-1', 'auto');
+	        ga('require', 'GTM-KSQQ83R');
+	    </script>
+	    <!-- End of Google Optimize - Modified Analytics Tracking Code -->
+	    <!-- Google Tag Manager -->
+	    <script>        (function (w, d, s, l, i) {
+	            w[l] = w[l] || []; w[l].push({ 'gtm.start':
+	new Date().getTime(), event: 'gtm.js'
+	            }); var f = d.getElementsByTagName(s)[0],
+	j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+	'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+	        })(window, document, 'script', 'dataLayer', 'GTM-54DG5SF');</script>
+	    <!-- End Google Tag Manager -->
+
+		<!-- Google Tag Manager -->
+		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+		'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer','GTM-54DG5SF');</script>
+		<!-- End Google Tag Manager -->
+
+		<link rel="alternate" href="https://www.grab.com/th/justgrab/" hreflang="th-th" />
+<link rel="alternate" href="https://www.grab.com/th/en/justgrab/" hreflang="en-th" />
+<link rel="alternate" href="https://www.grab.com/vn/justgrab/" hreflang="vi-vn" />
+<link rel="alternate" href="https://www.grab.com/vn/en/justgrab/" hreflang="en-vn" />
+<link rel="alternate" href="https://www.grab.com/kh/justgrab/" hreflang="en-kh" />
+<link rel="alternate" href="https://www.grab.com/sg/justgrab/" hreflang="en-sg" />
+		<script>
+		var stripHtml = (function () {
+		  var div = document.createElement('div');
+		  return function (html) {
+		  	var escaped = secureFilters.html(html);
+		  	return escaped;
+		  	/*html = decodeURIComponent(html);
+		  	console.log("HTML", html);
+		    div.innerHTML = html.replace(/<\/?\w+[^>]*\/?>/g, "");
+		    return (div.innerText || div.textContent); // textContent is for firefox*/
+		  };
+		})();
+		//inject utm_source into cookies
+		function getUrlParams() {
+		    var rawQueryString = window.location.search;
+		    if (!rawQueryString) {
+		        return {};
+		    }
+
+		    rawQueryString = rawQueryString.slice(1);
+		    var params = {};
+		    var splitStrings = rawQueryString.split('&');
+
+		    for (var i = 0, len = splitStrings.length; i < len; i++) {
+		        var item = splitStrings[i].split('=');
+		        params[item[0]] = stripHtml(decodeURIComponent(item[1]));
+		        console.log(item[0], stripHtml(decodeURIComponent(item[1])));
+		    }
+
+		    return params;
+		}
+
+		function setCookie(name, value) {
+		    document.cookie = name + "=" + value + "; max-age=300; domain=.grab.com;path=/; secure";
+		}
+
+		var urlParams = getUrlParams();
+		if (urlParams.utm_source) {setCookie('utm_source', urlParams.utm_source);}
+		if (urlParams.utm_medium) {setCookie('utm_medium', urlParams.utm_medium);}
+		if (urlParams.utm_content) {setCookie('utm_content', urlParams.utm_content);}
+		if (urlParams.utm_term) {setCookie('utm_term', urlParams.utm_term);}
+		if (urlParams.utm_campaign) {setCookie('utm_campaign', urlParams.utm_campaign);}
+		if (urlParams.grab_source) setCookie('grab_source', urlParams.grab_source);
+		</script>
+
+		<!-- Schema tag for JSON-LD structured data -->
+				  	<script type="application/ld+json">
+			{
+			  "@context": "https://schema.org",
+			    "@type": "Organization",
+			    "name" : "Grab Malaysia",
+			    "url"  : "https://www.grab.com/my/",
+			    "logo" : "https://www.grab.com/my/wp-content/uploads/sites/4/2016/08/Grab_logo.png",
+			    "address" : {
+			      "@type": "PostalAddress",
+			      "addressCountry": "Malaysia",
+			      "addressLocality": "Petaling Jaya",
+			      "addressRegion": "PJS",
+			      "postalCode": "46200",
+			      "streetAddress": "2.009, 129 Offices (The School), Jaya One, 72A Jalan Universiti"
+			          },
+			      "contactPoint": [{
+			                  "@type": "ContactPoint",
+			                  "telephone": "+1-300-80-5858",
+			                  "contactType": "customer service"
+			                }],
+			    "email" : "mailto:support.my@grab.com",
+			    "sameAs" : [
+			      "https://www.wikidata.org/wiki/Q20873932",
+			      "https://en.wikipedia.org/wiki/Grab_(application)",
+			      "https://www.facebook.com/GrabMY",
+			      "https://twitter.com/GrabMY",
+			      "https://www.instagram.com/grabmy",
+			      "https://www.youtube.com/channel/UC0QKbvP4XKGCw5s4iSXGywQ",
+			      "https://www.linkedin.com/company/grabapp",
+			      "https://play.google.com/store/apps/details?id=com.grabtaxi.passenger",
+			      "https://play.google.com/store/apps/details?id=com.ionicframework.grabshuttle856802",
+			      "https://itunes.apple.com/sg/app/grab-car-taxi-bike-booking-app/id647268330",
+			      "https://itunes.apple.com/sg/app/grabshuttle/id1205883254"
+			         ]
+			}
+			</script>
+
+		
+				
+<!-- Start The SEO Framework by Sybre Waaijer -->
+<meta name="robots" content="noydir" />
+<meta name="description" content="JustGrab allows you to have access to booking a ride with both taxis and cars under at an affordably fixed fare. Download Grab and book your ride now." />
+<meta property="og:image" content="https://www.grab.com/my/wp-content/uploads/sites/8/2018/04/Grab-logo-social.png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:locale" content="en_GB" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="JustGrab &#8211; Fixed Fare On-Demand Service | Grab MY" />
+<meta property="og:description" content="JustGrab allows you to have access to booking a ride with both taxis and cars under at an affordably fixed fare. Download Grab and book your ride now." />
+<meta property="og:url" content="https://www.grab.com/my/justgrab/" />
+<meta property="og:site_name" content="Grab MY" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@GrabMY" />
+<meta name="twitter:creator" content="@GrabMY" />
+<meta name="twitter:title" content="JustGrab &#8211; Fixed Fare On-Demand Service | Grab MY" />
+<meta name="twitter:description" content="JustGrab allows you to have access to booking a ride with both taxis and cars under at an affordably fixed fare. Download Grab and book your ride now." />
+<meta name="twitter:image" content="https://www.grab.com/my/wp-content/uploads/sites/8/2018/04/Grab-logo-social.png" />
+<meta name="twitter:image:width" content="1200" />
+<meta name="twitter:image:height" content="630" />
+<link rel="canonical" href="https://www.grab.com/my/justgrab/" />
+<meta name="google-site-verification" content="vfxuon_ZyPfaowDg8ecP-FSfSGVGrBY08WH0gISpyGk" />
+<meta name="msvalidate.01" content="62D708192352CDCE3B73BA9B4A94A95C" />
+<!-- End The SEO Framework by Sybre Waaijer | 0.00639s -->
+
+<link rel='dns-prefetch' href='//cdnjs.cloudflare.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.grab.com\/my\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.9.8"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='elementor/widgets/widgets_registered-css'  href='https://www.grab.com/my/wp-content/plugins/grab-elementor/assets/styles.css?ver=5178975' media='all' />
+<link rel='stylesheet' id='bootstrap-css'  href='https://www.grab.com/my/wp-content/themes/grabsg/css/bootstrap.min.v3.3.6.css?ver=1.0' media='all' />
+<link rel='stylesheet' id='common_css-css'  href='https://www.grab.com/my/wp-content/themes/grabsg/css/common.css?ver=20180124' media='' />
+<link rel='stylesheet' id='press_css-css'  href='https://www.grab.com/my/wp-content/themes/grabsg/css/press-stylesheet.css?ver=20180124' media='' />
+<link rel='stylesheet' id='sanomat_css-css'  href='https://www.grab.com/my/wp-content/themes/grabsg/fonts/Sanomat/1512-PNDUFW-11oct17.css?ver=20180124' media='' />
+<link rel='stylesheet' id='tablepress-default-css'  href='https://www.grab.com/my/wp-content/plugins/tablepress/css/default.min.css?ver=1.9.1' media='all' />
+<link rel='stylesheet' id='wpgform-css-css'  href='https://www.grab.com/my/wp-content/plugins/wpgform/css/wpgform.css?ver=4.9.8' media='all' />
+<link rel='stylesheet' id='wpglobus-css'  href='https://www.grab.com/my/wp-content/plugins/wpglobus/includes/css/wpglobus.css?ver=1.9.16' media='all' />
+<script type='text/javascript' src='https://www.grab.com/my/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='https://www.grab.com/my/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='https://www.grab.com/my/wp-content/plugins/elementor/assets/lib/swiper/swiper.jquery.min.js?ver=4.4.3'></script>
+<script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.1.6/js/swiper.min.js?ver=147'></script>
+<script type='text/javascript' src='https://www.grab.com/my/wp-content/plugins/grab-elementor/assets/scripts.js?ver=147'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var userSettings = {"url":"\/","uid":"0","time":"1553692509","secure":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.grab.com/my/wp-includes/js/utils.min.js?ver=4.9.8'></script>
+<link rel='https://api.w.org/' href='https://www.grab.com/my/wp-json/' />
+<link rel="alternate" type="application/json+oembed" href="https://www.grab.com/my/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.grab.com%2Fmy%2Fjustgrab%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://www.grab.com/my/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.grab.com%2Fmy%2Fjustgrab%2F&#038;format=xml" />
+<style type="text/css">hr {border-top-color: #aaa; margin-top: 50px; margin-bottom: 50px;}
+.section-download {background-size:cover;}
+.section-fare-table .tablepress-id-22 .column-1{width:60%}
+.section-fare-table .tablepress-id-22 .column-2{width:40%}
+
+@media screen and (max-width: 767px) {
+  .section-hero .section-body {bottom:21vh;}
+  .section-hero h1 {display:none}
+  .section-hero.bg-size-cover {background-position: calc(50%) calc(100%) !important;}
+}</style><script type="text/javascript">
+           var ajaxurl = "https://www.grab.com/my/wp-admin/admin-ajax.php";
+         </script>			<style type="text/css" media="screen">
+				.wpglobus_flag_en{background-image:url(https://www.grab.com/my/wp-content/plugins/wpglobus/flags/us.png)}
+                                    			</style>
+				</head>
+	<body class="page-template page-template-tpl page-template-tpl-page-sections page-template-tpltpl-page-sections-php page page-id-19946 site-id-8 justgrab elementor-default">
+		<!-- Google Tag Manager (noscript) -->
+		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-54DG5SF"
+		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+		<!-- End Google Tag Manager (noscript) -->
+
+				
+		
+		
+		
+		
+
+		<div id="top">
+			<div class="container">
+				<nav class="navbar navbar-default">
+
+					<div class="navbar-header">
+						<a class="navbar-brand text-hide bg-size-cover" href="https://www.grab.com/my/">Grab Malaysia</a>
+					</div>
+					<ul id="nav-main" class="nav navbar-nav hidden-xs">
+						<li class="dropdown dropdown-large list-countries">						
+													<a href="#" class="dropdown-toggle my" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="flag"></span></a>
+							<ul class="dropdown-menu dropdown-menu-large row list-countries" style="position: fixed; top: 60px;">
+															<li><a href="https://www.grab.com/sg" class="sg">
+									<span class="flag"></span>
+									Singapore</a>
+								</li>
+															<li><a href="https://www.grab.com/my" class="my">
+									<span class="flag"></span>
+									Malaysia</a>
+								</li>
+															<li><a href="https://www.grab.com/id" class="id">
+									<span class="flag"></span>
+									Indonesia</a>
+								</li>
+															<li><a href="https://www.grab.com/th" class="th">
+									<span class="flag"></span>
+									Thailand</a>
+								</li>
+															<li><a href="https://www.grab.com/vn" class="vn">
+									<span class="flag"></span>
+									Vietnam</a>
+								</li>
+															<li><a href="https://www.grab.com/ph" class="ph">
+									<span class="flag"></span>
+									Philippines</a>
+								</li>
+															<li><a href="https://www.grab.com/mm" class="mm">
+									<span class="flag"></span>
+									Myanmar</a>
+								</li>
+															<li><a href="https://www.grab.com/kh" class="kh">
+									<span class="flag"></span>
+									Cambodia</a>
+								</li>
+															<li><a href="https://www.grab.com/my/where-we-are/" class="globe">
+									<span class="flag"></span>
+									Full city list
+									</a>
+								</li>
+							</ul>
+						</li>
+																		
+						<li class="dropdown dropdown-large active">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+								JustGrab							</a>
+														<ul class="dropdown-menu dropdown-menu-large row list-icons" style="position: fixed; top: 60px;  text-align: center; ">
+																								<li class=" col-sm-1 " style=" display: inline-block;float:none;">
+														<a href="https://www.grab.com/my/taxi/" class="icon-taxi">
+													Taxi													</a>
+												</li>
+																												<li class=" col-sm-1 " style=" display: inline-block;float:none;">
+														<a href="https://www.grab.com/my/car/" class="icon-car">
+													Car													</a>
+												</li>
+																												<li class=" col-sm-1 " style=" display: inline-block;float:none;">
+														<a href="https://www.grab.com/my/share/" class="icon-share">
+													Share													</a>
+												</li>
+																												<li class=" col-sm-1 " style=" display: inline-block;float:none;">
+														<a href="https://www.grab.com/my/justgrab/" class="icon-justgrab">
+													JustGrab													</a>
+												</li>
+																												<li class=" col-sm-1 " style=" display: inline-block;float:none;">
+														<a href="https://www.grab.com/my/rent/" class="icon-car">
+													Rent													</a>
+												</li>
+																												<li class=" col-sm-1 " style=" display: inline-block;float:none;">
+														<a href="https://www.grab.com/my/food/" class="icon-grabfood">
+													Food													</a>
+												</li>
+																												<li class=" col-sm-1 " style=" display: inline-block;float:none;">
+														<a href="https://www.grab.com/my/express/" class="icon-express">
+													Express													</a>
+												</li>
+																			</ul>
+						</li>
+																								<li class="dropdown dropdown-large">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+								Corporate							</a>
+							<ul class="dropdown-menu dropdown-menu-large row list-icons" style="position: fixed; top: 60px;">
+																								<li class="col-sm-2">
+														<a href="https://www.grab.com/my/business/" class="icon-work">Grab for Business</a>
+												</li>
+																												<li class="col-sm-2">
+														<a href="https://www.grab.com/my/partnerships/" class="icon-partnerships">Partnerships</a>
+												</li>
+																			</ul>
+						</li>
+																							<li>
+								<a href="/my/grabpay/" class="grabpay-brand"></a>
+							</li>
+										<li>
+						<a href="/my/grabrewards/" class="grabrewards-brand"></a>
+					</li>
+					</ul>
+					<ul class="nav navbar-nav navbar-right hidden-xs">
+												<li>
+							<a href='https://help.grab.com/hc/ms'>Help Centre</a>						</li>
+												<li>
+							<a href="https://hub.grab.com/" rel="nofollow"><i class="fa fa-user login" title="Login"></i></a>
+						</li>
+																	</ul>
+
+															<ul id="nav-drive" class="nav navbar-nav navbar-right hidden-xs ">
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+								Drive with Grab							</a>
+							<ul class="dropdown-menu list-icons">
+														
+								<li class="abc" style="">
+									<a href="https://www.grab.com/my/driver/" class="icon-drive-white" style="">
+									Drive with Grab</a>
+								</li>
+														
+								<li class="abc" style="">
+									<a href="https://www.grab.com/my/driver/taxi/" class="icon-taxi-drive-white" style="">
+									Taxi Driver</a>
+								</li>
+														
+								<li class="abc" style="">
+									<a href="https://www.grab.com/my/driver/car/" class="icon-car-drive-white" style="">
+									Car Driver</a>
+								</li>
+														
+								<li class="abc" style="">
+									<a href="https://www.grab.com/my/driver/food/" class="icon-grabfood-drive-white" style="">
+									GrabFood Driver</a>
+								</li>
+														
+								<li class="abc" style="">
+									<a href="https://www.grab.com/my/driver/express/" class="icon-express-drive-white" style="">
+									GrabExpress Driver</a>
+								</li>
+														</ul>
+						</li>
+					</ul>
+					
+				</nav>
+				<a id="cd-menu-trigger" href="#0" class="visible-xs"><span class="cd-menu-text">Menu</span><span class="cd-menu-icon"></span></a>
+
+									<a id="btn-download" href="https://www.grab.com/my/driver" class="visible-xs btn btn-green weight-bold outline text-caps">Driver Sign-Up</a>
+				
+			</div><!-- /container -->
+		</div>
+		<nav class="visible-xs mobile-menu" id="cd-lateral-nav">
+						<div class="inner">
+				<a href="https://hub.grab.com/" target="_blank" class="btn btn-green btn-block weight-bold outline" rel="nofollow">Login</a>
+			</div>
+							<ul class="cd-navigation list-unstyled" id="menu-main-navigation">
+										<li class="menu-item-has-children menu-item-drive">
+								<a href="#">Drive with Grab</a>
+								<ul id="sub-menu-drive" class="sub-menu list-unstyled list-icons">
+																							<li class="link-">
+								<a href="https://www.grab.com/my/driver/" class="icon-drive">Drive with Grab</a>
+							</li>
+																			<li class="link-">
+								<a href="https://www.grab.com/my/driver/taxi/" class="icon-taxi-drive">Taxi Driver</a>
+							</li>
+																			<li class="link-">
+								<a href="https://www.grab.com/my/driver/car/" class="icon-car-drive">Car Driver</a>
+							</li>
+																			<li class="link-">
+								<a href="https://www.grab.com/my/driver/food/" class="icon-grabfood-drive">GrabFood Driver</a>
+							</li>
+																			<li class="link-">
+								<a href="https://www.grab.com/my/driver/express/" class="icon-express-drive">GrabExpress Driver</a>
+							</li>
+														</ul>
+						</li>
+																		<li class="menu-item-has-children">
+							<a href="#">Just</a>
+								<ul class="sub-menu list-unstyled list-icons">
+																					<li>
+							<a href="https://www.grab.com/my/taxi/" class="icon-taxi">
+								Taxi							</a>
+						</li>
+																						<li>
+							<a href="https://www.grab.com/my/car/" class="icon-car">
+								Car							</a>
+						</li>
+																						<li>
+							<a href="https://www.grab.com/my/share/" class="icon-share">
+								Share							</a>
+						</li>
+																						<li>
+							<a href="https://www.grab.com/my/justgrab/" class="icon-justgrab">
+								Just							</a>
+						</li>
+																						<li>
+							<a href="https://www.grab.com/my/rent/" class="icon-car">
+								Rent							</a>
+						</li>
+																						<li>
+							<a href="https://www.grab.com/my/food/" class="icon-grabfood">
+								Food							</a>
+						</li>
+																						<li>
+							<a href="https://www.grab.com/my/express/" class="icon-express">
+								Express							</a>
+						</li>
+																		</ul>
+						</li>
+																		<li class="menu-item-has-children">
+								<a href="#">Corporate</a>
+								<ul class="sub-menu list-unstyled list-icons">
+																						<li>
+												<a href="https://www.grab.com/my/business/" class="icon-work">Grab for Business</a>
+										</li>
+																						<li>
+												<a href="https://www.grab.com/my/partnerships/" class="icon-partnerships">Partnerships</a>
+										</li>
+																		</ul>
+						</li>
+												<li>
+								<a href="https://www.grab.com/my/about/">About</a>
+						</li>
+												<li>
+							<a href="/my/grabpay/" class="grabpay-brand mobile-nav"></a>
+						</li>
+												<li>
+							<a href="/my/grabrewards/" class="grabrewards-brand mobile-nav"></a>
+						</li>
+												<li>
+						<li class="menu-item"><a href="https://www.grab.com/my/blog/">Blog</a></li>						</li>
+						<li>
+								<a href="https://www.grab.com/my/press/">Press</a>
+						</li>
+						<li>
+								<a href="https://grab.careers/" target="_blank">Careers</a>
+						</li>
+												<li>
+								<a href="https://www.grab.com/my/safety/">Safety</a>
+						</li>
+						<li><a href='https://help.grab.com/hc/ms'>Help Centre</a></li>
+						<li class="menu-item-has-children">
+								<a href="#">Malaysia</a>
+								<ul class="sub-menu list-unstyled list-countries">
+									
+							<li><a href="https://www.grab.com/sg" class="sg">Singapore</a></li>
+
+						
+							<li><a href="https://www.grab.com/my" class="my">Malaysia</a></li>
+
+						
+							<li><a href="https://www.grab.com/id" class="id">Indonesia</a></li>
+
+						
+							<li><a href="https://www.grab.com/th" class="th">Thailand</a></li>
+
+						
+							<li><a href="https://www.grab.com/vn" class="vn">Vietnam</a></li>
+
+						
+							<li><a href="https://www.grab.com/ph" class="ph">Philippines</a></li>
+
+						
+							<li><a href="https://www.grab.com/mm" class="mm">Myanmar</a></li>
+
+						
+							<li><a href="https://www.grab.com/kh" class="kh">Cambodia</a></li>
+
+														<li><a href="https://www.grab.com/my/where-we-are/" class="globe">Full city list</a>
+								</li>
+							</ul>
+						</li>
+									</ul>
+		</nav>
+		<div class="wrapper">
+	
+	<main role="main">
+		
+		
+				
+						
+									
+											
+												
+														
+							
+														
+														
+															
+						<section id="hero"
+				class="section section-hero section--dark bg-size-cover test"
+					style="z-index:9;background-image: url(https://www.grab.com/my/wp-content/uploads/sites/8/2017/08/LMMY0658-justGrab-launch_landingpage-1950x700.jpg); ">
+
+				<!--<div class="hero-image bg-size-cover"
+					style="background-image: url(https://www.grab.com/my/wp-content/uploads/sites/8/2017/08/LMMY0658-justGrab-launch_landingpage-1950x700.jpg); ">
+					<img src="https://www.grab.com/my/wp-content/uploads/sites/8/2017/08/LMMY0658-justGrab-launch_landingpage-1950x700.jpg" class="img-responsive" style="display: none;" />
+				</div>-->
+
+				<div class="container hero-content" style="">
+					<div class="section-body">
+
+						<h1>JustGrab</h1>
+						<p>The nearest car or taxi at an affordable upfront fixed fare.</p>
+												<p></p>
+
+
+					</div><!-- /section-body-->
+				</div>
+				
+
+
+
+				0
+
+
+
+
+
+
+
+				
+			</section><!-- /section -->
+											
+														
+							
+					
+														
+														
+														
+														
+														
+														
+														
+														
+														
+														
+														
+														
+														
+														
+							
+							
+														
+														
+														
+														
+							
+							
+														
+				
+									
+											
+												
+														
+							
+														
+														
+														
+							
+					
+														
+														
+														
+														
+														
+														
+														
+														
+														
+														
+														
+														
+														
+														
+															
+								<section 
+									id="section-raw-html-cars-taxis-come-together-offer-largest-fleet-singapore-can-way-faster" 
+										class="section section--padded section--light section-raw-html" 
+											style="												">
+										
+									<div class="container">
+										
+										<header><h2>Our cars & taxis come together so you can be on your way faster!</h2></header>										
+										<div class="row"><div class="col-md-8 col-md-offset-2">										
+										<style>
+  .benefits-icons {
+    text-align: center;
+    margin-top: 35px;
+  }</p>
+<p>  .benefits-icons img {
+    max-width: 125px;
+    margin-bottom: 15px;
+  }
+</style>
+<p class="text-center">JustGrab automatically assigns the nearest vehicle, either a car or taxi, to you at an upfront fixed fare. This allows you to know your exact fares even before you book. Having more vehicles also allow us to get you ride a much faster than any other app<br />
+  in Malaysia.</p>
+<p><img src="https://www.grab.com/my/wp-content/uploads/sites/8/2016/08/justgrab-website_justgrab.png" class="img-responsive"></p>
+<div class="text-center">
+  <a href="https://grab.onelink.me/2695613898?pid=LandingPage&#038;c=MY_0000_ALL_PAX_GC_ALL_260917_LandingPage_MY174WPBJGlaunch&#038;af_dp=grab%3A%2F%2Fopen%3FscreenType%3DBOOKING&#038;af_web_dp=https%3A%2F%2Fwww.grab.com%2Fmy%2Fdownload%2F" class="btn-green btn btn-lg">BOOK NOW</a>
+</div>
+<hr/>
+<p style="color:#00BA51; text-align:center; font-size:1.5em;">There are plenty of reasons to JustGrab.</p>
+<div class="benefits-icons">
+<div class="row">
+<div class="col-md-4"><img src="https://www.grab.com/sg/wp-content/uploads/sites/4/2016/08/justgrab-website_icon-guaranteed-upfront.png"></p>
+<p>Enjoy guaranteed upfront fixed fares for any JustGrab ride, regardless of whether it’s a car or a taxi.</p>
+</p></div>
+<div class="col-md-4"><img src="https://www.grab.com/sg/wp-content/uploads/sites/4/2016/08/justgrab-website_icon-faster.png"></p>
+<p>Get a ride faster as Grab assigns you the nearest vehicle, either a car or a taxi, from our combined fleet of GrabCars and GrabTaxis.</p>
+</p></div>
+<div class="col-md-4"><img src="https://www.grab.com/my/wp-content/uploads/sites/8/2016/08/Extra_Charge_icon-1.png" alt=""></p>
+<p>Traditional taxi surcharges such as booking fees and midnight charges no longer apply to JustGrab fares.</p>
+</p></div>
+</p></div>
+</div>
+										
+										</div></div>									
+									</div><!-- /container -->
+								</section>
+								
+							
+							
+														
+														
+														
+														
+							
+							
+														
+				
+									
+											
+												
+														
+							
+														
+														
+														
+							
+					
+														
+														
+														
+														
+														
+															<section 
+									id="section-guide-how-it-work-justgrab" 
+										class="section section--light section-guide" 
+											style="background-color: #f5f5f5;												padding-top: 50px;padding-bottom: 0px;">
+				
+									<div class="container">
+										<header><h2>How to book a JustGrab ride</h2></header>																														<div class="row">
+											<div class="col-xs-12 col-md-10 col-md-offset-1">
+												<div class="carousel carousel--mobileview carousel-fade slide clearfix" data-ride="carousel" id="carousel--mobileview--how-it-work-justgrab">
+												    <!-- Indicators -->
+												    <ol class="carousel-indicators steps--4 clearfix">
+													    												        <li class="active" data-slide-to="0" data-target="#carousel--mobileview--how-it-work-justgrab" data-step="1">
+												        	<h4></h4>
+												        	<p>Launch the Grab app and enter your Pick-Up Point</p>
+												        </li>
+												        												        <li data-slide-to="1" data-target="#carousel--mobileview--how-it-work-justgrab" data-step="2">
+												        	<h4></h4>
+												        	<p>Open the vehicle menu and select JustGrab</p>
+												        </li>
+												        												        <li data-slide-to="2" data-target="#carousel--mobileview--how-it-work-justgrab" data-step="3">
+												        	<h4></h4>
+												        	<p>Choose your Drop-off Point and tap on Book</p>
+												        </li>
+												        												        <li data-slide-to="3" data-target="#carousel--mobileview--how-it-work-justgrab" data-step="4">
+												        	<h4></h4>
+												        	<p>Wait for the nearest car or taxi to arrive!</p>
+												        </li>
+												        												    </ol><!-- Wrapper for slides -->
+												    <div class="carousel-description visible-xs"></div>
+												    <div class="carousel-inner">
+													    												        <div class="item active">
+												            <img src="https://www.grab.com/my/wp-content/uploads/sites/8/2017/08/JustGrab-KL-Screen-1.png" />
+												        </div><!-- /item -->
+												        												        <div class="item">
+												            <img src="https://www.grab.com/my/wp-content/uploads/sites/8/2017/08/JustGrab-KL-Screen-2.png" />
+												        </div><!-- /item -->
+												        												        <div class="item">
+												            <img src="https://www.grab.com/my/wp-content/uploads/sites/8/2017/08/JustGrab-KL-Screen-3.png" />
+												        </div><!-- /item -->
+												        												        <div class="item">
+												            <img src="https://www.grab.com/my/wp-content/uploads/sites/8/2017/08/JustGrab-KL-Screen-4.png" />
+												        </div><!-- /item -->
+												        												    </div><!-- /carousel-inner -->
+												    <div class="carousel-bg"></div>
+												</div><!-- /carousel -->
+												
+											</div>
+										</div><!-- /row -->
+																				
+									</div><!-- /container -->
+								</section>
+														
+														
+														
+														
+														
+														
+														
+														
+														
+							
+							
+														
+														
+														
+														
+							
+							
+														
+				
+									
+											
+												
+														
+							
+														
+														
+														
+							
+					
+														
+														
+														
+														
+														
+														
+														
+														
+														
+														
+															<section 
+									id="section-download-download-app" 
+										class="section section--padded section--dark section-download" 
+											style="												">
+				
+									<div class="container">
+										<header><h2>Download App</h2></header>										<div class="dl--well clearfix center-block">
+								            <div class="dl--qr-code">
+								                <span class="weight-bold block bottom-margin-sm">Scan QR Code</span>
+								                <img class="img-responsive img--qr-code" src="https://www.grab.com/my/wp-content/uploads/sites/8/2016/05/pax_my-2-1.jpg">
+								            </div><!-- /dl--qr-code -->
+								            <div class="dl--stores">
+									            								                <a class="bottom-margin-sm" href="https://app.appsflyer.com/id647268330?pid=MY-Website-IOS-Install_Button&c=Website_Download" onclick="ga('send', { hitType: 'event', eventCategory: 'Website', eventAction: 'Download', eventLabel: 'Web'});" target="_blank"><img class="img-responsive" src="https://www.grab.com/my/wp-content/uploads/sites/8/2016/05/app-store.png"></a>
+								                								                								                <a class="bottom-margin-sm" href="https://app.appsflyer.com/com.grabtaxi.passenger?pid=MY-Website-ADR-Install_Button&c=Website_Download" onclick="ga('send', { hitType: 'event', eventCategory: 'Website', eventAction: 'Download', eventLabel: 'Web'});" target="_blank"><img class="img-responsive" src="https://www.grab.com/my/wp-content/uploads/sites/8/2016/05/google-play.png"></a>
+								                								            </div><!-- /dl--stores -->
+										</div><!-- /dl--well -->
+										<!--<div class="row visible-xs text-center row-mobile">
+										    <a class="btn btn-green btn-lg weight-bold" href="https://www.grab.com/sg/download" onclick="ga('send', { hitType: 'event', eventCategory: 'Website', eventAction: 'Download', eventLabel: 'Web'});">DOWNLOAD NOW</a>
+										</div><!-- /row-mobile -->
+										
+									</div><!-- /container -->
+								</section>
+														
+														
+														
+														
+							
+							
+														
+														
+														
+														
+							
+							
+														
+				
+									
+											
+												
+														
+							
+														
+														
+														
+							
+					
+														
+														
+														
+														
+														
+														
+														
+														
+														
+														
+														
+														
+														
+														
+							
+							
+														
+														
+														
+								<section 
+									id="section-faq-single-faqs-justgrab" 
+										class="section section--padded section--light section-faq-single" 
+											style="												">
+										
+									<div class="container">
+										
+										<header><h2>FAQs</h2></header>										
+																																								
+										<div class="row">
+											<div class="col-xs-12 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
+												<div role="tabpanel" class="tab-pane" id="PassengerTabGrabTaxi">
+													
+												
+													<div class="panel-group panel-group--accordion"><div class="panel panel-default"><div class="panel-heading"><h5 class="panel-title collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse19990" aria-expanded="false" aria-controls="collapse19990">What is JustGrab?</h5></div><div id="collapse19990" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading19990"><div class="panel-body"><p>JustGrab is a service with a combined fleet of taxi and cars, at affordable upfront fixed fares.</p>
+</div></div><!-- /panel-collapse --></div><!-- /panel --><div class="panel panel-default"><div class="panel-heading"><h5 class="panel-title collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse19991" aria-expanded="false" aria-controls="collapse19991">As a passenger, how do I book JustGrab?</h5></div><div id="collapse19991" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading19991"><div class="panel-body"><p>Easy! Open the vehicle menu in your Grab app and tap on JustGrab. With one touch, you can book a ride and the nearest vehicle will arrive shortly!</p>
+</div></div><!-- /panel-collapse --></div><!-- /panel --><div class="panel panel-default"><div class="panel-heading"><h5 class="panel-title collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse19992" aria-expanded="false" aria-controls="collapse19992">How does Grab allocate the vehicle with JustGrab?</h5></div><div id="collapse19992" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading19992"><div class="panel-body"><p>Grab will automatically select the nearest vehicle for you, either a car or a taxi. Our promise to you, is that you’ll be on your way faster whenever you book a JustGrab!</p>
+</div></div><!-- /panel-collapse --></div><!-- /panel --><div class="panel panel-default"><div class="panel-heading"><h5 class="panel-title collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse19993" aria-expanded="false" aria-controls="collapse19993">What happens if I get assigned a taxi with JustGrab? Will I have to pay metered fare?</h5></div><div id="collapse19993" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading19993"><div class="panel-body"><p>All cars and taxis booked via JustGrab will be fixed fare! If you prefer metered fare rides, please book a GrabTaxi in the vehicle menu.</p>
+</div></div><!-- /panel-collapse --></div><!-- /panel --><div class="panel panel-default"><div class="panel-heading"><h5 class="panel-title collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse19994" aria-expanded="false" aria-controls="collapse19994">I got a taxi via JustGrab. Why did the taxi driver turn on the meter anyway?</h5></div><div id="collapse19994" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading19994"><div class="panel-body"><p>Taxi drivers have to turn on the meter whenever there are passengers in the car as this is the law. However rest assured that you’ll only need to pay the amount shown in the Grab app.</p>
+</div></div><!-- /panel-collapse --></div><!-- /panel --></div><!-- /panel-group--accordion -->												</div>
+												<div class="top-margin-lg">
+																									</div>
+											</div>
+										</div><!-- /row -->
+										
+										
+									</div><!-- /container -->
+								</section>
+							
+														
+														
+							
+							
+														
+				
+								
+				
+
+		
+		
+		</section>
+		<!-- /section -->
+		
+				
+				
+	</main>
+
+
+		<section class="sitemap">
+		<div class="container">
+	    	<div class="row">
+				<div class="footer-secTop">
+					<div class="col-sm-12 col-md-3" >
+						<div class="footer-about-grab" >
+							<div class="grab-logo bottom-margin-md">
+								<a href="https://www.grab.com/my/"><img src="https://www.grab.com/my/wp-content/themes/grabsg/images/grab-white.png" /></a>
+							</div>
+													<div class="grab-infor">
+								<p>G-02 Ground Floor, Block A,<br />
+Axis Business Campus,<br />
+No 13A &13B Jalan 225,<br />
+Section 51A, Petaling Jaya,<br />
+46100 Selangor.</p>
+							</div>
+							<div class="grab-contact top-margin-md">
+								<p></p>
+								<p><a href="mailto:"></a></p>
+							</div>
+							            		</div><!-- /footer-about-grab-->
+	        		</div><!-- /col-sm-12 col-md-3-->
+
+
+					<div class="col-sm-12 col-md-9 hidden-xs" >
+						<div class="row sitemap-container" >
+
+							<div class="col-xs-6 col-sm-4 col-md-3" >
+																<h4 class="text-caps">Company</h4>
+								<ul class="sitemapList" id="menu-company-menu">
+									<li class="menu-item" id="menu-item-1040"><a href="https://www.grab.com/my/about/">About</a></li>
+																		<li class="menu-item" id="menu-item-1047"><a href="https://www.grab.com/my/press/">Press</a></li>
+
+									<li class="menu-item"><a href="https://www.grab.com/my/blog/">Blog</a></li>																		<li class="menu-item"><a href="https://www.grab.com/my/food-blog">Food Blog</a></li>									<li class="menu-item" id="menu-item-1039"><a href="https://grab.careers" target="_blank">Careers</a></li>
+																			<li class="menu-item" id="menu-item-1038"><a href="https://www.grab.com/my/security/">Security</a></li>
+																											<li class="menu-item" id="menu-item-1050"><a href="https://www.grab.com/my/driver/gdc">Driver Centre</a></li>
+										            				</ul>
+	            											</div><!-- /col-xs-6 col-sm-4 col-md-3 -->
+							<div class="col-xs-6 col-sm-4 col-md-3" >
+								<h4 class="text-caps">Services</h4>
+								<ul id="menu-footer-services" class="sitemapList"><li id="menu-item-375" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-375"><a href="https://www.grab.com/my/taxi/">MyTeksi</a></li>
+<li id="menu-item-376" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-376"><a href="https://www.grab.com/my/car/">GrabCar</a></li>
+<li id="menu-item-9992" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9992"><a href="https://www.grab.com/my/share/">GrabShare</a></li>
+<li id="menu-item-20443" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-19946 current_page_item menu-item-20443"><a href="https://www.grab.com/my/justgrab/">JustGrab</a></li>
+<li id="menu-item-33592" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-33592"><a href="https://www.grab.com/my/rent/">Rent</a></li>
+<li id="menu-item-29767" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29767"><a href="https://www.grab.com/my/food/">GrabFood</a></li>
+<li id="menu-item-33558" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-33558"><a href="https://www.grab.com/my/express/">GrabExpress</a></li>
+<li id="menu-item-30596" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30596"><a href="https://www.grab.com/my/grabpay/">GrabPay</a></li>
+</ul>	            			</div><!-- /col-xs-6 col-sm-4 col-md-3 -->
+				            <div class="col-xs-6 col-sm-4 col-md-3" >
+				            	<h4 class="text-caps">Corporate</h4>
+								<ul id="menu-footer-corporate" class="sitemapList"><li id="menu-item-32065" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-32065"><a href="https://www.grab.com/my/business/">Grab for Business</a></li>
+<li id="menu-item-381" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-381"><a href="https://www.grab.com/my/partnerships/">Partnerships</a></li>
+<li id="menu-item-31299" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-31299"><a href="https://www.grab.com/my/press/tech-product/grab-open-platform-first-everyday-superapp/">Grab Platform</a></li>
+</ul>				            </div><!-- /col-xs-6 col-sm-4 col-md-3 -->
+				            				            <div class="col-xs-6 col-sm-4 col-md-3" >
+				            	<h4 class="text-caps">Ride</h4>
+								<ul id="menu-footer-ride" class="sitemapList"><li id="menu-item-387" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-387"><a href="https://www.grab.com/my/driver/">Drive</a></li>
+<li id="menu-item-34124" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-34124"><a href="https://www.grab.com/my/safety/">Safety</a></li>
+<li id="menu-item-21668" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-21668"><a href="https://help.grab.com/hc/ms">Help Centre</a></li>
+</ul>				            </div><!-- /col-xs-6 col-sm-4 col-md-3 -->
+				            	        			</div><!-- /row sitemap-container -->
+
+	        		</div><!-- /col-sm-12 col-md-9 -->
+										<div class="col-sm-12 col-md-12 hidden-xs" >
+						<hr/>
+	        		</div>
+	    		</div><!-- /footer-secTop-->
+
+	    	</div><!-- /row-->
+
+			<div class="row " >
+				<div class="col-xs-6 col-sm-4 col-md-3 socialArea" >
+					<div class="row hidden-xs">
+						<div class="col-xs-12" >
+							<h4 class="text-caps">Stay in Touch</h4>
+	        			</div>
+	        		</div><!-- /row-->
+
+										<div class="row" >
+												<div class="col-xs-4" >
+							<a target="_blank" href="https://www.facebook.com/grabmy" class="fb socialIcon hvr-float-shadow" ><i class="fa fa-facebook fa-2x"></i></a>
+						</div>
+																		<div class="col-xs-4" >
+							<a target="_blank" href="https://www.instagram.com/grabmy" class="instagram socialIcon hvr-float-shadow" ><i class="fa fa-instagram fa-2x"></i></a>
+						</div>
+																		<div class="col-xs-4" >
+							<a target="_blank" href="https://twitter.com/grabmy" class="twitter socialIcon hvr-float-shadow" ><i class="fa fa-twitter fa-2x"></i></a>
+						</div>
+							        		</div><!-- /row-->
+	    		</div><!-- /col-sm-6 col-md-2 socialArea -->
+	    	</div><!-- /row-->
+		</div><!-- /container -->
+	</section><!-- /sitemap -->
+	<footer>
+		<div class="container" >
+			<div class="row">
+				<div class="col-xs-12 col-md-4">
+										<ul class="policylist">
+													<li><a href="https://www.grab.com/my/terms/" >Terms of Service</a></li>
+							<li><a href="https://www.grab.com/my/privacy/" >Privacy Policy</a></li>
+						
+	        		</ul>
+				</div><!-- /col-xs-12 col-md-4 -->
+				<div class="col-xs-12 col-md-4">
+					<p class="copyright">&copy; Grab 2019</p>
+				</div>
+				<div class="col-xs-12 col-md-4 hidden-xs">
+					<ul class="playstore">
+											<li><a onClick="ga('send', { hitType: 'event', eventCategory: 'Website', eventAction: 'Download',  eventLabel: 'Web'});" target="_blank" href="https://app.appsflyer.com/id647268330?pid=MY-Website-IOS-Install_Button&c=Website_Download" ><img src="https://www.grab.com/my/wp-content/uploads/media/images/footer/app-store.png" class="img-responsive" /></a></li>
+						<li><a onClick="ga('send', { hitType: 'event', eventCategory: 'Website', eventAction: 'Download',  eventLabel: 'Web'});" target="_blank" href="https://app.appsflyer.com/com.grabtaxi.passenger?pid=MY-Website-ADR-Install_Button&c=Website_Download" ><img src="https://www.grab.com/my/wp-content/uploads/media/images/footer/google-play.png" class="img-responsive" /></a></li>
+										</ul>
+				</div><!-- /col-xs-12 col-md-4 -->
+			</div><!-- /row-->
+		</div><!-- /container -->
+	</footer><!-- /footer -->
+</div><!-- /wrapper -->
+
+<!-- jQuery -->
+<script src="https://www.grab.com/my/wp-content/themes/grabsg/js/jquery.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="https://www.grab.com/my/wp-content/themes/grabsg/js/bootstrap.min.js"></script>
+
+<script src="https://www.grab.com/my/wp-content/themes/grabsg/js/push/kitUtils.js"></script>
+<!--script src="https://www.grab.com/my/wp-content/themes/grabsg/js/push/fastclick.min.js"></script-->
+<script src="https://www.grab.com/my/wp-content/themes/grabsg/js/detectmobilebrowser.js"></script>
+<script src="https://www.grab.com/my/wp-content/themes/grabsg/js/jquery.dataTables.min.js"></script>
+<script src="https://www.grab.com/my/wp-content/themes/grabsg/js/dataTables.responsive.min.js"></script>
+<script src="https://www.grab.com/my/wp-content/themes/grabsg/js/jquery.validate.min.js"></script>
+<script src="https://www.grab.com/my/wp-content/themes/grabsg/js/slick.min.js"></script>
+<script src="https://www.grab.com/my/wp-content/themes/grabsg/js/masonry.pkgd.min.js"></script>
+<script src="https://www.grab.com/my/wp-content/themes/grabsg/js/imagesloaded.pkgd.js"></script>
+<script src="https://www.grab.com/my/wp-content/themes/grabsg/js/jquery.flip.min.js"></script>
+<script src="https://www.grab.com/my/wp-content/themes/grabsg/js/main.js?20170301"></script>
+
+<script src="https://www.grab.com/my/wp-content/themes/grabsg/js/jquery.simplePagination.js"></script>
+
+<script>
+
+$(".btn-download").click(function(event){
+	event.preventDefault();
+	
+	if($.browser.mobile){
+		
+		var isiPad = /ipad/i.test(navigator.userAgent.toLowerCase());
+		var isiPhone = /iphone/i.test(navigator.userAgent.toLowerCase());
+		var isiPod = /ipod/i.test(navigator.userAgent.toLowerCase());
+		var isAndroid = /android/i.test(navigator.userAgent.toLowerCase());
+		
+		var isiDevice = /ipad|iphone|ipod/i.test(navigator.userAgent.toLowerCase());
+		var isBlackBerry = /blackberry/i.test(navigator.userAgent.toLowerCase());
+		var isWebOS = /webos/i.test(navigator.userAgent.toLowerCase());
+		var isWindowsPhone = /windows phone/i.test(navigator.userAgent.toLowerCase());
+		
+		if($(this).hasClass("driver")){
+			if(isiDevice){window.location.href = "/my/driver-download";}
+			if (isAndroid){window.location.href = "https://play.google.com/store/apps/details?id=com.grabtaxi.driver2";}
+			if (isBlackBerry){window.location.href = "/my/driver-download";}
+			if (isWebOS){window.location.href = "/my/driver-download";}
+			if (isWindowsPhone){window.location.href = "/my/driver-download";}
+		}else{
+			if(isiDevice){window.location.href = "https://app.appsflyer.com/id647268330?pid=MY-Website-IOS-Install_Button&c=Website_Download";}
+			if (isAndroid){window.location.href = "https://app.appsflyer.com/com.grabtaxi.passenger?pid=MY-Website-ADR-Install_Button&c=Website_Download";}
+			if (isBlackBerry){window.location.href = "/my/download";}
+			if (isWebOS){window.location.href = "/my/download";}
+			if (isWindowsPhone){window.location.href = "/my/download";}
+		}
+	
+	}
+	else{
+		if($(this).hasClass("driver")){window.location.href = "/my/driver-download";}
+		else{window.location.href = "/my/download";}
+	}
+});
+
+</script>
+<script>
+
+$(".innerLink").click(function(event) {
+		event.preventDefault();
+		$('html, body').animate({
+			scrollTop: $(".goHere").offset().top
+		}, 1500);
+	});
+
+		$(".page .section-hero").css("height" , $(window).height() * 0.70);
+	$(".page .section-hero .hero-image").css("height" , $(window).height() * 0.70);
+	$(".page .section-hero .hero-content").css("height" , $(window).height() * 0.70);
+	   $(".section-carousel .carousel .item").css("height" , $(window).height() * 0.70);
+
+
+   if($(".driverBanner .floatForm").length){
+	    var floatFormHeight = $(".driverBanner .floatForm").offset().top + $(".driverBanner .floatForm").innerHeight();
+		var dBannerHeight = $(".driverBanner").height();
+
+	    if((floatFormHeight - dBannerHeight) > 8){
+
+		  var newHeight =  floatFormHeight - 8;
+		  var percentage = ($(window).height() - newHeight)/100;
+		  percentage = percentage.toFixed(2);
+
+
+		  $(".driverBanner").css("height" , newHeight);
+	   }
+
+   }
+
+   if($(window).width() <= 768 ){
+		$(".driverBanner").css("height" , ($(window).height() * 0.85) +  $(".driverBanner .floatForm").height() );
+	    $(".section-carousel .carousel .item").css("height" , ($(window).height() * 0.85));
+   }
+
+
+
+	//FastClick.attach(document.body);
+
+	
+</script>
+
+<script type='text/javascript'>
+/* <![CDATA[ */
+var WPGlobus = {"version":"1.9.16","language":"en","enabledLanguages":["en"]};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.grab.com/my/wp-content/plugins/wpglobus/includes/js/wpglobus.min.js?ver=1.9.16'></script>
+<script type='text/javascript' src='https://www.grab.com/my/wp-includes/js/wp-embed.min.js?ver=4.9.8'></script>
+
+<!-- Eloqua Code -->
+<script type="text/javascript">
+var _elqQ = _elqQ || [];
+_elqQ.push(['elqSetSiteId', '629252191']);
+_elqQ.push(['elqTrackPageView']);
+(function () {
+function async_load() {
+var s = document.createElement('script'); s.type = 'text/javascript';
+s.async = true; s.src = '//img.en25.com/i/elqCfg.min.js';
+var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore (s, x);
+}
+if (window.addEventListener) window.addEventListener('DOMContentLoaded',
+async_load, false);
+else if (window.attachEvent) window.attachEvent('onload', async_load);
+})();</script>
+<!-- End Eloqua Code -->
+</body></html>

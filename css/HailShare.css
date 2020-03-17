@@ -1,0 +1,162 @@
+#body{
+	width:80%;
+	margin:auto;
+	background-position: center top;
+	background-size:100% auto;
+	background-image: url("image-1.jpg");
+}
+
+ul#list-nav {
+	         margin: 20px;
+			 padding: 0;
+			 background: SeaGreen;
+			 list-style:none;
+			 width:100%;
+}
+
+
+
+ul#list-nav li a {
+	              text-decoration:none;
+				  padding:0 ;
+				  width:24%;
+				  background: #ffff66;
+				  color:black;
+				  float:left;
+				  font-size: 30px;
+}
+
+ul#list-nav li a {
+	              text-align:center;
+				  border-left:1px solid #fff;
+}
+
+ul#list-nav li a:hover{
+	                   background:#a2b3a1;
+					   color:#000
+}
+
+#Heading1{color: black;
+		  text-shadow: 1px 1px 1px  #ffff66;
+		  font-size:24px;
+		  }
+
+.bordered {
+			padding:25px;
+			border:6px solid  #ffff66; 
+			border-radius:10px;
+			box-shadow: 15px 15px 30px #556b2f;
+			background-color:white;
+			margin-top:20px;
+			}
+			
+.Button { background-color:  #ffff66; 
+  border: none;
+  color: #ffffff;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border: 2px solid #000000;
+  border-radius:8px;
+
+}
+
+.pic1{width:20em;
+	height:20em;
+	float:right;
+	padding-left:50px;}
+
+
+.border{border:2px solid black;}
+
+.icon{float:right;
+	width:10%;}
+
+@media only screen and (max-width:768px)
+{	
+	#Heading1{font-size:10px;}
+	table tr td .bordered{font-size:15px;
+						margin-left:25px;}
+	.pic1{display:none;}
+	.button{margin-left:0px;}
+}
+
+	.logohomepage{
+		height:70px;
+		width:auto;
+		margin:10px 0px -10px;
+	}
+
+	.dropdown-content a:hover {
+		background-color:#EFEB82;
+		color:blue;
+		border:0.5px solid black;
+		text-decoration:none;
+		font-weight:bold;
+	}
+
+	.dropdown:hover .Text{color: yellow;
+		text-shadow: 1px 1px 2px black, 0 0 25px yellow, 0 0 5px yellow;
+	}
+
+
+
+	.dropdown:hover .dropdown-content {
+		display: block;
+	}
+
+	.dropdown {
+		position: relative;
+		display: inline-block;
+	}
+
+	.dropdown-content {
+		background-color: white;
+		font-size:14px;
+		display: none;
+		position: absolute;
+		min-width: 200px;
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		z-index: 1;
+		border:0.5px solid black;
+	}
+
+	.dropdown-content a {
+		color: black;
+		padding: 12px 50px 12px 10px;
+		text-decoration: none;
+		display: block;	
+	}
+
+	.alignright{float:right;}
+
+	.Text{
+		color:black;
+		font-family:bahnschrift Condensed;
+		font-size:25px;
+		top:10px;
+		border-right:2px solid black;
+	}
+
+	.zoom {  
+	  transition: transform .2s; /* Animation */
+	  width: 45px;
+	  height:auto;
+	  
+	}
+
+	.zoom:hover {
+	  transform: scale(1.3); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+	}
+
+	.text{
+		font-family:bahnschrift Condensed;
+		font-size:25px;
+		padding-top:10px;
+		padding-bottom:10px;
+		border-bottom:2px solid black;
+		background-color:yellow; 
+		text-align:center
+		}

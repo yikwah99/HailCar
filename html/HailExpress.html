@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="MyCss.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  
+  <style>
+
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+    
+  .carousel-inner img {
+      width: 100%; /* Set width to 100% */
+      margin: auto;
+      min-height:200px;
+  }
+
+  /* Hide the carousel text when the screen is less than 600 pixels wide */
+  @media (max-width: 850px) {
+    .carousel-caption {
+      display: none; 
+    }
+  }
+  </style>
+</head>
+<body class = "notBody">
+
+<nav class="navbar navbar-white">
+		  <div class="container-fluid">
+			<div class="navbar-header">
+			<a href="index.html"><img src="logo.png" class="logohomepage" alt="Company logo"></a>
+			</div>
+			<ul class="nav navbar-nav">
+			  <li><a href="AboutHail.html" class="Text">About us</a></li>
+			  <li class="dropdown">
+					<a href="#" class="Text">Services</a>
+						<div class="dropdown-content">
+									
+							<a href="Hail.html">Hail Car
+							<img src="car.png" class="alignright" width="45" height="50" style="margin-top:-10px; margin-right:-7px;" alt="car">
+							</a>
+							
+							<a href="Rent.html">Hail Rent
+								<img src="van.png" class="alignright" width="30" height="33" style="margin-top:-6px;" alt="van">
+							</a>
+							<a href="HailShare.html">Hail Share
+								<img src="share.png" class="alignright" width="30" height="33" style="margin-top:-5px;" alt="share">
+							</a>
+							<a href="HailExpress.html">Hail Express
+								<img src="package.png" class="alignright" width="32" height="32" style="margin-top:-5px; margin-right:-2px;" alt="package">
+							</a>
+							<a href="JustHail.html">Just Hail
+								<img src="justhaillogo.png" class="alignright" width="65" height="30" style="margin-top:-5px; margin-right:-17px;" alt="just">
+							</a>
+
+							<a href="food.html">Hail Food 
+								<img src="food.png" class="alignright" width="30" height="30" style="margin-top:-5px;" alt ="food">
+							</a>
+						</div>
+				</li>	
+			  
+			  <li><a href="HailPay.html" class="Text">Hail Pay</a></li>
+			  <li><a href="HailReward.html" class="Text">Hail Rewards</a></li>
+			  <li><a href="contact.html" class="Text">Contact Us</a></li>
+			  <li><a href="login.html"><img src="blackprofile.png" class="zoom" alt="Profile"></a></li>
+			</ul>
+		  </div>
+		</nav>
+
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="delivery1.png" alt="Image">
+        <div class="carousel-caption">
+          <h2 style = "background-color: yellow; color: black; font-weight:bold; font-size: 40px; border: solid black; border-radius:25px">Grab Express</h2>
+          <p style = "background-color:yellow; color:black ;text-shadow: 1px 1px 1px white; font-size: 28px;border: solid black; border-radius:25px">An on-demand delivery service that is safe, fast, and reliable</p>
+	<br><br>
+        </div>      
+      </div>
+
+
+	</div>
+</div>
+ 
+	<div style="border: 5px solid black;">
+		<div class = "benefit-Icon; col-sm-12">
+			<p style="color:#000000; text-align:center; font-size:50px;" >Why HailExpress?</p>
+		</div>
+		<div class="row">
+		<div class="col-md-3"><img class= "img-responsive infoIcons" src="stopwatch.png" alt="fast">
+		<p style = "font-size:20px ; color: #000000; text-align:center"><strong>Fast and Convenient Delivery Service</strong>
+		Instantly book a door to door delivery for your documents and parcels</p>
+		</div>
+		<div class="col-md-3"><img class= "img-responsive infoIcons" src="tick.png" alt="care">
+		<p style = "font-size:20px ; color: #000000; text-align:center"><strong>Delivered Safely and with Care</strong>
+		Hand over your parcels to our well-trained drivers, and track the delivery real-time</p>
+		</div>
+		<div class="col-md-3"><img class= "img-responsive infoIcons" src="money.png" alt="affordability">
+		<p style = "font-size:20px ; color: #000000; text-align:center"><strong>Competitive Pricing</strong>
+		Competitive upfront fixed fares for all your deliveries</p>
+		</div>
+		<div class="col-md-3"><img class= "img-responsive infoIcons" src="shield.png" alt="security">
+		<p style = "font-size:20px ; color: #000000; text-align:center"><strong>Deliver with Peace of Mind</strong>
+		Every delivery is insured for up to RM 500</p>
+		</div>
+		</div>
+	</div>	
+	
+	<div style="background-color:black">
+		<h1 style ="text-align:center; color: white; font-weight:bold; font-size: 40px">
+			GrabExpress Package Size Guide</h1>
+		<h2 style ="text-align:center; color:white; background-color:yellow; text-shadow: 0px 2px 2px black; font-weight:bold; font-size: 40px; border:solid black;">
+			GrabExpress</h2>
+		<table class = "col-sm-12">
+			<tr >
+				<td class = "col-sm-4" style = "border: 1px solid yellow; text-align:center; background-color:gray; color:white"  >Size</td>
+				<td class = "col-sm-8" style = "border: 1px solid yellow; text-align:center; background-color:gray; color:white" >30cm x 45cm x 42xm<td>
+			</tr>
+			<tr >
+				<td class = "col-sm-4" style = "border: 1px solid yellow; text-align:center; background-color:gray; color:white"  >Weight</td>
+				<td class = "col-sm-8" style = "border: 1px solid yellow; text-align:center; background-color:gray; color:white"  >Below 10kg<td>
+			</tr>
+		</table>
+	</div>
+	<br><br><br><br>
+	<div style="background-color:black;">
+		<h1 style ="text-align:center; color: white; font-weight:bold; font-size: 40px">
+			GrabExpress Rates</h1>
+		<h2 style ="text-align:center; color:gray; background-color:yellow; text-shadow: 0px 2px 2px black; font-weight:bold; font-size: 40px; border:0.5px solid gray;">
+			GrabExpress</h2>
+		<table class = "col-sm-12">
+			<tr >
+				<td class = "col-sm-4" style = "border: 1px solid yellow; text-align:center; background-color:gray; color:white"  >Size</td>
+				<td class = "col-sm-8" style = "border: 1px solid yellow; text-align:center; background-color:gray; color:white" >30cm x 45cm x 42xm<td>
+			</tr>
+			<tr >
+				<td class = "col-sm-4" style = "border: 1px solid yellow; text-align:center; background-color:gray; color:white"  >Weight</td>
+				<td class = "col-sm-8" style = "border: 1px solid yellow; text-align:center; background-color:gray; color:white"  >Below 10kg<td>
+			</tr>
+		</table>
+	</div>	
+	
+	<br><br>
+<footer>
+		<div class="text" style="background-color:yellow">
+				<img src="logo.png" class="logohomepage" alt="Company logo" style="padding-bottom:10px;"><br>
+				15, Jalan Semantan, Bukit Damansara, 50490 Kuala Lumpur, <br>
+				Wilayah Persekutuan Kuala Lumpur
+			
+			<div class="row">
+				<div class="col-sm-6">
+					
+							<h1><b>COMPANY</b></h1>
+							<a href="AboutHail.html style="color:black">About</a><br>
+							<a href="contact.html" style="color:black">Contact Us</a>
+				
+							<h1><b>DOWNLOAD NOW!</b></h1>
+								<a href="#"><img src="appstore.png" class="downnloadimage" style="width:118px" alt="appStore"></a>
+								<a href="#"><img src="googleplay.png" class="downloadimage2" style="width:150px" alt="googPlay"></a>
+				</div>	
+				
+				<div class="col-sm-6">
+					
+							<h1><b>SERVICES</b></h1>
+							<a href="Hail.html" style="color:black">Hail Car</a><br>
+							<a href="Rent.html" style="color:black">Hail Rent</a><br>
+							<a href="HailShare.html" style="color:black">Hail Share</a><br>
+							<a href="HailExpress.html" style="color:black">Hail Express</a><br>
+							<a href="JustHail.html" style="color:black">Just Hail</a><br>
+							<a href="food.html" style="color:black">Hail Food</a>
+						
+				</div>
+			</div>
+		</div>
+		
+		<div class="text" style="padding-bottom:20px;">
+			<h1><b>STAY IN TOUCH</b></h1> 
+			
+				<a href="#"><img src="facebook.png" style="width:40px" alt="facebook"></a>
+				<a href="#"><img src="twitter.png"  style="width:40px" alt="twitter"></a>
+				<a href="#"><img src="instagram.png" style="width:40px" alt="instagram"></a>
+		</div>
+		<div class="text" style="background-color:gray">
+			Copyright &copy; Hail 2019 
+		</div>
+	</footer>
+
+</body>
+</html>
+

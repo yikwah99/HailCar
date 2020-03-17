@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+	<title>HailReward</title>
+	<meta charset = "utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="HailReward.css">
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+	<nav class="navbar navbar-white">
+		  <div class="container-fluid">
+			<div class="navbar-header">
+			<a href="index.html"><img src="logo.png" class="logohomepage" alt="Company logo"></a>
+			</div>
+			<ul class="nav navbar-nav">
+			  <li><a href="AboutHail.html" class="Text">About us</a></li>
+			  <li class="dropdown">
+					<a href="#" class="Text">Services</a>
+						<div class="dropdown-content">
+									
+							<a href="Hail.html">Hail Car
+							<img src="car.png" class="alignright" width="45" height="50" style="margin-top:-10px; margin-right:-7px;" alt="car">
+							</a>
+							
+							<a href="Rent.html">Hail Rent
+								<img src="taxi.png" class="alignright" width="30" height="33" style="margin-top:-6px;" alt="share">
+							</a>
+							<a href="HailShare.html">Hail Share
+								<img src="share.png" class="alignright" width="30" height="33" style="margin-top:-5px;" alt="van">
+							</a>
+							<a href="HailExpress.html">Hail Express
+								<img src="package.png" class="alignright" width="32" height="32" style="margin-top:-5px; margin-right:-2px;" alt="package">
+							</a>
+							<a href="JustHail.html">Just Hail
+								<img src="justhaillogo.png" class="alignright" width="65" height="30" style="margin-top:-5px; margin-right:-17px;" alt="package">
+							</a>
+							
+							<a href="food.html">Hail Food
+								<img src="food.png" class="alignright" width="30" height="30" style="margin-top:-5px;" alt="package">
+							</a>
+								
+						</div>
+				</li>	
+			  
+			  <li><a href="HailPay.html" class="Text">Hail Pay</a></li>	
+			  <li><a href="HailReward.html" class="Text">Hail Rewards</a></li>
+			  <li><a href="contact.html" class="Text">Contact Us</a></li>
+			  <li><a href="login.html"><img src="blackprofile.png" class="zoom" alt="Profile"></a></li>
+			</ul>
+		  </div>
+		</nav>
+
+<main>
+
+<div class="border1">
+	<h2 class="yellow">Welcome to HailRewards</h2>
+	<p>As you progress up the tier by using Hail as your everyday app, you’ll start to enjoy more benefits and privileges.</p>
+
+	<h2 class="yellow">Events & Deals</h2>
+		<ul class="style">
+			<li>16 March 2019</li>
+		</ul>
+	<h4 class="yellow">Private Sweat Class</h4>
+	<p>Platinum users get access to an invigorating 60min workout with just 1000 HailReward points for 1 pass!</p><br>
+	<p class="marginPSC">*Hail reserves the right to change the events and deals at its own discretion.</p>
+</div>
+<div class="border2">
+	<h2>All you need to know about HailRewards</h2>
+	<button class="button">FIND OUT MORE</button>
+</div>
+
+<div class="border1">
+	<h2 class="yellow">Be Rewarded when you Hail more. </h2>
+	<p class="margin_Rewarded">The more you use Hail in your daily life, the more points you'll earn and
+		the faster you'll make your way to the top to enjoy exclusive offers and benefits with us.</p>
+<div class="div1">
+	<table>
+			<tr>
+				<td>
+					<button class="btn1" type="button" onclick="myFunction()">Member</button>
+					<button class="btn2" type="button" onclick="myFunction1()">Silver</button>
+					<button class="btn3" type="button" onclick="myFunction2()">Gold</button>
+					<button class="btn4" type="button" onclick="myFunction3()">Platinum</button>
+				</td>
+			</tr>
+	</table>
+
+	<h3 id="Member">Points needed to qualfiy > 0</h3>
+	<img class="respon_gif" src="grabReward1.gif" alt="grabReward1.gif">
+</div>
+	<h3 id="Member1">GO FOR SILVER</h3>
+	<p id="Member2">Use Hail as your everyday app to start progressing up the tier. Start unlocking more benefits today.</p>
+	<h2 id="Member3">How do I earn reward points</h2>
+	<p id="Member4">Refer to the tables below and don't forget, you can earn more points simply by using GrabPay</p>
+	<button id="btn_Member">More</button>
+	
+	
+<script>
+	function myFunction() 
+	{ 
+	  document.getElementById("Member").innerHTML = "Points needed to qualfiy > 0";
+	  document.getElementById("Member").style.color = "#993300"; //brown
+	  document.getElementById("Member1").innerHTML = "GO FOR SILVER"; 
+	  document.getElementById("Member1").style.color = "#ebebe0"; //silver
+	  document.getElementById("Member2").innerHTML = "Use Hail as your everyday app to start progressing up the tier. Start unlocking more benefits today.";
+	  document.getElementById("Member3").innerHTML = "How do I earn reward points";
+	  document.getElementById("Member3").style.color = "pink"; 	  
+	  document.getElementById("Member4").innerHTML = "Refer to the tables below and don't forget, you can earn more points simply by using GrabPay";	
+	  document.getElementById("btn_Member").innerHTML = "More";
+	}
+	function myFunction1() 
+	{ 
+	  document.getElementById("Member").innerHTML = "Points needed to qualfiy > 200";
+	  document.getElementById("Member").style.color = "#ebebe0";	
+	  document.getElementById("Member1").innerHTML = "GO FOR GOLD";
+	  document.getElementById("Member1").style.color = "#ffd700"; //gold
+	  document.getElementById("Member2").innerHTML = "Start unlocking more benefits today.Make your way up to Gold to enjoy more privileges.";
+	}
+	function myFunction2() 
+	{ 
+	  document.getElementById("Member").innerHTML = "Points needed to qualfiy > 800";
+	  document.getElementById("Member").style.color = "#ffd700";
+	  document.getElementById("Member1").innerHTML = "GO FOR Platinum";
+	  document.getElementById("Member1").style.color = "#6600cc";
+	  document.getElementById("Member3").innerHTML = "How do I earn reward points";
+	  document.getElementById("Member3").style.color = "pink"; 	  
+	  document.getElementById("Member4").innerHTML = "Refer to the tables below and don't forget, you can earn more points simply by using GrabPay";	
+	  document.getElementById("btn_Member").innerHTML = "More";
+	}
+	function myFunction3() 
+	{ 
+	  document.getElementById("Member").innerHTML = "~Your point are qualify~";
+	  document.getElementById("Member").style.color = "#6600cc";
+	  document.getElementById("Member1").innerHTML = "Congratulation!!";
+	  document.getElementById("Member3").innerHTML = "How do I earn reward points";
+	  document.getElementById("Member3").style.color = "pink"; 	  
+	  document.getElementById("Member4").innerHTML = "Refer to the tables below and don't forget, you can earn more points simply by using GrabPay";	
+	  document.getElementById("btn_Member").innerHTML = "More";
+	}
+
+</script>
+</div>
+
+
+</main>
+	<footer>
+		<div class="text" style="background-color:yellow">
+				<img src="logo.png" class="logohomepage" alt="Company logo" style="padding-bottom:10px;"><br>
+				15, Jalan Semantan, Bukit Damansara, 50490 Kuala Lumpur, <br>
+				Wilayah Persekutuan Kuala Lumpur
+			
+			<div class="row">
+				<div class="col-sm-6">
+					
+							<h1><b>COMPANY</b></h1>
+							<a href="AboutHail.html" style="color:black">About Us</a><br>
+							<a href="contact.html" style="color:black">Contact Us</a>
+						
+							<h1><b>DOWNLOAD NOW!</b></h1>
+								<a href="#"><img src="appstore.png" class="downnloadimage" style="width:118px" alt="facebook"></a>
+								<a href="#"><img src="googleplay.png" class="downloadimage2" style="width:150px" alt="facebook"></a>
+				</div>
+				
+				<div class="col-sm-6">
+					
+							<h1><b>SERVICES</b></h1>
+							<a href="Hail.html" style="color:black">Hail Car</a><br>
+							<a href="Rent.html" style="color:black">Hail Rent</a><br>
+							<a href="HailShare.html" style="color:black">Hail Share</a><br>
+							<a href="HailExpress.html" style="color:black">Hail Express</a><br>
+							<a href="JustHail.html" style="color:black">Just Hail</a><br>
+							<a href="food.html" style="color:black">Hail Food</a>
+					
+				</div>
+			</div>
+		</div>
+		
+		<div class="text" style="padding-bottom:20px;">
+			<h1><b>STAY IN TOUCH!</b></h1> 
+			
+				<a href="#"><img src="facebook.png" style="width:40px" alt="facebook"></a>
+				<a href="#"><img src="twitter.png"  style="width:40px" alt="twitter"></a>
+				<a href="#"><img src="instagram.png" style="width:40px" alt="instagram"></a>
+		</div>
+		<div class="text" style="background-color:gray">
+			Copyright &copy; Hail 2019 
+		</div>
+	</footer>
+</body>
+</html>
+

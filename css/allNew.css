@@ -1,0 +1,459 @@
+@media screen and (min-width: 900px) {
+	
+  .smallword{
+	font-size:30px;
+	font-family:monospace;
+	font-weight:bold;
+	}
+
+	.about{
+		font-family:bahnschrift Condensed;
+		font-size:60px;
+		word-spacing:10px;
+	}
+
+	.photodesc{
+		position:absolute;
+		bottom:12%;
+		color:white;
+		width:100%;
+		margin-left:auto;
+		margin-right:auto;
+		text-shadow: 3px 3px black;
+		display:inline-block;
+		padding:0px 0px 20px 80px;
+	}
+
+	.buttonlink{
+		font-family:bahnschrift Condensed;
+		font-weight:bold;
+		font-size:25px;	
+		box-shadow: 5px 5px black;
+		display:inline-block;
+		background-color:yellow;
+		color:black;
+		border:1px solid black;
+		padding:20px 20px;
+		cursor:pointer;
+		transition: transform .2s; /* Animation */
+		width: 210px;
+		text-shadow:none;
+		text-align:center;
+	}
+		
+	.buttonlink:hover{
+		transform: scale(1.1); 
+		text-decoration:none; 
+		color:black;
+	}
+	
+	.howitworks{ 
+	font-size:35px;
+	font-style:italic;
+	color:yellow;
+	text-shadow: 3px 4px black;
+	padding:0px 20px 5px 20px;
+	border-bottom:3px solid black;
+	text-align:center;
+	}
+	
+	.button2{
+	border:none;
+	padding:15px 20px;
+	overflow:hidden;
+	text-decoration:none;
+	background-color:rgb(0,0,0,0);
+	color:white;
+	cursor:pointer;
+	font-size:35px;
+	transition: 0.6s ease;
+	}
+	
+	.text{
+	font-family:bahnschrift Condensed;
+	font-size:25px;
+	padding-top:10px;
+	padding-bottom:10px;
+	border-bottom:2px solid black;
+	background-color:yellow; 
+	text-align:center
+	}
+	
+	.downloadaimage{
+		width:118px;
+}
+@media screen and (max-width: 900px) {
+	.smallword{
+	font-size:20px;
+	font-family:monospace;
+	font-weight:bold;
+	}
+
+	.about{
+    font-family:bahnschrift Condensed;
+	font-size:40px;
+	word-spacing:7px;
+	}
+
+	.photodesc{
+    position:absolute;
+	bottom:12%;
+	color:white;
+	width:100%;
+	margin-left:auto;
+	margin-right:auto;
+	text-shadow: 3px 2px black;
+	display:inline-block;
+	padding:0px 0px 20px 80px;
+	}
+
+	.buttonlink{
+	font-family:bahnschrift Condensed;
+	font-weight:bold;
+	font-size:20px;	
+	box-shadow: 4px 4px black;
+	display:inline-block;
+	background-color:yellow;
+	color:black;
+	border:1px solid black;
+    padding:15px 15px;
+    cursor:pointer;
+	transition: transform .2s; /* Animation */
+	width: 170px;
+	text-shadow:none;
+	text-align:center;
+	}
+	
+	.buttonlink:hover{
+	transform: scale(1.1); 
+	text-decoration:none; 
+	color:black;
+	}
+	
+	.howitworks{ 
+	font-size:25px;
+	font-style:italic;
+	color:yellow;
+	text-shadow: 2px 3px black;
+	padding:0px 15px 4px 15px;
+	border-bottom:2px solid black;
+	text-align:center;
+	}
+	
+	.button2{
+	border:none;
+	padding:10px 15px;
+	overflow:hidden;
+	text-decoration:none;
+	background-color:rgb(0,0,0,0);
+	cursor:pointer;
+	color:white;
+	font-size:25px;
+	transition: 0.6s ease;
+	}
+	
+	.text{
+	font-family:bahnschrift Condensed;
+	font-size:20px;
+	padding-top:10px;
+	padding-bottom:10px;
+	border-bottom:2px solid black;
+	background-color:yellow; 
+	text-align:center
+	}
+	
+	.downloadaimage{
+		width:100px;
+	}
+	
+}
+
+@media screen and (max-width: 700px) {
+	.photodesc{
+    position:absolute;
+	bottom:12%;
+	color:white;
+	width:100%;
+	margin-left:auto;
+	margin-right:auto;
+	text-shadow: 3px 2px black;
+	display:inline-block;
+	padding:0px 0px 20px 50px;
+	}
+	
+	.smallword{
+	font-size:13px;
+	font-family:monospace;
+	font-weight:bold;
+	}
+
+	.about{
+    font-family:bahnschrift Condensed;
+	font-size:25px;
+	word-spacing:5px;
+	}
+	.buttonlink{
+	font-family:bahnschrift Condensed;
+	font-weight:bold;
+	font-size:15px;	
+	box-shadow: 3px 3px black;
+	display:inline-block;
+	background-color:yellow;
+	color:black;
+	border:1px solid black;
+    padding:10px 10px;
+    cursor:pointer;
+	transition: transform .2s; /* Animation */
+	width: 120px;
+	text-shadow:none;
+	text-align:center;
+	}
+	
+	.buttonlink:hover{
+	transform: scale(1.1); 
+	text-decoration:none; 
+	color:black;
+	}
+	
+	.howitworks{ 
+	font-size:16px;
+	font-style:italic;
+	color:yellow;
+	text-shadow: 2px 2px black;
+	padding:0px 10px 3px 10px;
+	border-bottom:1px solid black;
+	text-align:center;
+	}
+	
+	.button2{
+	border:none;
+	padding:7px 12px;
+	overflow:hidden;
+	text-decoration:none;
+	background-color:rgb(0,0,0,0);
+	cursor:pointer;
+	color:white;
+	font-size:15px;
+	transition: 0.6s ease;
+	}
+	
+	.downloadaimage{
+		width:90px;
+	}
+	
+}
+
+
+
+.topmenu{
+    background-color:White; 
+	line-height:800%;
+    width:1400px; 
+	position:inline-block;
+    top:0;
+	border-top:0.5px solid black;
+	}
+
+
+.logohomepage{
+	height:70px;
+	width:auto;
+	margin:10px 0px -10px;
+}
+			
+.Text{
+	color:black;
+	font-family:bahnschrift Condensed;
+	font-size:25px;
+	top:10px;
+	border-right:2px solid black;
+}
+
+
+
+
+.Text:hover {
+	background-color:white;
+	color:yellow;
+	text-shadow: 1px 1px 2px black, 0 0 25px yellow, 0 0 5px yellow;
+	text-decoration:none;
+}
+		
+.wood{
+	background-image:URL(wood.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	padding-bottom:20px;
+	padding-top:5px;
+	text-align:center;
+}
+
+
+.word{  
+	font-family:bahnschrift Condensed;
+	font-size:60px;
+	word-spacing:10px;
+	position:absolute;
+	color:white;
+	font-size:50px;
+	text-shadow: 4px 4px black;
+}
+
+	
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-content {
+	background-color: white;
+	font-size:14px;
+	display: none;
+	position: absolute;
+	min-width: 200px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+	border:0.5px solid black;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 50px 12px 10px;
+    text-decoration: none;
+    display: block;	
+}
+
+.alignright{float:right;}
+
+
+
+.dropdown-content a:hover {
+    background-color:#EFEB82;
+	color:blue;
+	border:0.5px solid black;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+.dropdown:hover .Text{color: yellow;
+	text-shadow: 1px 1px 2px black, 0 0 25px yellow, 0 0 5px yellow;
+}
+
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+.RightText:hover {
+	color: yellow;
+	text-shadow: 1px 1px 2px black, 0 0 25px yellow, 0 0 5px yellow;
+	padding-top:15px;
+	padding-bottom:15px;
+}
+
+.button2:hover{background-color:yellow;
+	color:black;}
+
+.zoom {  
+  transition: transform .2s; /* Animation */
+  width: 45px;
+  height:auto;
+  
+}
+
+.zoom:hover {
+  transform: scale(1.3); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.container{
+    background-image: URL(thinking.jpg)
+}
+
+
+.photo {
+	width:100%;
+    bottom:0;
+	box-shadow: 0px 5px 10px black;
+}
+
+.label{
+    text-align:left;
+}
+		
+
+			
+.bottomleft2{
+    position:absolute; 
+	width:100%; 
+	background-color:rgba(0, 0, 0, 0.4);
+	color:white;
+	padding-bottom:0;
+}
+		
+.more{
+    font-family:arial;
+    text-align:center;
+}
+
+.content{text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+
+.row {
+	text-align: center;
+	position: absolute;
+}
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  color:#000000;
+  text-shadow: 2px 2px 2px white;
+  text-align: left;
+
+}
+
+.info{
+background: rgba(0,0,0,0.5);
+text-align:left;
+color: #ffffff;
+position:relative;	
+float:left;
+text-shadow: 0px 1px 1px black;	
+font-size: 20px;
+
+}
+
+.BGI{
+	background-image: url("GrabAunty.jpg");
+	background-repeat:no-repeat;
+	background-size:contain;
+	background-position:center center;
+	border: 5px solid #000000;
+}
+
+.bord{
+	border: 5px solid #000000;
+	
+}
+
+.BGI2{
+	background-color: white;
+	border: 5px solid #ffffff;
+	background-size: 100%;
+}
+
+
+
+#traffic{
+	background: rgba(0,0,0,0);
+	float: right;
+}
+
+
+
+

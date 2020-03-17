@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="MyCss.css">
+	
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  
+  <style>
+
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+    
+  .carousel-inner img {
+      width: 100%; /* Set width to 100% */
+      margin: auto;
+      min-height:200px;
+  }
+
+  /* Hide the carousel text when the screen is less than 600 pixels wide */
+  @media (max-width: 850px) {
+    .carousel-caption {
+      display: none; 
+    }
+  }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-white">
+		  <div class="container-fluid">
+			<div class="navbar-header">
+			<a href="index.html"><img src="justhaillogo.png" class="logohomepage" alt="Company logo"></a>
+			</div>
+			<ul class="nav navbar-nav">
+			  <li><a href="AboutHail.html" class="Text">About us</a></li>
+			  <li class="dropdown">
+					<a href="#" class="Text">Services</a>
+						<div class="dropdown-content">
+									
+							<a href="Hail1.html">Hail Car
+							<img src="car.png" class="alignright" width="45" height="50" style="margin-top:-10px; margin-right:-7px;" alt="car">
+							</a>
+							
+							<a href="Rent.html">Hail Rent
+								<img src="van.png" class="alignright" width="30" height="33" style="margin-top:-6px;" alt="van">
+							</a>
+							<a href="HailShare.html">Hail Share
+								<img src="share.png" class="alignright" width="30" height="33" style="margin-top:-5px;" alt="share">
+							</a>
+							<a href="HailExpress.html">Hail Express
+								<img src="package.png" class="alignright" width="32" height="32" style="margin-top:-5px; margin-right:-2px;" alt="package">
+							</a>
+							<a href="JustHail.html">Just Hail
+								<img src="justhaillogo.png" class="alignright" width="65" height="30" style="margin-top:-5px; margin-right:-17px;" alt="Just">
+							</a>
+
+							<a href="food.html">Hail Food 
+								<img src="food.png" class="alignright" width="30" height="30" style="margin-top:-5px;" alt="food">
+							</a>
+						</div>
+				</li>	
+			  
+			  <li><a href="#" class="Text">Hail Rewards</a></li>
+			  <li><a href="#" class="Text">Hail Pay</a></li>
+			  <li><a href="#" class="Text">Contact Us</a></li>
+			  <li><a href="login.html"><img src="blackprofile.png" class="zoom" alt="Profile"></a></li>
+			</ul>
+			</div>
+
+		</nav>
+<div class = "JustGrab col-sm-12">
+	<img src = "Picture1.png" class = "img-responsive" alt="JustGrabBanner" style =" padding-top: 20px;">
+		<h1 style = "color:black; text-shadow: 1px 2px 2px black; font-weight: bold; text-align:center;  "> 
+			Our cars & taxis come together so you can be on your way faster!</h1>
+		<p style = "color:black; text-shadow: 1px 2px 2px black; font-style: italic; font-size: 28px; text-align:center;">
+				JustHail automatically assigns the nearest vehicle, either a car or taxi, to you at an upfront fixed fare. <br>
+				This allows you to know your exact fares even before you book. <br>
+				Having more vehicles also allows us to get you a ride much faster than any other app in Malaysia bar Grab.</p>
+				
+		<div class = "midPhotos col-sm-12">
+			<br>
+				<img src= "JustHailBanner.png" class="img-responsive" style = "padding-top: 20px;" alt = "taxiCircle">
+				<a href="#" class=" btnHail btn-default btn-lg" role="button"><b>BOOK NOW</b></a>
+				<hr/>
+		</div>
+	
+	
+	<div style="border: 5px solid black;">
+		<div class = "benefit-Icon;">
+			<p style="color:#000000; text-align:center; font-size:2em;" >There are plenty of reasons to JustHail.</p>
+		</div>
+		<div class="row">
+		<div class="col-md-4"><img class= "img-responsive benefitIcons" src="fixedFare.png" alt="fare">
+		<p style = "font-size: 1em; color: #000000;">Enjoy guaranteed upfront fixed fares for any JustGrab ride, regardless of whether it’s a car or a taxi.</p>
+		</div>
+		<div class="col-md-4"><img class= "img-responsive" id="benefitIcon" src="speedClock.png" alt="fast">
+		<p style = "font-size: 1em;  color: #000000;">Get a ride faster as Grab assigns you the nearest vehicle, either a car or a taxi, from our combined fleet of GrabCars and GrabTaxis.</p>
+		</div>
+		<div class="col-md-4" style><img class= "img-responsive benefitIcons" src="xtraCharge.png" alt="fees">
+		<p style = "font-size: 1em;  color: #000000;">Traditional taxi surcharges such as booking fees and midnight charges no longer apply to JustGrab fares.</p>
+		</div>
+		</div>
+	</div>	
+</div>
+	
+<div class="container left-A col-sm-12" style="color: #000000;">
+  <h2>Frequently Asked Questions[FAQ]</h2>
+  
+  <div class="dropdown FAQ col-sm-12">
+    <p style="float:left; padding-right:10px; background-color: grey; border:2px solid black; border-radius:15px">
+		What is JustShare?</p><button type="button" class="btn btn-primary dropdown-toggle" style="font-size:20px" data-toggle="dropdown">
+      &#8681;
+    </button>
+    <div class="dropdown-menu">
+      
+      <span class="dropdown-item-text" style="width:100%; font-size:20px ">
+	  JustHail is a service with a combined fleet of taxis and cars at affordable upfront fixed prices</span>
+    </div>
+  </div>
+  <br><br>
+  <div class="dropdown FAQ col-sm-12">
+    <p style="float:left; padding-right:10px; background-color: grey; border:2px solid black; border-radius:15px">
+		As a passenger, how do I book JustHail?</p><button type="button" class="btn btn-primary dropdown-toggle" style="font-size:20px" data-toggle="dropdown">
+      &#8681;
+    </button>
+    <div class="dropdown-menu">
+      
+      <span class="dropdown-item-text" style="width:100%; font-size:20px;">
+	  Easy! open the vehicle menu in your Hail app and tap on JustHail.
+	  With one touch,you can book a ride and the nearest vehicle will arrive shortly</span>
+    </div>
+  </div>
+  <br><br>
+  <div class="dropdown FAQ col-sm-12">
+    <p style="float:left; padding-right:10px; background-color: grey; border:2px solid black; border-radius:15px;">
+		How are vehicles allocated with JustHail?</p><button type="button" class="btn btn-primary dropdown-toggle" style="font-size:20px" data-toggle="dropdown">
+      &#8681;
+    </button>
+    <div class="dropdown-menu">
+      
+      <span class="dropdown-item-text" style="width:100%; font-size:20px">
+	  Hail will automatically select the nearest vehicle for you, either a car or a taxi. 
+	  Our promise to you, is that you’ll be on your way faster whenever you book a JustHail! </span>
+    </div>
+  </div>
+   <br><br>
+  <div class="dropdown FAQ col-sm-12">
+    <p style="float:left; padding-right:10px; background-color: grey; border:2px solid black; border-radius:15px;">
+		Do I pay metered fees with JustHail's taxis?</p><button type="button" class="btn btn-primary dropdown-toggle" style="font-size:20px" data-toggle="dropdown">
+      &#8681;
+    </button>
+    <div class="dropdown-menu">
+      
+      <span class="dropdown-item-text" style="width:100%; font-size:20px">
+	  All cars and taxis booked via JustGrab will charged a fixed fare!
+	  If you prefer metered fare rides, please book a GrabTaxi in the vehicle menu. </span>
+    </div>
+  </div>
+  <br><br>
+  <div class="dropdown FAQ col-sm-12">
+    <p style="float:left; padding-right:10px; background-color: grey; border:2px solid black; border-radius:15px;">
+		I got a taxi via JustGrab. Why did the taxi driver turn on the meter anyway?</p><button type="button" class="btn btn-primary dropdown-toggle" style="font-size:20px" data-toggle="dropdown">
+      &#8681;
+    </button>
+    <div class="dropdown-menu">
+      
+      <span class="dropdown-item-text" style="width:100%; font-size:20px">
+	  Taxi drivers have to turn on the meter whenever there are passengers in the car as this is the law. 
+	  However rest assured that you’ll only need to pay the amount shown in the Grab app. </span>
+    </div>
+  </div>
+  <br><br>
+</div>
+	
+		
+		
+<footer>
+		<div class="text" style="background-color:yellow">
+				<img src="logo.png" class="logohomepage" alt="Company logo" style="padding-bottom:10px;"><br>
+				15, Jalan Semantan, Bukit Damansara, 50490 Kuala Lumpur, <br>
+				Wilayah Persekutuan Kuala Lumpur
+			
+			<div class="row">
+				<div class="col-sm-6">
+					
+							<h1><b>COMPANY</b></h1>
+							<a href="AboutHail.html" style="color:black">About Us</a><br>
+							<a href="contact.html" style="color:black">Contact Us</a>
+					
+							<h1><b>DOWNLOAD NOW!</b></h1>
+								<a href="#"><img src="appstore.png" class="downnloadimage" style="width:118px" alt="appStore"></a>
+								<a href="#"><img src="googleplay.png" class="downloadimage2" style="width:150px" alt="googPlay"></a>
+				</div>	
+				
+				<div class="col-sm-6">
+							<h1><b>SERVICES</b></h1>
+							<a href="Hail.html" style="color:black">Hail Car</a><br>
+							<a href="Rent.html" style="color:black">Hail Rent</a><br>
+							<a href="HailShare.html" style="color:black">Hail Share</a><br>
+							<a href="HailExpress.html" style="color:black">Hail Express</a><br>
+							<a href="JustHail.html" style="color:black">Just Hail</a><br>
+							<a href="food.html" style="color:black">Hail Food</a>
+				</div>
+			</div>
+		</div>
+		
+		<div class="text" style="padding-bottom:20px;">
+			<h1><b>STAY IN TOUCH</b></h1> 
+			
+				<a href="#"><img src="facebook.png" style="width:40px" alt="facebook"></a>
+				<a href="#"><img src="twitter.png"  style="width:40px" alt="twitter"></a>
+				<a href="#"><img src="instagram.png" style="width:40px" alt="instagram"></a>
+		</div>
+		<div class="text" style="background-color:gray">
+			Copyright &copy; Hail 2019 
+		</div>
+	</footer>
+
+</body>
+</html>
+

@@ -1,0 +1,44 @@
+<div class="mySlides w3-animate-right">
+			<img class="photo" src="IUSlideShow1.jpg" alt="thinking">
+				<div class="photodesc">
+					<div class="row">
+						<div class="col-sm-1"></div>
+						
+						<div class="col-sm-9">
+							<b class="about">Taxi. Car. Food delivery. Express.</b><br>
+							<b class="smallword">
+								All in one app
+							</b><br>
+							
+							<a href="#" class="buttonlink">Download Now!</a>
+						</div>
+						
+						<div class="col-sm-2"></div>
+					</div>
+				</div>
+	    </div>
+	
+
+	
+	<div class="mySlides w3-animate-right">
+			<img class="photo" src="IUSlideShow2.jpg" alt="classroom">
+			<div class="photodesc">
+				<div class="row">
+					<div class="col-sm-1"></div>
+					
+					<div class="col-sm-9">
+						<b class="about" style="line-height:70px;">Always late for work<br>due to car park full?</b><br><br>
+						<b class="smallword">
+							Worry no more! For we'll provide you convenience.
+						</b>
+					
+						<a href="#" class="buttonlink" style="text-decoration:none; text-shadow:none;">Find Out More</a>
+					</div>
+					
+					<div class="col-sm-2"></div>
+				</div>
+			</div>
+		</div>
+		
+	<button class="button2 w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+    <button class="button2 w3-display-right" onclick="plusDivs(1)">&#10095;</button>
