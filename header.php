@@ -5,7 +5,7 @@
 <head>
   <meta charset="utf-8" name="viewport" content= "width=device-width, initial-scale=1.0">
   <title><?php echo $page_title; //Set this variable at each page ?></title>
-  <link rel="shortcut icon" href="resource/elogo.png"/>
+  <link rel="shortcut icon" href="img/hailFav.png"/>
   <!--Styles-->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slim-select/1.17.0/slimselect.min.css">
@@ -19,9 +19,39 @@
 <body>
   <!--Nav-->
   <!--LOGO-->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top mb-0 border-bottom border-success" id="top">
-
-</nav>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-white sticky-top mb-0 border-bottom border-warning" id="top">
+    <div class="container-fluid ml-0">
+      <a class="navbar-brand ml-0 mb-0 mt-1 text-warning" style='letter-spacing:0.2em' href="index.php"><h4>HailCar</h4></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse"
+        data-target="#navbarResponsive" aria-controls="navbarResponsive"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="col-md-7"></div>
+      <div class="collapse navbar-collapse col-md-6" id="navbarResponsive">
+        <ul class="nav navbar-nav navbar-right">
+            <li class="nav-item">
+              <a class="nav-link text-warning" href="viewSubmissionHistory.php">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-warning" href="maintainMaterial.php">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-warning" href="viewSubmissionHistory.php">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-warning" href="maintainMaterial.php">Hail Pay</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-warning" href="viewSubmissionHistory.php">Hail Reward</a>
+            </li>
+            <li class="nav-item">
+              <!-- avatar drop down -->
+            </li>
+          </ul>
+      </div>
+    </div>
+  </nav>
 <!--END Nav-->
 <!-- Web Body-->
   <div id="content">
