@@ -1,0 +1,8 @@
+.html{
+  scroll-behavior: smooth;
+  overflow-x:  hidden;
+}
+
+.darken{
+  filter:brightness(70%);
+}
