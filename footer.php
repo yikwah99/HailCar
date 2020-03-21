@@ -1,8 +1,11 @@
 </div>
 <!--footer-->
   <footer>
-    <div class="container-fluid mt-0">
+    <!--footnav-->
+    <div class="container-fluid mt-0 bg-light">
+      <br>
     </div>
+    
     <div class="container-fluid text-dark pt-3 bg-warning">
       <div class="row">
         <div class="col-12 col-lg-6">
