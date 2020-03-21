@@ -9,49 +9,83 @@
   <!--Styles-->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slim-select/1.17.0/slimselect.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/stylesheetCJ.css">
   <!--Scripts-->
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
   <script src="//cdnjs.cloudflare.com/ajax/libs/timepicker/1.3.5/jquery.timepicker.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/slim-select/1.17.0/slimselect.min.js"></script>
+  <!--<script type="text/javascript">
+  window.onload=function(){
+    if(window.jQuery){$(document).ready(function(){
+      $(".sidebarNavigation .navbar-collapse").hide().clone().appendTo("body").removeAttr("class").addClass("sideMenu").show();$("body").append("<div class='overlay'></div>");
+      $(".navbar-toggle, .navbar-toggler").on("click",function(){$(".sideMenu").addClass($(".sidebarNavigation").attr("data-sidebarClass"));$(".sideMenu, .overlay").toggleClass("open");
+      $(".overlay").on("click",function(){$(this).removeClass("open");$(".sideMenu").removeClass("open")})});
+      $("body").on("click",".sideMenu.open .nav-item",function(){if(!$(this).hasClass("dropdown")){$(".sideMenu, .overlay").toggleClass("open")}});
+      $(window).resize(function(){
+        if($(".navbar-toggler").is(":hidden")){$(".sideMenu, .overlay").hide()
+      }else{$(".sideMenu, .overlay").show()}})})
+    }else{console.log("sidebarNavigation Requires jQuery")}}
+
+  </script>-->
 </head>
 <body>
   <!--Nav-->
   <!--LOGO-->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-white sticky-top mb-0 border-bottom border-warning" id="top">
-    <div class="container-fluid ml-0">
-      <a class="navbar-brand ml-0 mb-0 mt-1 text-warning" style='letter-spacing:0.2em' href="index.php"><h4>HailCar</h4></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse"
-        data-target="#navbarResponsive" aria-controls="navbarResponsive"
-        aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+  <nav class="navbar navbar-expand-md navbar-light bg-white sticky-top mb-0 border-bottom border-warning sidebarNavigation"  id="top" data-sidebarClass="navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand text-warning" style='letter-spacing:0.2em' href="index.php"><h4>HailCar</h4></a>
+        <button class="navbar-toggler leftNavbarToggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+            aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon " ></span>
+        </button>
+        <button type="button" class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#navBarUser" aria-controls="navBarUser" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="icon fa fa-user"></i>
       </button>
-      <div class="col-md-7"></div>
-      <div class="collapse navbar-collapse col-md-6" id="navbarResponsive">
-        <ul class="nav navbar-nav navbar-right">
-            <li class="nav-item">
-              <a class="nav-link text-warning" href="viewSubmissionHistory.php">About Us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-warning" href="maintainMaterial.php">Contact Us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-warning" href="viewSubmissionHistory.php">Services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-warning" href="maintainMaterial.php">Hail Pay</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-warning" href="viewSubmissionHistory.php">Hail Reward</a>
-            </li>
-            <li class="nav-item">
-              <!-- avatar drop down -->
-            </li>
-          </ul>
-      </div>
+      <div class="col-md-5"></div>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="nav navbar-nav nav-flex-icons ml-auto">
+              <li class="nav-item active">
+                  <a class="nav-link text-warning" href="">About Us</a>
+              </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-warning" href="" id="dropdown01" role="button" data-toggle="dropdown" aria-haspopup="true"  data-hover="dropdown" aria-expanded="false">Services</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdown01">
+                      <a href="#" class="dropdown-item  text-warning">Hail Car</a>
+                      <a href="#" class="dropdown-item  text-warning">Hail Share</a>
+                      <a href="#" class="dropdown-item  text-warning">Hail Food</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-warning" href="">Hail Pay</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-warning" href="">Hail Reward</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-warning" href="">Contact Us</a>
+                </li>
+            </ul>
+
+        </div>
+       <div class="collapse navbar-collapse" id="navBarUser">
+          <ul class="nav navbar-nav nav-flex-icons"  >
+
+        <li class="nav-item">
+            <a class="nav-link text-warning" href="">Sign In</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-warning" href="">Sign Up</a>
+        </li>
+      </ul>
     </div>
-  </nav>
+
+    </div>
+    </nav>
+
 <!--END Nav-->
 <!-- Web Body-->
   <div id="content">
