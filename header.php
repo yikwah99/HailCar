@@ -9,6 +9,7 @@
   <!--Styles-->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slim-select/1.17.0/slimselect.min.css">
+  <link rel="stylesheet" type="text/css" href="css/newCssForAll.css">
   <!--Scripts-->
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
@@ -19,7 +20,7 @@
 <body>
   <!--Nav-->
   <!--LOGO-->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-white sticky-top mb-0 border-bottom border-warning" id="top">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-white sticky-top mb-0 " id="top">
     <div class="container-fluid ml-0">
       <a class="navbar-brand ml-0 mb-0 mt-1 text-warning" style='letter-spacing:0.2em' href="index.php"><h4>HailCar</h4></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse"
