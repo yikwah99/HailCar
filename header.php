@@ -9,8 +9,12 @@
   <!--Styles-->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slim-select/1.17.0/slimselect.min.css">
+<<<<<<< HEAD
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/stylesheetCJ.css">
+=======
+  <link rel="stylesheet" type="text/css" href="css/newCssForAll.css">
+>>>>>>> bb0a984eebec1f6ecdbedcfaef68aa8a966db5b8
   <!--Scripts-->
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
@@ -34,6 +38,7 @@
 <body>
   <!--Nav-->
   <!--LOGO-->
+<<<<<<< HEAD
   <nav class="navbar navbar-expand-md navbar-light bg-white sticky-top mb-0 border-bottom border-warning sidebarNavigation"  id="top" data-sidebarClass="navbar-light bg-light">
         <div class="container-fluid">
             <a class="navbar-brand text-warning" style='letter-spacing:0.2em' href="index.php"><h4>HailCar</h4></a>
@@ -81,6 +86,39 @@
             <a class="nav-link text-warning" href="">Sign Up</a>
         </li>
       </ul>
+=======
+  <nav class="navbar navbar-expand-lg navbar-dark bg-white sticky-top mb-0 " id="top">
+    <div class="container-fluid ml-0">
+      <a class="navbar-brand ml-0 mb-0 mt-1 text-warning"  style='letter-spacing:0.2em' href="index.php"><h4>HailCar</h4></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse"
+        data-target="#navbarResponsive" aria-controls="navbarResponsive"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="col-md-7"></div>
+      <div class="collapse navbar-collapse col-md-6" id="navbarResponsive">
+        <ul class="nav navbar-nav navbar-right">
+            <li class="nav-item">
+              <a class="nav-link text-warning under" href="viewSubmissionHistory.php">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-warning under" href="maintainMaterial.php">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-warning under" href="viewSubmissionHistory.php">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-warning under" href="maintainMaterial.php">Hail Pay</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-warning under" href="viewSubmissionHistory.php">Hail Reward</a>
+            </li>
+            <li class="nav-item">
+              <!-- avatar drop down -->
+            </li>
+          </ul>
+      </div>
+>>>>>>> bb0a984eebec1f6ecdbedcfaef68aa8a966db5b8
     </div>
 
     </div>

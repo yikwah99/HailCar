@@ -1,0 +1,13 @@
+.html{
+  scroll-behavior: smooth;
+  overflow-x:  hidden;
+}
+
+.darken{
+  filter:brightness(70%);
+}
+
+.under:hover {
+  transition: all .3s ;
+  transform: scale(1.2);
+}
