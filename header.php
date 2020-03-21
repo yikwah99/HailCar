@@ -22,7 +22,7 @@
   <!--LOGO-->
   <nav class="navbar navbar-expand-lg navbar-dark bg-white sticky-top mb-0 " id="top">
     <div class="container-fluid ml-0">
-      <a class="navbar-brand ml-0 mb-0 mt-1 text-warning" style='letter-spacing:0.2em' href="index.php"><h4>HailCar</h4></a>
+      <a class="navbar-brand ml-0 mb-0 mt-1 text-warning"  style='letter-spacing:0.2em' href="index.php"><h4>HailCar</h4></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse"
         data-target="#navbarResponsive" aria-controls="navbarResponsive"
         aria-expanded="false" aria-label="Toggle navigation">
@@ -32,19 +32,19 @@
       <div class="collapse navbar-collapse col-md-6" id="navbarResponsive">
         <ul class="nav navbar-nav navbar-right">
             <li class="nav-item">
-              <a class="nav-link text-warning" href="viewSubmissionHistory.php">About Us</a>
+              <a class="nav-link text-warning under" href="viewSubmissionHistory.php">About Us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-warning" href="maintainMaterial.php">Contact Us</a>
+              <a class="nav-link text-warning under" href="maintainMaterial.php">Contact Us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-warning" href="viewSubmissionHistory.php">Services</a>
+              <a class="nav-link text-warning under" href="viewSubmissionHistory.php">Services</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-warning" href="maintainMaterial.php">Hail Pay</a>
+              <a class="nav-link text-warning under" href="maintainMaterial.php">Hail Pay</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-warning" href="viewSubmissionHistory.php">Hail Reward</a>
+              <a class="nav-link text-warning under" href="viewSubmissionHistory.php">Hail Reward</a>
             </li>
             <li class="nav-item">
               <!-- avatar drop down -->
