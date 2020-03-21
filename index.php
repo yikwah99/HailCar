@@ -7,6 +7,14 @@
     overflow-x:hidden;
   }
 </style>
+<div class="jumbotron bg-white">
+  <h1 class="display-4 text-center">Welcome To</h1><h1 class="display-4 text-warning text-center">HailCar</h1>
+  <p class="lead"></p>
+  <hr class="my-4">
+  <p class="lead text-center">
+    <a class="btn btn-warning btn-lg" href="#" role="button">Learn More</a>
+  </p>
+</div>
 
 <div id="carouselExampleIndicators" class="carousel slide " data-ride="carousel">
   <ol class="carousel-indicators">
