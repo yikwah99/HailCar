@@ -69,14 +69,14 @@
                     <a class="nav-link text-warning" href="">Contact Us</a>
                 </li>
             </ul>
-    
+
 
         </div>
        <div class="collapse navbar-collapse" id="navBarUser">
           <ul class="nav navbar-nav nav-flex-icons"  >
 
         <li class="nav-item">
-            <a class="nav-link text-warning" href="">Sign In</a>
+                <a class="nav-link text-warning" href=""><i class="far fa-user pr-2"></i>Sign In</a>
         </li>
         <li class="nav-item">
             <a class="nav-link text-warning" href="">Sign Up</a>
