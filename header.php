@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slim-select/1.17.0/slimselect.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
     <link rel="stylesheet" type="text/css" href="css/stylesheetCJ.css">
     <link rel="stylesheet" type="text/css" href="css/newCssForAll.css">
   <!--Scripts-->
@@ -35,9 +36,9 @@
 <body>
   <!--Nav-->
   <!--LOGO-->
-  <nav class="navbar navbar-expand-md navbar-light bg-darken sticky-top mb-0 border-bottom border-warning sidebarNavigation"  id="top" data-sidebarClass="navbar-light bg-light">
+  <nav class="navbar navbar-expand-md navbar-dark bg-darken sticky-top mb-0 border-bottom border-warning sidebarNavigation"  id="top" data-sidebarClass="navbar-dark bg-dark">
         <div class="container-fluid">
-            <a class="navbar-brand text-warning" style='letter-spacing:0.2em' href="index.php"><h4>HailCar</h4></a>
+            <a class="navbar-brand text-warning" style='letter-spacing:0.2em' href="index.php"><h4>HAIL Car</h4></a>
         <button class="navbar-toggler leftNavbarToggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
             aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon " ></span>
@@ -48,7 +49,7 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="nav navbar-nav nav-flex-icons ">
               <li class="nav-item active">
-                  <a class="nav-link text-warning" href="">About Us</a>
+                  <a class="nav-link text-warning px-3" href="">About Us</a>
               </li>
 
                 <li class="nav-item dropdown">
@@ -60,13 +61,13 @@
                     </div>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-warning" href="">Hail Pay</a>
+                  <a class="nav-link text-warning px-3" href="">Hail Pay</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-warning" href="">Hail Reward</a>
+                    <a class="nav-link text-warning px-3" href="">Hail Reward</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-warning" href="">Contact Us</a>
+                    <a class="nav-link text-warning px-3" href="">Contact Us</a>
                 </li>
             </ul>
            <!--  <form class="form-inline my-2 my-lg-0">
@@ -79,10 +80,10 @@
           <ul class="nav navbar-nav nav-flex-icons ml-auto">
 
         <li class="nav-item">
-            <a class="nav-link text-warning" href=""><i class="far fa-user pr-2"></i>Sign In</a>
+            <a class="nav-link text-warning pl-3 pr-4" href=""><i class="far fa-user pr-2"></i>Sign In</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link text-warning" href="">Sign Up</a>
+            <a class="nav-link text-warning pl-3 pr-4 " href="">Sign Up</a>
         </li>
       </ul>
     </div>
