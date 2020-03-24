@@ -17,7 +17,7 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
   <script src="//cdnjs.cloudflare.com/ajax/libs/timepicker/1.3.5/jquery.timepicker.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/slim-select/1.17.0/slimselect.min.js"></script>
-  <!--<script type="text/javascript">
+  <script type="text/javascript">
   window.onload=function(){
     if(window.jQuery){$(document).ready(function(){
       $(".sidebarNavigation .navbar-collapse").hide().clone().appendTo("body").removeAttr("class").addClass("sideMenu").show();$("body").append("<div class='overlay'></div>");
@@ -29,7 +29,7 @@
       }else{$(".sideMenu, .overlay").show()}})})
     }else{console.log("sidebarNavigation Requires jQuery")}}
 
-  </script>-->
+  </script>
 </head>
 <body>
   <!--Nav-->
@@ -44,9 +44,8 @@
         <button type="button" class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#navBarUser" aria-controls="navBarUser" aria-expanded="false" aria-label="Toggle navigation">
         <i class="icon fa fa-user"></i>
       </button>
-      <div class="col-md-5"></div>
         <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="nav navbar-nav nav-flex-icons ml-auto">
+            <ul class="nav navbar-nav nav-flex-icons ">
               <li class="nav-item active">
                   <a class="nav-link text-warning" href="">About Us</a>
               </li>
@@ -69,14 +68,17 @@
                     <a class="nav-link text-warning" href="">Contact Us</a>
                 </li>
             </ul>
-
+           <!--  <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form> -->
 
         </div>
-       <div class="collapse navbar-collapse" id="navBarUser">
-          <ul class="nav navbar-nav nav-flex-icons"  >
+        <div class="collapse navbar-collapse" id="navBarUser">
+          <ul class="nav navbar-nav nav-flex-icons ml-auto">
 
         <li class="nav-item">
-                <a class="nav-link text-warning" href=""><i class="far fa-user pr-2"></i>Sign In</a>
+            <a class="nav-link text-warning" href=""><i class="far fa-user pr-2"></i>Sign In</a>
         </li>
         <li class="nav-item">
             <a class="nav-link text-warning" href="">Sign Up</a>
