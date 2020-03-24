@@ -1,3 +1,4 @@
+/* Dylan start */
 .html{
   scroll-behavior: smooth;
   overflow-x:  hidden;
@@ -7,7 +8,10 @@
   filter:brightness(70%);
 }
 
-.under:hover {
+.zoom:hover {
   transition: all .3s ;
   transform: scale(1.2);
 }
+
+
+/* Dylan End */
