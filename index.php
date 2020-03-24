@@ -7,13 +7,38 @@
     overflow-x:hidden;
   }
 </style>
+
 <div class="jumbotron bg-white">
-  <h1 class="display-4 text-center">Welcome To</h1><h1 class="display-4 text-warning text-center">HailCar</h1>
-  <p class="lead"></p>
-  <hr class="my-4">
-  <p class="lead text-center">
-    <a class="btn btn-warning btn-lg" href="#" role="button">Learn More</a>
-  </p>
+  <h1 class="display-4 text-center">Welcome To</h1><h1 class="display-4 text-warning text-center mb-5 zoom">HailCar</h1>
+  <div class="card-group">
+  <div class="card p-3">
+    <h1 class="text-center text-warning zoom">HAIL CAR</h1>
+    <div class="card-body">
+      <h5 class="card-title text-center">Book a ride to travel around the beautiful CITY.</h5>
+
+      <button class="btn btn-block btn-warning">Go</button>
+    </div>
+  </div>
+  <div class="card p-3">
+    <h1 class=" text-center text-success zoom">HAIL SHARE</h1>
+    <div class="card-body">
+      <h5 class="card-title text-center">Share a ride to travel around the city with lower PRICES.</h5>
+
+      <button class="btn btn-block btn-success">Go</button>
+    </div>
+  </div>
+  <div class="card p-3">
+    <h1 class="text-center text-info zoom">HAIL FOOD</h1>
+    <div class="card-body">
+      <h5 class="card-title">We can deliver delicious food to satisfy your CRAVINGS.</h5>
+
+      <button class="btn btn-block btn-info">Go</button>
+    </div>
+  </div>
+</div>
+</div>
+<div class="col-md-12 mb-5 text-center">
+  <button class="btn btn-outline-warning animatedBtn">Learn More</button>
 </div>
 
 <div id="carouselExampleIndicators" class="carousel slide " data-ride="carousel">
