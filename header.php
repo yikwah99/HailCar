@@ -20,7 +20,7 @@
   <script src="//cdnjs.cloudflare.com/ajax/libs/timepicker/1.3.5/jquery.timepicker.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/slim-select/1.17.0/slimselect.min.js"></script>
   <script type="text/javascript"></script>
-  
+
   <!--
   window.onload=function(){
     if(window.jQuery){$(document).ready(function(){
@@ -51,11 +51,11 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="nav navbar-nav nav-flex-icons ">
               <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle text-warning" href="" id="dropdown01" role="button" data-toggle="dropdown" aria-haspopup="true"  data-hover="dropdown" aria-expanded="false">About Us</a>
+                  <a class="nav-link dropdown-toggle text-warning" href="" id="dropdown01" role="button" data-toggle="dropdown" aria-haspopup="true"  data-hover="dropdown" aria-expanded="false">Background</a>
                   <div class="dropdown-menu" aria-labelledby="dropdown01">
-                    <a href="#" class="dropdown-item  text-darken">Aim</a>
-                    <a href="#" class="dropdown-item  text-darken">FAQ</a>
-                    <a href="#" class="dropdown-item  text-darken">Contact Us</a>
+                    <a href="index.php#aboutUs" class="dropdown-item  text-darken">About Us</a>
+                    <a href="index.php#faq" class="dropdown-item  text-darken">FAQ</a>
+                    <a href="index.php#contactUs" class="dropdown-item  text-darken">Contact Us</a>
                   </div>
               </li>
 
