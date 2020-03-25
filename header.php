@@ -39,7 +39,7 @@
   <!--LOGO-->
   <nav class="navbar navbar-expand-md navbar-dark bg-darken sticky-top mb-0 border-bottom border-warning sidebarNavigation"  id="top" data-sidebarClass="navbar-dark bg-dark">
         <div class="container-fluid">
-            <a class="navbar-brand text-warning" style='letter-spacing:0.2em' href="index.php"><h4>HAIL Car</h4></a>
+            <a class="navbar-brand text-warning" style='letter-spacing:0.2em' href="index.php"><h4>HAILCAR</h4></a>
         <button class="navbar-toggler leftNavbarToggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
             aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon " ></span>
@@ -49,18 +49,23 @@
       </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="nav navbar-nav nav-flex-icons ">
-              <li class="nav-item active">
-                  <a class="nav-link text-warning px-3" href="">About Us</a>
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-warning" href="" id="dropdown01" role="button" data-toggle="dropdown" aria-haspopup="true"  data-hover="dropdown" aria-expanded="false">About Us</a>
+                  <div class="dropdown-menu" aria-labelledby="dropdown01">
+                    <a href="#" class="dropdown-item  text-darken">Aim</a>
+                    <a href="#" class="dropdown-item  text-darken">FAQ</a>
+                    <a href="#" class="dropdown-item  text-darken">Contact Us</a>
+                  </div>
               </li>
 
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle text-warning" href="" id="dropdown01" role="button" data-toggle="dropdown" aria-haspopup="true"  data-hover="dropdown" aria-expanded="false">Services</a>
                     <div class="dropdown-menu" aria-labelledby="dropdown01">
-                      <a href="#" class="dropdown-item  text-warning">Hail Car</a>
-                        <a href="#" class="dropdown-item  text-warning">Just Hail </a>
-                        <a href="#" class="dropdown-item  text-warning"> Hail Share </a>
-                      <a href="#" class="dropdown-item  text-warning">Hail Express</a>
-                      <a href="#" class="dropdown-item  text-warning">Hail Food</a>
+                      <a href="#" class="dropdown-item  text-darken">Hail Car</a>
+                        <a href="#" class="dropdown-item  text-darken">Just Hail </a>
+                        <a href="#" class="dropdown-item  text-darken"> Hail Share </a>
+                      <a href="#" class="dropdown-item  text-darken">Hail Express</a>
+                      <a href="#" class="dropdown-item  text-darken">Hail Food</a>
                     </div>
                 </li>
                 <li class="nav-item">
