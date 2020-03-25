@@ -20,6 +20,7 @@
   <script src="//cdnjs.cloudflare.com/ajax/libs/timepicker/1.3.5/jquery.timepicker.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/slim-select/1.17.0/slimselect.min.js"></script>
   <script type="text/javascript">
+  /*
   window.onload=function(){
     if(window.jQuery){$(document).ready(function(){
       $(".sidebarNavigation .navbar-collapse").hide().clone().appendTo("body").removeAttr("class").addClass("sideMenu").show();$("body").append("<div class='overlay'></div>");
@@ -29,7 +30,7 @@
       $(window).resize(function(){
         if($(".navbar-toggler").is(":hidden")){$(".sideMenu, .overlay").hide()
       }else{$(".sideMenu, .overlay").show()}})})
-    }else{console.log("sidebarNavigation Requires jQuery")}}
+    }else{console.log("sidebarNavigation Requires jQuery")}}*/
 
   </script>
 </head>
@@ -56,7 +57,9 @@
                     <a class="nav-link dropdown-toggle text-warning" href="" id="dropdown01" role="button" data-toggle="dropdown" aria-haspopup="true"  data-hover="dropdown" aria-expanded="false">Services</a>
                     <div class="dropdown-menu" aria-labelledby="dropdown01">
                       <a href="#" class="dropdown-item  text-warning">Hail Car</a>
-                      <a href="#" class="dropdown-item  text-warning">Hail Share</a>
+                        <a href="#" class="dropdown-item  text-warning">Just Hail </a>
+                        <a href="#" class="dropdown-item  text-warning"> Hail Share </a>
+                      <a href="#" class="dropdown-item  text-warning">Hail Express</a>
                       <a href="#" class="dropdown-item  text-warning">Hail Food</a>
                     </div>
                 </li>

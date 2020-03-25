@@ -7,8 +7,6 @@
     </div>
 
 
-
-
   </footer>-->
 
   <footer id="dk-footer" class="dk-footer">
