@@ -31,7 +31,7 @@
 <div class="jumbotron bg-white">
   <h1 class="display-4 text-center">Welcome To</h1>
   <h1 class="display-4 text-warning text-center mb-5 zoom">HailCar</h1>
-    <p class="text-center">Services</p>
+    <p class="text-center">Main Services</p>
   <div class="card-group">
   <div class="card p-3">
     <h1 class="display-4 text-center text-warning">HAIL CAR</h1>
@@ -63,7 +63,8 @@
 </div>
 </div>
 
-<div id="carouselExampleIndicators" class="carousel slide " data-ride="carousel">
+<div class="container-fluid">
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -94,10 +95,12 @@
       <span class="sr-only">Next</span>
     </a>
 </div>
-<p id="aboutUs"></p>
+</div>
+
+<div class="mb-5" id="aboutUs"><br><br></div>
 <!-- About Us -->
 <div class="container-fluid bg-white">
-  <h1 class="text-center mt-5 mb-5">About Us</h1>
+  <h2 class="text-center mt-5 mb-5">About Us</h2>
   <div class="col-md-12 row">
     <div class="col-md-6">
       <h3 class="text-warning text-center">Aim</h3>
@@ -127,20 +130,20 @@
 
 <!-- FAQ -->
 <div class="container-fluid bg-white" id="faq">
-  <h2 class="text-center mt-5">FAQ</h2>
-    <button class="accordion">Section 1</button>
+  <h2 class="text-center mt-5 mb-5">FAQ</h2>
+    <button class="accordion bg-warning font-weight-bold">What is HAIL Car or HAIL Share</button>
     <div class="panel">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <p>HAIL Car/ HAIL Share is a service with a combined fleet of taxis and cars at affordable upfront fixed prices.</p>
     </div>
 
-    <button class="accordion">Section 2</button>
+    <button class="accordion bg-warning font-weight-bold">How do i book a ride?</button>
     <div class="panel">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <p>Select Hail Car or Hail Share and type in your destination, then sit back and relax until your ride to arrive. <br>In addition, if you are worry that the rider may not find your location, type in your location manually.</p>
     </div>
 
-    <button class="accordion">Section 3</button>
+    <button class="accordion bg-warning font-weight-bold">Do I pay metered fees for my ride?</button>
     <div class="panel">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <p>No, your ride will be calculated in the system. Also, it is fixed, except tolls fee.</p>
     </div>
 </div>
 
