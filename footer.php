@@ -17,11 +17,13 @@
                 <div class="col-md-12 col-lg-4">
                     <div class="dk-footer-box-info">
                         <a class="navbar-brand text-warning" style='letter-spacing:0.2em' href="index.php"><h2>HAIL Car</h2></a>
-                        <p class="footer-info-text text-white">
-                        Safe for you to go everywhere
+
+                        <p class="footer-info-text text-white ">
+                          <span><i class="fas fa-map-marker-alt text-warning "></i></span>
+                        15, Jalan Semantan, Bukit Damansara, 50490, Kuala Lumpur
                         </p>
                         <div class="footer-social-link">
-                            <h3>Follow us</h3>
+                            <h3> Stay In Touch</h3>
                             <ul>
                                 <li>
                                     <a href="#">
@@ -33,7 +35,7 @@
                                         <i class="fa fa-twitter"></i>
                                     </a>
                                 </li>
-                                <li>
+                              <!--  <li>
                                     <a href="#">
                                         <i class="fa fa-google-plus"></i>
                                     </a>
@@ -42,21 +44,29 @@
                                     <a href="#">
                                         <i class="fa fa-linkedin"></i>
                                     </a>
-                                </li>
+                                </li>-->
                                 <li>
                                     <a href="#">
                                         <i class="fa fa-instagram"></i>
                                     </a>
                                 </li>
                             </ul>
+
                         </div>
                         <!-- End Social link -->
-                    </div>
-                    <!-- End Footer info -->
-                    <div class="footer-awarad ">
-                        <p>Best editior's choice 2019</p>
 
                     </div>
+                    <!-- End Footer info -->
+
+                    <div class="footer-awarad ">
+                      <h3 class="text-warning ">Download Now</h3>
+                    </div>
+                    <div class="footer-app">
+                    <img src="img/appstore.png" class="app" alt="">
+                      <img src="img/googleplay.png" class="w-50" alt="">
+                    </img>
+                  </div>
+
                 </div>
                 <!-- End Col -->
                 <div class="col-md-12 col-lg-8">
@@ -95,32 +105,38 @@
                     <!-- End Contact Row -->
                     <div class="row">
                         <div class="col-md-12 col-lg-6">
-                            <div class="footer-widget footer-center-widget">
+                            <div class="footer-widget footer-left-widget">
                                 <div class="section-heading">
-                                    <h3>Useful Links</h3>
+                                    <h3>Services</h3>
                                     <span class="animate-border border-black"></span>
                                 </div>
                                 <ul>
                                     <li>
-                                        <a href="#">About us</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Services</a>
-                                    </li>
-                                    <li>
                                         <a href="#">Hail Car</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Just Hail</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Hail Rent</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Hail Share</a>
                                     </li>
 
                                 </ul>
                                 <ul>
                                     <li>
-                                        <a href="#">Hail Share</a>
+                                        <a href="#">Hail Express</a>
                                     </li>
                                     <li>
                                         <a href="#">Hail Food</a>
                                     </li>
                                     <li>
-                                        <a href="#">Contact us</a>
+                                        <a href="#">Hail Pay</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Hail Reward</a>
                                     </li>
 
                                 </ul>
@@ -129,7 +145,7 @@
                         </div>
                         <!-- End col -->
                         <div class="col-md-12 col-lg-6">
-                            <div class="footer-widget footer-center-widget">
+                            <div class="footer-widget footer-left-widget">
                                 <div class="section-heading">
                                     <h3>Subscribe</h3>
                                     <span class="animate-border border-black"></span>
@@ -209,12 +225,28 @@
         </div>-->
         <!-- End Copyright -->
         <!-- Back to top -->
-        <div id="back-to-top" class="back-to-top">
-            <button class="btn btn-dark" title="Back to Top" style="display: block;">
+        <div  class="back-to-top">
+            <button class="btn btn-dark" id="backtop" onclick="topFunction()" title="Back to Top" style="display: block;">
                 <i class="fa fa-angle-up"></i>
             </button>
         </div>
 
       </footer>
 </body>
+<script type="text/javascript">
+var top= document.getElementById("backtop");
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    top.style.display = "block";
+  } else {
+    top.style.display = "none";
+  }
+}
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
 </html>
