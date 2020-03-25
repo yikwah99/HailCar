@@ -5,7 +5,17 @@
 }
 
 .darken{
-  filter:brightness(70%);
+  text-align: center;
+  width:1600px; /*container-width*/
+  height:600px;
+  overflow:hidden; /*hide bounds of image */
+  margin:0;   /*reset margin of figure tag*/
+  filter:brightness(50%);
+}
+
+.carousel-caption{
+  position: absolute;
+  top: 60px;
 }
 
 .zoom:hover {
@@ -47,6 +57,10 @@ section .section-title {
     color: #eee;
     font-size: 20px;
 }
+
+
+
+
 
 
 /* Dylan End */
