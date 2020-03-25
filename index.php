@@ -44,7 +44,7 @@
   <div class="card p-3">
     <h1 class="display-4 text-center text-success">HAIL SHARE</h1>
     <div class="card-body">
-      <h5 class="card-title text-center">Share a ride to travel around the city with lower PRICES.</h5>
+      <h5 class="card-title text-center">Share a ride to travel around the city with lower PRICE.</h5>
 
       <button class="btn btn-block btn-success">Go</button>
     </div>
@@ -63,75 +63,25 @@
 </div>
 </div>
 
-<div class="container-fluid">
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-  </ol>
-  <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img class="d-block w-100 darken" src="img/taxi2.jpg" alt="First slide">
-        <div class="carousel-caption d-none d-md-block">
-        <h5>...</h5>
-        <p>...</p>
-      </div>
-      </div>
-      <div class="carousel-item">
-        <img class="d-block w-100 darken" src="img/taxi3.jpg" alt="Third slide">
-        <div class="carousel-caption d-none d-md-block">
-        <h5>...</h5>
-        <p>...</p>
-      </div>
-      </div>
-  </div>
-    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
-</div>
-</div>
+
 
 <div class="mb-5" id="aboutUs"><br><br></div>
 <!-- About Us -->
-<div class="container-fluid bg-white">
-  <h2 class="text-center mt-5 mb-5">About Us</h2>
-  <div class="col-md-12 row">
-    <div class="col-md-6">
-      <h3 class="text-warning text-center">Aim</h3>
-      <p>The website was originally designed to support very minimal tasks, with even more minimal interaction between the user and itself. These tasks include:
-        <ul>
-        <li>Allowing users to log in to their own accounts.</li>
-        <li>Allowing users to check their own personal loyalty rewards</li>
-        <li>Allowing users to send inquiries in the form of an email via the complaint box in the ‘Contact Us’ page.</li>
-        <li>Navigate to either the Google Play Store or Apple App Store to download and install the official HAIL application into the user’s personal devices.</li>
-        <li>Navigate the user to each of HAIL’s official social media pages to find out more about HAIL’s current affairs.</li>
-        <li>Educate all users about the services HAIL provides for them and how to make the most of them.</li>
-        <ul>
-      </p>
-    </div>
-    <div class="col-md-6">
-      <h3 class="text-warning text-center">Purpose</h3>
+<div class="container bg-white">
+  <h3 class="text-center text-warning mt-5 mb-5">About Us</h3>
       <p>The HAIL website was designed to be an informative website that provides essential information regarding HAIL’s services towards its current and prospective users.
          HAIL as a service provider is conceptualised similarly to that of Grab, Uber or Lyft.
-         It is an e-hailing service but the website itself does not include any e-hailing functions.<p><br>
+         It is an e-hailing service but the website itself does not include any e-hailing functions.
          The targeted users of the website are people who are interested to find out more about HAIL, or people who would like to make enquiries about the services HAIL provides.
          For instance, to learn about HAIL’s services, payment methods or rewards system, there are corresponding pages for each respective topic and of course, designated contact details are provided on
          all pages of the website.</p>
       </p>
-    </div>
-  </div>
 </div>
 
 <!-- FAQ -->
-<div class="container-fluid bg-white" id="faq">
-  <h2 class="text-center mt-5 mb-5">FAQ</h2>
-    <button class="accordion bg-warning font-weight-bold">What is HAIL Car or HAIL Share</button>
+<div class="container bg-white mt-5 mb-5" id="faq">
+  <h3 class="text-center text-warning mt-5 mb-5">FAQ</h3>
+    <button class="accordion bg-warning font-weight-bold">What is HAIL Car or HAIL Share?</button>
     <div class="panel">
     <p>HAIL Car/ HAIL Share is a service with a combined fleet of taxis and cars at affordable upfront fixed prices.</p>
     </div>
@@ -148,11 +98,22 @@
 </div>
 
 <!-- Contact Us -->
-<div class="container-fluid bg-white" id="contactUs">
-  <h1 class="text-center mt-5 mb-5">Contact Us</h1>
-
+<div id="contactUs" class="container-fluid bg-white mt-5 mb-5" id="contactUs">
+  <h3 class="text-center text-warning mt-5 mb-5">Contact Us</h3>
+  <div class="container h-100">
+    <div class="d-flex h-100 text-center align-items-center">
+      <div class="w-100 text-white">
+        <p class="text-dark">Developers</p>
+        <h4 class="text-dark display-4">Dylan Ch'ng</h4>
+        <h4 class="text-dark display-4">Dominic Lee</h4>
+        <h4 class="text-dark display-4">Liew Cai Juan</h4>
+        <h4 class="text-dark display-4"> Kam Yik Wah</h4>
+        <br>
+        <p class="text-dark lead mb-0">Kindaly approach us for any enquiries.</p>
+      </div>
+    </div>
+  </div>
 </div>
-
 
 
 <script>
