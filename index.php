@@ -63,12 +63,10 @@
 </div>
 </div>
 
-
-
 <div class="mb-5" id="aboutUs"><br><br></div>
 <!-- About Us -->
 <div class="container bg-white">
-  <h3 class="text-center text-warning mt-5 mb-5">About Us</h3>
+  <h1 class="text-center text-warning mt-5 mb-5">About Us</h1>
       <p>The HAIL website was designed to be an informative website that provides essential information regarding HAIL’s services towards its current and prospective users.
          HAIL as a service provider is conceptualised similarly to that of Grab, Uber or Lyft.
          It is an e-hailing service but the website itself does not include any e-hailing functions.
@@ -79,8 +77,9 @@
 </div>
 
 <!-- FAQ -->
-<div class="container bg-white mt-5 mb-5" id="faq">
-  <h3 class="text-center text-warning mt-5 mb-5">FAQ</h3>
+<div class="mb-5" id="faq"><br><br></div>
+<div class="container bg-white mt-5 mb-5">
+  <h1 class="text-center text-warning mt-5 mb-5">FAQ</h1>
     <button class="accordion bg-warning font-weight-bold">What is HAIL Car or HAIL Share?</button>
     <div class="panel">
     <p>HAIL Car/ HAIL Share is a service with a combined fleet of taxis and cars at affordable upfront fixed prices.</p>
@@ -98,8 +97,9 @@
 </div>
 
 <!-- Contact Us -->
-<div id="contactUs" class="container-fluid bg-white mt-5 mb-5" id="contactUs">
-  <h3 class="text-center text-warning mt-5 mb-5">Contact Us</h3>
+<div class="mb-5" id="contactUs"><br><br></div>
+<div class="container-fluid bg-white mt-5 mb-5">
+  <h1 class="text-center text-warning mt-5 mb-5">Contact Us</h1>
   <div class="container h-100">
     <div class="d-flex h-100 text-center align-items-center">
       <div class="w-100 text-white">
