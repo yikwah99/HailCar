@@ -61,7 +61,7 @@
                     </div>
                     <div class="footer-app">
                     <img src="img/appstore.png" class="app" alt="">
-                      <img src="img/googleplay.png" class="w-50" alt="">
+                      <img src="img/googleplay.png" class="w-50 " alt="">
                     </img>
                   </div>
 
