@@ -1,7 +1,7 @@
 .navbar{background:#222222;}
 .nav-item::after{content:'';display:block;width:0px;height:2px;background:#fec400;transition: 0.2s;}
 .nav-item:hover::after{width:100%;}
-.navbar-light .navbar-nav .active > .nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link,.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover{color:#000000;}
+.navbar-dark .navbar-nav .active > .nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show > .nav-link,.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover{color:#fec400;}
 .nav-link{padding:15px 5px;transition:0.2s;}
 .dropdown-item.active, .dropdown-item:active{color:#212529;}
 .dropdown-item:focus, .dropdown-item:hover{background:#fec400;}
@@ -16,6 +16,34 @@ body{position:relative}
 .sideMenu{left:-100%;top:52px;transition:all ease 0.5s;overflow:hidden;width:100%;z-index:999;max-width:80%;margin-bottom:0;padding:1rem}
 .sideMenu.open{left:0;display:block;overflow-y:auto}
 .sideMenu ul{margin:0;padding:0 15px}
+
+/*services*/
+.jumbotron{margin-bottom: 0;}
+
+
+/* Paragraph for Parallax Section */
+.paral p {
+font-size: 24px;
+color:#f5f5f5;
+text-align: center;
+line-height: 60px;
+}
+
+/* Heading for Parallax Section */
+.paral h1 {
+color: rgba(255, 255, 255, 0.8);
+color: rgb(255, 255, 255);
+font-size: 60px;
+text-align: center;
+padding-top: 60px;
+line-height: 100px;
+}
+
+
+.paralsec {
+background-image: url("https://img.webnots.com/2017/05/parallax.jpg");
+background-size:cover;
+}
 
 
 /*footer*/
@@ -119,7 +147,8 @@ z-index: 2; }
 position: absolute;
 top: -120px;
 background: #202020;
-padding: 20px;
+padding: 20px 0px 20px 40px ;
+margin-bottom: 50px;
 z-index: 2; }
 .dk-footer-box-info .footer-social-link h3 {
  color: #FFCC00;
@@ -154,7 +183,7 @@ z-index: 2; }
 
 .footer-awarad {
   position: relative;
-margin-top: 220px;
+margin-top: 150px;
 display: -webkit-box;
 display: -webkit-flex;
 display: -moz-box;
@@ -170,25 +199,34 @@ flex: 0 0 100%;
 -moz-box-align: center;
 -ms-flex-align: center;
 align-items: center; }
-.footer-awarad p {
+.footer-awarad h3{
+
  color: #FFCC00;
  font-size: 24px;
- font-weight: 700;
-padding-bottom: 10px;
- padding-top: 5px; }
 
- .footer-awarad img{
-   width: 50%;
+padding-bottom: 10px;
+padding-left: 40px;
+ padding-top: 10px; }
+
+.footer-app{
+   padding-left: 40px;
+
+  }
+.footer-app img{
+   width: 38%;
  height: auto;
+ padding-bottom: 20px;
  }
 
 .footer-info-text {
-margin: 26px 0 32px; }
+margin: 10px 40px 20px 0px;
+}
 
 .footer-left-widget {
-padding-left: 80px; }
+padding-left: 40px; }
 
 .footer-widget .section-heading {
+
 margin-bottom: 35px; }
 
 .footer-widget h3 {
@@ -336,5 +374,5 @@ z-index: 2; }
  transition: all 0.3s linear; }
  .back-to-top .btn-dark:hover {
    cursor: pointer;
-   background: #FA6742;
-   border-color: #FA6742; }
+   background: #FFCC00;
+   border-color: #FFCC00; }
