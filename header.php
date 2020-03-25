@@ -19,8 +19,9 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
   <script src="//cdnjs.cloudflare.com/ajax/libs/timepicker/1.3.5/jquery.timepicker.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/slim-select/1.17.0/slimselect.min.js"></script>
-  <script type="text/javascript">
-  /*
+  <script type="text/javascript"></script>
+  
+  <!--
   window.onload=function(){
     if(window.jQuery){$(document).ready(function(){
       $(".sidebarNavigation .navbar-collapse").hide().clone().appendTo("body").removeAttr("class").addClass("sideMenu").show();$("body").append("<div class='overlay'></div>");
@@ -30,7 +31,7 @@
       $(window).resize(function(){
         if($(".navbar-toggler").is(":hidden")){$(".sideMenu, .overlay").hide()
       }else{$(".sideMenu, .overlay").show()}})})
-    }else{console.log("sidebarNavigation Requires jQuery")}}*/
+    }else{console.log("sidebarNavigation Requires jQuery")}} -->
 
   </script>
 </head>
