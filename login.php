@@ -28,8 +28,9 @@
   </script>
 </head>
 
-<body class="shadow-lg rounded" style="background: rgb(246,215,131);
-background: linear-gradient(0deg, rgba(246,215,131,1) 0%, rgba(255,193,7,1) 55%);">
+<body class="shadow-lg rounded" style="background-color: #ecd434;
+background-image: linear-gradient(148deg, #ecd434 33%, #ff4b00 94%);
+">
   <div class="container">
       <div class="pb-5 pt-3"><a class="navbar-brand text-white" style='letter-spacing:0.2em' href="index.php"><h4>HAILCAR</h4></a></div>
       
