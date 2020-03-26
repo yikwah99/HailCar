@@ -26,65 +26,79 @@
     background-color: white;
     overflow: hidden;
   }
+
+  #mainServices{
+    position: relative;
+    top: 50px;
+  }
 </style>
 
-  <img class="img-fluid p-2" src="img/taxi2s.jpg" alt="bigBG" style="filter:brightness(40%);">
-
-<div class="container-fluid text-center mb-0" id="theTile">
-  <h1 class="display-4 text-white">Welcome To</h1>
-  <h1 class="display-4 text-warning zoom">HAIL</h1><br><br>
-  <a class="btn btn-md btn-warning text-dark" href="#main">Explore Now</a>
-
+<div class="card bg-dark text-white">
+  <img class="img-fluid" src="img/taxi2s.jpg" alt="bigBG" style="filter:brightness(40%);">
+  <div class="card-img-overlay text-center mt-5 theTile">
+    <h1 class="display-3 text-white">Welcome To</h1>
+    <h1 class="display-3 text-warning zoom">HAIL</h1>
+    <h6 class="text-white">Introducing the future of e-Hailing.</h6><br><br>
+    <a class="btn btn-lg btn-warning text-dark glow" href="#mainServices">Learn More</a>
+  </div>
+</div>
+<div class="container" id="mainServices">
+</div><div><br><br><br><br><br>
 </div>
 
-<div id="main"></div>
-<div class="container mt-0" id="mainServices">
-  <h1 class="display-4 text-center text-warning mb-5">Main Services</h1>
-    <div class="col-12 row card-group p-0 m-0">
-      <div class="col-3 card shadow-sm">
+<h1 class="display-4 text-center text-warning mb-5">Main Services</h1>
+<div class="container-fluid row text-center">
+  <div class="col-sm-3">
+    <div class="card">
+      <div class="card-body">
         <h4 class=" text-center text-warning mt-3">HAIL CAR</h4>
         <img class="card-img-top darken rounded img-fluid p-2" src="img/taxi3.jpg" alt="Card image cap">
-        <div class="card-body">
-          <p class="card-title">Book a ride to travel around the beautiful CITY.</p>
-        </div>
-        <div class="card-footer text-muted bg-warning">
-          <a class="btn btn-block btn-outline-warning text-dark glow">Learn More</a>
-        </div><br>
+        <p class="card-title">Book a ride to travel around the beautiful CITY.</p>
       </div>
+      <div class="card-footer text-muted">
+          <a class="btn btn-block btn-warning text-dark glow">Learn More</a>
+        </div><br>
+    </div>
+  </div>
 
-      <div class="col-3 card shadow-sm" >
+  <div class="col-sm-3">
+    <div class="card">
+      <div class="card-body">
         <h4 class="text-center text-success mt-3">HAIL SHARE</h4>
         <img class="card-img-top darken rounded img-fluid p-2" src="img/carpooling.jpg" alt="Card image cap">
-        <div class="card-body">
-          <p class="card-title">Share a ride to travel around the city with lower PRICE.</p>
-        </div>
-        <div class="card-footer text-muted bg-warning">
-          <a class="btn btn-block btn-outline-warning text-dark glow">Learn More</a>
-        </div><br>
+        <p class="card-title">Share a ride to travel around the city with lower PRICE.</p>
       </div>
+      <div class="card-footer text-muted">
+          <a class="btn btn-block btn-warning text-dark glow">Learn More</a>
+        </div><br>
+    </div>
+  </div>
 
-      <div class="col-3 card shadow-sm">
+  <div class="col-sm-3">
+    <div class="card">
+      <div class="card-body">
         <h4 class=" text-center text-danger mt-3">HAIL FOOD</h4>
         <img class="card-img-top darken rounded img-fluid p-2" src="img/pizza.jpg" alt="Card image cap">
-        <div class="card-body">
-          <p class="card-title">We can deliver delicious food to satisfy your CRAVINGS.</p>
-        </div>
-        <div class="card-footer text-muted bg-warning">
-          <a class="btn btn-block btn-outline-warning text-dark glow">Learn More</a>
-        </div><br>
+        <p class="card-title">We can deliver delicious food to satisfy your CRAVINGS.</p>
       </div>
+      <div class="card-footer text-muted">
+          <a class="btn btn-block btn-warning text-dark glow">Learn More</a>
+        </div><br>
+    </div>
+  </div>
 
-      <div class="col-3 card shadow-sm">
+  <div class="col-sm-3">
+    <div class="card">
+      <div class="card-body">
         <h4 class=" text-center text-info mt-3">HAIL EXPRESS</h4>
         <img class="card-img-top darken rounded img-fluid p-2" src="img/parcel4.jpg" alt="Card image cap ">
-        <div class="card-body">
-            <p class="card-title"> We can deliver your PARCEL across the city safely and as fast as possible.</p>
-        </div>
-        <div class="card-footer text-muted bg-warning">
-          <a class="btn btn-block btn-outline-warning text-dark glow">Learn More</a>
-        </div><br>
+        <p class="card-title"> We can deliver your PARCEL across the city safely and as fast as possible.</p>
       </div>
+      <div class="card-footer text-muted">
+          <a class="btn btn-block btn-warning text-dark glow">Learn More</a>
+        </div><br>
     </div>
+  </div>
 </div>
 
 <div class="mb-5" id="aboutUs"><br><br></div>

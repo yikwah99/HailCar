@@ -30,50 +30,35 @@
 /* media quries*/
 
 @media only screen and (max-width: 600px) {
-  #theTile{
-    transform: scale(0.7);
-    position: relative;
-    top: -300px;
+  .theTile{
+    top: -150px;
+    transform: scale(0.5);
   }
 }
 
 @media only screen and (min-width: 600px) {
-  #theTile{
-    transform: scale(0.9);
-    position: relative;
-    top: -350px;
+  .theTile{
+    transform: scale(0.6);
   }
 }
 
 @media only screen and (min-width: 780px) {
-  #theTile{
-    transform: scale(1.0);
-    position: relative;
-    top: -400px;
+  .theTile{
+    transform: scale(0.8);
   }
 }
 
 @media only screen and (min-width: 930px) {
-  #theTile{
-    transform: scale(1.2);
-    position: relative;
-    top: -480px;
+  .theTile{
+    transform: scale(1.0);
   }
 }
 
 @media only screen and (min-width: 1000px) {
-  #theTile{
-    transform: scale(1.2);
-    position: relative;
-    top: -500;
+  .theTile{
+    transform: scale(1.0);
   }
 }
 
-@media only screen and (min-width: 1080px) {
-  #theTile{
-    position: relative;
-    top: -800px;
-  }
-}
 
 /* Dylan End */
