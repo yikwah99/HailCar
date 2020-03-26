@@ -26,19 +26,26 @@
     background-color: white;
     overflow: hidden;
   }
+
+  #mainServices{
+    position: relative;
+    top: 50px;
+  }
 </style>
 
 <div class="card bg-dark text-white">
   <img class="img-fluid" src="img/taxi2s.jpg" alt="bigBG" style="filter:brightness(40%);">
-  <div class="card-img-overlay text-center mt-5">
+  <div class="card-img-overlay text-center mt-5 theTile">
     <h1 class="display-3 text-white">Welcome To</h1>
     <h1 class="display-3 text-warning zoom">HAIL</h1>
     <h6 class="text-white">Introducing the future of e-Hailing.</h6><br><br>
     <a class="btn btn-md btn-warning text-dark zoom" href="#mainServices">Explore Now</a>
   </div>
 </div>
-
-<div class="container mt-5" id="mainServices">
+<div class="container" id="mainServices">
+</div><div><br><br><br>
+</div>
+<div class="container mt-5" id="">
 <h1 class="display-4 text-center text-warning mb-5">Main Services</h1>
     <div class="col-12 row card-group p-0 m-0">
       <div class="col-3 card shadow-sm">
