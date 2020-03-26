@@ -38,7 +38,7 @@
 <body>
   <!--Nav-->
   <!--LOGO-->
-  <nav class="navbar navbar-expand-md py-1 navbar-light bg-dark mb-0 sidebarNavigation" id="mainNav" data-sidebarClass="navbar-light bg-light">
+  <nav class="navbar navbar-expand-md py-1 navbar-light sticky-top bg-dark mb-0 sidebarNavigation" id="mainNav" data-sidebarClass="navbar-light bg-light">
         <div class="container-fluid">
             <a class="navbar-brand text-warning" style='letter-spacing:0.2em' href="index.php"><h4>HAIL</h4></a>
         <button class="navbar-toggler leftNavbarToggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
@@ -53,9 +53,9 @@
               <li class="nav-item dropdown mr-2">
                   <a class="nav-link dropdown-toggle text-white" href="#bg" id="dropdown01" role="button" data-toggle="dropdown" aria-haspopup="true"  data-hover="dropdown" aria-expanded="false">Background</a>
                   <div id="bg" class="dropdown-menu" aria-labelledby="dropdown01">
-                    <a href="#" class="dropdown-item  text-darken">About Us</a>
-                    <a href="#" class="dropdown-item  text-darken">FAQ</a>
-                    <a href="#" class="dropdown-item  text-darken">Contact Us</a>
+                    <a href="index.php#aboutUs" class="dropdown-item  text-darken">About Us</a>
+                    <a href="index.php#faq" class="dropdown-item  text-darken">FAQ</a>
+                    <a href="index.php#contactUs" class="dropdown-item  text-darken">Contact Us</a>
                   </div>
               </li>
 
@@ -76,7 +76,7 @@
                     <a class="nav-link text-white px-3" href="">Hail Reward</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white px-3" href="">Contact Us</a>
+                    <a class="nav-link text-white px-3" href="index.php#contactUs">Contact Us</a>
                 </li>
             </ul>
            <!--  <form class="form-inline my-2 my-lg-0">
