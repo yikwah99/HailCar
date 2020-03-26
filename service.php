@@ -3,15 +3,66 @@
   include "header.php";
 ?>
 
-<header class="masthead">
+<!--<header class="masthead">
     <div class="container jumbotron-padding  text-center">
     <h1 class="paral text-white">Our Transportation services</h1>
        <p class="paral">
-          <a href="" class="btn btn-lg btn-success btn-circle my-4 mr-3">Check Out Now</a>
+          <a href="" class="btn btn-lg btn-warning btn-circle my-4 mr-3">Check Out Now</a>
        </p>
     </div>
-  </header>
+  </header>-->
+  <header>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <!-- Slide One - Set the background image for this slide in the line below -->
+        <div class="carousel-item active" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url('img/hail1.jpg'); background-size: cover;">
+          <div class="carousel-caption d-md-block">
+            <h3 class="display-4 font-weight-bold text-white ">HAIL Car</h3>
+            <p class="lead">This is a description for the first slide.</p>
+              <a href="" class="btn btn-lg btn-warning btn-circle my-4 mr-3">Check Out Now</a>
+          </div>
+        </div>
+        <!-- Slide Two - Set the background image for this slide in the line below -->
+        <div class="carousel-item" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url('img/carpooling.jpg'); background-size: cover;">
+          <div class="carousel-caption  d-md-block">
+            <h3 class="display-4 font-weight-bold text-white">HAIL Share</h3>
+            <p class="lead">This is a description for the second slide.</p>
+                <a href="" class="btn btn-lg btn-warning btn-circle my-4 mr-3">Check Out Now</a>
+          </div>
+        </div>
+        <!-- Slide Three - Set the background image for this slide in the line below -->
+        <div class="carousel-item"style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url('img/hail1.jpg'); background-size: cover;">
+          <div class="carousel-caption  d-md-block">
+            <h3 class="display-4 font-weight-bold text-white">Just HAIL</h3>
+            <p class="lead">This is a description for the third slide.</p>
+                <a href="" class="btn btn-lg btn-warning btn-circle my-4 mr-3">Check Out Now</a>
+          </div>
+        </div>
+        <div class="carousel-item" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url('img/hail1.jpg'); background-size: cover;">
+          <div class="carousel-caption d-md-block">
+            <h3 class="display-4 font-weight-bold text-white">HAIL Rent</h3>
+            <p class="lead">This is a description for the third slide.</p>
+              <a href="" class="btn btn-lg btn-warning btn-circle my-4 mr-3">Check Out Now</a>
 
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+    </div>
+  </header>
 
 
   <!-- Tabs -->
@@ -34,7 +85,7 @@
               <div class="container" >
                 <h2 class="py-4 px-3 text-dark" >What is HAIL Car?</h2>
                 <div class="">
-                  <p class="info pt-2 pb-4 px-3  text-dark text-justify" style="font-size:20px;"><span class="font-weight-bold text-warning">HAIL Car</span> ride-sharing and request-for-a-ride mode of transportation where customers book a ride via their mobile apps.
+                  <p class="info pt-2 pb-4 px-3  text-dark text-justify" style="font-size:20px;"><span class="font-weight-bold text-warning">HAIL Car</span> is a ride-sharing and request-for-a-ride mode of transportation where customers book a ride via their mobile apps.
                      Drivers are acquired via mobile app request which only take less than a minute and will fetch you on your pick-up location! While taxi are to be hailed from the streets in order to get a ride.</p>
                 </div>
                 <h2 class="px-4 py-4 text-dark" >Why Should You Use HAIL Car?</h2>
@@ -308,46 +359,7 @@
   	</div>
   </section>
 
-  <div class="div2">
-  	<h2>How It Works</h2>
 
-  	<div>
-  		<img id= "step" src="img/rent1.png" alt="rent1.png">
-  	</div>
-
-  	<table>
-  		<tr>
-  			<td>
-  				<button class="btn_margin" type="button" onclick="myRent1()">Step1</button>
-
-  				<button type="button" onclick="myRent2()">Step2</button>
-
-  				<button type="button" onclick="myRent3()">Step3</button>
-
-  				<button type="button" onclick="myRent4()">Step4</button>
-
-  			</td>
-  		</tr>
-  	</table>
-  	<script>
-  		function myRent1()
-  		{
-  		  document.getElementById("step").src = "img/rent1.png";
-  		}
-  		function myRent2()
-  		{
-  		  document.getElementById("step").src = "img/rent2.png";
-  		}
-  		function myRent3()
-  		{
-  		  document.getElementById("step").src = "img/rent3.png";
-  		}
-  		function myRent4()
-  		{
-  		  document.getElementById("step").src = "img/rent4.png";
-  		}
-  	</script>
-  </div>
 
  <div class="section-block-grey">
     <div class="container">

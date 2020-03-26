@@ -37,9 +37,9 @@
 <body>
   <!--Nav-->
   <!--LOGO-->
-  <nav class="navbar navbar-expand-md py-1 navbar-light bg-white sticky-top mb-0 sidebarNavigation"  id="mainNav" data-sidebarClass="navbar-light bg-light">
+  <nav class="navbar navbar-expand-md py-1 navbar-light bg-white border border-bottom-1 text-warning sticky-top mb-0 sidebarNavigation"  id="mainNav" data-sidebarClass="navbar-light bg-light">
         <div class="container-fluid ">
-            <a class="navbar-brand text-warning" style='letter-spacing:0.2em' href="index.php"><h4>HAIL</h4></a>
+            <a class="navbar-brand text-warning" style='letter-spacing:0.2em' href="index.php"><h2>HAIL</h2></a>
         <button class="navbar-toggler leftNavbarToggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
             aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <i class="icon fas fa-bars fa-1x text-warning"></i>
