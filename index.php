@@ -31,7 +31,7 @@
 
 <div class="container-fluid bg-white mb-5">
   <h1 class="display-4 text-center">Welcome To</h1>
-  <h1 class="display-4 text-warning text-center mb-2 zoom">HailCar</h1>
+  <h1 class="display-4 text-warning text-center mb-2 zoom">Hail</h1>
 </div>
   <p class="text-center">Main Services</p>
 
