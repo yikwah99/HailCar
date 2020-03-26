@@ -103,6 +103,7 @@ body {
 
 .jumbotron {
   margin-bottom: 0;
+
 }
 
 /* Paragraph for Parallax Section */
@@ -123,6 +124,18 @@ body {
   line-height: 100px;
 }
 
+
+.carousel-item {
+  height: 65vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+/*
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 72px);
@@ -133,20 +146,19 @@ header.masthead {
   background-attachment: scroll;
   background-size: cover;
 }
-
+*/
 /*ser*/
 .mb-60 {
   margin-bottom: 60px;
 }
 
 .services-inner {
-  border: 2px solid #fec400;
+  border: 2px solid  #222222;
   margin-left: 35px;
   padding-right: 10px;
   transition: .3s;
-  padding: 20px 20px ;
+  padding: 20px 20px;
   margin-top: 28px;
-
 }
 
 .our-services-img {
@@ -177,7 +189,7 @@ header.masthead {
 }
 
 .our-services-text h4::before {
-  background: #ec6d48 none repeat scroll 0 0;
+  background: #fec400 none repeat scroll 0 0;
   bottom: 0;
   content: "";
   height: 1px;
@@ -186,8 +198,8 @@ header.masthead {
 }
 
 .our-services-wrapper:hover .services-inner {
-  background: #fff none repeat scroll 0 0;
-  border: 2px solid transparent;
+  background: #fec400 none repeat scroll 0 0;
+  border: 2px solid #fec400;;
   box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
 }
 
@@ -197,7 +209,6 @@ header.masthead {
   font-weight: 400;
   line-height: 26px;
   color: #666;
-
 }
 
 /* Tabbing */
@@ -262,9 +273,10 @@ section .section-title {
 #tabs .nav-link {
   padding: 15px 5px;
 }
+
 /*-howitwork*/
 /*123*/
-#workTab .nav> li> a:focus, #workTab .nav> li> a:hover {
+#workTab .nav>li>a:focus, #workTab .nav>li>a:hover {
   background: transparent !important;
   text-decoration: none;
 }
@@ -291,7 +303,7 @@ section .section-title {
 
 .design-process-content h3 {
   margin-bottom: 16px;
-  color:#222222;
+  color: #222222;
 }
 
 .design-process-content p {
@@ -338,7 +350,7 @@ section .section-title {
   float: none;
 }
 
-#workTab .nav-tabs.process-model>li.active>a,#workTab .nav-tabs.process-model>li.active>a:hover,#workTab .nav-tabs.process-model>li.active>a:focus,#workTab .process-model li a:hover,#workTab .process-model li a:focus {
+#workTab .nav-tabs.process-model>li.active>a, #workTab .nav-tabs.process-model>li.active>a:hover, #workTab .nav-tabs.process-model>li.active>a:focus, #workTab .process-model li a:hover, #workTab .process-model li a:focus {
   border: none;
   background: transparent;
 }
@@ -536,7 +548,6 @@ section .section-title {
 .serv-section-2:hover:before {
   background: #001c48;
 }
-
 
 /*--endservice--*/
 /*footer*/
