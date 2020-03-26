@@ -23,4 +23,57 @@
   transform: scale(1.1);
 }
 
+#mainServices{
+  position: relative;
+  top: -200px;
+}
+/* media quries*/
+
+@media only screen and (max-width: 600px) {
+  #theTile{
+    transform: scale(0.7);
+    position: relative;
+    top: -300px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  #theTile{
+    transform: scale(0.9);
+    position: relative;
+    top: -350px;
+  }
+}
+
+@media only screen and (min-width: 780px) {
+  #theTile{
+    transform: scale(1.0);
+    position: relative;
+    top: -400px;
+  }
+}
+
+@media only screen and (min-width: 930px) {
+  #theTile{
+    transform: scale(1.2);
+    position: relative;
+    top: -480px;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  #theTile{
+    transform: scale(1.2);
+    position: relative;
+    top: -500;
+  }
+}
+
+@media only screen and (min-width: 1080px) {
+  #theTile{
+    position: relative;
+    top: -800px;
+  }
+}
+
 /* Dylan End */
