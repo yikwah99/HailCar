@@ -48,7 +48,7 @@
             								</div>
             								<div class="our-services-text">
             									<h4>Transparent, Fixed Fares</h4>
-            									<p>Know your exact fare even before you book.</p>
+            									<p>Know your exact fare even before you book and ride.</p>
             								</div>
             							</div>
             						</div>
@@ -60,8 +60,8 @@
             								<img src="img/car-crash.png" width="98px" alt="">
             								</div>
             								<div class="our-services-text">
-            									<h4>Personal Accident Insurance </h4>
-            									<p>We’ve got your back from the moment you enter a HailCar.</p>
+            									<h4>Personal Insurance </h4>
+            									<p>We’ve got your back when you enter a HailCar.</p>
             								</div>
             							</div>
             						</div>
@@ -151,7 +151,7 @@
                 <div class="">
                   <p class="info pt-2 pb-4 px-3  text-dark text-justify" style="font-size:20px;"><span class="font-weight-bold text-warning">HAIL Share </span>is a shared Hail ride that allows you to spilt the cost of your ride with a stranger who is headed in a similiar direction as you.</p>
                 </div>
-                <h2 class="px-4 py-4 text-dark" >Why Should You Use HailShare?</h2>
+                <h2 class="px-4 py-4 text-dark" >Share the ride. Enjoy lower fares.</h2>
               <div class="row">
                 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
                         <div class="our-services-wrapper mb-60">
@@ -160,7 +160,7 @@
                             <img src="img/match.png" width="88px" alt="">
                             </div>
                             <div class="our-services-text">
-                              <h4>Match, Share & Save Money</h4>
+                              <h4>Match, Share & Save</h4>
                               <p>Share rides whenever and wherever you want with the HAILCar's driver and passengers </p>
                             </div>
                           </div>
@@ -183,11 +183,11 @@
                         <div class="our-services-wrapper mb-60">
                           <div class="services-inner">
                             <div class="our-services-img">
-                            <img src="img/alow.png" width="88px" alt="">
+                            <img src="img/carShare.png" width="88px" alt="">
                             </div>
                             <div class="our-services-text">
-                              <h4>A little longer for a lot cheaper</h4>
-                              <p>Share rides for a lower fare, with only a slight detour around the block</p>
+                              <h4>Reduce your carbon footprint</h4>
+                              <p>Share a ride with other passengers will help the environment</p>
                             </div>
                           </div>
                         </div>
@@ -196,7 +196,59 @@
             </div>
   					</div>
   					<div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
-  						Et et consectetur ipsum labore excepteur est proident excepteur ad velit occaecat qui minim occaecat veniam. Fugiat veniam incididunt anim aliqua enim pariatur veniam sunt est aute sit dolor anim. Velit non irure adipisicing aliqua ullamco irure incididunt irure non esse consectetur nostrud minim non minim occaecat. Amet duis do nisi duis veniam non est eiusmod tempor incididunt tempor dolor ipsum in qui sit. Exercitation mollit sit culpa nisi culpa non adipisicing reprehenderit do dolore. Duis reprehenderit occaecat anim ullamco ad duis occaecat ex.
+              <div class="container" >
+                <h2 class="py-4 px-3 text-dark" >What is Just HAIL ?</h2>
+                <div class="">
+                  <p class="info pt-2 pb-4 px-3  text-dark text-justify" style="font-size:20px;"><span class="font-weight-bold text-warning">Just HAIL </span>
+                   automatically assigns the nearest vehicle, either a car or taxi, to you at an upfront fixed fare.
+                   Having more vehicles also allows us to get you a ride much faster than any other app in Malaysia.</p>
+                </div>
+                <h2 class="px-4 py-4 text-dark" >Our cars & taxis come together so you can be on your way faster!</h2>
+                <div class="text-center">
+                <img src="img/justhail.png" width="70%" class="center mx-auto pb-4" alt="">
+              </div>
+              <div class="row">
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                        <div class="our-services-wrapper mb-60">
+                          <div class="services-inner">
+                            <div class="our-services-img">
+                            <img src="img/alow.png" width="88px" alt="">
+                            </div>
+                            <div class="our-services-text">
+                              <h4>Fixed Fares, Transparent</h4>
+                              <p>Enjoy guaranteed upfront fixed fares for any JustGrab ride, regardless of whether it’s a car or a taxi.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                        <div class="our-services-wrapper mb-60">
+                          <div class="services-inner">
+                            <div class="our-services-img">
+                            <img src="img/speedClock.png" width="88px" alt="">
+                            </div>
+                            <div class="our-services-text">
+                              <h4>Quick and Safe</h4>
+                              <p>Get a ride faster as HAIL assigns you the nearest vehicle, either a car or a taxi, from our combined fleet of HAILCars and HAILTaxis.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                        <div class="our-services-wrapper mb-60">
+                          <div class="services-inner">
+                            <div class="our-services-img">
+                            <img src="img/xtra.png" width="88px" alt="">
+                            </div>
+                            <div class="our-services-text">
+                              <h4>No extra charges</h4>
+                              <p>Traditional taxi surcharges such as booking fees and midnight charges no longer apply to JustGrab fares.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+              </div>
+            </div>
   					</div>
   					<div class="tab-pane fade" id="nav-about" role="tabpanel" aria-labelledby="nav-about-tab">
   						Et et consectetur ipsum labore excepteur est proident excepteur ad velit occaecat qui minim occaecat veniam. Fugiat veniam incididunt anim aliqua enim pariatur veniam sunt est aute sit dolor anim. Velit non irure adipisicing aliqua ullamco irure incididunt irure non esse consectetur nostrud minim non minim occaecat. Amet duis do nisi duis veniam non est eiusmod tempor incididunt tempor dolor ipsum in qui sit. Exercitation mollit sit culpa nisi culpa non adipisicing reprehenderit do dolore. Duis reprehenderit occaecat anim ullamco ad duis occaecat ex.
