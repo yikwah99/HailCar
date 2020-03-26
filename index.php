@@ -28,18 +28,18 @@
   }
 </style>
 
-<div class="container-fluid">
-  <img class="img-fluid p-2" src="img/taxi2.jpg" alt="bigBG" style="filter:brightness(50%);">
-</div>
+  <img class="img-fluid p-2" src="img/taxi2s.jpg" alt="bigBG" style="filter:brightness(40%);">
 
-<div class="container-fluid mb-5 text-center " id="theTile">
+<div class="container-fluid text-center mb-0" id="theTile">
   <h1 class="display-4 text-white">Welcome To</h1>
-  <h1 class="display-4 text-warning zoom">HAIL</h1>
-  <a class="btn btn-md btn-warning">Learn More</a>
+  <h1 class="display-4 text-warning zoom">HAIL</h1><br><br>
+  <a class="btn btn-md btn-warning text-dark" href="#main">Explore Now</a>
+
 </div>
 
-<div class="container p-0">
-  <p class="text-center mb-0">Main Services</p>
+<div id="main"></div>
+<div class="container mt-0" id="mainServices">
+  <h1 class="display-4 text-center text-warning mb-5">Main Services</h1>
     <div class="col-12 row card-group p-0 m-0">
       <div class="col-3 card shadow-sm">
         <h4 class=" text-center text-warning mt-3">HAIL CAR</h4>
