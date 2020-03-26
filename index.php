@@ -29,19 +29,22 @@
 </style>
 
 <div class="jumbotron bg-white">
-  <h1 class="display-4 text-center">Welcome To</h1>
-  <h1 class="display-4 text-warning text-center mb-5 zoom">HailCar</h1>
-    <p class="text-center">Main Services</p>
+  <div class="container-fluid bg-white" >
+    <h1 class="display-4 text-center">Welcome To</h1>
+    <h1 class="display-4 text-warning text-center mb-2 zoom">HailCar</h1>
+      <p class="text-center">Main Services</p>
+  </div>
   <div class="card-group">
-  <div class="card p-3">
-    <h1 class="display-4 text-center text-warning">HAIL CAR</h1>
+  <div class="card p-3" style="width: 18rem;">
+    <img class="card-img-top" src="img/taxi2s.jpg" alt="Card image cap">
+    <h3 class=" text-center text-warning">HAIL CAR</h3>
     <div class="card-body">
-      <h5 class="card-title text-center">Book a ride to travel around the beautiful CITY.</h5>
-
+      <h6 class="card-title text-center">Book a ride to travel around the beautiful CITY.</h6>
       <button class="btn btn-block btn-warning">Go</button>
     </div>
   </div>
-  <div class="card p-3">
+  <div class="card p-3" style="width: 18rem;">
+    <img class="card-img-top" src="img/carpooling.jpg" alt="Card image cap">
     <h1 class="display-4 text-center text-success">HAIL SHARE</h1>
     <div class="card-body">
       <h5 class="card-title text-center">Share a ride to travel around the city with lower PRICE.</h5>
@@ -49,7 +52,8 @@
       <button class="btn btn-block btn-success">Go</button>
     </div>
   </div>
-  <div class="card p-3">
+  <div class="card p-3" style="width: 18rem;">
+    <img class="card-img-top" src="img/pizza.jpg" alt="Card image cap">
     <h1 class="display-4 text-center text-info ">HAIL FOOD</h1>
     <div class="card-body">
       <h5 class="card-title">We can deliver delicious food to satisfy your CRAVINGS.</h5>
@@ -80,17 +84,17 @@
 <div class="mb-5" id="faq"><br><br></div>
 <div class="container bg-white mt-5 mb-5">
   <h1 class="text-center text-warning mt-5 mb-5">FAQ</h1>
-    <button class="accordion bg-warning font-weight-bold">What is HAIL Car or HAIL Share?</button>
+    <button class="accordion bg-warning">What is HAIL Car or HAIL Share?</button>
     <div class="panel">
     <p>HAIL Car/ HAIL Share is a service with a combined fleet of taxis and cars at affordable upfront fixed prices.</p>
     </div>
 
-    <button class="accordion bg-warning font-weight-bold">How do i book a ride?</button>
+    <button class="accordion bg-warning">How do i book a ride?</button>
     <div class="panel">
     <p>Select Hail Car or Hail Share and type in your destination, then sit back and relax until your ride to arrive. <br>In addition, if you are worry that the rider may not find your location, type in your location manually.</p>
     </div>
 
-    <button class="accordion bg-warning font-weight-bold">Do I pay metered fees for my ride?</button>
+    <button class="accordion bg-warning">Do I pay metered fees for my ride?</button>
     <div class="panel">
     <p>No, your ride will be calculated in the system. Also, it is fixed, except tolls fee.</p>
     </div>
@@ -114,7 +118,6 @@
     </div>
   </div>
 </div>
-
 
 <script>
 var acc = document.getElementsByClassName("accordion");
