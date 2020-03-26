@@ -36,26 +36,26 @@
   </div>
   <div class="card-group">
   <div class="card p-3" style="width: 18rem;">
-    <h1 class=" text-center display-4 text-warning">HAIL CAR</h1>
-    <img class="card-img-top darken" src="img/taxi2s.jpg" alt="Card image cap">
+    <img class="card-img-top" src="img/taxi2s.jpg" alt="Card image cap">
+    <h3 class=" text-center text-warning">HAIL CAR</h3>
     <div class="card-body">
-      <h5 class="card-title text-center">Book a ride to travel around the beautiful CITY.</h5>
+      <h6 class="card-title text-center">Book a ride to travel around the beautiful CITY.</h6>
       <button class="btn btn-block btn-warning">Go</button>
     </div>
   </div>
   <div class="card p-3" style="width: 18rem;">
+    <img class="card-img-top" src="img/carpooling.jpg" alt="Card image cap">
     <h1 class="display-4 text-center text-success">HAIL SHARE</h1>
-    <img class="card-img-top darken" src="img/carpooling.jpg" alt="Card image cap">
-      <div class="card-body">
+    <div class="card-body">
       <h5 class="card-title text-center">Share a ride to travel around the city with lower PRICE.</h5>
 
       <button class="btn btn-block btn-success">Go</button>
     </div>
   </div>
   <div class="card p-3" style="width: 18rem;">
+    <img class="card-img-top" src="img/pizza.jpg" alt="Card image cap">
     <h1 class="display-4 text-center text-info ">HAIL FOOD</h1>
-    <img class="card-img-top darken" src="img/pizza.jpg" alt="Card image cap">
-        <div class="card-body">
+    <div class="card-body">
       <h5 class="card-title">We can deliver delicious food to satisfy your CRAVINGS.</h5>
 
       <button class="btn btn-block btn-info">Go</button>
@@ -108,10 +108,10 @@
     <div class="d-flex h-100 text-center align-items-center">
       <div class="w-100 text-white">
         <p class="text-dark">Developers</p>
-        <h4 class="text-dark display-4 glow">Dylan Ch'ng</h4>
-        <h4 class="text-dark display-4 glow">Dominic Lee</h4>
-        <h4 class="text-dark display-4 glow">Liew Cai Juan</h4>
-        <h4 class="text-dark display-4 glow"> Kam Yik Wah</h4>
+        <h4 class="text-dark display-4">Dylan Ch'ng</h4>
+        <h4 class="text-dark display-4">Dominic Lee</h4>
+        <h4 class="text-dark display-4">Liew Cai Juan</h4>
+        <h4 class="text-dark display-4"> Kam Yik Wah</h4>
         <br>
         <p class="text-dark lead mb-0">Kindaly approach us for any enquiries.</p>
       </div>

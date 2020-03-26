@@ -1,0 +1,18 @@
+/* Dylan start */
+.html{
+  scroll-behavior: smooth;
+  overflow-x:  hidden;
+}
+
+.darken{
+  filter:brightness(70%);
+}
+
+.zoom:hover {
+  transition: all .3s ;
+  transform: scale(1.2);
+}
+
+
+
+/* Dylan End */
