@@ -125,10 +125,10 @@
     <div class="d-flex h-100 text-center align-items-center">
       <div class="w-100 text-white">
         <p class="text-dark">Developers</p>
-        <h4 class="text-dark display-4 glow">Dylan Ch'ng</h4>
-        <h4 class="text-dark display-4 glow">Dominic Lee</h4>
-        <h4 class="text-dark display-4 glow">Liew Cai Juan</h4>
-        <h4 class="text-dark display-4 glow"> Kam Yik Wah</h4>
+        <h4 class="text-dark display-4">Dylan Ch'ng</h4>
+        <h4 class="text-dark display-4">Dominic Lee</h4>
+        <h4 class="text-dark display-4">Liew Cai Juan</h4>
+        <h4 class="text-dark display-4"> Kam Yik Wah</h4>
         <br>
         <p class="text-dark lead mb-0">Kindaly approach us for any enquiries.</p>
       </div>

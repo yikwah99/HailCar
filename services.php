@@ -10,9 +10,9 @@
 		<div class="row">
 			<div class="col-xs-12 ">
 				<nav>
-					<div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
-						<a class="nav-item nav-link active" id="hailcar" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">HAIL Car</a>
-						<a class="nav-item nav-link" id="hailrent" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">HAIL Rent</a>
+					<div class="nav nav-tabs nav-fill" id="my-tab-content" role="tablist">
+						<a class="nav-item nav-link active" id="hailCar" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">HAIL Car</a>
+						<a class="nav-item nav-link" id="hailRent" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">HAIL Rent</a>
 						<a class="nav-item nav-link" id="hailExpress" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">HAIL Express</a>
 						<a class="nav-item nav-link" id="hailFood" data-toggle="tab" href="#nav-about" role="tab" aria-controls="nav-about" aria-selected="false">HAIL Food</a>
             <a class="nav-item nav-link" id="hailShare" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">HAIL Share</a>
@@ -38,3 +38,6 @@
 		</div>
 	</div>
 </section>
+<?php
+  include "footer.php";
+?>

@@ -144,27 +144,30 @@ header.masthead {
   margin-left: 35px;
   padding-right: 10px;
   transition: .3s;
+  padding: 20px 20px ;
+  margin-top: 28px;
+
 }
 
 .our-services-img {
   float: left;
-  margin-left: -36px;
+  margin-left: -46px;
   margin-right: 22px;
   margin-top: 28px;
 }
 
 .our-services-text {
-  padding-right: 10px;
+  padding-right: 5px;
 }
 
 .our-services-text {
   overflow: hidden;
-  padding: 28px 0 25px;
+  padding: 20px 0 25px;
 }
 
 .our-services-text h4 {
   color: #222222;
-  font-size: 18px;
+  font-size: 22px;
   font-weight: 700;
   letter-spacing: 1px;
   margin-bottom: 8px;
@@ -190,11 +193,11 @@ header.masthead {
 
 .our-services-text p {
   margin-bottom: 0;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 400;
   line-height: 26px;
   color: #666;
-  margin-bottom: 15px;
+
 }
 
 /* Tabbing */
@@ -261,8 +264,9 @@ section .section-title {
 }
 /*-howitwork*/
 /*123*/
-.nav>li>a:focus, .nav>li>a:hover {
+#workTab .nav> li> a:focus, #workTab .nav> li> a:hover {
   background: transparent !important;
+  text-decoration: none;
 }
 
 .design-process-section .text-align-center {
@@ -287,6 +291,7 @@ section .section-title {
 
 .design-process-content h3 {
   margin-bottom: 16px;
+  color:#222222;
 }
 
 .design-process-content p {
@@ -333,7 +338,7 @@ section .section-title {
   float: none;
 }
 
-.nav-tabs.process-model>li.active>a, .nav-tabs.process-model>li.active>a:hover, .nav-tabs.process-model>li.active>a:focus, .process-model li a:hover, .process-model li a:focus {
+#workTab .nav-tabs.process-model>li.active>a,#workTab .nav-tabs.process-model>li.active>a:hover,#workTab .nav-tabs.process-model>li.active>a:focus,#workTab .process-model li a:hover,#workTab .process-model li a:focus {
   border: none;
   background: transparent;
 }

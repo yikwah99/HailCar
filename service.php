@@ -14,7 +14,6 @@
 
 
 
-
   <!-- Tabs -->
   <section id="tabs">
   	<div class="container">
@@ -308,6 +307,47 @@
   		</div>
   	</div>
   </section>
+
+  <div class="div2">
+  	<h2>How It Works</h2>
+
+  	<div>
+  		<img id= "step" src="img/rent1.png" alt="rent1.png">
+  	</div>
+
+  	<table>
+  		<tr>
+  			<td>
+  				<button class="btn_margin" type="button" onclick="myRent1()">Step1</button>
+
+  				<button type="button" onclick="myRent2()">Step2</button>
+
+  				<button type="button" onclick="myRent3()">Step3</button>
+
+  				<button type="button" onclick="myRent4()">Step4</button>
+
+  			</td>
+  		</tr>
+  	</table>
+  	<script>
+  		function myRent1()
+  		{
+  		  document.getElementById("step").src = "img/rent1.png";
+  		}
+  		function myRent2()
+  		{
+  		  document.getElementById("step").src = "img/rent2.png";
+  		}
+  		function myRent3()
+  		{
+  		  document.getElementById("step").src = "img/rent3.png";
+  		}
+  		function myRent4()
+  		{
+  		  document.getElementById("step").src = "img/rent4.png";
+  		}
+  	</script>
+  </div>
 
  <div class="section-block-grey">
     <div class="container">
