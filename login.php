@@ -31,7 +31,7 @@
 <body class="shadow-lg rounded" style="background: rgb(246,215,131);
 background: linear-gradient(0deg, rgba(246,215,131,1) 0%, rgba(255,193,7,1) 55%);">
   <div class="container">
-      <div class="pb-5 pt-3"><a class="navbar-brand text-white" style='letter-spacing:0.2em' href="index.php"><h4>HailCar</h4></a></div>
+      <div class="pb-5 pt-3"><a class="navbar-brand text-white" style='letter-spacing:0.2em' href="index.php"><h4>HAILCAR</h4></a></div>
       
     <div class="row">
       <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
@@ -43,7 +43,7 @@ background: linear-gradient(0deg, rgba(246,215,131,1) 0%, rgba(255,193,7,1) 55%)
             <form class="form-signin">
                 Sign in to your account
               <div class="form-label-group my-4">
-                <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+                <input type="username" id="inputUsername" class="form-control" placeholder="Username" required autofocus>
               </div>
 
               <div class="form-label-group my-4">
