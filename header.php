@@ -39,7 +39,7 @@
   <!--LOGO-->
   <nav class="navbar navbar-expand-md py-1 navbar-dark bg-white sticky-top mb-0 sidebarNavigation"  id="mainNav" data-sidebarClass="navbar-dark bg-dark">
         <div class="container-fluid">
-            <a class="navbar-brand text-warning" style='letter-spacing:0.2em' href="index.php"><h4>HAILCAR</h4></a>
+            <a class="navbar-brand text-warning" style='letter-spacing:0.2em' href="index.php"><h4>HAIL</h4></a>
         <button class="navbar-toggler leftNavbarToggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
             aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon " ></span>
