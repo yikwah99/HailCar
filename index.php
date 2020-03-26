@@ -31,54 +31,52 @@
 
 <div class="container-fluid bg-white mb-5">
   <h1 class="display-4 text-center">Welcome To</h1>
-  <h1 class="display-4 text-warning text-center mb-2 zoom">Hail</h1>
+  <h1 class="display-4 text-warning text-center zoom">HAIL</h1>
 </div>
-  <p class="text-center">Main Services</p>
-
-
-<div class="container p-0">
+<div class="container p-0 mt-5">
+  <p class="text-center mb-0">Main Services</p>
     <div class="col-md-12 row card-group p-0 m-0">
       <div class="card shadow-sm">
         <h4 class=" text-center text-warning mt-3">HAIL CAR</h4>
-        <img class="card-img-top darken rounded" src="img/taxi3.jpg" alt="Card image cap">
+        <img class="card-img-top darken rounded img-fluid p-2" src="img/taxi3.jpg" alt="Card image cap">
         <div class="card-body">
           <p class="card-title">Book a ride to travel around the beautiful CITY.</p>
         </div>
         <div class="card-footer text-muted bg-warning">
-          <a class="btn btn-block btn-outline-warning text-dark">Learn More</a>
+          <a class="btn btn-block btn-outline-warning text-dark glow">Learn More</a>
         </div>
       </div>
 
       <div class="card shadow-sm" >
         <h4 class="text-center text-success mt-3">HAIL SHARE</h4>
-        <img class="card-img-top darken rounded" src="img/carpooling.jpg" alt="Card image cap">
+        <img class="card-img-top darken rounded img-fluid p-2" src="img/carpooling.jpg" alt="Card image cap">
         <div class="card-body">
           <p class="card-title">Share a ride to travel around the city with lower PRICE.</p>
         </div>
         <div class="card-footer text-muted bg-warning">
-          <a class="btn btn-block btn-outline-warning text-dark">Learn More</a>
+          <a class="btn btn-block btn-outline-warning text-dark glow">Learn More</a>
         </div>
       </div>
 
       <div class="card shadow-sm">
         <h4 class=" text-center text-danger mt-3">HAIL FOOD</h4>
-        <img class="card-img-top darken rounded" src="img/pizza.jpg" alt="Card image cap">
+        <img class="card-img-top darken rounded img-fluid p-2" src="img/pizza.jpg" alt="Card image cap">
         <div class="card-body">
           <p class="card-title">We can deliver delicious food to satisfy your CRAVINGS.</p>
         </div>
         <div class="card-footer text-muted bg-warning">
-          <a class="btn btn-block btn-outline-warning text-dark">Learn More</a>
+          <a class="btn btn-block btn-outline-warning text-dark glow">Learn More</a>
         </div>
       </div>
 
       <div class="card shadow-sm">
         <h4 class=" text-center text-info mt-3">HAIL EXPRESS</h4>
-        <img class="card-img-top darken rounded" src="img/parcel4.jpg" alt="Card image cap ">
+        <img class="card-img-top darken rounded img-fluid p-2" src="img/parcel4.jpg" alt="Card image cap ">
         <div class="card-body">
             <p class="card-title"> We can deliver your PARCEL across the city safely and as fast as possible.</p>
         </div>
         <div class="card-footer text-muted bg-warning">
-          <a class="btn btn-block btn-outline-warning text-dark ">Learn More</a>
+          <a class="btn btn-block btn-outline-warning text-dark glow">Learn More</a>
         </div>
       </div>
     </div>
@@ -86,15 +84,21 @@
 
 <div class="mb-5" id="aboutUs"><br><br></div>
 <!-- About Us -->
-<div class="container bg-white">
-  <h1 class="display-4 text-center text-warning mt-5 mb-5">About Us</h1>
-      <p>The HAIL website was designed to be an informative website that provides essential information regarding HAIL’s services towards its current and prospective users.
-         HAIL as a service provider is conceptualised similarly to that of Grab, Uber or Lyft.
-         It is an e-hailing service but the website itself does not include any e-hailing functions.
-         The targeted users of the website are people who are interested to find out more about HAIL, or people who would like to make enquiries about the services HAIL provides.
-         For instance, to learn about HAIL’s services, payment methods or rewards system, there are corresponding pages for each respective topic and of course, designated contact details are provided on
-         all pages of the website.</p>
-      </p>
+<div class="container-fluid p-5 bg-warning">
+  <div class="col-md-12 row">
+    <div class="col-md-3"></div>
+    <div class="col-md-6">
+      <h1 class="display-4 text-center text-white">About Us</h1>
+          <p class="text-center text-dark"> The HAIL website was designed to be an informative website that provides essential information regarding HAIL’s services towards its current and prospective users.
+             HAIL as a service provider is conceptualised similarly to that of Grab, Uber or Lyft.
+             It is an e-hailing service but the website itself does not include any e-hailing functions.
+             The targeted users of the website are people who are interested to find out more about HAIL, or people who would like to make enquiries about the services HAIL provides.
+             For instance, to learn about HAIL’s services, payment methods or rewards system, there are corresponding pages for each respective topic and of course, designated contact details are provided on
+             all pages of the website.</p>
+          </p>
+    </div>
+    <div class="col-md-3"></div>
+  </div>
 </div>
 
 <!-- FAQ -->
@@ -130,6 +134,7 @@
         <p class="text-dark zoom"> Kam Yik Wah</p>
         <br>
         <p class="text-dark lead mb-0">Kindaly approach us for any enquiries.</p>
+        <br><br><br>
       </div>
     </div>
   </div>
