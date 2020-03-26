@@ -18,6 +18,9 @@
   transform: scale(1.2);
 }
 
-
+.glow:hover {
+  transition: all .3s ;
+  transform: scale(1.1);
+}
 
 /* Dylan End */
