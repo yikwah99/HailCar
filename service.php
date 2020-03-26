@@ -38,7 +38,7 @@
                   <p class="info pt-2 pb-4 px-3  text-dark text-justify" style="font-size:20px;"><span class="font-weight-bold text-warning">HAIL Car</span> ride-sharing and request-for-a-ride mode of transportation where customers book a ride via their mobile apps.
                      Drivers are acquired via mobile app request which only take less than a minute and will fetch you on your pick-up location! While taxi are to be hailed from the streets in order to get a ride.</p>
                 </div>
-                <h2 class="px-4 py-4 text-dark" >Why Should You Use HailCar?</h2>
+                <h2 class="px-4 py-4 text-dark" >Why Should You Use HAIL Car?</h2>
             	<div class="row">
             		<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
             						<div class="our-services-wrapper mb-60">
@@ -183,7 +183,7 @@
                         <div class="our-services-wrapper mb-60">
                           <div class="services-inner">
                             <div class="our-services-img">
-                            <img src="img/carShare.png" width="88px" alt="">
+                            <img src="img/hailshare.png" width="88px" alt="">
                             </div>
                             <div class="our-services-text">
                               <h4>Reduce your carbon footprint</h4>
@@ -203,10 +203,7 @@
                    automatically assigns the nearest vehicle, either a car or taxi, to you at an upfront fixed fare.
                    Having more vehicles also allows us to get you a ride much faster than any other app in Malaysia.</p>
                 </div>
-                <h2 class="px-4 py-4 text-dark" >Our cars & taxis come together so you can be on your way faster!</h2>
-                <div class="text-center">
-                <img src="img/justhail.png" width="70%" class="center mx-auto pb-4" alt="">
-              </div>
+                  <h2 class="px-4 py-4 text-dark" >Why Should You Use Just HAIL?</h2>
               <div class="row">
                 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
                         <div class="our-services-wrapper mb-60">
@@ -248,10 +245,62 @@
                         </div>
                       </div>
               </div>
+              <h2 class="px-4 py-4 text-dark" >Our cars & taxis come together so you can be on your way faster!</h2>
+              <div class="text-center">
+              <img src="img/justhail.png" width="70%" class="center mx-auto pb-4" alt="">
+            </div>
             </div>
   					</div>
   					<div class="tab-pane fade" id="nav-about" role="tabpanel" aria-labelledby="nav-about-tab">
-  						Et et consectetur ipsum labore excepteur est proident excepteur ad velit occaecat qui minim occaecat veniam. Fugiat veniam incididunt anim aliqua enim pariatur veniam sunt est aute sit dolor anim. Velit non irure adipisicing aliqua ullamco irure incididunt irure non esse consectetur nostrud minim non minim occaecat. Amet duis do nisi duis veniam non est eiusmod tempor incididunt tempor dolor ipsum in qui sit. Exercitation mollit sit culpa nisi culpa non adipisicing reprehenderit do dolore. Duis reprehenderit occaecat anim ullamco ad duis occaecat ex.
+              <div class="container" >
+                <h2 class="py-4 px-3 text-dark" >What is HAIL Rent?</h2>
+                <div class="">
+                  <p class="info pt-2 pb-4 px-3  text-dark text-justify" style="font-size:20px;"><span class="font-weight-bold text-warning">HAIL Rent </span>
+                along with a driver, for up to 12 hours, at competitive rates. Whether you’d like to visit attraction spots, go on a food tour, run business errands, or simply roam around, we’re at your service. No advance booking needed.</p>
+                </div>
+                <h2 class="px-4 py-4 text-dark" >Why Rent A HAIL Rent?</h2>
+              <div class="row">
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                        <div class="our-services-wrapper mb-60">
+                          <div class="services-inner">
+                            <div class="our-services-img">
+                            <img src="img/stopclock.png" width="88px" alt="">
+                            </div>
+                            <div class="our-services-text">
+                              <h4>No pre-booking required</h4>
+                              <p>Book your ride instantly when you need it and your car will arrive within minutes.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                        <div class="our-services-wrapper mb-60">
+                          <div class="services-inner">
+                            <div class="our-services-img">
+                            <img src="img/analysis.png" width="88px" alt="">
+                            </div>
+                            <div class="our-services-text">
+                              <h4>Flexible range of hourly packages</h4>
+                              <p>Choose from a wide range of hourly packages to suit your needs.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                        <div class="our-services-wrapper mb-60">
+                          <div class="services-inner">
+                            <div class="our-services-img">
+                            <img src="img/fee.png" width="88px" alt="">
+                            </div>
+                            <div class="our-services-text">
+                              <h4>Competitive prices</h4>
+                              <p>All hourly packages are priced comparable to market rates inclusive of fuel & driver charges.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+              </div>
+            </div>
   					</div>
   				</div>
 
