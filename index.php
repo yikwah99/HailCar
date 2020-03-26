@@ -28,18 +28,18 @@
   }
 </style>
 
-  <img class="img-fluid p-2" src="img/taxi2s.jpg" alt="bigBG" style="filter:brightness(40%);">
-
-<div class="container-fluid text-center mb-0" id="theTile">
-  <h1 class="display-4 text-white">Welcome To</h1>
-  <h1 class="display-4 text-warning zoom">HAIL</h1><br><br>
-  <a class="btn btn-md btn-warning text-dark" href="#main">Explore Now</a>
-
+<div class="card bg-dark text-white">
+  <img class="img-fluid" src="img/taxi2s.jpg" alt="bigBG" style="filter:brightness(40%);">
+  <div class="card-img-overlay text-center mt-5">
+    <h1 class="display-3 text-white">Welcome To</h1>
+    <h1 class="display-3 text-warning zoom">HAIL</h1>
+    <h6 class="text-white">Introducing the future of e-Hailing.</h6><br><br>
+    <a class="btn btn-md btn-warning text-dark zoom" href="#mainServices">Explore Now</a>
+  </div>
 </div>
 
-<div id="main"></div>
-<div class="container mt-0" id="mainServices">
-  <h1 class="display-4 text-center text-warning mb-5">Main Services</h1>
+<div class="container mt-5" id="mainServices">
+<h1 class="display-4 text-center text-warning mb-5">Main Services</h1>
     <div class="col-12 row card-group p-0 m-0">
       <div class="col-3 card shadow-sm">
         <h4 class=" text-center text-warning mt-3">HAIL CAR</h4>
