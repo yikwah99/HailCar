@@ -36,7 +36,7 @@ background-image: linear-gradient(148deg, #ecd434 33%, #ff4b00 94%);
       
     <div class="row">
       <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
-        <div class="card card-signin my-5 shadow-lg">
+        <div class="card card-signin shadow-lg">
           <div class="card-body">
             <h3 class="card-title text-center">Sign In</h3>
               <hr>
@@ -59,6 +59,7 @@ background-image: linear-gradient(148deg, #ecd434 33%, #ff4b00 94%);
             </form>
           </div>
         </div>
+        <div class="text-right text-white"><a class="text-white" href="register.php">Create new account</a></div>
       </div>
     </div>
   </div>

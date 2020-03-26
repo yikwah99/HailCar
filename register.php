@@ -75,6 +75,7 @@ background-image: linear-gradient(148deg, #ecd434 33%, #ff4b00 94%);">
             </form>
           </div>
         </div>
+        <div class="text-right text-white">Already have an account? <a href="login.php" class="text-white"><u>Sign in</u></a></div>
       </div>
     </div>
   </div>
