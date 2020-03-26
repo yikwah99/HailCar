@@ -7,7 +7,7 @@
     <div class="col-lg-10 col-md-12" >
       <h1>The next time you <span class="text-warning">Hail</span>, try <span class="text-warning">HailPay</span></h1>
       <hr>
-      <h5>Going cashless is easy with the new <span class="text-warning">HailPay</span>! And no, it’s not just for credit/debit card users. This <span class="text-warning">Hail</span> Wallet also comes with <span class="text-warning">HailPay</span> Credits, which you can top up at any time. The best part is, this payment method isn’t just for your rides anymore.</h6>
+      <h5>Going cashless is easy with the new <span class="text-warning">HailPay</span>! And no, it’s not just for credit/debit card users. This <span class="text-warning">Hail</span> Wallet also comes with <span class="text-warning">HailPay</span> Credits, which you can top up at any time. The best part is, this payment method isn’t just for your rides anymore.</h5>
     </div>
     <div class="col-2 d-none d-lg-block"><img width="70%" src=img/wallet.png></div>
   </div>
@@ -17,12 +17,13 @@
   <div class="my-5">
     <div class="d-lg-none"><h2>How do I activate my HailPay Wallet?</h2></div>
     <div class="row bg-warning text-white">
-      <div class="col-md-12 col-lg-8 px-0">
+      <div class="col-md-12 col-lg-8 px-0 h-100">
         <div id="carouselExampleIndicators" class="carousel slide " data-ride="carousel">
           <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
           </ol>
           <div class="carousel-inner">
             <div class="carousel-item active">
