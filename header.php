@@ -37,7 +37,7 @@
 <body>
   <!--Nav-->
   <!--LOGO-->
-  <nav class="navbar navbar-expand-md py-1 navbar-dark bg-darken sticky-top mb-0 sidebarNavigation"  id="mainNav" data-sidebarClass="navbar-dark bg-dark">
+  <nav class="navbar navbar-expand-md py-1 navbar-dark bg-white sticky-top mb-0 sidebarNavigation"  id="mainNav" data-sidebarClass="navbar-dark bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand text-warning" style='letter-spacing:0.2em' href="index.php"><h4>HAILCAR</h4></a>
         <button class="navbar-toggler leftNavbarToggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
@@ -50,17 +50,17 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="nav navbar-nav nav-flex-icons ">
               <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle text-warning" href="" id="dropdown01" role="button" data-toggle="dropdown" aria-haspopup="true"  data-hover="dropdown" aria-expanded="false">About Us</a>
-                  <div class="dropdown-menu" aria-labelledby="dropdown01">
-                    <a href="#" class="dropdown-item  text-darken">Aim</a>
+                  <a class="nav-link dropdown-toggle text-dark" href="#bg" id="dropdown01" role="button" data-toggle="dropdown" aria-haspopup="true"  data-hover="dropdown" aria-expanded="false">Background</a>
+                  <div id="bg" class="dropdown-menu" aria-labelledby="dropdown01">
+                    <a href="#" class="dropdown-item  text-darken">About Us</a>
                     <a href="#" class="dropdown-item  text-darken">FAQ</a>
                     <a href="#" class="dropdown-item  text-darken">Contact Us</a>
                   </div>
               </li>
 
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle text-warning" href="" id="dropdown01" role="button" data-toggle="dropdown" aria-haspopup="true"  data-hover="dropdown" aria-expanded="false">Services</a>
-                    <div class="dropdown-menu" aria-labelledby="dropdown01">
+                    <a class="nav-link dropdown-toggle text-dark" href="#sv" id="dropdown01" role="button" data-toggle="dropdown" aria-haspopup="true"  data-hover="dropdown" aria-expanded="false">Services</a>
+                    <div  id="sv" class="dropdown-menu" aria-labelledby="dropdown01">
                       <a href="service.php#hailcar" class="dropdown-item  text-darken">Hail Car</a>
                       <a href="#" class="dropdown-item  text-darken">Just Hail </a>
                       <a href="services.php#hailShare" class="dropdown-item  text-darken"> Hail Share </a>
@@ -69,13 +69,13 @@
                     </div>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-warning px-3" href="">Hail Pay</a>
+                  <a class="nav-link text-dark px-3" href="">Hail Pay</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-warning px-3" href="">Hail Reward</a>
+                    <a class="nav-link text-dark px-3" href="">Hail Reward</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-warning px-3" href="">Contact Us</a>
+                    <a class="nav-link text-dark px-3" href="">Contact Us</a>
                 </li>
             </ul>
            <!--  <form class="form-inline my-2 my-lg-0">
@@ -88,10 +88,10 @@
           <ul class="nav navbar-nav nav-flex-icons ml-auto">
 
         <li class="nav-item">
-            <a class="nav-link text-warning pl-3 pr-4" href=""><i class="far fa-user pr-2"></i>Sign In</a>
+            <a class="nav-link text-dark pl-3 pr-4" href=""><i class="far fa-user pr-2"></i>Sign In</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link text-warning pl-3 pr-4 " href="">Sign Up</a>
+            <a class="nav-link text-dark pl-3 pr-4 " href="">Sign Up</a>
         </li>
       </ul>
     </div>
