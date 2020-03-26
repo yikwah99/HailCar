@@ -19,9 +19,8 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
   <script src="//cdnjs.cloudflare.com/ajax/libs/timepicker/1.3.5/jquery.timepicker.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/slim-select/1.17.0/slimselect.min.js"></script>
-  <script type="text/javascript"></script>
-
-  <!--
+  <script type="text/javascript">
+  /*
   window.onload=function(){
     if(window.jQuery){$(document).ready(function(){
       $(".sidebarNavigation .navbar-collapse").hide().clone().appendTo("body").removeAttr("class").addClass("sideMenu").show();$("body").append("<div class='overlay'></div>");
@@ -31,14 +30,14 @@
       $(window).resize(function(){
         if($(".navbar-toggler").is(":hidden")){$(".sideMenu, .overlay").hide()
       }else{$(".sideMenu, .overlay").show()}})})
-    }else{console.log("sidebarNavigation Requires jQuery")}} -->
+    }else{console.log("sidebarNavigation Requires jQuery")}}*/
 
   </script>
 </head>
 <body>
   <!--Nav-->
   <!--LOGO-->
-  <nav class="navbar navbar-expand-md navbar-dark bg-darken sticky-top mb-0 border-bottom border-warning sidebarNavigation"  id="top" data-sidebarClass="navbar-dark bg-dark">
+  <nav class="navbar navbar-expand-md navbar-dark bg-darken sticky-top mb-0 border-bottom border-warning sidebarNavigation"  id="mainNav" data-sidebarClass="navbar-dark bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand text-warning" style='letter-spacing:0.2em' href="index.php"><h4>HAILCAR</h4></a>
         <button class="navbar-toggler leftNavbarToggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
@@ -51,20 +50,20 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="nav navbar-nav nav-flex-icons ">
               <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle text-warning" href="" id="dropdown01" role="button" data-toggle="dropdown" aria-haspopup="true"  data-hover="dropdown" aria-expanded="false">Background</a>
+                  <a class="nav-link dropdown-toggle text-warning" href="" id="dropdown01" role="button" data-toggle="dropdown" aria-haspopup="true"  data-hover="dropdown" aria-expanded="false">About Us</a>
                   <div class="dropdown-menu" aria-labelledby="dropdown01">
-                    <a href="index.php#aboutUs" class="dropdown-item  text-darken">About Us</a>
-                    <a href="index.php#faq" class="dropdown-item  text-darken">FAQ</a>
-                    <a href="index.php#contactUs" class="dropdown-item  text-darken">Contact Us</a>
+                    <a href="#" class="dropdown-item  text-darken">Aim</a>
+                    <a href="#" class="dropdown-item  text-darken">FAQ</a>
+                    <a href="#" class="dropdown-item  text-darken">Contact Us</a>
                   </div>
               </li>
 
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle text-warning" href="" id="dropdown01" role="button" data-toggle="dropdown" aria-haspopup="true"  data-hover="dropdown" aria-expanded="false">Services</a>
                     <div class="dropdown-menu" aria-labelledby="dropdown01">
-                      <a href="#" class="dropdown-item  text-darken">Hail Car</a>
-                        <a href="#" class="dropdown-item  text-darken">Just Hail </a>
-                        <a href="#" class="dropdown-item  text-darken"> Hail Share </a>
+                      <a href="services.php#hailcar" class="dropdown-item  text-darken">Hail Car</a>
+                      <a href="#" class="dropdown-item  text-darken">Just Hail </a>
+                      <a href="services.php#hailShare" class="dropdown-item  text-darken"> Hail Share </a>
                       <a href="#" class="dropdown-item  text-darken">Hail Express</a>
                       <a href="#" class="dropdown-item  text-darken">Hail Food</a>
                     </div>

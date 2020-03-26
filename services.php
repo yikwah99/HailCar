@@ -11,11 +11,11 @@
 			<div class="col-xs-12 ">
 				<nav>
 					<div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
-						<a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">HAIL Car</a>
-						<a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">HAIL Rent</a>
-						<a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">HAIL Express</a>
-						<a class="nav-item nav-link" id="nav-about-tab" data-toggle="tab" href="#nav-about" role="tab" aria-controls="nav-about" aria-selected="false">HAIL Food</a>
-            <a class="nav-item nav-link" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">HAIL Share</a>
+						<a class="nav-item nav-link active" id="hailcar" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">HAIL Car</a>
+						<a class="nav-item nav-link" id="hailrent" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">HAIL Rent</a>
+						<a class="nav-item nav-link" id="hailExpress" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">HAIL Express</a>
+						<a class="nav-item nav-link" id="hailFood" data-toggle="tab" href="#nav-about" role="tab" aria-controls="nav-about" aria-selected="false">HAIL Food</a>
+            <a class="nav-item nav-link" id="hailShare" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">HAIL Share</a>
 
 					</div>
 				</nav>
