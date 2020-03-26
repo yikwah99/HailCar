@@ -31,7 +31,7 @@
 <body class="shadow-lg rounded" style="background-color: #ecd434;
 background-image: linear-gradient(148deg, #ecd434 33%, #ff4b00 94%);">
   <div class="container">
-      <div class="pb-2 pt-3"><a class="navbar-brand text-white" style='letter-spacing:0.2em' href="index.php"><h4>HAILCAR</h4></a></div>
+      <div class="pb-2 pt-3"><a class="navbar-brand text-white" style='letter-spacing:0.2em' href="index.php"><h4>HAIL</h4></a></div>
       
     <div class="row">
       <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
