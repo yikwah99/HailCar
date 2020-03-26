@@ -49,7 +49,7 @@
       </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="nav navbar-nav nav-flex-icons ">
-              <li class="nav-item dropdown">
+              <li class="nav-item dropdown mr-2">
                   <a class="nav-link dropdown-toggle text-dark" href="#bg" id="dropdown01" role="button" data-toggle="dropdown" aria-haspopup="true"  data-hover="dropdown" aria-expanded="false">Background</a>
                   <div id="bg" class="dropdown-menu" aria-labelledby="dropdown01">
                     <a href="#" class="dropdown-item  text-darken">About Us</a>
