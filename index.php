@@ -26,25 +26,22 @@
     background-color: white;
     overflow: hidden;
   }
-
-  .moveUp{
-    position:relative;
-    top:-800px;
-  }
-
 </style>
+
 <div class="container-fluid">
-  <img src="img/taxi3.jpg" class="img-fluid" alt="Responsive image">
+  <img class="img-fluid p-2" src="img/taxi2.jpg" alt="bigBG" style="filter:brightness(50%);">
 </div>
 
-<div class="container-fluid mb-5 moveUp">
-  <h1 class="display-4 text-center">Welcome To</h1>
-  <h1 class="display-4 text-warning text-center zoom">HAIL</h1>
+<div class="container-fluid mb-5 text-center " id="theTile">
+  <h1 class="display-4 text-white">Welcome To</h1>
+  <h1 class="display-4 text-warning zoom">HAIL</h1>
+  <a class="btn btn-md btn-warning">Learn More</a>
 </div>
-<div class="container p-0 mt-5 moveUp">
+
+<div class="container p-0">
   <p class="text-center mb-0">Main Services</p>
     <div class="col-12 row card-group p-0 m-0">
-      <div class="col-12 card shadow-sm">
+      <div class="col-3 card shadow-sm">
         <h4 class=" text-center text-warning mt-3">HAIL CAR</h4>
         <img class="card-img-top darken rounded img-fluid p-2" src="img/taxi3.jpg" alt="Card image cap">
         <div class="card-body">
@@ -52,10 +49,10 @@
         </div>
         <div class="card-footer text-muted bg-warning">
           <a class="btn btn-block btn-outline-warning text-dark glow">Learn More</a>
-        </div>
+        </div><br>
       </div>
 
-      <div class="col-12 card shadow-sm" >
+      <div class="col-3 card shadow-sm" >
         <h4 class="text-center text-success mt-3">HAIL SHARE</h4>
         <img class="card-img-top darken rounded img-fluid p-2" src="img/carpooling.jpg" alt="Card image cap">
         <div class="card-body">
@@ -63,10 +60,10 @@
         </div>
         <div class="card-footer text-muted bg-warning">
           <a class="btn btn-block btn-outline-warning text-dark glow">Learn More</a>
-        </div>
+        </div><br>
       </div>
 
-      <div class="col-12 card shadow-sm">
+      <div class="col-3 card shadow-sm">
         <h4 class=" text-center text-danger mt-3">HAIL FOOD</h4>
         <img class="card-img-top darken rounded img-fluid p-2" src="img/pizza.jpg" alt="Card image cap">
         <div class="card-body">
@@ -74,10 +71,10 @@
         </div>
         <div class="card-footer text-muted bg-warning">
           <a class="btn btn-block btn-outline-warning text-dark glow">Learn More</a>
-        </div>
+        </div><br>
       </div>
 
-      <div class="col-12 card shadow-sm">
+      <div class="col-3 card shadow-sm">
         <h4 class=" text-center text-info mt-3">HAIL EXPRESS</h4>
         <img class="card-img-top darken rounded img-fluid p-2" src="img/parcel4.jpg" alt="Card image cap ">
         <div class="card-body">
@@ -85,7 +82,7 @@
         </div>
         <div class="card-footer text-muted bg-warning">
           <a class="btn btn-block btn-outline-warning text-dark glow">Learn More</a>
-        </div>
+        </div><br>
       </div>
     </div>
 </div>
