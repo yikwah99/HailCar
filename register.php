@@ -1,6 +1,6 @@
 <head>
   <meta charset="utf-8" name="viewport" content= "width=device-width, initial-scale=1.0">
-  <title>Hail Car Login</title>
+  <title>Hail Car Sign Up</title>
   <link rel="shortcut icon" href="img/hailFav.png"/>
   <!--Styles-->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -31,29 +31,46 @@
 <body class="shadow-lg rounded" style="background: rgb(246,215,131);
 background: linear-gradient(0deg, rgba(246,215,131,1) 0%, rgba(255,193,7,1) 55%);">
   <div class="container">
-      <div class="pb-5 pt-3"><a class="navbar-brand text-white" style='letter-spacing:0.2em' href="index.php"><h4>HAILCAR</h4></a></div>
+      <div class="pb-2 pt-3"><a class="navbar-brand text-white" style='letter-spacing:0.2em' href="index.php"><h4>HAILCAR</h4></a></div>
       
     <div class="row">
       <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
-        <div class="card card-signin my-5 shadow-lg">
+        <div class="card card-signin shadow-lg">
           <div class="card-body">
-            <h3 class="card-title text-center">Sign In</h3>
-              <hr>
+            <h3 class="card-title text-center">Sign up</h3>
+            <hr>
               
             <form class="form-signin">
-                Sign in to your account
+                Create a new account
               <div class="form-label-group my-4">
-                <input type="username" id="inputUsername" class="form-control" placeholder="Username" required autofocus>
+                <input type="text" id="inputUsername" class="form-control" placeholder="Username" required autofocus>
               </div>
+              <div class="form-label-group my-4 row">
+                <div class="col">
 
+                  <input type="text" id="inputFirstName" class="form-control" placeholder="First Name" required>
+                </div>
+                <div class="col">
+
+                  <input type="text" id="inputLastName" class="form-control" placeholder="Last Name" required>
+                </div>
+              </div>
               <div class="form-label-group my-4">
-                <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+                <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required>
               </div>
-
+              <div class="form-label-group my-4 row">
+                <div class="col">
+                  <input type="password" id="inputPassword" class="form-control" placeholder="Password" minlength="8" required>
+                </div>
+                <div class="col">
+                  <input type="password" id="inputConfirmPassword" class="form-control" placeholder="Confirm Password" minlength="8" required>
+                </div>
+              </div>
               <div class="custom-control custom-checkbox mb-3">
-                <input type="checkbox" class="custom-control-input" id="customCheck1">
-                <label class="custom-control-label" for="customCheck1">Remember password</label>
+                <input type="checkbox" class="custom-control-input" id="tncCheck" checked>
+                <label class="custom-control-label" for="tncCheck">I have read and agree to the Terms and Condition</label>
               </div>
+              
               <button class="btn btn-lg btn-block bg-warning" type="submit">Confirm</button>
             </form>
           </div>
