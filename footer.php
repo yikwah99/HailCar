@@ -11,10 +11,10 @@
 
   <footer id="dk-footer" class="dk-footer">
         <div class="container">
-            <div class="row">
+            <div class="row mt-0">
                 <div class="col-md-12 col-lg-4">
                     <div class="dk-footer-box-info">
-                        <a class="navbar-brand text-warning" style='letter-spacing:0.2em' href="index.php"><h2>HAIL Car</h2></a>
+                        <a class="navbar-brand text-warning" style='letter-spacing:0.2em' href="index.php"><h2>HAIL</h2></a>
 
                         <p class="footer-info-text text-white ">
                           <span><i class="fas fa-map-marker-alt text-warning "></i></span>
@@ -182,7 +182,7 @@
             <div class="container-fluid text-dark pt-3 bg-warning">
               <div class="row">
                 <div class="col-12 col-lg-6">
-                    <p>&copy; 2020 HailCar. All Rights Reserved </p>
+                    <p>&copy; 2020 Hail. All Rights Reserved </p>
                 </div>
                 <div class="col-12 col-lg-6">
                     <p class="float-lg-right">Designed by <span class="text-info">Group 1</span></p>
@@ -231,7 +231,7 @@
 
       </footer>
       <!--Scripts-->
-    
+
       <script >
 
       var top= document.getElementById("totop");
