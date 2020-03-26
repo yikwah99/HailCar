@@ -37,15 +37,15 @@
 <body>
   <!--Nav-->
   <!--LOGO-->
-  <nav class="navbar navbar-expand-md py-1 navbar-dark bg-white sticky-top mb-0 sidebarNavigation"  id="mainNav" data-sidebarClass="navbar-dark bg-dark">
-        <div class="container-fluid">
+  <nav class="navbar navbar-expand-md py-1 navbar-light bg-white sticky-top mb-0 sidebarNavigation"  id="mainNav" data-sidebarClass="navbar-light bg-light">
+        <div class="container-fluid ">
             <a class="navbar-brand text-warning" style='letter-spacing:0.2em' href="index.php"><h4>HAIL</h4></a>
         <button class="navbar-toggler leftNavbarToggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
             aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon " ></span>
+            <i class="icon fas fa-bars fa-1x text-warning"></i>
         </button>
         <button type="button" class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#navBarUser" aria-controls="navBarUser" aria-expanded="false" aria-label="Toggle navigation">
-        <i class="icon fa fa-user"></i>
+        <i class="icon fa fa-user text-warning"></i>
       </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="nav navbar-nav nav-flex-icons ">
