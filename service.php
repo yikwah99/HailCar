@@ -29,9 +29,15 @@
   						<a class="nav-item nav-link" id="hailRent" data-toggle="tab" href="#nav-about" role="tab" aria-controls="nav-about" aria-selected="false">HAIL Rent</a>
   					</div>
   				</nav>
-  				<div class="tab-content py-3 px-3 px-sm-0" style="background-color: #e9e9e9;" id="nav-tabContent">
+  				<div class="tab-content py-3 px-3 px-sm-0" style="background-color: #f9f9f9;" id="nav-tabContent">
+
   					<div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
               <div class="container" >
+                <h2 class="py-4 px-3 text-dark" >What is HAIL Car?</h2>
+                <div class="">
+                  <p class="info pt-2 pb-4 px-3  text-dark text-justify" style="font-size:20px;"><span class="font-weight-bold text-warning">HAIL Car</span> ride-sharing and request-for-a-ride mode of transportation where customers book a ride via their mobile apps.
+                     Drivers are acquired via mobile app request which only take less than a minute and will fetch you on your pick-up location! While taxi are to be hailed from the streets in order to get a ride.</p>
+                </div>
                 <h2 class="px-4 py-4 text-dark" >Why Should You Use HailCar?</h2>
             	<div class="row">
             		<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
@@ -75,14 +81,15 @@
             					</div>
             	</div>
             </div>
-            <div class="container serv">
+            <div class="container serv ">
               <div class="row">
-                      <div class="col-xs-12">
+                      <div class="col-xs-12" >
+                          <h2 class="px-5 py-4 text-dark" >How it works</h2>
                     <!-- design process steps-->
                     <!-- Nav tabs -->
-                    <ul class="nav nav-tabs process-model more-icon-preocess" role="tablist">
+                    <div id="workTab">
+                    <ul class="nav nav-tabs process-model more-icon-preocess"  role="tablist" >
                       <li role="presentation" class=""><a href="#discover" aria-controls="discover" role="tab" data-toggle="tab"><i class="fa fa-search" aria-hidden="true"></i>
-                        <p>Discover</p>
                         </a></li>
                       <li role="presentation"><a href="#strategy" aria-controls="strategy" role="tab" data-toggle="tab"><i class="fa fa-send-o" aria-hidden="true"></i>
                         <p>Strategy</p>
@@ -97,9 +104,10 @@
                         <p>Reporting</p>
                         </a></li>
                     </ul>
+
                     <!-- end design process steps-->
                     <!-- Tab panes -->
-                    <div class="tab-content">
+                    <div class="tab-content" >
                       <div role="tabpanel" class="tab-pane active" id="discover">
                         <div class="design-process-content">
                           <h3 class="semi-bold">Discovery</h3>
@@ -131,13 +139,61 @@
                       </div>
                     </div>
                   </div>
+                  </div>
                 </div>
               </div>
             </div>
   					</div>
 
   					<div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
-  						Et et consectetur ipsum labore excepteur est proident excepteur ad velit occaecat qui minim occaecat veniam. Fugiat veniam incididunt anim aliqua enim pariatur veniam sunt est aute sit dolor anim. Velit non irure adipisicing aliqua ullamco irure incididunt irure non esse consectetur nostrud minim non minim occaecat. Amet duis do nisi duis veniam non est eiusmod tempor incididunt tempor dolor ipsum in qui sit. Exercitation mollit sit culpa nisi culpa non adipisicing reprehenderit do dolore. Duis reprehenderit occaecat anim ullamco ad duis occaecat ex.
+              <div class="container" >
+                <h2 class="py-4 px-3 text-dark" >What is HAIL Share?</h2>
+                <div class="">
+                  <p class="info pt-2 pb-4 px-3  text-dark text-justify" style="font-size:20px;"><span class="font-weight-bold text-warning">HAIL Share </span>is a shared Hail ride that allows you to spilt the cost of your ride with a stranger who is headed in a similiar direction as you.</p>
+                </div>
+                <h2 class="px-4 py-4 text-dark" >Why Should You Use HailShare?</h2>
+              <div class="row">
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                        <div class="our-services-wrapper mb-60">
+                          <div class="services-inner">
+                            <div class="our-services-img">
+                            <img src="img/match.png" width="88px" alt="">
+                            </div>
+                            <div class="our-services-text">
+                              <h4>Match, Share & Save Money</h4>
+                              <p>Share rides whenever and wherever you want with the HAILCar's driver and passengers </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                        <div class="our-services-wrapper mb-60">
+                          <div class="services-inner">
+                            <div class="our-services-img">
+                            <img src="img/blow.png" width="88px" alt="">
+                            </div>
+                            <div class="our-services-text">
+                              <h4>Lower fares up to 30%</h4>
+                              <p>The fare shown on the app is the ride fare you pay (excluding toll charges)</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                        <div class="our-services-wrapper mb-60">
+                          <div class="services-inner">
+                            <div class="our-services-img">
+                            <img src="img/alow.png" width="88px" alt="">
+                            </div>
+                            <div class="our-services-text">
+                              <h4>A little longer for a lot cheaper</h4>
+                              <p>Share rides for a lower fare, with only a slight detour around the block</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+              </div>
+            </div>
   					</div>
   					<div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
   						Et et consectetur ipsum labore excepteur est proident excepteur ad velit occaecat qui minim occaecat veniam. Fugiat veniam incididunt anim aliqua enim pariatur veniam sunt est aute sit dolor anim. Velit non irure adipisicing aliqua ullamco irure incididunt irure non esse consectetur nostrud minim non minim occaecat. Amet duis do nisi duis veniam non est eiusmod tempor incididunt tempor dolor ipsum in qui sit. Exercitation mollit sit culpa nisi culpa non adipisicing reprehenderit do dolore. Duis reprehenderit occaecat anim ullamco ad duis occaecat ex.
