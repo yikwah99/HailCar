@@ -185,7 +185,7 @@
                     <p>&copy; 2020 Hail. All Rights Reserved </p>
                 </div>
                 <div class="col-12 col-lg-6">
-                    <p class="float-lg-right">Designed by <span class="text-info">Group 1</span></p>
+                    <p class="float-lg-right">Designed by Group 1</p>
                 </div>
               </div>
             </div>
