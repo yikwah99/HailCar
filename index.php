@@ -31,7 +31,7 @@
 
 <div class="container-fluid bg-white mb-5">
   <h1 class="display-4 text-center">Welcome To</h1>
-  <h1 class="display-4 text-warning text-center mb-2 zoom">HailCar</h1>
+  <h1 class="display-4 text-warning text-center mb-2 zoom">Hail</h1>
 </div>
   <p class="text-center">Main Services</p>
 
@@ -39,46 +39,46 @@
 <div class="container p-0">
     <div class="col-md-12 row card-group p-0 m-0">
       <div class="card shadow-sm">
-        <h4 class=" text-center text-darken mt-3">HAIL CAR</h4>
+        <h4 class=" text-center text-warning mt-3">HAIL CAR</h4>
         <img class="card-img-top darken rounded" src="img/taxi3.jpg" alt="Card image cap">
         <div class="card-body">
           <p class="card-title">Book a ride to travel around the beautiful CITY.</p>
         </div>
-        <div class="card-footer text-muted">
-          <button class="btn btn-block btn-outline-warning">Learn More</button>
+        <div class="card-footer text-muted bg-warning">
+          <a class="btn btn-block btn-outline-warning text-dark">Learn More</a>
         </div>
       </div>
 
       <div class="card shadow-sm" >
-        <h4 class="text-center text-darken mt-3">HAIL SHARE</h4>
+        <h4 class="text-center text-success mt-3">HAIL SHARE</h4>
         <img class="card-img-top darken rounded" src="img/carpooling.jpg" alt="Card image cap">
         <div class="card-body">
           <p class="card-title">Share a ride to travel around the city with lower PRICE.</p>
         </div>
-        <div class="card-footer text-muted">
-          <button class="btn btn-block btn-outline-warning">Learn More</button>
+        <div class="card-footer text-muted bg-warning">
+          <a class="btn btn-block btn-outline-warning text-dark">Learn More</a>
         </div>
       </div>
 
       <div class="card shadow-sm">
-        <h4 class=" text-center text-darken mt-3">HAIL FOOD</h4>
+        <h4 class=" text-center text-danger mt-3">HAIL FOOD</h4>
         <img class="card-img-top darken rounded" src="img/pizza.jpg" alt="Card image cap">
         <div class="card-body">
           <p class="card-title">We can deliver delicious food to satisfy your CRAVINGS.</p>
         </div>
-        <div class="card-footer text-muted">
-          <button class="btn btn-block btn-outline-warning">Learn More</button>
+        <div class="card-footer text-muted bg-warning">
+          <a class="btn btn-block btn-outline-warning text-dark">Learn More</a>
         </div>
       </div>
 
       <div class="card shadow-sm">
-        <h4 class=" text-center text-darken mt-3">HAIL EXPRESS</h4>
+        <h4 class=" text-center text-info mt-3">HAIL EXPRESS</h4>
         <img class="card-img-top darken rounded" src="img/parcel4.jpg" alt="Card image cap ">
         <div class="card-body">
             <p class="card-title"> We can deliver your PARCEL across the city safely and as fast as possible.</p>
         </div>
         <div class="card-footer text-muted bg-warning">
-          <button class="btn btn-block btn-outline-warning text-dark">Learn More</button>
+          <a class="btn btn-block btn-outline-warning text-dark ">Learn More</a>
         </div>
       </div>
     </div>
@@ -101,18 +101,18 @@
 <div class="mb-5" id="faq"><br><br></div>
 <div class="container bg-white mt-5 mb-5">
   <h1 class="display-4 text-center text-warning mt-5 mb-5">FAQ</h1>
-    <button class="accordion bg-warning">What is HAIL Car or HAIL Share?</button>
-    <div class="panel">
+    <button class="accordion bg-warning text-center">What is HAIL Car or HAIL Share?</button>
+    <div class="panel bg-light">
     <p>HAIL Car/ HAIL Share is a service with a combined fleet of taxis and cars at affordable upfront fixed prices.</p>
     </div>
 
-    <button class="accordion bg-warning">How do i book a ride?</button>
-    <div class="panel">
+    <button class="accordion bg-warning text-center">How do i book a ride?</button>
+    <div class="panel bg-light">
     <p>Select Hail Car or Hail Share and type in your destination, then sit back and relax until your ride to arrive. <br>In addition, if you are worry that the rider may not find your location, type in your location manually.</p>
     </div>
 
-    <button class="accordion bg-warning">Do I pay metered fees for my ride?</button>
-    <div class="panel">
+    <button class="accordion bg-warning text-center">Do I pay metered fees for my ride?</button>
+    <div class="panel bg-light">
     <p>No, your ride will be calculated in the system. Also, it is fixed, except tolls fee.</p>
     </div>
 </div>
@@ -124,11 +124,10 @@
   <div class="container h-100">
     <div class="d-flex h-100 text-center align-items-center">
       <div class="w-100 text-white">
-        <p class="text-dark">Developers</p>
-        <h4 class="text-dark display-4">Dylan Ch'ng</h4>
-        <h4 class="text-dark display-4">Dominic Lee</h4>
-        <h4 class="text-dark display-4">Liew Cai Juan</h4>
-        <h4 class="text-dark display-4"> Kam Yik Wah</h4>
+        <p class="text-dark zoom">Dylan Ch'ng</p>
+        <p class="text-dark zoom">Dominic Lee</p>
+        <p class="text-dark zoom">Liew Cai Juan</p>
+        <p class="text-dark zoom"> Kam Yik Wah</p>
         <br>
         <p class="text-dark lead mb-0">Kindaly approach us for any enquiries.</p>
       </div>
