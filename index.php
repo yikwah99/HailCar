@@ -27,16 +27,24 @@
     overflow: hidden;
   }
 
-</style>
+  .moveUp{
+    position:relative;
+    top:-800px;
+  }
 
-<div class="container-fluid bg-white mb-5">
+</style>
+<div class="container-fluid">
+  <img src="img/taxi3.jpg" class="img-fluid" alt="Responsive image">
+</div>
+
+<div class="container-fluid mb-5 moveUp">
   <h1 class="display-4 text-center">Welcome To</h1>
   <h1 class="display-4 text-warning text-center zoom">HAIL</h1>
 </div>
-<div class="container p-0 mt-5">
+<div class="container p-0 mt-5 moveUp">
   <p class="text-center mb-0">Main Services</p>
-    <div class="col-md-12 row card-group p-0 m-0">
-      <div class="card shadow-sm">
+    <div class="col-12 row card-group p-0 m-0">
+      <div class="col-12 card shadow-sm">
         <h4 class=" text-center text-warning mt-3">HAIL CAR</h4>
         <img class="card-img-top darken rounded img-fluid p-2" src="img/taxi3.jpg" alt="Card image cap">
         <div class="card-body">
@@ -47,7 +55,7 @@
         </div>
       </div>
 
-      <div class="card shadow-sm" >
+      <div class="col-12 card shadow-sm" >
         <h4 class="text-center text-success mt-3">HAIL SHARE</h4>
         <img class="card-img-top darken rounded img-fluid p-2" src="img/carpooling.jpg" alt="Card image cap">
         <div class="card-body">
@@ -58,7 +66,7 @@
         </div>
       </div>
 
-      <div class="card shadow-sm">
+      <div class="col-12 card shadow-sm">
         <h4 class=" text-center text-danger mt-3">HAIL FOOD</h4>
         <img class="card-img-top darken rounded img-fluid p-2" src="img/pizza.jpg" alt="Card image cap">
         <div class="card-body">
@@ -69,7 +77,7 @@
         </div>
       </div>
 
-      <div class="card shadow-sm">
+      <div class="col-12 card shadow-sm">
         <h4 class=" text-center text-info mt-3">HAIL EXPRESS</h4>
         <img class="card-img-top darken rounded img-fluid p-2" src="img/parcel4.jpg" alt="Card image cap ">
         <div class="card-body">
