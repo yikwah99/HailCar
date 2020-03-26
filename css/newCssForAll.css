@@ -23,4 +23,13 @@
   transform: scale(1.1);
 }
 
+#theTile{
+  position: relative;
+  top: -850px;
+}
+
+
+/* media quries*/
+
+
 /* Dylan End */
