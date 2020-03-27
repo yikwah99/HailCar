@@ -1,4 +1,5 @@
 <?php
+session_start();
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -51,6 +52,7 @@
       </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="nav navbar-nav nav-flex-icons ">
+                <?php if(!empty($_SESSION['phoneNo'])) { ?>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle text-warning" href="#sv" id="dropdown01" role="button" data-toggle="dropdown" aria-haspopup="true"  data-hover="dropdown" aria-expanded="false">Services</a>
                     <div  id="sv" class="dropdown-menu bg-dark" aria-labelledby="dropdown01">
@@ -77,6 +79,31 @@
                 <li class="nav-item">
                   <a class="nav-link text-white px-3" href="index.php#faq">FAQs</a>
                 </li>
+                  <?php }else { ?>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-warning" href="#sv" id="dropdown01" role="button" data-toggle="dropdown" aria-haspopup="true"  data-hover="dropdown" aria-expanded="false">Services</a>
+                        <div  id="sv" class="dropdown-menu bg-dark" aria-labelledby="dropdown01">
+                          <a href="service.php#hailcar" class="dropdown-item  text-white">Hail Car</a>
+                          <a href="service.php#hailShare" class="dropdown-item  text-white"> Hail Share </a>
+                          <a href="#" class="dropdown-item  text-white">Just Hail </a>
+                          <a href="#" class="dropdown-item  text-white">Hail Rent</a>
+                          <a href="#" class="dropdown-item  text-white">Hail Express</a>
+                          <a href="#" class="dropdown-item  text-white">Hail Food</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-white px-3" href="">Hail Pay</a>
+                    </li>
+                    <li class="nav-item dropdown mr-2">
+                        <a class="nav-link text-white" href="index.php#aboutUs">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white px-3" href="index.php#contactUs">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-white px-3" href="index.php#faq">FAQs</a>
+                    </li>
+                      <?php } ?>
             </ul>
            <!--  <form class="form-inline my-2 my-lg-0">
                 <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
@@ -86,13 +113,21 @@
         </div>
         <div class="collapse navbar-collapse" id="navBarUser">
           <ul class="nav navbar-nav nav-flex-icons ml-auto">
-
+          <?php if(!empty($_SESSION['phoneNo'])) { ?>
+          <!--  <li class="nav-item">
+                <a class="nav-link text-white pl-3 pr-4" href=""><i class="far fa-user pr-2"></a>
+            </li>-->
+            <li class="nav-item">
+                <a class="nav-link text-white pl-3 pr-4" href="logout.php"><i class="fas fa-sign-out-alt pr-2"></i>Logout</a>
+            </li>
+            <?php } else { ?>
         <li class="nav-item">
             <a class="nav-link text-white pl-3 pr-4" href="login.php"><i class="far fa-user pr-2"></i>Sign In</a>
         </li>
         <li class="nav-item">
             <a class="nav-link text-white pl-3 pr-4 " href="register.php">Sign Up</a>
         </li>
+        	<?php } ?>
       </ul>
     </div>
 
