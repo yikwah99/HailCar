@@ -3,7 +3,7 @@ session_start();
 if(isset($_POST['submit']))
 {
   include_once("database.php");
-  $username=$_POST['phoneNo'];
+  $phoneNo=$_POST['phoneNo'];
   $password=$_POST['password'];
   
   $sql = "select * from user WHERE phoneNo='".$phoneNo."'  AND password='".$password."';";
