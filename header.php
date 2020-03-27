@@ -55,8 +55,9 @@
                     <a class="nav-link dropdown-toggle text-warning" href="#sv" id="dropdown01" role="button" data-toggle="dropdown" aria-haspopup="true"  data-hover="dropdown" aria-expanded="false">Services</a>
                     <div  id="sv" class="dropdown-menu bg-dark" aria-labelledby="dropdown01">
                       <a href="service.php#hailcar" class="dropdown-item  text-white">Hail Car</a>
+                      <a href="service.php#hailShare" class="dropdown-item  text-white"> Hail Share </a>
                       <a href="#" class="dropdown-item  text-white">Just Hail </a>
-                      <a href="services.php#hailShare" class="dropdown-item  text-white"> Hail Share </a>
+                      <a href="#" class="dropdown-item  text-white">Hail Rent</a>
                       <a href="#" class="dropdown-item  text-white">Hail Express</a>
                       <a href="#" class="dropdown-item  text-white">Hail Food</a>
                     </div>
@@ -65,7 +66,7 @@
                   <a class="nav-link text-white px-3" href="">Hail Pay</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white px-3" href="">Hail Reward</a>
+                    <a class="nav-link text-white px-3" href="reward.php">Hail Reward</a>
                 </li>
                 <li class="nav-item dropdown mr-2">
                     <a class="nav-link text-white" href="index.php#aboutUs">About Us</a>
