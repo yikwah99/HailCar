@@ -19,8 +19,15 @@
 }
 
 .glow:hover {
-  transition: all .3s ;
+  transition: all .6s ;
   transform: scale(1.1);
+}
+
+.glowCard:hover {
+  transition: all .4s ;
+  transform: scale(1.1);
+  border-width: thin;
+  border-color: orange;
 }
 
 #mainServices{
@@ -41,6 +48,13 @@
 
   .dyTitles{
     transform: scale(0.5);
+  }
+
+  .glowCard:hover {
+    transition: all .4s ;
+    transform: scale(1.0);
+    border-width: thin;
+    border-color: orange;
   }
 
 }
