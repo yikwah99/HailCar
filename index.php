@@ -31,10 +31,14 @@
     position: relative;
     top: 50px;
   }
+
+  .card{
+    border-radius: 0px;
+  }
 </style>
 
 <div class="card bg-dark text-white">
-  <img class="img-fluid" src="img/taxi2s.jpg" alt="bigBG" style="filter:brightness(40%);">
+  <img class="img-fluid" src="img/taxi2s.jpg" alt="bigBG" id="bigBG" style="filter:brightness(40%);">
   <div class="card-img-overlay text-center mt-5 theTile">
     <h1 class="display-3 text-white">Welcome To</h1>
     <h1 class="display-3 text-warning zoom">HAIL</h1>
@@ -57,7 +61,7 @@
       </div>
       <div class="card-footer text-muted">
           <a class="btn btn-block btn-warning text-dark glow">Learn More</a>
-        </div><br>
+        </div>
     </div>
   </div>
 
@@ -70,7 +74,7 @@
       </div>
       <div class="card-footer text-muted">
           <a class="btn btn-block btn-warning text-dark glow">Learn More</a>
-        </div><br>
+        </div>
     </div>
   </div>
 
@@ -83,7 +87,7 @@
       </div>
       <div class="card-footer text-muted">
           <a class="btn btn-block btn-warning text-dark glow">Learn More</a>
-        </div><br>
+        </div>
     </div>
   </div>
 
@@ -96,18 +100,18 @@
       </div>
       <div class="card-footer text-muted">
           <a class="btn btn-block btn-warning text-dark glow">Learn More</a>
-        </div><br>
+        </div>
     </div>
   </div>
 </div>
 
 <div class="mb-5" id="aboutUs"><br><br></div>
 <!-- About Us -->
-<div class="container-fluid p-5 bg-warning">
+<div class="container-fluid p-5 bg-white">
   <div class="col-md-12 row">
     <div class="col-md-3"></div>
     <div class="col-md-6">
-      <h1 class="display-4 text-center text-white">About Us</h1>
+      <h1 class="display-4 text-center text-warning">About Us</h1>
           <p class="text-center text-dark"> The HAIL website was designed to be an informative website that provides essential information regarding HAIL’s services towards its current and prospective users.
              HAIL as a service provider is conceptualised similarly to that of Grab, Uber or Lyft.
              It is an e-hailing service but the website itself does not include any e-hailing functions.
