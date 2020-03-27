@@ -31,24 +31,29 @@
     position: relative;
     top: 50px;
   }
+
+  .card{
+    border-radius: 0px;
+  }
 </style>
 
 <div class="card bg-dark text-white">
-  <img class="img-fluid" src="img/taxi2s.jpg" alt="bigBG" style="filter:brightness(40%);">
+  <img class="img-fluid" src="img/taxi2s.jpg" alt="bigBG" id="bigBG" style="filter:brightness(40%);">
   <div class="card-img-overlay text-center mt-5 theTile">
     <h1 class="display-3 text-white">Welcome To</h1>
     <h1 class="display-3 text-warning zoom">HAIL</h1>
     <h6 class="text-white">Introducing the future of e-Hailing.</h6><br><br>
-    <a class="btn btn-lg btn-warning text-dark glow" href="#mainServices">Learn More</a>
+    <a class="btn btn-lg btn-warning text-dark zoom" href="#mainServices">Learn More</a>
   </div>
 </div>
 <div class="container" id="mainServices">
 </div><div><br><br><br><br><br>
 </div>
 
-<h1 class="display-4 text-center text-warning mb-5">Main Services</h1>
+<h1 class="display-4 text-center text-warning mb-5 dyTitles">Main Services</h1>
+<div class="container">
 <div class="container-fluid row text-center">
-  <div class="col-sm-3">
+  <div class="col-sm-6">
     <div class="card">
       <div class="card-body">
         <h4 class=" text-center text-warning mt-3">HAIL CAR</h4>
@@ -56,12 +61,12 @@
         <p class="card-title">Book a ride to travel around the beautiful CITY.</p>
       </div>
       <div class="card-footer text-muted">
-          <a class="btn btn-block btn-warning text-dark glow">Learn More</a>
-        </div><br>
+          <a class="btn btn-block btn-warning text-dark ">Learn More</a>
+        </div>
     </div>
   </div>
 
-  <div class="col-sm-3">
+  <div class="col-sm-6">
     <div class="card">
       <div class="card-body">
         <h4 class="text-center text-success mt-3">HAIL SHARE</h4>
@@ -69,12 +74,13 @@
         <p class="card-title">Share a ride to travel around the city with lower PRICE.</p>
       </div>
       <div class="card-footer text-muted">
-          <a class="btn btn-block btn-warning text-dark glow">Learn More</a>
-        </div><br>
+          <a class="btn btn-block btn-warning text-dark">Learn More</a>
+        </div>
     </div>
   </div>
-
-  <div class="col-sm-3">
+</div>
+<div class="container-fluid row text-center">
+  <div class="col-sm-6">
     <div class="card">
       <div class="card-body">
         <h4 class=" text-center text-danger mt-3">HAIL FOOD</h4>
@@ -82,32 +88,33 @@
         <p class="card-title">We can deliver delicious food to satisfy your CRAVINGS.</p>
       </div>
       <div class="card-footer text-muted">
-          <a class="btn btn-block btn-warning text-dark glow">Learn More</a>
-        </div><br>
+          <a class="btn btn-block btn-warning text-dark">Learn More</a>
+        </div>
     </div>
   </div>
 
-  <div class="col-sm-3">
+  <div class="col-sm-6">
     <div class="card">
       <div class="card-body">
         <h4 class=" text-center text-info mt-3">HAIL EXPRESS</h4>
         <img class="card-img-top darken rounded img-fluid p-2" src="img/parcel4.jpg" alt="Card image cap ">
-        <p class="card-title"> We can deliver your PARCEL across the city safely and as fast as possible.</p>
+        <p class="card-title"> We can deliver your PARCEL across the city safely.</p>
       </div>
       <div class="card-footer text-muted">
           <a class="btn btn-block btn-warning text-dark glow">Learn More</a>
-        </div><br>
+        </div>
     </div>
   </div>
+</div>
 </div>
 
 <div class="mb-5" id="aboutUs"><br><br></div>
 <!-- About Us -->
-<div class="container-fluid p-5 bg-warning">
+<div class="container-fluid p-5 bg-white">
   <div class="col-md-12 row">
     <div class="col-md-3"></div>
     <div class="col-md-6">
-      <h1 class="display-4 text-center text-white">About Us</h1>
+      <h1 class="display-4 text-center text-warning dyTitles">About Us</h1>
           <p class="text-center text-dark"> The HAIL website was designed to be an informative website that provides essential information regarding HAIL’s services towards its current and prospective users.
              HAIL as a service provider is conceptualised similarly to that of Grab, Uber or Lyft.
              It is an e-hailing service but the website itself does not include any e-hailing functions.
@@ -123,7 +130,7 @@
 <!-- FAQ -->
 <div class="mb-5" id="faq"><br><br></div>
 <div class="container bg-white mt-5 mb-5">
-  <h1 class="display-4 text-center text-warning mt-5 mb-5">FAQ</h1>
+  <h1 class="display-4 text-center text-warning mt-5 mb-5 dyTitles">FAQ</h1>
     <button class="accordion bg-warning text-center">What is HAIL Car or HAIL Share?</button>
     <div class="panel bg-light">
     <p>HAIL Car/ HAIL Share is a service with a combined fleet of taxis and cars at affordable upfront fixed prices.</p>
@@ -143,7 +150,7 @@
 <!-- Contact Us -->
 <div class="mb-5" id="contactUs"><br><br></div>
 <div class="container-fluid bg-white mt-5 mb-5">
-  <h1 class="display-4 text-center text-warning mt-5 mb-5">Contact Us</h1>
+  <h1 class="display-4 text-center text-warning mt-5 mb-5 dyTitles">Contact Us</h1>
   <div class="container h-100">
     <div class="d-flex h-100 text-center align-items-center">
       <div class="w-100 text-white">
