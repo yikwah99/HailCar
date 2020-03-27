@@ -89,10 +89,10 @@
           <ul class="nav navbar-nav nav-flex-icons ml-auto">
 
         <li class="nav-item">
-            <a class="nav-link text-white pl-3 pr-4" href=""><i class="far fa-user pr-2"></i>Sign In</a>
+            <a class="nav-link text-white pl-3 pr-4" href="login.php"><i class="far fa-user pr-2"></i>Sign In</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link text-white pl-3 pr-4 " href="">Sign Up</a>
+            <a class="nav-link text-white pl-3 pr-4 " href="register.php">Sign Up</a>
         </li>
       </ul>
     </div>
