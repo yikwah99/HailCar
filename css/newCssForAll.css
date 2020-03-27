@@ -39,6 +39,10 @@
     height: 30vh;
   }
 
+  .dyTitles{
+    transform: scale(0.5);
+  }
+
 }
 
 @media only screen and (min-width: 600px) {
