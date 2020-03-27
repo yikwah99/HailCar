@@ -51,17 +51,8 @@
       </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="nav navbar-nav nav-flex-icons ">
-              <li class="nav-item dropdown mr-2">
-                  <a class="nav-link dropdown-toggle text-white" href="#bg" id="dropdown01" role="button" data-toggle="dropdown" aria-haspopup="true"  data-hover="dropdown" aria-expanded="false">Background</a>
-                  <div id="bg" class="dropdown-menu" aria-labelledby="dropdown01">
-                    <a href="index.php#aboutUs" class="dropdown-item  text-darken">About Us</a>
-                    <a href="index.php#faq" class="dropdown-item  text-darken">FAQ</a>
-                    <a href="index.php#contactUs" class="dropdown-item  text-darken">Contact Us</a>
-                  </div>
-              </li>
-
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle text-white" href="#sv" id="dropdown01" role="button" data-toggle="dropdown" aria-haspopup="true"  data-hover="dropdown" aria-expanded="false">Services</a>
+                    <a class="nav-link dropdown-toggle text-warning" href="#sv" id="dropdown01" role="button" data-toggle="dropdown" aria-haspopup="true"  data-hover="dropdown" aria-expanded="false">Services</a>
                     <div  id="sv" class="dropdown-menu" aria-labelledby="dropdown01">
                       <a href="service.php#hailcar" class="dropdown-item  text-darken">Hail Car</a>
                       <a href="#" class="dropdown-item  text-darken">Just Hail </a>
@@ -76,8 +67,14 @@
                 <li class="nav-item">
                     <a class="nav-link text-white px-3" href="">Hail Reward</a>
                 </li>
+                <li class="nav-item dropdown mr-2">
+                    <a class="nav-link text-white" href="index.php#aboutUs">About Us</a>
+                </li>
                 <li class="nav-item">
                     <a class="nav-link text-white px-3" href="index.php#contactUs">Contact Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white px-3" href="index.php#faq">FAQs</a>
                 </li>
             </ul>
            <!--  <form class="form-inline my-2 my-lg-0">
