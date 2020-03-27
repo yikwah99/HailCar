@@ -8,6 +8,7 @@
     <p class="lead">Hey there! HAIL provides services that only get better!</p>
     <div class="container"><img class="img-fluid" src="img/line2.png" alt="bigBG"></div>
     <p class="lead">The more you enjoy, the more you get rewarded!</p>
+    <a class="btn btn-md btn-danger text-white zoom">View Rewards</a>
     <hr>
   </div>
 
@@ -31,6 +32,7 @@
             <p class="card-title">50% Offer from original fees of your ride!</p>
           </div>
           <div class="card-footer text-muted">
+            <p><small> Exchange with 1000 Points.</small></p>
             <p class="mt-2">Expires in March 2020. T&C Applied.</p>
           </div>
         </div>
@@ -44,6 +46,7 @@
             <p class="card-title">30% Offer from original fees of of your delivery fee.</p>
           </div>
           <div class="card-footer text-muted">
+              <p><small> Exchange with 700 Points.</small></p>
               <p class="mt-2">Expires in August 2020. T&C Applied.</p>
             </div>
         </div>
@@ -58,6 +61,7 @@
             <p class="card-title">45% Offer from original fees of your DELIVERY, below 100KG!</p>
           </div>
           <div class="card-footer text-muted">
+              <p><small> Exchange with 800 Points.</small></p>
               <p class="mt-2">Expires in December 2020. T&C Applied.</p>
             </div>
         </div>
@@ -71,6 +75,7 @@
             <p class="card-title">FREE delivery fee if order within 3PM - 5PM.</p>
           </div>
           <div class="card-footer text-muted">
+              <p><small> Exchange with 100 Points.</small></p>
               <p class="mt-2">Expires in May 2020. T&C Applied.</p>
             </div>
         </div>
@@ -85,6 +90,21 @@
             <p class="card-title">10% Offer from original fees of your SHARE ride during the weekend.</p>
           </div>
           <div class="card-footer text-muted">
+              <p><small> Exchange with 500 Points.</small></p>
+              <p class="mt-2">Expires in November 2020. T&C Applied.</p>
+            </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6">
+        <div class="card glowCard">
+          <div class="card-body">
+            <h1 class=" text-center text-danger mt-3">10% Off</h1>
+            <h4 class=" text-center text-success mt-3">HAIL RENT</h4>
+            <p class="card-title">10% Offer from original fees of your RENT for the first 5 Hours.</p>
+          </div>
+          <div class="card-footer text-muted">
+              <p><small> Exchange with 500 Points.</small></p>
               <p class="mt-2">Expires in November 2020. T&C Applied.</p>
             </div>
         </div>
