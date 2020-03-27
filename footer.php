@@ -223,8 +223,8 @@
         </div>-->
         <!-- End Copyright -->
         <!-- Back to top -->
-        <div  class="back-to-top">
-            <button class="btn btn-dark" id="totop" onclick="topFunction()" title="Back to Top" style="display: block;">
+        <div  class="back-to-top" >
+            <button class="btn btn-dark d-none" id="totop"  onclick="topFunction()" title="Back to Top" >
                 <i class="fa fa-angle-up"></i>
             </button>
         </div>
@@ -234,25 +234,27 @@
 
       <script >
 
-      var top= document.getElementById("totop");
-      window.onscroll = function() { didScroll = true;
+
+      window.onscroll = function() {
         scrollFunction()};
 
       /*  $('div.panel').scroll(function() {
     didScroll = true;
 });*/
       function scrollFunction() {
+          var top= document.getElementById("totop");
         if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-          top.style.display = "block";
+          top.classList.add("d-block");
         } else {
-          top.style.display = "none";
+          top.classList.remove("d-block");
         }
       }
       function topFunction() {
+
         document.body.scrollTop = 0;
         document.documentElement.scrollTop = 0;
-      }
 
+      }
       </script>
 </body>
 
