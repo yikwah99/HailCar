@@ -1,5 +1,6 @@
 <?php
-session_start();
+if(!isset($_SESSION))
+  session_start(); 
 if(isset($_POST['submit']))
 {
   include_once("database.php");
@@ -15,6 +16,9 @@ if(isset($_POST['submit']))
   else
   {
     $_SESSION['phoneNo'] =$phoneNo;
+    $_SESSION['firstVisit']= 1;
+    //sweetalert();
+    
     header('location:dashboard.php');
   }
 
@@ -87,5 +91,13 @@ if(isset($_POST['submit']))
         </div>
       </div>
     </div>
+     <?php 
+  //function sweetalert() {
+    //echo"<script type='text/javascript'>
+    //Swal.fire('Login successful','Welcome to HAIL!','success')
+    //</script>";
+  //}
+  ?>
   </body>
+ 
 </html>

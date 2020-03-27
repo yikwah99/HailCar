@@ -12,6 +12,8 @@ if(isset($_POST['submit'])){
   else{
     mysqli_query($con,"INSERT INTO user (phoneNo, firstName, lastName, email, password, balance, point) VALUES ('".$_POST['phoneNo']."','".$_POST['firstName']."','".$_POST['lastName']."','".$_POST['email']."','".$_POST['password']."',0,0);");
     $errorflag=0;
+    //echo"<script type='text/javascript'>Swal.fire('Register successful!','Please proceed to login','success')</script>";
+    //$_SESSION['firstRegister']= 1;
     header('location:login.php');
   }
 }
