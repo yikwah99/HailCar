@@ -1,5 +1,5 @@
 <?php
-  $page_title = "HailCar Services";
+  $page_title = "Hail Services";
   include "header.php";
 ?>
 
