@@ -1,5 +1,5 @@
 <?php
-  $page_title = "HailCar Home";
+  $page_title = "Hail Pay";
   include "header.php";
 ?>
 <div class= "container">
