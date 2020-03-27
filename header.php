@@ -53,12 +53,12 @@
             <ul class="nav navbar-nav nav-flex-icons ">
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle text-warning" href="#sv" id="dropdown01" role="button" data-toggle="dropdown" aria-haspopup="true"  data-hover="dropdown" aria-expanded="false">Services</a>
-                    <div  id="sv" class="dropdown-menu" aria-labelledby="dropdown01">
-                      <a href="service.php#hailcar" class="dropdown-item  text-darken">Hail Car</a>
-                      <a href="#" class="dropdown-item  text-darken">Just Hail </a>
-                      <a href="services.php#hailShare" class="dropdown-item  text-darken"> Hail Share </a>
-                      <a href="#" class="dropdown-item  text-darken">Hail Express</a>
-                      <a href="#" class="dropdown-item  text-darken">Hail Food</a>
+                    <div  id="sv" class="dropdown-menu bg-dark" aria-labelledby="dropdown01">
+                      <a href="service.php#hailcar" class="dropdown-item  text-white">Hail Car</a>
+                      <a href="#" class="dropdown-item  text-white">Just Hail </a>
+                      <a href="services.php#hailShare" class="dropdown-item  text-white"> Hail Share </a>
+                      <a href="#" class="dropdown-item  text-white">Hail Express</a>
+                      <a href="#" class="dropdown-item  text-white">Hail Food</a>
                     </div>
                 </li>
                 <li class="nav-item">
