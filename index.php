@@ -23,6 +23,7 @@
   .panel {
     padding: 0 18px;
     display: none;
+    margin-top: 8px;
     background-color: white;
     overflow: hidden;
   }
@@ -139,18 +140,18 @@
 <div class="container bg-white mt-5 mb-5">
   <h1 class="display-4 text-center text-warning mt-5 mb-5 dyTitles">FAQs</h1>
     <button class="accordion bg-warning text-center">What is HAIL Car or HAIL Share?</button>
-    <div class="panel bg-light">
+      <div class="panel bg-light text-center">
     <p>HAIL Car/ HAIL Share is a service with a combined fleet of taxis and cars at affordable upfront fixed prices.</p>
     </div>
 
     <button class="accordion bg-warning text-center">How do i book a ride?</button>
-    <div class="panel bg-light">
+      <div class="panel bg-light text-center">
     <p>Select Hail Car or Hail Share and type in your destination, then sit back and relax until your ride to arrive. <br>In addition, if you are worry that the rider may not find your location, type in your location manually.</p>
     </div>
 
     <button class="accordion bg-warning text-center">Do I pay metered fees for my ride?</button>
-    <div class="panel bg-light">
-    <p>No, your ride will be calculated in the system. Also, it is fixed, except tolls fee.</p>
+    <div class="panel bg-light text-center">
+      <p>No, your ride will be calculated in the system. Also, it is fixed, except tolls fee.</p>
     </div>
 </div>
 
