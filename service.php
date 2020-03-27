@@ -1,5 +1,5 @@
 <?php
-  $page_title = "Hail Services";
+  $page_title = "HailCar Services";
   include "header.php";
 ?>
 
@@ -24,7 +24,7 @@
         <div class="carousel-item active" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url('img/hail1.jpg'); background-size: cover;">
           <div class="carousel-caption d-md-block">
             <h3 class="display-4 font-weight-bold text-white ">HAIL Car</h3>
-            <p class="lead">This is a description for the first slide.</p>
+            <p class="lead">Chauffeured cars for your every need.</p>
               <button type="button" href="#tabs" id="btnCar" class="btn btn-lg btn-warning btn-circle my-4 mr-3">Check Out Now</button>
           </div>
         </div>
@@ -68,7 +68,7 @@
   <!-- Tabs -->
   <section id="tabs">
   	<div class="container">
-  		<h1 class=" section-title text-center text-dark ">HAIL Transportation Services</h1>
+  		<h1 class=" section-title text-center text-dark  ">HAIL Transportation Services</h1>
   		<div class="row shadow" >
   			<div class="col-xs-12 ">
   				<nav>
@@ -129,14 +129,24 @@
             							</div>
             						</div>
             					</div>
+                  <!--    <div class="">
+
+
+                    <!  <h2 class="px-4 py-4 text-dark" >Private cars for your everyday needs.</h2>
+                      <button type="button" class="btn btn-lg btn-warning btn-circle float-right my-4 mr-3">Download Now</button>
+                    </div>-->
             	</div>
+
+
+
             </div>
-            <div class="container serv ">
+
+          <!--  <div class="container serv ">
               <div class="row">
                       <div class="col-xs-12" >
                           <h2 class="px-5 py-4 text-dark" >How it works</h2>
                     <!-- design process steps-->
-                    <!-- Nav tabs -->
+                    <!-- Nav tabs --
                     <div id="workTab">
                     <ul class="nav nav-tabs process-model more-icon-preocess"  role="tablist" >
                       <li role="presentation" class=""><a href="#discover" aria-controls="discover" role="tab" data-toggle="tab"><i class="fa fa-search" aria-hidden="true"></i>
@@ -155,8 +165,8 @@
                         </a></li>
                     </ul>
 
-                    <!-- end design process steps-->
-                    <!-- Tab panes -->
+                    <!-- end design process steps--
+                    <!-- Tab panes --
                     <div class="tab-content" >
                       <div role="tabpanel" class="tab-pane active" id="discover">
                         <div class="design-process-content">
@@ -192,7 +202,7 @@
                   </div>
                 </div>
               </div>
-            </div>
+            </div>-->
   					</div>
 
   					<div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
@@ -349,7 +359,64 @@
                           </div>
                         </div>
                       </div>
+
               </div>
+
+                            <!--        <div class="row bg-white " id="howRent">
+                                        <div class="col-md-12 col-lg-4  bg-warning">
+                                          	<h1 class=" section-title text-center text-dark font-weight-bold py-5  ">Something different on Hail Rent</h1>
+
+                                            <p class="text-muted text-justify px-3 py-3 ">Downlod HAIL in your smartphone and enjoy the services </p>
+                                              <button type="button" class="btn btn-lg btn-secondary btn-circle w-100 text-center my-4 mr-3">Download Now</button>
+                                        </div>
+                                          <div class="col-md-12 col-lg-8 ">
+                                            <div id="carouselIndicators" class="carousel slide " data-ride="carousel">
+                                              <ol class="carousel-indicators">
+                                                <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
+                                                <li data-target="#carouselIndicators" data-slide-to="1"></li>
+                                                <li data-target="#carouselIndicators" data-slide-to="2"></li>
+                                                <li data-target="#carouselIndicators" data-slide-to="3"></li>
+                                              </ol>
+                                              <div class="carousel-inner" role="listbox">
+
+                                                <div class="carousel-item active" style="background-image:  url('img/rent1.png'); background-size: cover;">
+
+                                                </div>
+                                                <div class="carousel-inner" role="listbox">
+
+                                                  <div class="carousel-item " style="background-image:  url('img/rent2.png'); background-size: cover;">
+                                                  </div>
+                                                  <div class="carousel-inner" role="listbox">
+
+                                                    <div class="carousel-item " style="background-image:  url('img/rent3.png'); background-size: cover;">
+                                                    </div>
+                                                    <div class="carousel-inner" role="listbox">
+
+                                                      <div class="carousel-item " style="background-image:  url('img/rent3.png'); background-size: cover;">
+                                                      </div>
+
+                                                  </div>
+                                                  <div class="carousel-inner" role="listbox">
+
+                                                    <div class="carousel-item " style="background-image:  url('img/rent4.png'); background-size: cover;">
+                                                    </div>
+
+                                                </div>
+                                                </div>
+                                              </div>
+                                              <a class="carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev">
+                                                <span class="carousel-control-prev-icon" aria-hidden="true" style="filter: invert(50%);"></span>
+                                                <span class="sr-only">Previous</span>
+                                              </a>
+                                              <a class="carousel-control-next" href="#carouselIndicators" role="button" data-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true" style="filter: invert(50%);"></span>
+                                                <span class="sr-only">Next</span>
+                                              </a>
+                                            </div>
+                                          </div>
+                                    </div>
+              </div>-->
+
             </div>
   					</div>
   				</div>
@@ -360,10 +427,170 @@
   </section>
 
 
+                    <!--  <div class="row">
+                          <div class="col-md-6 how-img">
+                              <img src="https://image.ibb.co/dDW27U/Work_Section2_freelance_img1.png" class="rounded-circle img-fluid" alt=""/>
+                          </div>
+                          <div class="col-md-4">
+                              <h4>Find rewarding projects</h4>
+                                          <h4 class="subheading">GetLance is a great place to find more clients, and to run and grow your own freelance business.</h4>
+                                          <p class="text-muted">Freedom to work on ideal projects. On GetLance, you run your own business and choose your own clients and projects. Just complete your profile and we’ll highlight ideal jobs. Also search projects, and respond to client invitations.
+                                              Wide variety and high pay. Clients are now posting jobs in hundreds of skill categories, paying top price for great work.
+                                              More and more success. The greater the success you have on projects, the more likely you are to get hired by clients that use GetLance.</p>
+                          </div>
+                      </div>-->
+                      <div class="container">
 
- <div class="section-block-grey bg-warning">
+
+                      <div class="row bg-white mx-1" id="howHail">
+                        <div class="col-md-12 col-lg-4 pb-5 ">
+                            <h1 class=" section-title text-center text-dark font-weight-bold pt-5  ">How it Works for HAIL Car/ Just Hail/ HailShare ?</h1>
+                          <!--  <h4 class="subheading">GetLance makes it easy to connect with clients and begin doing great work.</h4>-->
+                            <p class="text-muted text-justify px-3 py-3 ">Downlod HAIL in your smartphone and enjoy the services </p>
+                            <div class=" d-none d-lg-block" >
+                                <button type="button" class="btn btn-lg btn-warning btn-circle w-100 text-center my-4 mr-3 " data-toggle="modal" data-target="#login" data-toggle="modal" data-target="#login">Download Now</button>
+                            </div>
+                        </div>
+                            <div class="col-md-12 col-lg-8 ">
+                              <div id="carouselIndicators" class="carousel slide  " data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                  <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
+                                  <li data-target="#carouselIndicators" data-slide-to="1"></li>
+                                  <li data-target="#carouselIndicators" data-slide-to="2"></li>
+
+                                </ol>
+                                <div class="carousel-inner " role="listbox">
+                                  <!-- Slide One - Set the background image for this slide in the line below -->
+                                  <div class="carousel-item active" style="background-image:  url('img/step1.png'); background-size: cover;">
+
+                                  </div>
+                                  <div class="carousel-inner" role="listbox">
+                                    <!-- Slide One - Set the background image for this slide in the line below -->
+                                    <div class="carousel-item " style="background-image:  url('img/step2.png'); background-size: cover;">
+                                    </div>
+                                    <div class="carousel-inner" role="listbox">
+                                      <!-- Slide One - Set the background image for this slide in the line below -->
+                                      <div class="carousel-item " style="background-image:  url('img/step3.png'); background-size: cover;">
+                                      </div>
+
+
+                                  </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true" style="filter: invert(50%);"></span>
+                                  <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#carouselIndicators" role="button" data-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true" style="filter: invert(50%);"></span>
+                                  <span class="sr-only">Next</span>
+                                </a>
+                              </div>
+                            </div>
+                            <div class="col-md-12 col-lg-4  d-lg-none pb-5">
+
+                                  <button type="button" class="btn btn-lg btn-warning btn-circle w-100 text-center my-4 mr-3 " data-toggle="modal" data-target="#login">Download Now</button>
+                            </div>
+                            </div>
+                      </div>
+                    </div>
+                      </div>
+
+                      <div class="container">
+
+                      <div class="row bg-white mx-1 d-none pb-5" id="howRent">
+                          <div class="col-md-12 col-lg-4  ">
+                            	<h1 class=" section-title text-center text-dark font-weight-bold py-5  ">Something different on Hail Rent</h1>
+                            <!--  <h4 class="subheading">GetLance makes it easy to connect with clients and begin doing great work.</h4>-->
+                              <p class="text-muted text-justify px-3 py-3 ">Downlod HAIL in your smartphone and enjoy the services </p>
+                              <div class=" d-none d-lg-block" >
+                                  <button type="button" class="btn btn-lg btn-warning btn-circle w-100 text-center my-4 mr-3 " data-toggle="modal" data-target="#login">Download Now</button>
+                              </div>
+
+                          </div>
+                            <div class="col-md-12 col-lg-8 ">
+                              <div id="carouselIndicators" class="carousel slide " data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                  <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
+                                  <li data-target="#carouselIndicators" data-slide-to="1"></li>
+                                  <li data-target="#carouselIndicators" data-slide-to="2"></li>
+                                  <li data-target="#carouselIndicators" data-slide-to="3"></li>
+                                </ol>
+                                <div class="carousel-inner" role="listbox">
+                                  <!-- Slide One - Set the background image for this slide in the line below -->
+                                  <div class="carousel-item active" style="background-image:  url('img/rent1.png'); background-size: cover;">
+
+                                  </div>
+                                  <div class="carousel-inner" role="listbox">
+                                    <!-- Slide One - Set the background image for this slide in the line below -->
+                                    <div class="carousel-item " style="background-image:  url('img/rent2.png'); background-size: cover;">
+                                    </div>
+                                    <div class="carousel-inner" role="listbox">
+                                      <!-- Slide One - Set the background image for this slide in the line below -->
+                                      <div class="carousel-item " style="background-image:  url('img/rent3.png'); background-size: cover;">
+                                      </div>
+                                      <div class="carousel-inner" role="listbox">
+                                        <!-- Slide One - Set the background image for this slide in the line below -->
+                                        <div class="carousel-item " style="background-image:  url('img/rent3.png'); background-size: cover;">
+                                        </div>
+
+                                    </div>
+                                    <div class="carousel-inner" role="listbox">
+                                      <!-- Slide One - Set the background image for this slide in the line below -->
+                                      <div class="carousel-item " style="background-image:  url('img/rent4.png'); background-size: cover;">
+                                      </div>
+
+                                  </div>
+                                  </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true" style="filter: invert(50%);"></span>
+                                  <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#carouselIndicators" role="button" data-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true" style="filter: invert(50%);"></span>
+                                  <span class="sr-only">Next</span>
+                                </a>
+                              </div>
+                            </div>
+                      </div>
+                      <div class="col-md-12 col-lg-4  d-lg-none ">
+
+                            <button type="button" class="btn btn-lg btn-warning btn-circle w-100 text-center my-4 mr-3 " data-toggle="modal" data-target="#login">Download Now</button>
+                      </div>
+</div>
+  </div>
+
+  <div class="modal fade" id="login" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content shadow-lg rounded " >
+        <div class=" text-center py-3 ">
+          <button type="button" class="close pr-2 text-success" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <h4 class="modal-title text-dark">Download The <span class="text-warning" > HAIL</span>  App Now</h4>
+
+        </div>
+        <div class="modal-body" >
+
+          <div class="login px-2 mx-auto mw-100 ">
+                <img class="d-block w-100" src="img/d.png" alt="Second slide">
+                <div class="footer-app">
+                <img src="img/appstore.png" class="app" alt="">
+                  <img src="img/googleplay.png" class="w-50 " alt="">
+                </img>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+
+ <!--<div class="section-block-grey ">
     <div class="container">
-        <div class="section-heading center-holder">
+        <!--<div class="section-heading center-holder">
             <h3>Our Services / Offering</h3>
             <div class="section-heading-line"></div>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
@@ -433,7 +660,7 @@
             </div>
         </div>
     </div>
-</div>
+</div>-->
 
 
 <script type="text/javascript">
@@ -442,8 +669,10 @@ var hailCar=document.getElementById("hailCar");
 var hailShare=document.getElementById("hailShare");
 var justhail=document.getElementById("justHail");
 var rent=document.getElementById("hailRent");
-var abcElements = document.querySelectorAll('.carousel-indicators li');
-  var i = 2;
+var how1=document.getElementById("howHail");
+var how2=document.getElementById("howRent");
+
+
 $("#btnCar").on("click",function(){
 
       $('#hailCar').tab("show");
@@ -478,23 +707,26 @@ $("#btnJust").on("click",function(){
 
 $("#btnRent").on("click",function(){
       $('#hailRent').tab("show");
+
       $('html, body').animate({
    scrollTop: $("#tabs").offset().top
  }, 1000);
 
+ how1.classList.add("d-none");
+ how2.classList.remove("d-none");
+
+
 });
-// script for tab steps
-    $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
 
-        var href = $(e.target).attr('href');
-        var $curr = $(".process-model  a[href='" + href + "']").parent();
+$("#hailRent").on("click",function(){
 
-        $('.process-model li').removeClass();
+ how1.classList.add("d-none");
+ how2.classList.remove("d-none");
 
-        $curr.addClass("active");
-        $curr.prevAll().addClass("visited");
-    });
-// end  script for tab steps
+
+});
+
+
 
 </script>
 <?php

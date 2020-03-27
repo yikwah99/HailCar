@@ -10,10 +10,9 @@ if(isset($_POST['submit'])){
   else if($_POST['password']!=$_POST['confirmPassword'])
     $errorflag=2;
   else{
-    mysqli_query($con,"INSERT INTO user (phoneNo, first name, last name, email, password, balance, point) VALUES (".$_POST['phoneNo'].",'".$_POST['firstName']."','".$_POST['lastName']."','".$_POST['email']."','".$_POST['password']."',0,0);");
-    echo"INSERT INTO user (phoneNo, first name, last name, email address, password, balance, point) VALUES (".$_POST['phoneNo'].",'".$_POST['firstName']."','".$_POST['lastName']."','".$_POST['email']."','".$_POST['password']."',0,0);";
+    mysqli_query($con,"INSERT INTO user (phoneNo, firstName, lastName, email, password, balance, point) VALUES ('".$_POST['phoneNo']."','".$_POST['firstName']."','".$_POST['lastName']."','".$_POST['email']."','".$_POST['password']."',0,0);");
     $errorflag=0;
-    header('location:dashboard.php');
+    header('location:login.php');
   }
 }
 
