@@ -108,7 +108,7 @@
         <p class="card-title"> We can deliver your PARCEL across the city safely.</p>
       </div>
       <div class="card-footer text-muted">
-          <a class="btn btn-block btn-warning text-dark glow">Learn More</a>
+          <a class="btn btn-block btn-warning text-dark">Learn More</a>
         </div>
     </div>
   </div>
