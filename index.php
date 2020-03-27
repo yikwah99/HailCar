@@ -35,6 +35,13 @@
   .card{
     border-radius: 0px;
   }
+
+  .noLine:hover{
+    background-color: orange;
+    text-decoration: none;
+    transition: all .5s ;
+    transform: scale(1.2);
+  }
 </style>
 
 <div class="card bg-dark text-white">
@@ -52,9 +59,9 @@
 
 <h1 class="display-4 text-center text-warning mb-5 dyTitles">Main Services</h1>
 <div class="container">
-<div class="container-fluid row text-center">
+<div class="container-fluid row text-center mb-5">
   <div class="col-sm-6">
-    <div class="card">
+    <div class="card glowCard">
       <div class="card-body">
         <h4 class=" text-center text-warning mt-3">HAIL CAR</h4>
         <img class="card-img-top darken rounded img-fluid p-2" src="img/taxi3.jpg" alt="Card image cap">
@@ -67,7 +74,7 @@
   </div>
 
   <div class="col-sm-6">
-    <div class="card">
+    <div class="card glowCard">
       <div class="card-body">
         <h4 class="text-center text-success mt-3">HAIL SHARE</h4>
         <img class="card-img-top darken rounded img-fluid p-2" src="img/carpooling.jpg" alt="Card image cap">
@@ -81,7 +88,7 @@
 </div>
 <div class="container-fluid row text-center">
   <div class="col-sm-6">
-    <div class="card">
+    <div class="card glowCard">
       <div class="card-body">
         <h4 class=" text-center text-danger mt-3">HAIL FOOD</h4>
         <img class="card-img-top darken rounded img-fluid p-2" src="img/pizza.jpg" alt="Card image cap">
@@ -94,7 +101,7 @@
   </div>
 
   <div class="col-sm-6">
-    <div class="card">
+    <div class="card glowCard">
       <div class="card-body">
         <h4 class=" text-center text-info mt-3">HAIL EXPRESS</h4>
         <img class="card-img-top darken rounded img-fluid p-2" src="img/parcel4.jpg" alt="Card image cap ">
@@ -115,7 +122,7 @@
     <div class="col-md-3"></div>
     <div class="col-md-6">
       <h1 class="display-4 text-center text-warning dyTitles">About Us</h1>
-          <p class="text-center text-dark"> The HAIL website was designed to be an informative website that provides essential information regarding HAIL’s services towards its current and prospective users.
+          <p class="text-center text-dark">
              HAIL as a service provider is conceptualised similarly to that of Grab, Uber or Lyft.
              It is an e-hailing service but the website itself does not include any e-hailing functions.
              The targeted users of the website are people who are interested to find out more about HAIL, or people who would like to make enquiries about the services HAIL provides.
@@ -130,7 +137,7 @@
 <!-- FAQ -->
 <div class="mb-5" id="faq"><br><br></div>
 <div class="container bg-white mt-5 mb-5">
-  <h1 class="display-4 text-center text-warning mt-5 mb-5 dyTitles">FAQ</h1>
+  <h1 class="display-4 text-center text-warning mt-5 mb-5 dyTitles">FAQs</h1>
     <button class="accordion bg-warning text-center">What is HAIL Car or HAIL Share?</button>
     <div class="panel bg-light">
     <p>HAIL Car/ HAIL Share is a service with a combined fleet of taxis and cars at affordable upfront fixed prices.</p>
@@ -154,10 +161,10 @@
   <div class="container h-100">
     <div class="d-flex h-100 text-center align-items-center">
       <div class="w-100 text-white">
-        <p class="text-dark zoom">Dylan Ch'ng</p>
-        <p class="text-dark zoom">Dominic Lee</p>
-        <p class="text-dark zoom">Liew Cai Juan</p>
-        <p class="text-dark zoom"> Kam Yik Wah</p>
+        <a class="text-dark bg-white noLine" href="mailto:webmaster@example.com">Dylan Ch'ng</a><br>
+        <a class="text-dark bg-white noLine" href="mailto:webmaster@example.com">Dominic Lee</a><br>
+        <a class="text-dark bg-white noLine" href="mailto:webmaster@example.com">Liew Cai Juan</a><br>
+        <a class="text-dark bg-white noLine" href="mailto:webmaster@example.com">Kam Yik Wah</a><br>
         <br>
         <p class="text-dark lead mb-0">Kindaly approach us for any enquiries.</p>
         <br><br><br>
