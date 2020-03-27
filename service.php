@@ -25,7 +25,7 @@
           <div class="carousel-caption d-md-block">
             <h3 class="display-4 font-weight-bold text-white ">HAIL Car</h3>
             <p class="lead">This is a description for the first slide.</p>
-              <a href="" class="btn btn-lg btn-warning btn-circle my-4 mr-3">Check Out Now</a>
+              <button type="button" href="#tabs" id="btnCar" class="btn btn-lg btn-warning btn-circle my-4 mr-3">Check Out Now</button>
           </div>
         </div>
         <!-- Slide Two - Set the background image for this slide in the line below -->
@@ -33,22 +33,22 @@
           <div class="carousel-caption  d-md-block">
             <h3 class="display-4 font-weight-bold text-white">HAIL Share</h3>
             <p class="lead">This is a description for the second slide.</p>
-                <a href="" class="btn btn-lg btn-warning btn-circle my-4 mr-3">Check Out Now</a>
+                <button type="button" href="#tabs" id="btnShare" class="btn btn-lg btn-warning btn-circle my-4 mr-3">Check Out Now</button>
           </div>
         </div>
         <!-- Slide Three - Set the background image for this slide in the line below -->
-        <div class="carousel-item"style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url('img/hail1.jpg'); background-size: cover;">
+        <div class="carousel-item"style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url('img/passenger.jpg'); background-size: cover;">
           <div class="carousel-caption  d-md-block">
             <h3 class="display-4 font-weight-bold text-white">Just HAIL</h3>
             <p class="lead">This is a description for the third slide.</p>
-                <a href="" class="btn btn-lg btn-warning btn-circle my-4 mr-3">Check Out Now</a>
+              <button type="button" href="#tabs" id="btnJust" class="btn btn-lg btn-warning btn-circle my-4 mr-3">Check Out Now</button>
           </div>
         </div>
-        <div class="carousel-item" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url('img/hail1.jpg'); background-size: cover;">
+        <div class="carousel-item" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url('img/gps.jpg'); background-size: cover;">
           <div class="carousel-caption d-md-block">
             <h3 class="display-4 font-weight-bold text-white">HAIL Rent</h3>
             <p class="lead">This is a description for the third slide.</p>
-              <a href="" class="btn btn-lg btn-warning btn-circle my-4 mr-3">Check Out Now</a>
+            <button type="button"  href="#tabs" id="btnRent" class="btn btn-lg btn-warning btn-circle my-4 mr-3">Check Out Now</button>
 
           </div>
         </div>
@@ -361,7 +361,7 @@
 
 
 
- <div class="section-block-grey">
+ <div class="section-block-grey bg-warning">
     <div class="container">
         <div class="section-heading center-holder">
             <h3>Our Services / Offering</h3>
@@ -436,8 +436,53 @@
 </div>
 
 
-
 <script type="text/javascript">
+
+var hailCar=document.getElementById("hailCar");
+var hailShare=document.getElementById("hailShare");
+var justhail=document.getElementById("justHail");
+var rent=document.getElementById("hailRent");
+var abcElements = document.querySelectorAll('.carousel-indicators li');
+  var i = 2;
+$("#btnCar").on("click",function(){
+
+      $('#hailCar').tab("show");
+      $('html, body').animate({
+   scrollTop: $("#tabs").offset().top
+ }, 1000);
+
+/*  console.log("Clicked Share");
+    $('#carouselExampleIndicators').carousel({
+        pause: true,
+        interval: false
+    });
+    console.log("Clicked Car");*/
+
+});
+
+$("#btnShare").on("click",function(){
+      $('#hailShare').tab("show");
+      $('html, body').animate({
+   scrollTop: $("#tabs").offset().top
+ }, 1000);
+
+});
+
+$("#btnJust").on("click",function(){
+      $('#justHail').tab("show");
+      $('html, body').animate({
+   scrollTop: $("#tabs").offset().top
+ }, 1000);
+
+});
+
+$("#btnRent").on("click",function(){
+      $('#hailRent').tab("show");
+      $('html, body').animate({
+   scrollTop: $("#tabs").offset().top
+ }, 1000);
+
+});
 // script for tab steps
     $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
 
