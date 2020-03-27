@@ -57,12 +57,21 @@
     border-color: orange;
   }
 
+  #kaneSlide{
+    height: 300px;
+  }
+
 }
 
 @media only screen and (min-width: 600px) {
   .theTile{
     transform: scale(0.6);
   }
+
+  #kaneSlide{
+    height: 400px;
+  }
+
 }
 
 @media only screen and (min-width: 780px) {
@@ -72,6 +81,10 @@
 
   #bigBG{
     height: 100vh;
+  }
+
+  #kaneSlide{
+    height: 500px;
   }
 }
 
