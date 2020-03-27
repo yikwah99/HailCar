@@ -9,11 +9,11 @@
        <p class="paral text-white">
          An on-demand delivery service that is safe, fast, and reliable
        </p>
-         <a href="" class="btn btn-lg btn-warning btn-circle my-4 mr-3">Check Out Now</a>
+         <button type="button" href="conEx" id="btnEx" class="btn btn-lg btn-warning btn-circle my-4 mr-3">Check Out Now</button>
     </div>
   </header>
 
-  <div class="container">
+  <div class="container" id="conEx">
       <h2 class="px-4 py-4 text-dark" >Why Should You Use HAIL Express?</h2>
     <div class="row">
       <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
@@ -139,7 +139,7 @@
 <div class="col-md-6 col-lg-6 pb-5 border border-white rounded">
     <img class=" imgEx" src="img/parcel.jpg" alt="delivery">
     <div class="overlay oEx ">
-    <button type="button" class=" textEx btn btn-lg btn-warning btn-circle  text-center  " data-toggle="modal" data-target="#login" data-toggle="modal" data-target="#login">Try It Now</button>
+    <button type="button" class=" textEx btn btn-lg btn-warning btn-circle  text-center  " data-toggle="modal" data-target="#download" data-toggle="modal" data-target="#login">Try It Now</button>
   </div>
 </div>
 		<div class="col-md-6 col-lg-6 ">
@@ -169,7 +169,7 @@
 
 
 
-  <div class="modal fade" id="login" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal fade" id="download" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
       <div class="modal-content shadow-lg rounded " >
         <div class=" text-center py-3 ">
@@ -197,6 +197,15 @@
 
 
 
+
+<script type="text/javascript">
+$("#btnEx").on("click",function(){
+
+      $('html, body').animate({
+   scrollTop: $("#conEx").offset().top
+ }, 1000);
+
+});
 
 </script>
 <?php
