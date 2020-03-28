@@ -109,33 +109,31 @@
                                     <span class="animate-border border-black"></span>
                                 </div>
                                 <ul>
+
                                     <li>
-                                        <a href="#">Hail Car</a>
+                                          <a href="service.php#hailcar">HAIL Transportation</a>
                                     </li>
                                     <li>
-                                        <a href="#">Just Hail</a>
+                                        <a href="food.php" >HAIL Food</a>
+
                                     </li>
                                     <li>
-                                        <a href="#">Hail Rent</a>
+                                        <a href="express.php">HAIL Express</a>
+
                                     </li>
-                                    <li>
-                                        <a href="#">Hail Share</a>
-                                    </li>
+
 
                                 </ul>
                                 <ul>
-                                    <li>
-                                        <a href="#">Hail Express</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Hail Food</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Hail Pay</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Hail Reward</a>
-                                    </li>
+                                  <li>
+                                        <a  href="hailpay.php">HAIL Pay</a>
+                                  </li>
+                                  <li>
+                                        <a href="login.php" id="reward">HAIL Reward</a>
+                                  </li>
+                                  <li>
+                                        <a  href="index.php#faq">FAQs</a>
+                                  </li>
 
                                 </ul>
                             </div>
@@ -233,6 +231,11 @@
       <!--Scripts-->
 
       <script >
+
+      $("#reward").on("click",function(){
+          alert("Please login to continue");
+
+      });
 
 
       window.onscroll = function() {
