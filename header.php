@@ -1,6 +1,6 @@
 <?php
 if(!isset($_SESSION))
-  session_start(); 
+  session_start();
 include_once("database.php");
 ?>
 <!DOCTYPE html>
@@ -95,10 +95,10 @@ include_once("database.php");
                       <div  id="sv" class="dropdown-menu bg-dark " aria-labelledby="dropdown01">
                         <a href="service.php#hailcar" class="dropdown-item  text-white"><h6>Transportation Services</h6></a>
 
-                        <a href="service.php#hailCar" class="dropdown-item  text-white">Hail Car</a>
-                      <a href="service.php#hailShare" class="dropdown-item  text-white"> Hail Share </a>
+                      <!--  <a href="service.php#hailCar" class="dropdown-item  text-white">Hail Car</a>
+                        <a href="service.php#hailShare" class="dropdown-item  text-white"> Hail Share </a>
                         <a href="service.php#justHail" class="dropdown-item  text-white">Just Hail </a>
-                        <a href="service.php#hailRent" class="dropdown-item  text-white">Hail Rent</a>
+                        <a href="service.php#hailRent" class="dropdown-item  text-white">Hail Rent</a>-->
 
                         <h6 class="dropdown-item text-white font-weight-bold">Delivery Services</h6>
                         <a href="express.php" class="dropdown-item  text-white">Hail Express</a>
@@ -160,7 +160,7 @@ if (hash != ""){
  $('#tabServ a:first').tab('show');
  console.log(hash);
 }
-});*/
+});
 
 
 var hash = window.location.hash;
@@ -192,6 +192,6 @@ var hash = window.location.hash;
      }
    });
  }
-
+*/
 </script>
   <div id="content">
