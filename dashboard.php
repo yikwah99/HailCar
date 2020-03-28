@@ -60,9 +60,8 @@ if ($_SESSION['firstVisit']==1){
     </div>
 
     <div class="col-sm-4">
-      <div class="">
         <div class="card-body p-0">
-          <div class="m-3 text-light">
+          <div class="text-light">
             <div class="card border">
               <div class="card-body" style="background:<?php
                     if ($point>2000){
@@ -78,7 +77,7 @@ if ($_SESSION['firstVisit']==1){
                       echo"background-color: #c79332;background-image: linear-gradient(270deg, #c79332 31%, #ba7938 73%);";
                     }
                   ?>">
-                <h5 class="card-title">Ranking</h5>
+                <h4 class="text-center mt-3">Ranking</h4>
                 <p class="card-text" >
                   <?php
                     if ($point>2000){
@@ -99,7 +98,6 @@ if ($_SESSION['firstVisit']==1){
             </div>
           </div>
         </div>
-      </div>
     </div>
   </div>
 <!-- dash end --><hr>

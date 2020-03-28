@@ -74,10 +74,10 @@ include_once("database.php");
                     </div>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-white mr-2" href="hailpay.php">Hail Pay</a>
+                  <a class="nav-link text-white mr-2" href="hailpay.php">HAIL Pay</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white mr-2" href="reward.php">Hail Reward</a>
+                    <a class="nav-link text-white mr-2" href="reward.php">HAIL Reward</a>
                 </li>
 
                 <li class="nav-item">
@@ -106,7 +106,7 @@ include_once("database.php");
                       </div>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-white mr-2" href="hailpay.php">Hail Pay</a>
+                    <a class="nav-link text-white mr-2" href="hailpay.php">HAIL Pay</a>
                   </li>
                   <li class="nav-item">
                       <a class="nav-link text-white mr-2" href="index.php#contactUs">Contact Us</a>
