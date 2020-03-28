@@ -51,18 +51,18 @@ if(isset($_POST['submit']))
 include "header.php";
 ?>
 <div class="container">
-    <div class="jumbotron bg-white">
-      <h1 class="display-4 text-center text-warning font-weight-bold">Dashboard</h1>
+  <div class="jumbotron bg-white">
+    <h1 class="display-4 text-center text-warning font-weight-bold">Dashboard</h1>
   <!--dash -->
-  <div class="container-fluid row text-center mb-5">
-    <div class="col-sm-4">
-      <div class="card border-warning">
-        <div class="card-body">
-          <h4 class=" text-center text-warning mt-3">HailPay Balance</h4>
-          <p class="card-text">RM <?php echo $balance;?></p>
+    <div class="container-fluid row text-center mb-5">
+      <div class="col-sm-4">
+        <div class="card border-warning">
+          <div class="card-body">
+            <h4 class=" text-center text-warning mt-3">HailPay Balance</h4>
+            <p class="card-text">RM <?php echo $balance;?></p>
+          </div>
         </div>
       </div>
-    </div>
 
     <div class="col-sm-4">
       <div class="card border-success">
@@ -161,7 +161,7 @@ include "header.php";
       </form>
     </div>
 
-    <div class="mx-5 mt-5 mb-0 p-0">
+    <div class="mx-5 mt-5 mb-5 p-0">
       <h3 class="my-3 text-center">Transaction History</h3><hr>
       <div>
         <table class="table table-striped table-dark rounded-lg mt-0">
@@ -196,3 +196,6 @@ include "header.php";
       </div>
   </div>
 </div>
+<?php
+  include "footer.php";
+?>
