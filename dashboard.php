@@ -21,8 +21,7 @@ if ($result->num_rows > 0) {
   $point=$row['point'];
   }
 }
-//To retrieve transaction table
-$txresult = mysqli_query($con,"SELECT * FROM transaction WHERE phoneNo='".$phoneNo."';");
+
 
 //date("Y-m-d h:ia")
 //To display bootstrap alert
@@ -34,6 +33,13 @@ if ($_SESSION['firstVisit']==1){
     <span aria-hidden='true'>&times;</span>
   </button>
 </div>";
+}
+if(isset($_POST['submit']))
+{
+  if ($_POST['amount']>0){
+    mysqli_query($con,"INSERT INTO transaction (phoneNo,date,amount) VALUES ('".$phoneNo."','".date('Y-m-d H:i:s')."',".$_POST['amount'].");");
+    $txresult = mysqli_query($con,"SELECT * FROM transaction WHERE phoneNo='".$phoneNo."';");
+  }
 }
 ?>
 <div class="container">
@@ -101,23 +107,26 @@ if ($_SESSION['firstVisit']==1){
     </div>
   </div>
 <!-- dash end --><hr>
-      <div class="row">
-        <div class="col-7 ">
-          <div class="h4 my-3">Enter Amount:</div>
-          <div class="input-group my-3">
-            <div class="input-group-prepend">
-              <button class="btn btn-outline-success text-dark" type="button" onclick="document.getElementById('amount').value=20">RM20</button>
-              <button class="btn btn-outline-success text-dark" type="button" onclick="document.getElementById('amount').value=50">RM50</button>
-              <button class="btn btn-outline-success text-dark" type="button" onclick="document.getElementById('amount').value=100">RM100</button>
+      <form action="#" method="post">
+        <div class="row">
+
+          <div class="col-7 ">
+            <div class="h4 my-3">Enter Amount:</div>
+            <div class="input-group my-3">
+              <div class="input-group-prepend">
+                <button class="btn btn-outline-success text-dark" type="button" onclick="document.getElementById('amount').value=20">RM20</button>
+                <button class="btn btn-outline-success text-dark" type="button" onclick="document.getElementById('amount').value=50">RM50</button>
+                <button class="btn btn-outline-success text-dark" type="button" onclick="document.getElementById('amount').value=100">RM100</button>
+              </div>
+                <input type="number" id="amount" class="form-control border-success" placeholder="Preferred Amount" aria-label="" aria-describedby="basic-addon1" min="0" name="amount">
             </div>
-            <input type="number" id="amount" class="form-control border-success" placeholder="Preferred Amount" aria-label="" aria-describedby="basic-addon1" min="0">
+          </div>
+          <div class="col-4 my-auto">
+            <br><br>
+            <button type="submit" name="submit" class="btn btn-block btn-info py-4">Top up</button>
           </div>
         </div>
-        <div class="col-4 my-auto">
-          <br><br>
-          <button class="btn btn-block btn-info py-4">Top up</button>
-        </div>
-      </div>
+      </form>
     </div>
 
     <div class="mx-5 mt-5 mb-0 p-0">
@@ -134,7 +143,8 @@ if ($_SESSION['firstVisit']==1){
           </thead>
           <tbody>
             <?php
-
+            //To retrieve transaction table
+            $txresult = mysqli_query($con,"SELECT * FROM transaction WHERE phoneNo='".$phoneNo."';");
             if ($txresult->num_rows > 0) {
               $i=1;
               while($txrow=mysqli_fetch_array($txresult)){
