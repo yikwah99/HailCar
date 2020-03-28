@@ -1,6 +1,6 @@
 <?php
 $page_title = "Hail Dashboard";
-include "header.php";
+
 if(!isset($_SESSION))
   session_start();
 include_once("database.php");
@@ -11,7 +11,9 @@ $lastName='';
 $email='';
 $balance=0;
 $point=0;
+$amount=0;
 $result = mysqli_query($con,"SELECT * FROM user WHERE phoneNo='".$phoneNo."';");
+
 if ($result->num_rows > 0) {
   while($row=mysqli_fetch_array($result)){
   $firstName=$row['firstName'];
@@ -21,10 +23,7 @@ if ($result->num_rows > 0) {
   $point=$row['point'];
   }
 }
-//To retrieve transaction table
-$txresult = mysqli_query($con,"SELECT * FROM transaction WHERE phoneNo='".$phoneNo."';");
 
-//date("Y-m-d h:ia")
 //To display bootstrap alert
 if ($_SESSION['firstVisit']==1){
   $_SESSION['firstVisit']=0;
@@ -35,6 +34,21 @@ if ($_SESSION['firstVisit']==1){
   </button>
 </div>";
 }
+//To Topup
+if(isset($_POST['submit']))
+{
+  $amount = $_POST['amount'];
+  if ($amount>0){
+    //To create new transaction row
+    mysqli_query($con,"INSERT INTO transaction (phoneNo,date,amount) VALUES ('".$phoneNo."','".date('Y-m-d H:i:s')."',".$_POST['amount'].");");
+    $txresult = mysqli_query($con,"SELECT * FROM transaction WHERE phoneNo='".$phoneNo."';");
+    //Add topup amount to balance
+    mysqli_query($con,"UPDATE user SET balance = balance +".$_POST['amount']."  WHERE phoneNo='".$phoneNo."';");
+    $amount=0;
+    header('Location: ' . $_SERVER['PHP_SELF']);
+  }
+}
+include "header.php";
 ?>
 <div class="container">
     <div class="jumbotron bg-white">
@@ -101,23 +115,50 @@ if ($_SESSION['firstVisit']==1){
     </div>
   </div>
 <!-- dash end --><hr>
-      <div class="row">
-        <div class="col-7 ">
-          <div class="h4 my-3">Enter Amount:</div>
-          <div class="input-group my-3">
-            <div class="input-group-prepend">
-              <button class="btn btn-outline-success text-dark" type="button" onclick="document.getElementById('amount').value=20">RM20</button>
-              <button class="btn btn-outline-success text-dark" type="button" onclick="document.getElementById('amount').value=50">RM50</button>
-              <button class="btn btn-outline-success text-dark" type="button" onclick="document.getElementById('amount').value=100">RM100</button>
+      <form action="#" method="post">
+        <div class="row">
+
+          <div class="col-7 ">
+            <div class="h4 my-3">Enter Amount:</div>
+            <div class="input-group my-3">
+              <div class="input-group-prepend">
+                <button class="btn btn-outline-success text-dark" type="button" onclick="document.getElementById('amount').value=20">RM20</button>
+                <button class="btn btn-outline-success text-dark" type="button" onclick="document.getElementById('amount').value=50">RM50</button>
+                <button class="btn btn-outline-success text-dark" type="button" onclick="document.getElementById('amount').value=100">RM100</button>
+              </div>
+                <input type="number" id="amount" class="form-control border-success" placeholder="Preferred Amount" aria-label="" aria-describedby="basic-addon1" min="0" name="amount">
             </div>
-            <input type="number" id="amount" class="form-control border-success" placeholder="Preferred Amount" aria-label="" aria-describedby="basic-addon1" min="0">
+          </div>
+          <div class="col-4 my-auto">
+            <br><br>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-block btn-info py-4" data-toggle="modal" data-target="#topupModal">
+              Top up
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="topupModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Top up</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    Are you sure?
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">No</button>
+                    <button type="submit" name="submit" class="btn btn-primary">Yes</button>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="col-4 my-auto">
-          <br><br>
-          <button class="btn btn-block btn-info py-4">Top up</button>
-        </div>
-      </div>
+      </form>
     </div>
 
     <div class="mx-5 mt-5 mb-0 p-0">
@@ -134,7 +175,8 @@ if ($_SESSION['firstVisit']==1){
           </thead>
           <tbody>
             <?php
-
+            //To retrieve transaction table
+            $txresult = mysqli_query($con,"SELECT * FROM transaction WHERE phoneNo='".$phoneNo."';");
             if ($txresult->num_rows > 0) {
               $i=1;
               while($txrow=mysqli_fetch_array($txresult)){
