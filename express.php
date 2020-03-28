@@ -134,7 +134,7 @@
 </section>-->
 
 <div class="container mb-5" id="ex">
-  <h2 class="pb-4 text-dark font-weight-bold text-center" >HAIL Express Rates</h2>
+  <h2 class="py-5 text-dark font-weight-bold text-center" >HAIL Express Rates</h2>
 	<div class="row">
 <div class="col-md-6 col-lg-6 pb-5 border border-white rounded">
     <img class=" imgEx" src="img/parcel.jpg" alt="delivery">

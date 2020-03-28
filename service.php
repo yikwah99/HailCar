@@ -68,7 +68,7 @@
   <!-- Tabs -->
   <section id="tabs">
   	<div class="container">
-  		<h1 class=" section-title text-center text-dark  ">HAIL Transportation Services</h1>
+  		<h1 class=" section-title text-center text-dark font-weight-bold ">HAIL Transportation Services</h1>
   		<div class="row shadow" >
   			<div class="col-xs-12 ">
   				<nav>
@@ -452,7 +452,7 @@
                             </div>
                         </div>
                             <div class="col-md-12 col-lg-8 ">
-                              <div id="carouselIndicators" class="carousel slide  " data-ride="carousel">
+                              <div id="carouselIndicators" class="carousel slide" data-ride="carousel">
                                 <ol class="carousel-indicators">
                                   <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
                                   <li data-target="#carouselIndicators" data-slide-to="1"></li>
@@ -462,19 +462,16 @@
                                 <div class="carousel-inner " role="listbox">
                                   <!-- Slide One - Set the background image for this slide in the line below -->
                                   <div class="carousel-item active" style="background-image:  url('img/step1.png'); background-size: cover;">
-
                                   </div>
-                                  <div class="carousel-inner" role="listbox">
+
                                     <!-- Slide One - Set the background image for this slide in the line below -->
                                     <div class="carousel-item " style="background-image:  url('img/step2.png'); background-size: cover;">
                                     </div>
-                                    <div class="carousel-inner" role="listbox">
+
                                       <!-- Slide One - Set the background image for this slide in the line below -->
                                       <div class="carousel-item " style="background-image:  url('img/step3.png'); background-size: cover;">
                                       </div>
 
-
-                                  </div>
                                 </div>
                                 <a class="carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev">
                                   <span class="carousel-control-prev-icon" aria-hidden="true" style="filter: invert(50%);"></span>
@@ -487,13 +484,12 @@
                               </div>
                             </div>
                             <div class="col-md-12 col-lg-4  d-lg-none pb-5">
-
                                   <button type="button" class="btn btn-lg btn-warning btn-circle w-100 text-center my-4 mr-3 " data-toggle="modal" data-target="#login">Download Now</button>
                             </div>
                             </div>
                       </div>
                     </div>
-                      </div>
+                    </div>
 
                       <div class="container">
 
@@ -508,45 +504,36 @@
 
                           </div>
                             <div class="col-md-12 col-lg-8 ">
-                              <div id="carouselIndicators" class="carousel slide " data-ride="carousel">
+                              <div id="carouselRent" class="carousel slide " data-ride="carousel">
                                 <ol class="carousel-indicators">
-                                  <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
-                                  <li data-target="#carouselIndicators" data-slide-to="1"></li>
-                                  <li data-target="#carouselIndicators" data-slide-to="2"></li>
-                                  <li data-target="#carouselIndicators" data-slide-to="3"></li>
+                                  <li data-target="#carouselRent" data-slide-to="0" class="active"></li>
+                                  <li data-target="#carouselRent" data-slide-to="1"></li>
+                                  <li data-target="#carouselRent" data-slide-to="2"></li>
+                                  <li data-target="#carouselRent" data-slide-to="3"></li>
                                 </ol>
                                 <div class="carousel-inner" role="listbox">
                                   <!-- Slide One - Set the background image for this slide in the line below -->
                                   <div class="carousel-item active" style="background-image:  url('img/rent1.png'); background-size: cover;">
-
                                   </div>
-                                  <div class="carousel-inner" role="listbox">
+
                                     <!-- Slide One - Set the background image for this slide in the line below -->
                                     <div class="carousel-item " style="background-image:  url('img/rent2.png'); background-size: cover;">
                                     </div>
-                                    <div class="carousel-inner" role="listbox">
+
                                       <!-- Slide One - Set the background image for this slide in the line below -->
                                       <div class="carousel-item " style="background-image:  url('img/rent3.png'); background-size: cover;">
                                       </div>
-                                      <div class="carousel-inner" role="listbox">
-                                        <!-- Slide One - Set the background image for this slide in the line below -->
-                                        <div class="carousel-item " style="background-image:  url('img/rent3.png'); background-size: cover;">
-                                        </div>
-
-                                    </div>
-                                    <div class="carousel-inner" role="listbox">
                                       <!-- Slide One - Set the background image for this slide in the line below -->
                                       <div class="carousel-item " style="background-image:  url('img/rent4.png'); background-size: cover;">
                                       </div>
 
-                                  </div>
-                                  </div>
                                 </div>
-                                <a class="carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev">
+                              </div>
+                                <a class="carousel-control-prev" href="#carouselRent" role="button" data-slide="prev" onclick="$('#carouselRent').carousel('prev')">
                                   <span class="carousel-control-prev-icon" aria-hidden="true" style="filter: invert(50%);"></span>
                                   <span class="sr-only">Previous</span>
                                 </a>
-                                <a class="carousel-control-next" href="#carouselIndicators" role="button" data-slide="next">
+                                <a class="carousel-control-next" href="#carouselRent" role="button" data-slide="next">
                                   <span class="carousel-control-next-icon" aria-hidden="true" style="filter: invert(50%);"></span>
                                   <span class="sr-only">Next</span>
                                 </a>
@@ -554,11 +541,12 @@
                             </div>
                       </div>
                       <div class="col-md-12 col-lg-4  d-lg-none ">
-
                             <button type="button" class="btn btn-lg btn-warning btn-circle w-100 text-center my-4 mr-3 " data-toggle="modal" data-target="#login">Download Now</button>
                       </div>
 </div>
-  </div>
+</div>
+
+
 
   <div class="modal fade" id="login" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
