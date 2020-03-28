@@ -38,7 +38,7 @@ if ($_SESSION['firstVisit']==1){
 ?>
 <div class="container">
     <div class="jumbotron bg-white">
-      <h1 class="display-4 text-center text-warning">Dashboard</h1>
+      <h1 class="display-4 text-center text-warning font-weight-bold">Dashboard</h1>
   <!--dash -->
   <div class="container-fluid row text-center mb-5">
     <div class="col-sm-4">
