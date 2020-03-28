@@ -87,7 +87,7 @@ if(isset($_POST['submit']))
               </form>
             </div>
           </div>
-          <div class="text-right text-white"><a class="text-white" href="register.php">Create new account</a></div>
+          <div class="text-right text-white h6"><a class="text-white h6" href="register.php">Create new account</a></div>
         </div>
       </div>
     </div>
