@@ -89,7 +89,7 @@ background-image: linear-gradient(148deg, #ecd434 33%, #ff4b00 94%);">
                 </div>
               </div>
               <div class="custom-control custom-checkbox mb-3">
-                <input type="checkbox" class="custom-control-input" id="tncCheck" checked>
+                <input type="checkbox" class="custom-control-input" id="tncCheck" checked required>
                 <label class="custom-control-label" for="tncCheck">I have read and agree to the Terms and Condition</label>
               </div>
               <?php
