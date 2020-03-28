@@ -48,17 +48,17 @@
 <div class="card bg-dark text-white">
   <img class="img-fluid" src="img/taxi2s.jpg" alt="bigBG" id="bigBG" style="filter:brightness(40%);">
   <div class="card-img-overlay text-center mt-5 theTile">
-    <h1 class="display-3 text-white">Welcome To</h1>
-    <h1 class="display-3 text-warning zoom">HAIL</h1>
-    <h6 class="text-white">Introducing the future of e-Hailing.</h6><br><br>
-    <a class="btn btn-lg btn-warning text-dark zoom" href="#mainServices">Learn More</a>
+    <h1 class="display-2 font-weight-bold text-white">Welcome to</h1>
+    <h3 class="display-4 font-weight-bold text-warning zoom">HAIL</h3>
+    <h4 class="text-white">Introducing the future of e-Hailing.</h4><br><br>
+    <a class="btn btn-lg btn-outline-warning text-white zoom" href="#mainServices">Learn More</a>
   </div>
 </div>
 <div class="container" id="mainServices">
 </div><div><br><br><br><br><br>
 </div>
 
-<h1 class="display-4 text-center text-warning mb-5 dyTitles">Main Services</h1>
+<h1 class="display-4 font-weight-bold text-center text-warning mb-5 dyTitles">Main Services</h1>
 <div class="container">
 <div class="container-fluid row text-center mb-5">
   <div class="col-sm-6">
@@ -122,7 +122,7 @@
   <div class="col-md-12 row">
     <div class="col-md-3"></div>
     <div class="col-md-6">
-      <h1 class="display-4 text-center text-warning dyTitles">About Us</h1>
+      <h1 class="display-4 text-center font-weight-bold text-warning dyTitles">About Us</h1>
           <p class="text-justify text-dark">
              HAIL as a service provider is conceptualised similarly to that of Grab, Uber or Lyft.
              It is an e-hailing service but the website itself does not include any e-hailing functions.
@@ -138,7 +138,7 @@
 <!-- FAQ -->
 <div class="mb-5" id="faq"><br><br></div>
 <div class="container bg-white mt-5 mb-5">
-  <h1 class="display-4 text-center text-warning mt-5 mb-5 dyTitles">FAQs</h1>
+  <h1 class="display-4 text-center text-warning mt-5 mb-5 font-weight-bold dyTitles">FAQs</h1>
     <button class="accordion bg-warning text-center">What is HAIL Car or HAIL Share?</button>
       <div class="panel bg-light text-center">
     <p>HAIL Car/ HAIL Share is a service with a combined fleet of taxis and cars at affordable upfront fixed prices.</p>
@@ -158,14 +158,14 @@
 <!-- Contact Us -->
 <div class="mb-5" id="contactUs"><br><br></div>
 <div class="container-fluid bg-white mt-5 mb-5">
-  <h1 class="display-4 text-center text-warning mt-5 mb-5 dyTitles">Contact Us</h1>
+  <h1 class="display-4 text-center text-warning mt-5 mb-5 font-weight-bold dyTitles">Contact Us</h1>
   <div class="container h-100">
     <div class="d-flex h-100 text-center align-items-center">
       <div class="w-100 text-white">
-        <a class="text-dark bg-white noLine" href="mailto:webmaster@example.com">Dylan Ch'ng</a><br>
-        <a class="text-dark bg-white noLine" href="mailto:webmaster@example.com">Dominic Lee</a><br>
-        <a class="text-dark bg-white noLine" href="mailto:webmaster@example.com">Liew Cai Juan</a><br>
-        <a class="text-dark bg-white noLine" href="mailto:webmaster@example.com">Kam Yik Wah</a><br>
+        <a class="text-dark bg-white noLine" href="mailto:chngdylan@gmail.com">Dylan Ch'ng</a><br>
+        <a class="text-dark bg-white noLine" href="mailto:leekeathong729@gmail.com">Dominic Lee</a><br>
+        <a class="text-dark bg-white noLine" href="mailto:chngdylan@gmail.com">Liew Cai Juan</a><br>
+        <a class="text-dark bg-white noLine" href="mailto:chngdylan@gmail.com">Kam Yik Wah</a><br>
         <br>
         <p class="text-dark lead mb-0">Kindaly approach us for any enquiries.</p>
         <br><br><br>
