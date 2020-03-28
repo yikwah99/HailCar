@@ -123,7 +123,7 @@
     <div class="col-md-3"></div>
     <div class="col-md-6">
       <h1 class="display-4 text-center text-warning dyTitles">About Us</h1>
-          <p class="text-center text-dark">
+          <p class="text-justify text-dark">
              HAIL as a service provider is conceptualised similarly to that of Grab, Uber or Lyft.
              It is an e-hailing service but the website itself does not include any e-hailing functions.
              The targeted users of the website are people who are interested to find out more about HAIL, or people who would like to make enquiries about the services HAIL provides.
