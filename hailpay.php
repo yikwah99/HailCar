@@ -1,4 +1,6 @@
 <?php
+  if(!isset($_SESSION))
+    session_start();
   $page_title = "HAIL Pay";
   include "header.php";
 ?>
@@ -14,7 +16,8 @@
     <div class="col-2 d-none d-lg-block"><img width="70%" src=img/wallet.png></div>
   </div>
   <div class="my-5 w-100 text-center">
-    <button class="btn btn-warning btn-md text-white p-2 my-5 zoom">Try it now</button>
+    <a href='<?php if(isset($_SESSION['phoneNo']))echo"dashboard.php";
+       else {echo"login.php";} ?>'><button class="btn btn-warning btn-md text-white p-2 my-5 zoom">Try it now</button></a>
   </div>
 
   <div class="my-5">
