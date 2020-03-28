@@ -254,7 +254,7 @@ section .section-title {
 
 #tabs .nav-tabs .nav-item.show .nav-link, #tabs .nav-tabs .nav-link.active {
   border-color: transparent transparent #f3f3f3;
-  border-bottom: 4px solid !important;
+  border-bottom: 1.5px solid !important;
   font-size: 20px;
   font-weight: bold;
   background: #FFCC00;
@@ -275,9 +275,6 @@ section .section-title {
   border: 1px solid #878787;
   border-top-left-radius: .25rem;
   border-top-right-radius: .25rem;
-  font-weight: bold;
-  background: #FFCC00;
-  color: #272e38;
   transition: background 0.20s linear;
 }
 
