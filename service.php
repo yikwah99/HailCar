@@ -447,7 +447,7 @@
                             <h1 class=" section-title text-center text-dark font-weight-bold pt-5  ">How it Works for HAIL Car/ Just Hail/ HailShare ?</h1>
                           <!--  <h4 class="subheading">GetLance makes it easy to connect with clients and begin doing great work.</h4>-->
                             <p class="text-muted text-justify px-3 py-3 ">Downlod HAIL in your smartphone and enjoy the services </p>
-                            <div class=" d-none d-lg-block" >
+                            <div class="d-none d-lg-block" >
                                 <button type="button" class="btn btn-lg btn-warning btn-circle w-100 text-center my-4 mr-3 " data-toggle="modal" data-target="#login" data-toggle="modal" data-target="#login">Download Now</button>
                             </div>
                         </div>
@@ -483,7 +483,7 @@
                                 </a>
                               </div>
                             </div>
-                            <div class="col-md-12 col-lg-4  d-lg-none pb-5">
+                            <div class="col-md-12 col-lg-4 d-lg-none ">
                                   <button type="button" class="btn btn-lg btn-warning btn-circle w-100 text-center my-4 mr-3 " data-toggle="modal" data-target="#login">Download Now</button>
                             </div>
                             </div>

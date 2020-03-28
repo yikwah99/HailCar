@@ -15,7 +15,6 @@ session_start();
     <link rel="stylesheet" type="text/css" href="css/stylesheetCJ.css">
     <link rel="stylesheet" type="text/css" href="css/newCssForAll.css">
   <!--Scripts-->
-  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
@@ -41,7 +40,7 @@ session_start();
 <body>
   <!--Nav-->
   <!--LOGO-->
-  <nav class="navbar navbar-expand-md py-1 navbar-light sticky-top bg-dark mb-0 sidebarNavigation" id="mainNav" data-sidebarClass="navbar-light bg-light">
+  <nav class="navbar navbar-expand-md py-1 navbar-dark sticky-top bg-dark mb-0 sidebarNavigation" id="mainNav" data-sidebarClass="navbar-dark bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand text-warning" style='letter-spacing:0.2em' href="index.php"><h4>HAIL</h4></a>
         <button class="navbar-toggler leftNavbarToggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
@@ -54,50 +53,56 @@ session_start();
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="nav navbar-nav nav-flex-icons ">
                 <?php if(!empty($_SESSION['phoneNo'])) { ?>
+                  <li class="nav-item  mr-2">
+                      <a class="nav-link text-white active" href="index.php#aboutUs">About Us</a>
+                  </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle text-warning" href="#sv" id="dropdown01" role="button" data-toggle="dropdown" aria-haspopup="true"  data-hover="dropdown" aria-expanded="false">Services</a>
-                    <div  id="sv" class="dropdown-menu bg-dark" aria-labelledby="dropdown01">
-                      <a href="service.php#hailcar" class="dropdown-item  text-white">Hail Car</a>
-                      <a href="service.php#hailShare" class="dropdown-item  text-white"> Hail Share </a>
-                      <a href="#" class="dropdown-item  text-white">Just Hail </a>
-                      <a href="#" class="dropdown-item  text-white">Hail Rent</a>
-                      <a href="#" class="dropdown-item  text-white">Hail Express</a>
-                      <a href="#" class="dropdown-item  text-white">Hail Food</a>
+                    <a class="nav-link dropdown-toggle text-white mr-2" href="#sv" id="dropdown01" role="button" data-toggle="dropdown" aria-haspopup="true"  data-hover="dropdown" aria-expanded="false">Services</a>
+                    <div  id="sv" class="dropdown-menu bg-dark " aria-labelledby="dropdown01">
+                      <a href="service.php#hailcar" class="dropdown-item  text-white"><h6>Transportation Services</h6></a>
+
+                        <a href="service.php#hailcar" class="dropdown-item  text-white">Hail Car</a>
+                      <a href="service.php#hailcar" class="dropdown-item  text-white"> Hail Share </a>
+                        <a href="service.php#hailcar" class="dropdown-item  text-white">Just Hail </a>
+                        <a href="service.php#hailcar" class="dropdown-item  text-white">Hail Rent</a>
+
+                      <h6 class="dropdown-item text-white font-weight-bold">Delivery Services</h6>
+                      <a href="express.php" class="dropdown-item  text-white">Hail Express</a>
+                      <a href="food.php" class="dropdown-item  text-white">Hail Food</a>
                     </div>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-white px-3" href="">Hail Pay</a>
+                  <a class="nav-link text-white mr-2" href="">Hail Pay</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white px-3" href="reward.php">Hail Reward</a>
+                    <a class="nav-link text-white mr-2" href="reward.php">Hail Reward</a>
                 </li>
-                <li class="nav-item dropdown mr-2">
-                    <a class="nav-link text-white" href="index.php#aboutUs">About Us</a>
+
+                <li class="nav-item">
+                    <a class="nav-link text-white mr-2" href="index.php#contactUs">Contact Us</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white px-3" href="index.php#contactUs">Contact Us</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-white px-3" href="index.php#faq">FAQs</a>
+                  <a class="nav-link text-white mr-2" href="index.php#faq">FAQs</a>
                 </li>
                   <?php }else { ?>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle text-warning" href="#sv" id="dropdown01" role="button" data-toggle="dropdown" aria-haspopup="true"  data-hover="dropdown" aria-expanded="false">Services</a>
-                        <div  id="sv" class="dropdown-menu bg-dark" aria-labelledby="dropdown01">
-                          <a href="service.php#hailcar" class="dropdown-item  text-white">Hail Car</a>
-                          <a href="service.php#hailShare" class="dropdown-item  text-white"> Hail Share </a>
-                          <a href="#" class="dropdown-item  text-white">Just Hail </a>
-                          <a href="#" class="dropdown-item  text-white">Hail Rent</a>
-                          <a href="#" class="dropdown-item  text-white">Hail Express</a>
-                          <a href="#" class="dropdown-item  text-white">Hail Food</a>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link text-white px-3" href="">Hail Pay</a>
-                    </li>
                     <li class="nav-item dropdown mr-2">
                         <a class="nav-link text-white" href="index.php#aboutUs">About Us</a>
                     </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white" href="#sv" id="dropdown01" role="button" data-toggle="dropdown" aria-haspopup="true"  data-hover="dropdown" aria-expanded="false">Services</a>
+                        <div  id="sv" class="dropdown-menu bg-dark px-5 py-5" aria-labelledby="dropdown01">
+                          <a href="service.php#hailcar" class="dropdown-item  text-white">Hail Car</a>
+                          <a href="service.php#hailcar" class="dropdown-item  text-white"> Hail Share </a>
+                          <a href="service.php#hailcar" class="dropdown-item  text-white">Just Hail </a>
+                          <a href="service.php#hailcar" class="dropdown-item  text-white">Hail Rent</a>
+                          <a href="express.php" class="dropdown-item  text-white">Hail Express</a>
+                          <a href="food.php" class="dropdown-item  text-white">Hail Food</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-white px-3" href="hailpay.php">Hail Pay</a>
+                    </li>
+
                     <li class="nav-item">
                         <a class="nav-link text-white px-3" href="index.php#contactUs">Contact Us</a>
                     </li>
@@ -115,9 +120,9 @@ session_start();
         <div class="collapse navbar-collapse" id="navBarUser">
           <ul class="nav navbar-nav nav-flex-icons ml-auto">
           <?php if(!empty($_SESSION['phoneNo'])) { ?>
-          <!--  <li class="nav-item">
-                <a class="nav-link text-white pl-3 pr-4" href=""><i class="far fa-user pr-2"></a>
-            </li>-->
+           <li class="nav-item">
+                <a class="nav-link text-white pl-3 pr-4" href=""><i class="fas fa-columns pr-2"></i>Dashboard</a>
+            </li>
             <li class="nav-item">
                 <a class="nav-link text-white pl-3 pr-4" href="logout.php"><i class="fas fa-sign-out-alt pr-2"></i>Logout</a>
             </li>
