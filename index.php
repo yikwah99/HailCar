@@ -164,8 +164,8 @@
       <div class="w-100 text-white">
         <a class="text-dark bg-white noLine" href="mailto:chngdylan@gmail.com">Dylan Ch'ng</a><br>
         <a class="text-dark bg-white noLine" href="mailto:leekeathong729@gmail.com">Dominic Lee</a><br>
-        <a class="text-dark bg-white noLine" href="mailto:chngdylan@gmail.com">Liew Cai Juan</a><br>
-        <a class="text-dark bg-white noLine" href="mailto:chngdylan@gmail.com">Kam Yik Wah</a><br>
+        <a class="text-dark bg-white noLine" href="mailto:sky.caijuan@gmail.com">Liew Cai Juan</a><br>
+        <a class="text-dark bg-white noLine" href="mailto:yikwah99@gmail.com">Kam Yik Wah</a><br>
         <br>
         <p class="text-dark lead mb-0">Kindaly approach us for any enquiries.</p>
         <br><br><br>
