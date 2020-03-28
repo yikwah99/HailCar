@@ -106,11 +106,11 @@ if ($_SESSION['firstVisit']==1){
           <div class="h4 my-3">Enter Amount:</div>
           <div class="input-group my-3">
             <div class="input-group-prepend">
-              <button class="btn btn-outline-success text-dark" type="button">RM20</button>
-              <button class="btn btn-outline-success text-dark" type="button">RM50</button>
-              <button class="btn btn-outline-success text-dark" type="button">RM100</button>
+              <button class="btn btn-outline-success text-dark" type="button" onclick="document.getElementById('amount').value=20">RM20</button>
+              <button class="btn btn-outline-success text-dark" type="button" onclick="document.getElementById('amount').value=50">RM50</button>
+              <button class="btn btn-outline-success text-dark" type="button" onclick="document.getElementById('amount').value=100">RM100</button>
             </div>
-            <input type="number" class="form-control border-success" placeholder="Preferred Amount" aria-label="" aria-describedby="basic-addon1" min="0">
+            <input type="number" id="amount" class="form-control border-success" placeholder="Preferred Amount" aria-label="" aria-describedby="basic-addon1" min="0">
           </div>
         </div>
         <div class="col-4 my-auto">
