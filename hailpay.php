@@ -66,35 +66,35 @@
     <h2 class="text-center">Where can you use <span class="text-warning">HAIL Pay</span>?</h2>
     <hr class="my-5">
     <div class="row row-cols-1 row-cols-md-3 mb-5">
-      <div class="card mb-4">
+      <div class="card mb-4 shadow-lg">
         <img class="card-img-top d-none d-lg-block" src="img/hail1.jpg" height="50%" alt="Card image cap">
         <div class="card-body">
           <h5 class="card-title text-warning">Rides</h5>
           <p class="card-text h6">No more waiting for change. Book your ride with credit/debit card or HAIL Pay Credits, and you can happily carry on when you arrive at your drop-off point.</p>
         </div>
       </div>
-      <div class="card mb-4">
+      <div class="card mb-4 shadow-lg">
         <img class="card-img-top d-none d-lg-block" src="img/hail2.jpg" height="50%" alt="Card image cap">
         <div class="card-body">
           <h5 class="card-title text-warning">In-store Purchase</h5>
           <p class="card-text h6">If you find digging your wallet for change a hassle, we feel you. That’s why HAIL Pay Credits are now accepted at some of your favourite stores!</p>
         </div>
       </div>
-      <div class="card mb-4">
+      <div class="card mb-4 shadow-lg">
         <img class="card-img-top d-none d-lg-block" src="img/hail3.jpg" height="50%" alt="Card image cap">
         <div class="card-body">
           <h5 class="card-title text-warning">Credit Transfer</h5>
           <p class="card-text h6">Just a few clicks on your HAIL app, and you’ll be able to transfer HAIL Pay Credits to your loved ones.</p>
         </div>
       </div>
-      <div class="card mb-4">
+      <div class="card mb-4 shadow-lg">
         <img class="card-img-top d-none d-lg-block" src="img/hail4.jpg" height="50%" alt="Card image cap">
         <div class="card-body">
           <h5 class="card-title text-warning">HAILFood</h5>
           <p class="card-text h6">Satisfy your hunger and cravings and pay for HAILFood delivery orders seamlessly using credit/debit card or HAIL Pay Credits!</p>
         </div>
       </div>
-      <div class="card mb-4">
+      <div class="card mb-4 shadow-lg">
         <img class="card-img-top d-none d-lg-block" src="img/hail5.jpg" height="50%" alt="Card image cap">
         <div class="card-body">
           <h5 class="card-title text-warning">Prepaid Top Up</h5>
@@ -103,7 +103,6 @@
       </div>
     </div>
   </div>
-</div>
 </div>
 <?php
   include "footer.php";
