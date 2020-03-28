@@ -51,7 +51,7 @@ session_start();
         <i class="icon fa fa-user text-warning"></i>
       </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="nav navbar-nav nav-flex-icons ">
+            <ul class="nav navbar-nav nav-flex-icons " >
                 <?php if(!empty($_SESSION['phoneNo'])) { ?>
                   <li class="nav-item  mr-2">
                       <a class="nav-link text-white active" href="index.php#aboutUs">About Us</a>
@@ -93,10 +93,10 @@ session_start();
                       <div  id="sv" class="dropdown-menu bg-dark " aria-labelledby="dropdown01">
                         <a href="service.php#hailcar" class="dropdown-item  text-white"><h6>Transportation Services</h6></a>
 
-                          <a href="service.php#hailcar" class="dropdown-item  text-white">Hail Car</a>
-                        <a href="service.php#hailcar" class="dropdown-item  text-white"> Hail Share </a>
-                          <a href="service.php#hailcar" class="dropdown-item  text-white">Just Hail </a>
-                          <a href="service.php#hailcar" class="dropdown-item  text-white">Hail Rent</a>
+                        <a href="service.php#hailCar" class="dropdown-item  text-white">Hail Car</a>
+                      <a href="service.php#hailShare" class="dropdown-item  text-white"> Hail Share </a>
+                        <a href="service.php#justHail" class="dropdown-item  text-white">Just Hail </a>
+                        <a href="service.php#hailRent" class="dropdown-item  text-white">Hail Rent</a>
 
                         <h6 class="dropdown-item text-white font-weight-bold">Delivery Services</h6>
                         <a href="express.php" class="dropdown-item  text-white">Hail Express</a>
@@ -145,4 +145,51 @@ session_start();
 
 <!--END Nav-->
 <!-- Web Body-->
+<script type="text/javascript">
+/*
+$(document).ready(function() {
+var hash = window.location.hash;
+
+if (hash != ""){
+ $('#tabServ a[href="' + hash + '"]').tab('show');
+ console.log($('#tabServ a[href="' + hash + '"]'));
+  console.log(hash);
+}else{
+ $('#tabServ a:first').tab('show');
+ console.log(hash);
+}
+});*/
+
+
+var hash = window.location.hash;
+ //checks whether or not the hash tag is set
+ if (hash != "") {
+   //removes all active classes from tabs
+   $('#sv a').each(function() {
+     $(this).removeClass('active');
+     console.log(this);
+   });
+   $('#nav-tabContent div').each(function() {
+     $(this).removeClass('active');
+        console.log(0);
+   });
+   //this will add the active class on the hashtagged value
+   var link = "";
+   $('#tabServ ').each(function() {
+     link = $(this).find('a').attr('href');
+     if (link == hash) {
+       $(this).addClass('active');
+     }
+     console.log(link);
+   });
+   $('#nav-tabContent div').each(function() {
+     link = $(this).attr('id');
+     if ('#'+link == hash) {
+       $(this).addClass('active');
+          console.log(2);
+     }
+   });
+ }
+
+</script>
   <div id="content">

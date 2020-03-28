@@ -72,16 +72,16 @@
   		<div class="row shadow" >
   			<div class="col-xs-12 ">
   				<nav>
-  					<div class="nav nav-tabs nav-fill" id="my-tab-content" role="tablist">
-  						<a class="nav-item nav-link active" id="hailCar" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">HAIL Car</a>
-  						<a class="nav-item nav-link" id="hailShare" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">HAIL Share</a>
-  						<a class="nav-item nav-link" id="justHail" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Just HAIL </a>
-  						<a class="nav-item nav-link" id="hailRent" data-toggle="tab" href="#nav-about" role="tab" aria-controls="nav-about" aria-selected="false">HAIL Rent</a>
+  					<div class="nav nav-tabs nav-fill" id="tabServ" role="tablist">
+  						<a class="nav-item nav-link active" id="hailCar" data-toggle="tab" href="#cars" role="tab" aria-controls="nav-home" aria-selected="true">HAIL Car</a>
+  						<a class="nav-item nav-link" id="hailShare" data-toggle="tab" href="#share" role="tab" aria-controls="nav-profile" aria-selected="false">HAIL Share</a>
+  						<a class="nav-item nav-link" id="justHail" data-toggle="tab" href="#just" role="tab" aria-controls="nav-contact" aria-selected="false">Just HAIL </a>
+  						<a class="nav-item nav-link" id="hailRent" data-toggle="tab" href="#rent" role="tab" aria-controls="nav-about" aria-selected="false">HAIL Rent</a>
   					</div>
   				</nav>
   				<div class="tab-content py-3 px-3 px-sm-0" style="background-color: #f9f9f9;" id="nav-tabContent">
 
-  					<div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+  					<div class="tab-pane fade show active" id="cars" role="tabpanel" aria-labelledby="nav-home-tab">
               <div class="container" >
                 <h2 class="py-4 px-3 text-dark" >What is HAIL Car?</h2>
                 <div class="">
@@ -205,7 +205,7 @@
             </div>-->
   					</div>
 
-  					<div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+  					<div class="tab-pane fade" id="share" role="tabpanel" aria-labelledby="nav-profile-tab">
               <div class="container" >
                 <h2 class="py-4 px-3 text-dark" >What is HAIL Share?</h2>
                 <div class="">
@@ -255,7 +255,7 @@
               </div>
             </div>
   					</div>
-  					<div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+  					<div class="tab-pane fade" id="just" role="tabpanel" aria-labelledby="nav-contact-tab">
               <div class="container" >
                 <h2 class="py-4 px-3 text-dark" >What is Just HAIL ?</h2>
                 <div class="">
@@ -311,7 +311,7 @@
             </div>
             </div>
   					</div>
-  					<div class="tab-pane fade" id="nav-about" role="tabpanel" aria-labelledby="nav-about-tab">
+  					<div class="tab-pane fade" id="rent" role="tabpanel" aria-labelledby="nav-about-tab">
               <div class="container" >
                 <h2 class="py-4 px-3 text-dark" >What is HAIL Rent?</h2>
                 <div class="">
