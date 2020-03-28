@@ -1,6 +1,6 @@
 <?php
 $page_title = "Hail Dashboard";
-include "header.php";
+
 if(!isset($_SESSION))
   session_start();
 include_once("database.php");
@@ -11,7 +11,9 @@ $lastName='';
 $email='';
 $balance=0;
 $point=0;
+$amount=0;
 $result = mysqli_query($con,"SELECT * FROM user WHERE phoneNo='".$phoneNo."';");
+
 if ($result->num_rows > 0) {
   while($row=mysqli_fetch_array($result)){
   $firstName=$row['firstName'];
@@ -22,8 +24,6 @@ if ($result->num_rows > 0) {
   }
 }
 
-
-//date("Y-m-d h:ia")
 //To display bootstrap alert
 if ($_SESSION['firstVisit']==1){
   $_SESSION['firstVisit']=0;
@@ -34,13 +34,21 @@ if ($_SESSION['firstVisit']==1){
   </button>
 </div>";
 }
+//To Topup
 if(isset($_POST['submit']))
 {
-  if ($_POST['amount']>0){
+  $amount = $_POST['amount'];
+  if ($amount>0){
+    //To create new transaction row
     mysqli_query($con,"INSERT INTO transaction (phoneNo,date,amount) VALUES ('".$phoneNo."','".date('Y-m-d H:i:s')."',".$_POST['amount'].");");
     $txresult = mysqli_query($con,"SELECT * FROM transaction WHERE phoneNo='".$phoneNo."';");
+    //Add topup amount to balance
+    mysqli_query($con,"UPDATE user SET balance = balance +".$_POST['amount']."  WHERE phoneNo='".$phoneNo."';");
+    $amount=0;
+    header('Location: ' . $_SERVER['PHP_SELF']);
   }
 }
+include "header.php";
 ?>
 <div class="container">
     <div class="jumbotron bg-white">
@@ -123,7 +131,31 @@ if(isset($_POST['submit']))
           </div>
           <div class="col-4 my-auto">
             <br><br>
-            <button type="submit" name="submit" class="btn btn-block btn-info py-4">Top up</button>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-block btn-info py-4" data-toggle="modal" data-target="#topupModal">
+              Top up
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="topupModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Top up</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    Are you sure?
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">No</button>
+                    <button type="submit" name="submit" class="btn btn-primary">Yes</button>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </form>
