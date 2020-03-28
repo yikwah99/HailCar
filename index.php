@@ -69,7 +69,7 @@
         <p class="card-title">Book a ride to travel around the beautiful CITY.</p>
       </div>
       <div class="card-footer text-muted">
-          <a class="btn btn-block btn-warning text-dark ">Learn More</a>
+          <a class="btn btn-block btn-warning text-dark" href="service.php">Learn More</a>
         </div>
     </div>
   </div>
@@ -82,7 +82,7 @@
         <p class="card-title">Share a ride to travel around the city with lower PRICE.</p>
       </div>
       <div class="card-footer text-muted">
-          <a class="btn btn-block btn-warning text-dark">Learn More</a>
+          <a class="btn btn-block btn-warning text-dark" href="service.php">Learn More</a>
         </div>
     </div>
   </div>
@@ -96,7 +96,7 @@
         <p class="card-title">We can deliver delicious food to satisfy your CRAVINGS.</p>
       </div>
       <div class="card-footer text-muted">
-          <a class="btn btn-block btn-warning text-dark">Learn More</a>
+          <a class="btn btn-block btn-warning text-dark" href="service.php">Learn More</a>
         </div>
     </div>
   </div>
@@ -109,7 +109,7 @@
         <p class="card-title"> We can deliver your PARCEL across the city safely.</p>
       </div>
       <div class="card-footer text-muted">
-          <a class="btn btn-block btn-warning text-dark">Learn More</a>
+          <a class="btn btn-block btn-warning text-dark" href="service.php">Learn More</a>
         </div>
     </div>
   </div>
