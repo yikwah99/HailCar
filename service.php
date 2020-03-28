@@ -448,7 +448,7 @@
                           <!--  <h4 class="subheading">GetLance makes it easy to connect with clients and begin doing great work.</h4>-->
                             <p class="text-muted text-justify px-3 py-3 ">Downlod HAIL in your smartphone and enjoy the services </p>
                             <div class="d-none d-lg-block" >
-                                <button type="button" class="btn btn-lg btn-warning btn-circle w-100 text-center my-4 mr-3 " data-toggle="modal" data-target="#login" data-toggle="modal" data-target="#login">Download Now</button>
+                                <button type="button" class=" d-md-none d-lg-block btn btn-lg btn-warning btn-circle w-100 text-center my-4 mr-3 " data-toggle="modal" data-target="#login" data-toggle="modal" data-target="#login">Download Now</button>
                             </div>
                         </div>
                             <div class="col-md-12 col-lg-8 ">
@@ -483,7 +483,7 @@
                                 </a>
                               </div>
                             </div>
-                            <div class="col-md-12 col-lg-4 d-lg-none ">
+                          <div class="col-md-12 col-lg-4 d-lg-none pb-5 ">
                                   <button type="button" class="btn btn-lg btn-warning btn-circle w-100 text-center my-4 mr-3 " data-toggle="modal" data-target="#login">Download Now</button>
                             </div>
                             </div>
@@ -498,8 +498,8 @@
                             	<h1 class=" section-title text-center text-dark font-weight-bold py-5  ">Something different on Hail Rent</h1>
                             <!--  <h4 class="subheading">GetLance makes it easy to connect with clients and begin doing great work.</h4>-->
                               <p class="text-muted text-justify px-3 py-3 ">Downlod HAIL in your smartphone and enjoy the services </p>
-                              <div class=" d-none d-lg-block" >
-                                  <button type="button" class="btn btn-lg btn-warning btn-circle w-100 text-center my-4 mr-3 " data-toggle="modal" data-target="#login">Download Now</button>
+                              <div class="d-none d-lg-block" >
+                                  <button type="button" class=" d-md-none d-lg-block btn btn-lg btn-warning btn-circle w-100 text-center my-4 mr-3 " data-toggle="modal" data-target="#login" data-toggle="modal" data-target="#login">Download Now</button>
                               </div>
 
                           </div>
@@ -538,13 +538,13 @@
                                   <span class="sr-only">Next</span>
                                 </a>
                               </div>
+                              <div class="col-md-12 col-lg-4 d-lg-none pb-5 ">
+                                      <button type="button" class="btn btn-lg btn-warning btn-circle w-100 text-center my-4 mr-3 " data-toggle="modal" data-target="#login">Download Now</button>
+                                </div>
                             </div>
                       </div>
-                      <div class="col-md-12 col-lg-4  d-lg-none ">
-                            <button type="button" class="btn btn-lg btn-warning btn-circle w-100 text-center my-4 mr-3 " data-toggle="modal" data-target="#login">Download Now</button>
-                      </div>
-</div>
-</div>
+                </div>
+                </div>
 
 
 
