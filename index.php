@@ -122,7 +122,7 @@
   <div class="col-md-12 row">
     <div class="col-md-3"></div>
     <div class="col-md-6">
-      <h1 class="display-4 text-center font-weight-bold text-warning dyTitles">About Us</h1>
+      <h1 class="display-4 text-center font-weight-bold text-warning dyTitles mb-5">About Us</h1>
           <p class="text-justify text-dark">
              HAIL as a service provider is conceptualised similarly to that of Grab, Uber or Lyft.
              It is an e-hailing service but the website itself does not include any e-hailing functions.
@@ -139,17 +139,17 @@
 <div class="mb-5" id="faq"><br><br></div>
 <div class="container bg-white mt-5 mb-5">
   <h1 class="display-4 text-center text-warning mt-5 mb-5 font-weight-bold dyTitles">FAQs</h1>
-    <button class="accordion bg-warning text-center">What is HAIL Car or HAIL Share?</button>
+    <button class="accordion bg-warning text-center dropdown-toggle font-weight-bold">What is HAIL Car or HAIL Share?</button>
       <div class="panel bg-light text-center">
     <p>HAIL Car/ HAIL Share is a service with a combined fleet of taxis and cars at affordable upfront fixed prices.</p>
     </div>
 
-    <button class="accordion bg-warning text-center">How do i book a ride?</button>
+    <button class="accordion bg-warning text-center dropdown-toggle font-weight-bold">How do i book a ride?</button>
       <div class="panel bg-light text-center">
     <p>Select Hail Car or Hail Share and type in your destination, then sit back and relax until your ride to arrive. <br>In addition, if you are worry that the rider may not find your location, type in your location manually.</p>
     </div>
 
-    <button class="accordion bg-warning text-center">Do I pay metered fees for my ride?</button>
+    <button class="accordion bg-warning text-center dropdown-toggle font-weight-bold">Do I pay metered fees for my ride?</button>
     <div class="panel bg-light text-center">
       <p>No, your ride will be calculated in the system. Also, it is fixed, except tolls fee.</p>
     </div>
