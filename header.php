@@ -61,20 +61,20 @@ include_once("database.php");
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle text-white mr-2" href="#sv" id="dropdown01" role="button" data-toggle="dropdown" aria-haspopup="true"  data-hover="dropdown" aria-expanded="false">Services</a>
                     <div  id="sv" class="dropdown-menu bg-dark " aria-labelledby="dropdown01">
-                      <a href="service.php#hailcar" class="dropdown-item  text-white"><h6>Transportation Services</h6></a>
+                      <a href="service.php#hailcar" class="dropdown-item  text-white">HAIL Transportation</a>
 
-                        <a href="service.php#hailcar" class="dropdown-item  text-white">Hail Car</a>
-                      <a href="service.php#hailcar" class="dropdown-item  text-white"> Hail Share </a>
-                        <a href="service.php#hailcar" class="dropdown-item  text-white">Just Hail </a>
-                        <a href="service.php#hailcar" class="dropdown-item  text-white">Hail Rent</a>
+                    <!--  <a href="service.php#hailCar" class="dropdown-item  text-white">Hail Car</a>
+                      <a href="service.php#hailShare" class="dropdown-item  text-white"> Hail Share </a>
+                      <a href="service.php#justHail" class="dropdown-item  text-white">Just Hail </a>
+                      <a href="service.php#hailRent" class="dropdown-item  text-white">Hail Rent</a>-->
 
-                      <h6 class="dropdown-item text-white font-weight-bold">Delivery Services</h6>
-                      <a href="express.php" class="dropdown-item  text-white">Hail Express</a>
-                      <a href="food.php" class="dropdown-item  text-white">Hail Food</a>
+
+                        <a href="express.php" class="dropdown-item  text-white">HAIL Express</a>
+                          <a href="food.php" class="dropdown-item  text-white">HAIL Food</a>
                     </div>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-white mr-2" href="">Hail Pay</a>
+                  <a class="nav-link text-white mr-2" href="hailpay.php">Hail Pay</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link text-white mr-2" href="reward.php">Hail Reward</a>
@@ -93,20 +93,20 @@ include_once("database.php");
                   <li class="nav-item dropdown">
                       <a class="nav-link dropdown-toggle text-white mr-2" href="#sv" id="dropdown01" role="button" data-toggle="dropdown" aria-haspopup="true"  data-hover="dropdown" aria-expanded="false">Services</a>
                       <div  id="sv" class="dropdown-menu bg-dark " aria-labelledby="dropdown01">
-                        <a href="service.php#hailcar" class="dropdown-item  text-white"><h6>Transportation Services</h6></a>
+                        <a href="service.php#hailcar" class="dropdown-item  text-white">HAIL Transportation</a>
 
                       <!--  <a href="service.php#hailCar" class="dropdown-item  text-white">Hail Car</a>
                         <a href="service.php#hailShare" class="dropdown-item  text-white"> Hail Share </a>
                         <a href="service.php#justHail" class="dropdown-item  text-white">Just Hail </a>
                         <a href="service.php#hailRent" class="dropdown-item  text-white">Hail Rent</a>-->
 
-                        <h6 class="dropdown-item text-white font-weight-bold">Delivery Services</h6>
-                        <a href="express.php" class="dropdown-item  text-white">Hail Express</a>
-                        <a href="food.php" class="dropdown-item  text-white">Hail Food</a>
+
+                          <a href="express.php" class="dropdown-item  text-white">HAIL Express</a>
+                            <a href="food.php" class="dropdown-item  text-white">HAIL Food</a>
                       </div>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-white mr-2" href="">Hail Pay</a>
+                    <a class="nav-link text-white mr-2" href="hailpay.php">Hail Pay</a>
                   </li>
                   <li class="nav-item">
                       <a class="nav-link text-white mr-2" href="index.php#contactUs">Contact Us</a>
@@ -126,7 +126,7 @@ include_once("database.php");
           <ul class="nav navbar-nav nav-flex-icons ml-auto">
           <?php if(!empty($_SESSION['phoneNo'])) { ?>
            <li class="nav-item">
-                <a class="nav-link text-white pl-3 pr-4" href=""><i class="fas fa-columns pr-2"></i>Dashboard</a>
+                <a class="nav-link text-white pl-3 pr-4" href="dashboard.php"><i class="fas fa-columns pr-2"></i>Dashboard</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link text-white pl-3 pr-4" href="logout.php"><i class="fas fa-sign-out-alt pr-2"></i>Logout</a>
