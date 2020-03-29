@@ -50,31 +50,31 @@ if(isset($_POST['submit']))
 }
 include "header.php";
 ?>
-<div class="container">
-  <div class="jumbotron bg-white">
+<section>
+<div class="container ">
     <h1 class="display-4 text-center text-warning font-weight-bold">Dashboard</h1>
   <!--dash -->
-    <div class="container-fluid row text-center mb-5">
-      <div class="col-sm-4">
-        <div class="card border-warning">
-          <div class="card-body">
-            <h4 class=" text-center text-warning mt-3">HailPay Balance</h4>
-            <p class="card-text">RM <?php echo $balance;?></p>
+    <div class="container-fluid row text-center ml-auto mt-5">
+    	<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+        <div class="card border-warning mb-60 shadow">
+          <div class="card-body ">
+            <h4 class=" text-center text-warning mt-3">HAIL Pay Balance</h4>
+            <p class="card-text py-3">RM <?php echo $balance;?></p>
           </div>
         </div>
       </div>
 
-    <div class="col-sm-4">
-      <div class="card border-success">
-        <div class="card-body">
+    	<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 ">
+      <div class="card border-success mb-60 shadow">
+        <div class="card-body ">
           <h4 class="text-center text-success mt-3">Hail Points</h4>
-            <p class="card-text"><?php echo $point;?></p>
+            <p class="card-text py-3"><?php echo $point;?></p>
         </div>
       </div>
     </div>
 
-    <div class="col-sm-4">
-        <div class="card-body p-0">
+  	<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+        <div class="card-body p-0 mb-60 shadow">
           <div class="text-light">
             <div class="card border">
               <div class="card-body" style="background:<?php
@@ -92,7 +92,7 @@ include "header.php";
                     }
                   ?>">
                 <h4 class="text-center mt-3">Ranking</h4>
-                <p class="card-text" >
+                <p class="card-text py-3" >
                   <?php
                     if ($point>2000){
                       echo"Platinum";
@@ -114,27 +114,33 @@ include "header.php";
         </div>
     </div>
   </div>
+</div>
+</section>
 <!-- dash end --><hr>
-      <form action="#" method="post">
-        <div class="row">
+<section>
+<h1 class="display-4 text-center text-warning font-weight-bold pb-5">Top Up Now</h1>
+  <form action="#" method="post" >
+        <div class="row justify-content-center ">
 
-          <div class="col-7 ">
+          <div class=" col-md-10 col-lg-8">
             <div class="h4 my-3">Enter Amount:</div>
             <div class="input-group my-3">
               <div class="input-group-prepend">
-                <button class="btn btn-outline-success text-dark" type="button" onclick="document.getElementById('amount').value=20">RM20</button>
-                <button class="btn btn-outline-success text-dark" type="button" onclick="document.getElementById('amount').value=50">RM50</button>
-                <button class="btn btn-outline-success text-dark" type="button" onclick="document.getElementById('amount').value=100">RM100</button>
+                <button class="btn  btn-lg btn-outline-success text-dark " type="button" onclick="document.getElementById('amount').value=20">RM20</button>
+                <button class="btn  btn-lg btn-outline-success text-dark " type="button" onclick="document.getElementById('amount').value=50">RM50</button>
+                <button class="btn  btn-lg btn-outline-success text-dark " type="button" onclick="document.getElementById('amount').value=100">RM100</button>
               </div>
-                <input type="number" id="amount" class="form-control border-success" placeholder="Preferred Amount" aria-label="" aria-describedby="basic-addon1" min="0" name="amount">
+                <input type="number" id="amount" class="form-control form-control-lg border-success p-3" placeholder="Preferred Amount" aria-label="" aria-describedby="basic-addon1" min="0" name="amount">
+                <!-- Button trigger modal -->
+                  <div class="input-group-append">
+                <button type="button" class="btn btn-lg btn-warning px-4" data-toggle="modal" data-target="#topupModal">
+                  Top up
+                </button>
+                </div>
             </div>
           </div>
-          <div class="col-4 my-auto">
-            <br><br>
-            <!-- Button trigger modal -->
-            <button type="button" class="btn btn-block btn-info py-4" data-toggle="modal" data-target="#topupModal">
-              Top up
-            </button>
+
+        </div>
 
             <!-- Modal -->
             <div class="modal fade" id="topupModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -157,12 +163,12 @@ include "header.php";
               </div>
             </div>
           </div>
-        </div>
       </form>
-    </div>
+</section>
 
+<section>
     <div class="mx-5 mt-5 mb-5 p-0">
-      <h3 class="my-3 text-center">Transaction History</h3><hr>
+      <h1 class="display-4 text-center text-warning font-weight-bold pb-5">Transaction History</h1>
       <div>
         <table class="table table-striped table-dark rounded-lg mt-0">
           <thead>
@@ -196,6 +202,7 @@ include "header.php";
       </div>
   </div>
 </div>
+</section>
 <?php
   include "footer.php";
 ?>

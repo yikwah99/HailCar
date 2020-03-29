@@ -5,7 +5,7 @@
 
 <header class="masthead">
     <div class="container jumbotron-padding  text-center">
-    <h3 class="display-4 font-weight-bold text-white ">HAIL Express Delivery Services</h3>
+    <h3 class="display-4 font-weight-bold text-white "><span class="text-info">HAIL Express</span> Delivery Services</h3>
        <p class="paral text-white">
          An on-demand delivery service that is safe, fast, and reliable
        </p>
@@ -14,7 +14,7 @@
   </header>
 
   <div class="container" id="conEx">
-      <h2 class="px-4 py-4 text-dark" >Why Should You Use HAIL Express?</h2>
+      <h2 class="px-4 py-4 text-dark" >Why Should You Use <span class="text-info">HAIL Express</span>?</h2>
     <div class="row">
       <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
               <div class="our-services-wrapper mb-60">
@@ -77,25 +77,25 @@
 
 <div class="container ">
 
-  <h2 class="pb-4 text-dark font-weight-bold text-center" >HAIL Express Package Guide</h2>
-  <div class="table-responsive ">
-   <table class="table table-bordered table-hover table-light table-striped shadow w-100">
-    <thead class="thead-dark">
-    <tr>
-     <th colspan="2" class="text-center" style="font-size:22px;">HAIL Express</th>
-    </tr>
-     </thead>
-     <tr>
-      <td> Size </td>
-      <td>43cm x 43cm x 43cm</td>
-     </tr>
-     <tr>
-      <td> Weight</td>
-      <td>Below 10kg</td>
-     </tr>
+  <h2 class="pb-4 text-dark font-weight-bold text-center" >Track and Trace</h2>
+  <div class="row">
+    <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
+      <div class="card card-signin shadow-lg">
+        <div class="card-body">
 
- </table>
-</div>
+          <form action="#" method="post" class="form-signin">
+              Enter a valid tracking number
+            <div class="form-label-group my-4">
+              <input type="tel" id="inputTrack" class="form-control" placeholder="Tracking Number with 12 characters " name="phoneNo" pattern="[0-9]{10}" required autofocus>
+            </div>
+
+            <input class="btn btn-lg btn-block bg-warning" type="submit" name="submit" value="Submit" class="button">
+          </form>
+        </div>
+      </div>
+
+    </div>
+  </div>
 </div>
 </section>
 
@@ -134,13 +134,31 @@
 </section>-->
 
 <div class="container mb-5" id="ex">
-  <h2 class="py-5 text-dark font-weight-bold text-center" >HAIL Express Rates</h2>
+  <h2 class="py-5 text-info font-weight-bold text-center" > HAIL Express Package Guide</h2>
 	<div class="row">
-<div class="col-md-6 col-lg-6 pb-5 border border-white rounded">
-    <img class=" imgEx" src="img/parcel.jpg" alt="delivery">
+<div class="col-md-6 col-lg-6 py-5 ">
+  <div class="table-responsive ">
+   <table class="table table-bordered table-hover table-light table-striped shadow w-100">
+    <thead class="thead-dark">
+    <tr>
+     <th colspan="2" class="text-center text-white " style="font-size:20px;">Package Size Guide</th>
+    </tr>
+     </thead>
+     <tr>
+      <td   class="table-warning " > Size </td>
+      <td class="table-warning ">43cm x 43cm x 43cm</td>
+     </tr>
+     <tr>
+      <td  class="table-warning "> Weight</td>
+      <td class="table-warning ">Below 10kg</td>
+     </tr>
+
+  </table>
+  </div>
+  <!--  <img class=" imgEx" src="img/parcel.jpg" alt="delivery">
     <div class="overlay oEx ">
     <button type="button" class=" textEx btn btn-lg btn-warning btn-circle  text-center  " data-toggle="modal" data-target="#download" data-toggle="modal" data-target="#login">Try It Now</button>
-  </div>
+  </div>-->
 </div>
 		<div class="col-md-6 col-lg-6 ">
 
