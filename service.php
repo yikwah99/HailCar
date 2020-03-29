@@ -68,13 +68,13 @@
   <!-- Tabs -->
   <section id="tabs">
   	<div class="container">
-  		<h1 class=" section-title text-center text-dark font-weight-bold ">HAIL Transportation Services</h1>
+  		<h1 class=" text-center text-warning font-weight-bold pb-4 ">HAIL Transportation Services</h1>
   		<div class="row shadow" >
   			<div class="col-xs-12 ">
   				<nav>
   					<div class="nav nav-tabs nav-fill" id="tabServ" role="tablist">
   						<a class="nav-item nav-link active" id="hailCar" data-toggle="tab" href="#cars" role="tab" aria-controls="nav-home" aria-selected="true">HAIL Car</a>
-  						<a class="nav-item nav-link" id="hailShare" data-toggle="tab" href="#share" role="tab" aria-controls="nav-profile" aria-selected="false">HAIL Share</a>
+  						<a class="nav-item nav-link " id="hailShare" data-toggle="tab" href="#share" role="tab" aria-controls="nav-profile" aria-selected="false">HAIL Share</a>
   						<a class="nav-item nav-link" id="justHail" data-toggle="tab" href="#just" role="tab" aria-controls="nav-contact" aria-selected="false">Just HAIL </a>
   						<a class="nav-item nav-link" id="hailRent" data-toggle="tab" href="#rent" role="tab" aria-controls="nav-about" aria-selected="false">HAIL Rent</a>
   					</div>
@@ -444,7 +444,7 @@
 
                       <div class="row bg-white mx-1" id="howHail">
                         <div class="col-md-12 col-lg-4 pb-5 ">
-                            <h1 class=" section-title text-center text-dark font-weight-bold pt-5  ">How it Works for HAIL Car/ Just Hail/ HailShare ?</h1>
+                            <h1 class=" section-title text-center text-warning font-weight-bold pt-5  ">How it Works for HAIL Car/ Just Hail/ HailShare ?</h1>
                           <!--  <h4 class="subheading">GetLance makes it easy to connect with clients and begin doing great work.</h4>-->
                             <p class="text-muted text-justify px-3 py-3 ">Downlod HAIL in your smartphone and enjoy the services </p>
                             <div class="d-none d-lg-block" >
@@ -495,7 +495,7 @@
 
                       <div class="row bg-white mx-1 d-none pb-5" id="howRent">
                           <div class="col-md-12 col-lg-4  ">
-                            	<h1 class=" section-title text-center text-dark font-weight-bold py-5  ">Something different on Hail Rent</h1>
+                            	<h1 class=" section-title text-center text-warning font-weight-bold py-5  ">Something different on HAIL Rent</h1>
                             <!--  <h4 class="subheading">GetLance makes it easy to connect with clients and begin doing great work.</h4>-->
                               <p class="text-muted text-justify px-3 py-3 ">Downlod HAIL in your smartphone and enjoy the services </p>
                               <div class="d-none d-lg-block" >
@@ -552,7 +552,7 @@
     <div class="modal-dialog modal-dialog-centered" role="document">
       <div class="modal-content shadow-lg rounded " >
         <div class=" text-center py-3 ">
-          <button type="button" class="close pr-2 text-success" data-dismiss="modal" aria-label="Close">
+          <button type="button" class="close pr-2 text-warning" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
           <h4 class="modal-title text-dark">Download The <span class="text-warning" > HAIL</span>  App Now</h4>
