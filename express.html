@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" name="viewport" content= "width=device-width, initial-scale=1.0">
+  <title> HAIL Express Page</title>
+  <link rel="shortcut icon" href="img/hailFav.png"/>
+  <!--Styles-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slim-select/1.17.0/slimselect.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+    <link rel="stylesheet" type="text/css" href="css/stylesheetCJ.css">
+    <link rel="stylesheet" type="text/css" href="css/newCssForAll.css">
+  <!--Scripts-->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/timepicker/1.3.5/jquery.timepicker.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slim-select/1.17.0/slimselect.min.js"></script>
+  <script type="text/javascript">
+
+
+  </script>
+</head>
+<!-- hide show nav -->
+<body>
+  <!--Nav-->
+  <!--LOGO-->
+  <nav class="navbar navbar-expand-md py-1 navbar-dark sticky-top bg-dark mb-0 sidebarNavigation" id="mainNav" data-sidebarClass="navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand text-warning" style='letter-spacing:0.2em' href="index.html"><h4>HAIL</h4></a>
+        <button class="navbar-toggler leftNavbarToggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+            aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="icon fas fa-bars fa-1x text-warning"></i>
+        </button>
+        <button type="button" class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#navBarUser" aria-controls="navBarUser" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="icon fa fa-user text-warning"></i>
+      </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="nav navbar-nav nav-flex-icons " >
+
+                  <li class="nav-item  mr-2">
+                      <a class="nav-link text-white active" href="index.html#aboutUs">About Us</a>
+                  </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-white mr-2" href="#sv" id="dropdown01" role="button" data-toggle="dropdown" aria-haspopup="true"  data-hover="dropdown" aria-expanded="false">Services</a>
+                    <div  id="sv" class="dropdown-menu bg-dark " aria-labelledby="dropdown01">
+                      <a href="service.html#hailcar" class="dropdown-item  text-white">HAIL Transportation</a>
+
+
+                        <a href="express.html" class="dropdown-item  text-white">HAIL Express</a>
+                          <a href="food.html" class="dropdown-item  text-white">HAIL Food</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white mr-2" href="hailpay.html">HAIL Pay</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white mr-2" href="reward.html">HAIL Reward</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link text-white mr-2" href="index.html#contactUs">Contact Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white mr-2" href="index.html#faq">FAQs</a>
+                </li>
+
+
+
+        </div>
+        <div class="collapse navbar-collapse" id="navBarUser">
+          <ul class="nav navbar-nav nav-flex-icons ml-auto">
+            <li class="nav-item">
+                 <a class="nav-link text-white pl-3 pr-4" href="dashboard.html"><i class="fas fa-columns pr-2"></i>Dashboard</a>
+             </li>
+        <li class="nav-item">
+            <a class="nav-link text-white pl-3 pr-4" href="login.html"><i class="far fa-user pr-2"></i>Sign In</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-white pl-3 pr-4 " href="register.html">Sign Up</a>
+        </li>
+
+      </ul>
+    </div>
+
+    </div>
+    </nav>
+
+
+    <header class="masthead">
+        <div class="container jumbotron-padding  text-center">
+        <h3 class="display-4 font-weight-bold text-white "><span class="text-info">HAIL Express</span> Delivery Services</h3>
+           <p class="paral text-white">
+             An on-demand delivery service that is safe, fast, and reliable
+           </p>
+             <button type="button" href="conEx" id="btnEx" class="btn btn-lg btn-warning btn-circle my-4 mr-3">Check Out Now</button>
+        </div>
+      </header>
+
+      <div class="container" id="conEx">
+          <h2 class="px-4 py-4 text-dark" >Why Should You Use <span class="text-info">HAIL Express</span>?</h2>
+        <div class="row">
+          <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                  <div class="our-services-wrapper mb-60">
+                    <div class="services-inner">
+                      <div class="our-services-img">
+                      <img src="img/stopwatch.png" width="88px" alt="">
+                      </div>
+                      <div class="our-services-text">
+                        <h4>Fast and Convenient Delivery Service </h4>
+                        <p>Instantly book a door to door delivery for your documents and parcels</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                  <div class="our-services-wrapper mb-60">
+                    <div class="services-inner">
+                      <div class="our-services-img">
+                      <img src="img/tick.png" width="88px" alt="">
+                      </div>
+                      <div class="our-services-text">
+                        <h4>Delivered Safely and with Care</h4>
+                        <p>Hand over your parcels to our well-trained drivers, and track the delivery real-time.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                  <div class="our-services-wrapper mb-60">
+                    <div class="services-inner">
+                      <div class="our-services-img">
+                      <img src="img/cmoney.png" width="88px" alt="">
+                      </div>
+                      <div class="our-services-text">
+                        <h4>Competitive Pricing</h4>
+                        <p>Competitive upfront fixed fares for all deliveries</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                  <div class="our-services-wrapper mb-60">
+                    <div class="services-inner">
+                      <div class="our-services-img">
+                      <img src="img/shield.png" width="88px" alt="">
+                      </div>
+                      <div class="our-services-text">
+                        <h4>Deliver with Peace of Mind </h4>
+                        <p>Every delivery is insured for up to RM 500</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+        </div>
+
+      </div>
+      <section class="bg-warning">
+
+
+    <div class="container ">
+
+      <h2 class="pb-4 text-dark font-weight-bold text-center" >Track and Trace</h2>
+      <div class="row">
+        <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
+          <div class="card card-signin shadow-lg">
+            <div class="card-body">
+
+              <form action="#" method="post" class="form-signin">
+                  Enter a valid tracking number
+                <div class="form-label-group my-4">
+                  <input type="tel" id="inputTrack" class="form-control" placeholder="Tracking Number with 12 characters " name="phoneNo" pattern="[0-9]{10}" required autofocus>
+                </div>
+
+                <input class="btn btn-lg btn-block bg-warning" type="submit" name="submit" value="Submit" class="button">
+              </form>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    </section>
+
+    <div class="container mb-5" id="ex">
+      <h2 class="py-5 text-info font-weight-bold text-center" > HAIL Express Package Guide</h2>
+    	<div class="row">
+    <div class="col-md-6 col-lg-6 py-5 ">
+      <div class="table-responsive ">
+       <table class="table table-bordered table-hover table-light table-striped shadow w-100">
+        <thead class="thead-dark">
+        <tr>
+         <th colspan="2" class="text-center text-white " style="font-size:20px;">Package Size Guide</th>
+        </tr>
+         </thead>
+         <tr>
+          <td   class="table-warning " > Size </td>
+          <td class="table-warning ">43cm x 43cm x 43cm</td>
+         </tr>
+         <tr>
+          <td  class="table-warning "> Weight</td>
+          <td class="table-warning ">Below 10kg</td>
+         </tr>
+
+      </table>
+      </div>
+      </div>
+      <div class="col-md-6 col-lg-6 ">
+
+        <ul class="timeline">
+          <li>
+            <h3>Base fare</h3>
+          <!--	<a href="#" class="float-right">21 March, 2014</a>-->
+            <p>RM3.60</p>
+          </li>
+          <li>
+            <h3>Per km rate</h3>
+
+            <p>First 0-6km +RM0.60</p>
+              <p>Next 6-10km +0.70</p>
+              <p>Next 10-20km +RM1.00</p>
+          </li>
+          <li>
+            <h3>Surcharge between 11am to 2pm and 6pm to 9pm</h3>
+            <p>Between RM3-5; depending on supply and demand conditions</p>
+
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="download" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content shadow-lg rounded " >
+        <div class=" text-center py-3 ">
+          <button type="button" class="close pr-2 text-success" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <h4 class="modal-title text-dark">Download The <span class="text-warning" > HAIL</span>  App Now</h4>
+
+        </div>
+        <div class="modal-body" >
+
+          <div class="login px-2 mx-auto mw-100 ">
+                <img class="d-block w-100" src="img/d.png" alt="Second slide">
+                <div class="footer-app">
+                <img src="img/appstore.png" class="app" alt="">
+                  <img src="img/googleplay.png" class="w-50 " alt="">
+                </img>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<script type="text/javascript">
+$("#btnEx").on("click",function(){
+
+      $('html, body').animate({
+   scrollTop: $("#conEx").offset().top
+ }, 1000);
+
+});
+
+</script>
+
+
+    <footer id="dk-footer" class="dk-footer">
+          <div class="container">
+              <div class="row mt-0">
+                  <div class="col-md-12 col-lg-4">
+                      <div class="dk-footer-box-info">
+                          <a class="navbar-brand text-warning" style='letter-spacing:0.2em' href="index.html"><h2>HAIL</h2></a>
+
+                          <p class="footer-info-text text-white ">
+                            <span><i class="fas fa-map-marker-alt text-warning "></i></span>
+                          15, Jalan Semantan, Bukit Damansara, 50490, Kuala Lumpur
+                          </p>
+                          <div class="footer-social-link">
+                              <h3> Stay In Touch</h3>
+                              <ul>
+                                  <li>
+                                      <a href="#">
+                                          <i class="fa fa-facebook"></i>
+                                      </a>
+                                  </li>
+                                  <li>
+                                      <a href="#">
+                                          <i class="fa fa-twitter"></i>
+                                      </a>
+                                  </li>
+
+                                  <li>
+                                      <a href="#">
+                                          <i class="fa fa-instagram"></i>
+                                      </a>
+                                  </li>
+                              </ul>
+
+                          </div>
+                          <!-- End Social link -->
+
+                      </div>
+                      <!-- End Footer info -->
+
+                      <div class="footer-awarad ">
+                        <h3 class="text-warning ">Download Now</h3>
+                      </div>
+                      <div class="footer-app">
+                      <img src="img/appstore.png" class="app" alt="">
+                        <img src="img/googleplay.png" class="w-50 " alt="">
+                      </img>
+                    </div>
+
+                  </div>
+                  <!-- End Col -->
+                  <div class="col-md-12 col-lg-8">
+
+                      <div class="row">
+                          <div class="col-md-12 col-lg-6">
+                              <div class="footer-widget footer-left-widget">
+                                  <div class="section-heading">
+                                      <h3>Services</h3>
+                                      <span class="animate-border border-black"></span>
+                                  </div>
+                                  <ul>
+
+                                      <li>
+                                            <a href="service.html#hailcar">HAIL Transportation</a>
+                                      </li>
+                                      <li>
+                                          <a href="food.html" >HAIL Food</a>
+
+                                      </li>
+                                      <li>
+                                          <a href="express.html">HAIL Express</a>
+
+                                      </li>
+
+
+                                  </ul>
+                                  <ul>
+                                    <li>
+                                          <a  href="hailpay.html">HAIL Pay</a>
+                                    </li>
+                                    <li>
+                                          <a href="login.html" id="reward">HAIL Reward</a>
+                                    </li>
+                                    <li>
+                                          <a  href="index.html#faq">FAQs</a>
+                                    </li>
+
+                                  </ul>
+                              </div>
+                              <!-- End Footer Widget -->
+                          </div>
+                          <!-- End col -->
+                          <div class="col-md-12 col-lg-6">
+                              <div class="footer-widget footer-left-widget">
+                                  <div class="section-heading">
+                                      <h3>Subscribe</h3>
+                                      <span class="animate-border border-black"></span>
+                                  </div>
+                                  <p class="text-white"> Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
+                                  <form action="#">
+                                      <div class="form-row">
+                                          <div class="col dk-footer-form">
+
+                                            <div class="input-group mb-3">
+                                        <input type="email" class="form-control text-white  form-control-warning bg-dark" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"  placeholder="Email Address">
+                                          <div class="input-group-append">
+                                            <button type="submit" class="btn btn-outline-warning" >
+                                                <i class="fa fa-send"></i>
+                                            </button>
+                                          </div>
+                                        </div>
+
+                                          </div>
+                                      </div>
+                                  </form>
+                                  <!-- End form -->
+                              </div>
+                              <!-- End footer widget -->
+                          </div>
+                          <!-- End Col -->
+                      </div>
+                      <!-- End Row -->
+                  </div>
+                  <!-- End Col -->
+              </div>
+              <!-- End Widget Row -->
+          </div>
+          <!-- End Contact Container -->
+
+              <div class="container-fluid text-dark pt-3 bg-warning">
+                <div class="row">
+                  <div class="col-12 col-lg-6">
+                      <p>&copy; 2020 Hail. All Rights Reserved </p>
+                  </div>
+                  <div class="col-12 col-lg-6">
+                      <p class="float-lg-right">Designed by Group 1</p>
+                  </div>
+                </div>
+              </div>
+
+
+          <!-- Back to top -->
+          <div  class="back-to-top" >
+              <button class="btn btn-dark d-none" id="totop"  onclick="topFunction()" title="Back to Top" >
+                  <i class="fa fa-angle-up"></i>
+              </button>
+          </div>
+
+        </footer>
+        </section>
+        <!--Scripts-->
+
+        <script >
+
+        $("#reward").on("click",function(){
+            alert("Please login to continue");
+
+        });
+
+
+        window.onscroll = function() {
+          scrollFunction()};
+
+        /*  $('div.panel').scroll(function() {
+      didScroll = true;
+  });*/
+        function scrollFunction() {
+            var top= document.getElementById("totop");
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            top.classList.add("d-block");
+          } else {
+            top.classList.remove("d-block");
+          }
+        }
+        function topFunction() {
+
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+
+        }
+
+
+        $("#inputTrack").on("click",function(){
+            alert(1);
+
+
+        });
+
+
+
+
+        </script>
+  </body>
+</html>

@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> HAIL Food Page</title>
+  <link rel="shortcut icon" href="img/hailFav.png" />
+  <!--Styles-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slim-select/1.17.0/slimselect.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+  <link rel="stylesheet" type="text/css" href="css/stylesheetCJ.css">
+  <link rel="stylesheet" type="text/css" href="css/newCssForAll.css">
+  <!--Scripts-->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/timepicker/1.3.5/jquery.timepicker.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slim-select/1.17.0/slimselect.min.js"></script>
+  <script type="text/javascript">
+
+
+  </script>
+</head>
+<!-- hide show nav -->
+<body>
+  <!--Nav-->
+  <!--LOGO-->
+  <nav class="navbar navbar-expand-md py-1 navbar-dark sticky-top bg-dark mb-0 sidebarNavigation" id="mainNav" data-sidebarClass="navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand text-warning" style='letter-spacing:0.2em' href="index.html"><h4>HAIL</h4></a>
+        <button class="navbar-toggler leftNavbarToggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+            aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="icon fas fa-bars fa-1x text-warning"></i>
+        </button>
+        <button type="button" class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#navBarUser" aria-controls="navBarUser" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="icon fa fa-user text-warning"></i>
+      </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="nav navbar-nav nav-flex-icons " >
+
+                  <li class="nav-item  mr-2">
+                      <a class="nav-link text-white active" href="index.html#aboutUs">About Us</a>
+                  </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-white mr-2" href="#sv" id="dropdown01" role="button" data-toggle="dropdown" aria-haspopup="true"  data-hover="dropdown" aria-expanded="false">Services</a>
+                    <div  id="sv" class="dropdown-menu bg-dark " aria-labelledby="dropdown01">
+                      <a href="service.html#hailcar" class="dropdown-item  text-white">HAIL Transportation</a>
+
+
+                        <a href="express.html" class="dropdown-item  text-white">HAIL Express</a>
+                          <a href="food.html" class="dropdown-item  text-white">HAIL Food</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white mr-2" href="hailpay.html">HAIL Pay</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white mr-2" href="reward.html">HAIL Reward</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link text-white mr-2" href="index.html#contactUs">Contact Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white mr-2" href="index.html#faq">FAQs</a>
+                </li>
+
+
+
+        </div>
+        <div class="collapse navbar-collapse" id="navBarUser">
+          <ul class="nav navbar-nav nav-flex-icons ml-auto">
+            <li class="nav-item">
+                 <a class="nav-link text-white pl-3 pr-4" href="dashboard.html"><i class="fas fa-columns pr-2"></i>Dashboard</a>
+             </li>
+        <li class="nav-item">
+            <a class="nav-link text-white pl-3 pr-4" href="login.html"><i class="far fa-user pr-2"></i>Sign In</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-white pl-3 pr-4 " href="register.html">Sign Up</a>
+        </li>
+
+      </ul>
+    </div>
+
+    </div>
+    </nav>
+    <header class="masthead2">
+      <div class="container jumbotron-padding  text-center">
+      <h3 class="display-4 font-weight-bold text-white "><span class="text-danger">HAIL Food</span> Delivery Service</h3>
+         <p class="paral text-white">
+           Fast and reliable food delivery for satisfying your cravings
+         </p>
+           <a href="#foodCont" id="btnFood" class="btn btn-lg btn-warning btn-circle my-4 mr-3">Check Out Now</a>
+      </div>
+    </header>
+
+    <div class="container" id="foodCont">
+        <h2 class="px-4 py-4 text-dark" >Why Should You Use <span class="text-danger">HAIL Food</span>?</h2>
+      <div class="row">
+        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                <div class="our-services-wrapper mb-60">
+                  <div class="services-inner">
+                    <div class="our-services-img">
+                    <img src="img/alarm.png" width="88px" alt="">
+                    </div>
+                    <div class="our-services-text">
+                      <h4>Fast and Convenient Food Delivery Service </h4>
+                      <p>Rapid door to door food delivery with plenty of good choices</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                <div class="our-services-wrapper mb-60">
+                  <div class="services-inner">
+                    <div class="our-services-img">
+                    <img src="img/bihun.png" width="88px" alt="">
+                    </div>
+                    <div class="our-services-text">
+                      <h4>Nearby Restaurants can be easily found</h4>
+                      <p>With the help of the GPS restaurants near you can be found and delivery will be made even faster</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                <div class="our-services-wrapper mb-60">
+                  <div class="services-inner">
+                    <div class="our-services-img">
+                    <img src="img/cmoney.png" width="88px" alt="">
+                    </div>
+                    <div class="our-services-text">
+                      <h4>Cashless</h4>
+                      <p>All payments can be made online through the HAIL PAY, Hassle Free!</p><a href="hailpay.php">Top Up Now!</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                <div class="our-services-wrapper mb-60">
+                  <div class="services-inner">
+                    <div class="our-services-img">
+                    <img src="img/xtra.png" width="88px" alt="">
+                    </div>
+                    <div class="our-services-text">
+                      <h4>No Hidden Charges</h4>
+                      <p>Only delivery charges are to be made on each transaction</p><br>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+      </div>
+
+    </div>
+    <section class="bg-warning">
+
+
+  <div class="container">
+    <h2 class="pb-4 text-dark font-weight-bold text-center" >HAIL Food Delivery Charges</h2>
+    <div class="table-responsive ">
+     <table class="table table-bordered table-hover table-light table-striped shadow w-100 text-center">
+      <thead class="thead-dark">
+      <tr>
+       <th colspan="2" class="text-center" style="font-size:22px;">HAIL Food</th>
+      </tr>
+       </thead>
+       <tr>
+        <td> Distance  Less than 10KM</td>
+        <td> RM 8</td>
+       </tr>
+       <tr>
+        <td> Distance More than 15KM</td>
+        <td> RM 10</td>
+       </tr>
+       <tr>
+        <td> Distance  More than 20KM</td>
+        <td> RM 18</td>
+       </tr>
+   </table>
+  </div>
+  </div>
+  </section>
+
+  <div class="container mb-5 mt-5" id="">
+    <h2 class="pb-4 text-dark font-weight-bold text-center">How to Order?</h2>
+  	<div class="row">
+      <div class="col-md-3"></div>
+  		<div class="col-md-6 col-lg-6 ">
+  			<ul class="timeline">
+  				<li>
+  					<h3>Download the HAIL Food Application</h3>
+  					<p>Available in Play Store and Apple Store</p>
+  				</li>
+  				<li>
+  					<h3>Register an Account</h3>
+  					<p>With Username and Password</p>
+            	<p>Register your address for delivery</p>
+              <p>Provide Contact Number so that the rider can contact you</p>
+  				</li>
+          <li>
+            <h3>Browse your Meal</h3>
+            <p>Add the meal to cart</p>
+  				</li>
+  				<li>
+            <h3>Sit Back & Relax</h3>
+            <p>while waiting your food to arrive</p>
+  				</li>
+          <li>
+            <h3>Ready to be Served!</h3>
+  				</li>
+  			</ul>
+  		</div>
+      <div class="col-md-3"></div>
+  	</div>
+  </div>
+
+    <div class="modal fade" id="login" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content shadow-lg rounded " >
+          <div class=" text-center py-3 ">
+            <button type="button" class="close pr-2 text-success" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <h4 class="modal-title text-dark">Download The <span class="text-warning" > HAIL</span>  App Now</h4>
+
+          </div>
+          <div class="modal-body" >
+
+            <div class="login px-2 mx-auto mw-100 ">
+                  <img class="d-block w-100" src="img/d.png" alt="Second slide">
+                  <div class="footer-app">
+                  <img src="img/appstore.png" class="app" alt="">
+                    <img src="img/googleplay.png" class="w-50 " alt="">
+                  </img>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <footer id="dk-footer" class="dk-footer">
+          <div class="container">
+              <div class="row mt-0">
+                  <div class="col-md-12 col-lg-4">
+                      <div class="dk-footer-box-info">
+                          <a class="navbar-brand text-warning" style='letter-spacing:0.2em' href="index.html"><h2>HAIL</h2></a>
+
+                          <p class="footer-info-text text-white ">
+                            <span><i class="fas fa-map-marker-alt text-warning "></i></span>
+                          15, Jalan Semantan, Bukit Damansara, 50490, Kuala Lumpur
+                          </p>
+                          <div class="footer-social-link">
+                              <h3> Stay In Touch</h3>
+                              <ul>
+                                  <li>
+                                      <a href="#">
+                                          <i class="fa fa-facebook"></i>
+                                      </a>
+                                  </li>
+                                  <li>
+                                      <a href="#">
+                                          <i class="fa fa-twitter"></i>
+                                      </a>
+                                  </li>
+
+                                  <li>
+                                      <a href="#">
+                                          <i class="fa fa-instagram"></i>
+                                      </a>
+                                  </li>
+                              </ul>
+
+                          </div>
+                          <!-- End Social link -->
+
+                      </div>
+                      <!-- End Footer info -->
+
+                      <div class="footer-awarad ">
+                        <h3 class="text-warning ">Download Now</h3>
+                      </div>
+                      <div class="footer-app">
+                      <img src="img/appstore.png" class="app" alt="">
+                        <img src="img/googleplay.png" class="w-50 " alt="">
+                      </img>
+                    </div>
+
+                  </div>
+                  <!-- End Col -->
+                  <div class="col-md-12 col-lg-8">
+
+                      <div class="row">
+                          <div class="col-md-12 col-lg-6">
+                              <div class="footer-widget footer-left-widget">
+                                  <div class="section-heading">
+                                      <h3>Services</h3>
+                                      <span class="animate-border border-black"></span>
+                                  </div>
+                                  <ul>
+
+                                      <li>
+                                            <a href="service.html#hailcar">HAIL Transportation</a>
+                                      </li>
+                                      <li>
+                                          <a href="food.html" >HAIL Food</a>
+
+                                      </li>
+                                      <li>
+                                          <a href="express.html">HAIL Express</a>
+
+                                      </li>
+
+
+                                  </ul>
+                                  <ul>
+                                    <li>
+                                          <a  href="hailpay.html">HAIL Pay</a>
+                                    </li>
+                                    <li>
+                                          <a href="login.html" id="reward">HAIL Reward</a>
+                                    </li>
+                                    <li>
+                                          <a  href="index.html#faq">FAQs</a>
+                                    </li>
+
+                                  </ul>
+                              </div>
+                              <!-- End Footer Widget -->
+                          </div>
+                          <!-- End col -->
+                          <div class="col-md-12 col-lg-6">
+                              <div class="footer-widget footer-left-widget">
+                                  <div class="section-heading">
+                                      <h3>Subscribe</h3>
+                                      <span class="animate-border border-black"></span>
+                                  </div>
+                                  <p class="text-white"> Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
+                                  <form action="#">
+                                      <div class="form-row">
+                                          <div class="col dk-footer-form">
+
+                                            <div class="input-group mb-3">
+                                        <input type="email" class="form-control text-white  form-control-warning bg-dark" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"  placeholder="Email Address">
+                                          <div class="input-group-append">
+                                            <button type="submit" class="btn btn-outline-warning" >
+                                                <i class="fa fa-send"></i>
+                                            </button>
+                                          </div>
+                                        </div>
+
+                                          </div>
+                                      </div>
+                                  </form>
+                                  <!-- End form -->
+                              </div>
+                              <!-- End footer widget -->
+                          </div>
+                          <!-- End Col -->
+                      </div>
+                      <!-- End Row -->
+                  </div>
+                  <!-- End Col -->
+              </div>
+              <!-- End Widget Row -->
+          </div>
+          <!-- End Contact Container -->
+
+              <div class="container-fluid text-dark pt-3 bg-warning">
+                <div class="row">
+                  <div class="col-12 col-lg-6">
+                      <p>&copy; 2020 Hail. All Rights Reserved </p>
+                  </div>
+                  <div class="col-12 col-lg-6">
+                      <p class="float-lg-right">Designed by Group 1</p>
+                  </div>
+                </div>
+              </div>
+
+
+          <!-- Back to top -->
+          <div  class="back-to-top" >
+              <button class="btn btn-dark d-none" id="totop"  onclick="topFunction()" title="Back to Top" >
+                  <i class="fa fa-angle-up"></i>
+              </button>
+          </div>
+
+        </footer>
+        </section>
+        <!--Scripts-->
+        <script type="text/javascript">
+        $("#btnFood").on("click",function(){
+
+              $('html, body').animate({
+           scrollTop: $("#foodCont").offset().top
+         }, 1000);
+
+        });
+
+        </script>
+
+        <script>
+        $("#reward").on("click",function(){
+            alert("Please login to continue");
+
+        });
+
+
+        window.onscroll = function() {
+          scrollFunction()};
+
+        /*  $('div.panel').scroll(function() {
+      didScroll = true;
+  });*/
+        function scrollFunction() {
+            var top= document.getElementById("totop");
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            top.classList.add("d-block");
+          } else {
+            top.classList.remove("d-block");
+          }
+        }
+        function topFunction() {
+
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+
+        }
+
+
+        </script>
+  </body>
+</html>

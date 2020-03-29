@@ -1,0 +1,104 @@
+/* Dylan start */
+.html{
+  scroll-behavior: smooth;
+  overflow-x:  hidden;
+}
+
+.darken{
+  filter:brightness(100%);
+}
+
+.carousel-caption{
+  position: absolute;
+  top: 60px;
+}
+
+.zoom:hover {
+  transition: all .3s ;
+  transform: scale(1.2);
+}
+
+.glow:hover {
+  transition: all .6s ;
+  transform: scale(1.1);
+}
+
+.glowCard:hover {
+  transition: all .4s ;
+  transform: scale(1.1);
+  border-width: thin;
+  border-color: orange;
+}
+
+#mainServices{
+  position: relative;
+  top: -200px;
+}
+/* media quries*/
+
+@media only screen and (max-width: 600px) {
+  .theTile{
+    top: -120px;
+    transform: scale(0.5);
+  }
+
+  #bigBG{
+    height: 30vh;
+  }
+
+  .dyTitles{
+    transform: scale(0.5);
+  }
+
+  .glowCard:hover {
+    transition: all .4s ;
+    transform: scale(1.0);
+    border-width: thin;
+    border-color: orange;
+  }
+
+  #kaneSlide{
+    height: 300px;
+  }
+
+}
+
+@media only screen and (min-width: 600px) {
+  .theTile{
+    transform: scale(0.6);
+  }
+
+  #kaneSlide{
+    height: 400px;
+  }
+
+}
+
+@media only screen and (min-width: 780px) {
+  .theTile{
+    transform: scale(0.8);
+  }
+
+  #bigBG{
+    height: 100vh;
+  }
+
+  #kaneSlide{
+    height: 500px;
+  }
+}
+
+@media only screen and (min-width: 930px) {
+  .theTile{
+    transform: scale(1.0);
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .theTile{
+    transform: scale(1.0);
+  }
+}
+
+
+/* Dylan End */

@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" name="viewport" content= "width=device-width, initial-scale=1.0">
+  <title> HAIL Pay Page</title>
+  <link rel="shortcut icon" href="img/hailFav.png"/>
+  <!--Styles-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slim-select/1.17.0/slimselect.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+    <link rel="stylesheet" type="text/css" href="css/stylesheetCJ.css">
+    <link rel="stylesheet" type="text/css" href="css/newCssForAll.css">
+  <!--Scripts-->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/timepicker/1.3.5/jquery.timepicker.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slim-select/1.17.0/slimselect.min.js"></script>
+  <script type="text/javascript">
+
+
+  </script>
+</head>
+<!-- hide show nav -->
+<style>
+  html{
+    scroll-behavior: smooth;
+  }
+</style>
+<body>
+  <!--Nav-->
+  <!--LOGO-->
+  <nav class="navbar navbar-expand-md py-1 navbar-dark sticky-top bg-dark mb-0 sidebarNavigation" id="mainNav" data-sidebarClass="navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand text-warning" style='letter-spacing:0.2em' href="index.html"><h4>HAIL</h4></a>
+        <button class="navbar-toggler leftNavbarToggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+            aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="icon fas fa-bars fa-1x text-warning"></i>
+        </button>
+        <button type="button" class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#navBarUser" aria-controls="navBarUser" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="icon fa fa-user text-warning"></i>
+      </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="nav navbar-nav nav-flex-icons " >
+
+                  <li class="nav-item  mr-2">
+                      <a class="nav-link text-white active" href="index.html#aboutUs">About Us</a>
+                  </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-white mr-2" href="#sv" id="dropdown01" role="button" data-toggle="dropdown" aria-haspopup="true"  data-hover="dropdown" aria-expanded="false">Services</a>
+                    <div  id="sv" class="dropdown-menu bg-dark " aria-labelledby="dropdown01">
+                      <a href="service.html#hailcar" class="dropdown-item  text-white">HAIL Transportation</a>
+
+
+                        <a href="express.html" class="dropdown-item  text-white">HAIL Express</a>
+                          <a href="food.html" class="dropdown-item  text-white">HAIL Food</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white mr-2" href="hailpay.html">HAIL Pay</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white mr-2" href="reward.html">HAIL Reward</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link text-white mr-2" href="index.html#contactUs">Contact Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white mr-2" href="index.html#faq">FAQs</a>
+                </li>
+
+
+
+        </div>
+        <div class="collapse navbar-collapse" id="navBarUser">
+          <ul class="nav navbar-nav nav-flex-icons ml-auto">
+            <li class="nav-item">
+                 <a class="nav-link text-white pl-3 pr-4" href="dashboard.html"><i class="fas fa-columns pr-2"></i>Dashboard</a>
+             </li>
+        <li class="nav-item">
+            <a class="nav-link text-white pl-3 pr-4" href="login.html"><i class="far fa-user pr-2"></i>Sign In</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-white pl-3 pr-4 " href="register.html">Sign Up</a>
+        </li>
+
+      </ul>
+    </div>
+
+    </div>
+    </nav>
+
+    <div class= "container">
+      <div class="row my-5 ">
+        <div class="col-lg-10 col-md-12" >
+          <h1 class="text-center">The next time you <span class="text-warning">HAIL</span>, try <span class="text-warning">HAIL Pay</span></h1>
+          <hr>
+          <h5>Going cashless is easy with the new <span class="text-warning">HAIL Pay</span>! And no, it’s not just for credit/debit card users. This
+             <span class="text-warning">HAIL</span> Wallet also comes with <span class="text-warning">HAIL Pay</span> Credits, which you can top up at any time. The best part is,
+             this payment method isn’t just for your rides anymore.</h5>
+        </div>
+        <div class="col-2 d-none d-lg-block"><img width="70%" src=img/wallet.png></div>
+      </div>
+      <div class="my-5 w-100 text-center">
+        <a href='dashboard.html'><button class="btn btn-warning text-white p-3 my-5 zoom btn-md">Try it now</button></a>
+      </div>
+    </div>
+      <div class="my-5">
+        <div class="d-lg-none"><h2>How do I activate my HAIL Pay Wallet?</h2></div>
+        <div class="row bg-warning text-white" id="kaneSlide">
+          <div class="col-md-12 col-lg-8 px-0 h-100">
+            <div id="carouselExampleIndicators" class="carousel slide " data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img class="d-block w-100" src="img/pay1.PNG" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="img/pay2.PNG" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="img/pay3.PNG" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="img/pay4.PNG" alt="Third slide">
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true" style="filter: invert(100%);"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true" style="filter: invert(100%);"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-12 col-lg-4 align-center my-auto d-none d-lg-block">
+            <h1 class="my-5">How do I activate my HAIL Pay Wallet?</h1>
+            <h5>Here is how you can activate your GrabPay Wallet, by following the steps .</h5>
+          </div>
+        </div>
+      </div>
+    <div class= "container">
+      <div>
+        <h2 class="text-center">Where can you use <span class="text-warning">HAIL Pay</span>?</h2>
+        <hr class="my-5">
+        <div class="row row-cols-1 row-cols-md-3 mb-5">
+          <div class="card mb-4 shadow-lg">
+            <img class="card-img-top d-none d-lg-block" src="img/hail1.jpg" height="50%" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title text-warning">Rides</h5>
+              <p class="card-text h6">No more waiting for change. Book your ride with credit/debit card or HAIL Pay Credits, and you can happily carry on when you arrive at your drop-off point.</p>
+            </div>
+          </div>
+          <div class="card mb-4 shadow-lg">
+            <img class="card-img-top d-none d-lg-block" src="img/hail2.jpg" height="50%" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title text-warning">In-store Purchase</h5>
+              <p class="card-text h6">If you find digging your wallet for change a hassle, we feel you. That’s why HAIL Pay Credits are now accepted at some of your favourite stores!</p>
+            </div>
+          </div>
+          <div class="card mb-4 shadow-lg">
+            <img class="card-img-top d-none d-lg-block" src="img/hail3.jpg" height="50%" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title text-warning">Credit Transfer</h5>
+              <p class="card-text h6">Just a few clicks on your HAIL app, and you’ll be able to transfer HAIL Pay Credits to your loved ones.</p>
+            </div>
+          </div>
+          <div class="card mb-4 shadow-lg">
+            <img class="card-img-top d-none d-lg-block" src="img/hail4.jpg" height="50%" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title text-warning">HAILFood</h5>
+              <p class="card-text h6">Satisfy your hunger and cravings and pay for HAILFood delivery orders seamlessly using credit/debit card or HAIL Pay Credits!</p>
+            </div>
+          </div>
+          <div class="card mb-4 shadow-lg">
+            <img class="card-img-top d-none d-lg-block" src="img/hail5.jpg" height="50%" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title text-warning">Prepaid Top Up</h5>
+              <p class="card-text h6">You can now top-up your mobile phone credits directly on your HAIL app.This service is available across all major telcos in Malaysia including Celcom, Digi, Maxis, U Mobile and TuneTalk.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer id="dk-footer" class="dk-footer">
+          <div class="container">
+              <div class="row mt-0">
+                  <div class="col-md-12 col-lg-4">
+                      <div class="dk-footer-box-info">
+                          <a class="navbar-brand text-warning" style='letter-spacing:0.2em' href="index.html"><h2>HAIL</h2></a>
+
+                          <p class="footer-info-text text-white ">
+                            <span><i class="fas fa-map-marker-alt text-warning "></i></span>
+                          15, Jalan Semantan, Bukit Damansara, 50490, Kuala Lumpur
+                          </p>
+                          <div class="footer-social-link">
+                              <h3> Stay In Touch</h3>
+                              <ul>
+                                  <li>
+                                      <a href="#">
+                                          <i class="fa fa-facebook"></i>
+                                      </a>
+                                  </li>
+                                  <li>
+                                      <a href="#">
+                                          <i class="fa fa-twitter"></i>
+                                      </a>
+                                  </li>
+
+                                  <li>
+                                      <a href="#">
+                                          <i class="fa fa-instagram"></i>
+                                      </a>
+                                  </li>
+                              </ul>
+
+                          </div>
+                          <!-- End Social link -->
+
+                      </div>
+                      <!-- End Footer info -->
+
+                      <div class="footer-awarad ">
+                        <h3 class="text-warning ">Download Now</h3>
+                      </div>
+                      <div class="footer-app">
+                      <img src="img/appstore.png" class="app" alt="">
+                        <img src="img/googleplay.png" class="w-50 " alt="">
+                      </img>
+                    </div>
+
+                  </div>
+                  <!-- End Col -->
+                  <div class="col-md-12 col-lg-8">
+
+                      <div class="row">
+                          <div class="col-md-12 col-lg-6">
+                              <div class="footer-widget footer-left-widget">
+                                  <div class="section-heading">
+                                      <h3>Services</h3>
+                                      <span class="animate-border border-black"></span>
+                                  </div>
+                                  <ul>
+
+                                      <li>
+                                            <a href="service.html#hailcar">HAIL Transportation</a>
+                                      </li>
+                                      <li>
+                                          <a href="food.html" >HAIL Food</a>
+
+                                      </li>
+                                      <li>
+                                          <a href="express.html">HAIL Express</a>
+
+                                      </li>
+
+
+                                  </ul>
+                                  <ul>
+                                    <li>
+                                          <a  href="hailpay.html">HAIL Pay</a>
+                                    </li>
+                                    <li>
+                                          <a href="login.html" id="reward">HAIL Reward</a>
+                                    </li>
+                                    <li>
+                                          <a  href="index.html#faq">FAQs</a>
+                                    </li>
+
+                                  </ul>
+                              </div>
+                              <!-- End Footer Widget -->
+                          </div>
+                          <!-- End col -->
+                          <div class="col-md-12 col-lg-6">
+                              <div class="footer-widget footer-left-widget">
+                                  <div class="section-heading">
+                                      <h3>Subscribe</h3>
+                                      <span class="animate-border border-black"></span>
+                                  </div>
+                                  <p class="text-white"> Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
+                                  <form action="#">
+                                      <div class="form-row">
+                                          <div class="col dk-footer-form">
+
+                                            <div class="input-group mb-3">
+                                        <input type="email" class="form-control text-white  form-control-warning bg-dark" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"  placeholder="Email Address">
+                                          <div class="input-group-append">
+                                            <button type="submit" class="btn btn-outline-warning" >
+                                                <i class="fa fa-send"></i>
+                                            </button>
+                                          </div>
+                                        </div>
+
+                                          </div>
+                                      </div>
+                                  </form>
+                                  <!-- End form -->
+                              </div>
+                              <!-- End footer widget -->
+                          </div>
+                          <!-- End Col -->
+                      </div>
+                      <!-- End Row -->
+                  </div>
+                  <!-- End Col -->
+              </div>
+              <!-- End Widget Row -->
+          </div>
+          <!-- End Contact Container -->
+
+              <div class="container-fluid text-dark pt-3 bg-warning">
+                <div class="row">
+                  <div class="col-12 col-lg-6">
+                      <p>&copy; 2020 Hail. All Rights Reserved </p>
+                  </div>
+                  <div class="col-12 col-lg-6">
+                      <p class="float-lg-right">Designed by Group 1</p>
+                  </div>
+                </div>
+              </div>
+
+
+          <!-- Back to top -->
+          <div  class="back-to-top" >
+              <button class="btn btn-dark d-none" id="totop"  onclick="topFunction()" title="Back to Top" >
+                  <i class="fa fa-angle-up"></i>
+              </button>
+          </div>
+
+        </footer>
+        </section>
+        <!--Scripts-->
+        <script>
+        $("#reward").on("click",function(){
+            alert("Please login to continue");
+
+        });
+
+        window.onscroll = function() {
+          scrollFunction()};
+
+        /*  $('div.panel').scroll(function() {
+      didScroll = true;
+  });*/
+        function scrollFunction() {
+            var top= document.getElementById("totop");
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            top.classList.add("d-block");
+          } else {
+            top.classList.remove("d-block");
+          }
+        }
+        function topFunction() {
+
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+
+        }
+
+
+        var hailCar=document.getElementById("hailCar");
+        var hailShare=document.getElementById("hailShare");
+        var justhail=document.getElementById("justHail");
+        var rent=document.getElementById("hailRent");
+        var how1=document.getElementById("howHail");
+        var how2=document.getElementById("howRent");
+
+
+        $("#btnCar").on("click",function(){
+
+              $('#hailCar').tab("show");
+              $('html, body').animate({
+           scrollTop: $("#tabs").offset().top
+         }, 1000);
+
+        /*  console.log("Clicked Share");
+            $('#carouselExampleIndicators').carousel({
+                pause: true,
+                interval: false
+            });
+            console.log("Clicked Car");*/
+
+        });
+
+        $("#btnShare").on("click",function(){
+              $('#hailShare').tab("show");
+              $('html, body').animate({
+           scrollTop: $("#tabs").offset().top
+         }, 1000);
+
+        });
+
+        $("#btnJust").on("click",function(){
+              $('#justHail').tab("show");
+              $('html, body').animate({
+           scrollTop: $("#tabs").offset().top
+         }, 1000);
+
+        });
+
+        $("#btnRent").on("click",function(){
+              $('#hailRent').tab("show");
+
+              $('html, body').animate({
+           scrollTop: $("#tabs").offset().top
+         }, 1000);
+
+         how1.classList.add("d-none");
+         how2.classList.remove("d-none");
+
+
+        });
+
+        $("#hailRent").on("click",function(){
+
+         how1.classList.add("d-none");
+         how2.classList.remove("d-none");
+
+
+        });
+
+
+
+
+        </script>
+  </body>
+</html>

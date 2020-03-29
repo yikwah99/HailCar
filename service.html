@@ -1,0 +1,887 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" name="viewport" content= "width=device-width, initial-scale=1.0">
+  <title> Home Page</title>
+  <link rel="shortcut icon" href="img/hailFav.png"/>
+  <!--Styles-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slim-select/1.17.0/slimselect.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+    <link rel="stylesheet" type="text/css" href="css/stylesheetCJ.css">
+    <link rel="stylesheet" type="text/css" href="css/newCssForAll.css">
+  <!--Scripts-->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/timepicker/1.3.5/jquery.timepicker.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slim-select/1.17.0/slimselect.min.js"></script>
+  <script type="text/javascript">
+
+
+  </script>
+</head>
+<!-- hide show nav -->
+<body>
+  <!--Nav-->
+  <!--LOGO-->
+  <nav class="navbar navbar-expand-md py-1 navbar-dark sticky-top bg-dark mb-0 sidebarNavigation" id="mainNav" data-sidebarClass="navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand text-warning" style='letter-spacing:0.2em' href="index.html"><h4>HAIL</h4></a>
+        <button class="navbar-toggler leftNavbarToggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+            aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="icon fas fa-bars fa-1x text-warning"></i>
+        </button>
+        <button type="button" class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#navBarUser" aria-controls="navBarUser" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="icon fa fa-user text-warning"></i>
+      </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="nav navbar-nav nav-flex-icons " >
+
+                  <li class="nav-item  mr-2">
+                      <a class="nav-link text-white active" href="index.html#aboutUs">About Us</a>
+                  </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-white mr-2" href="#sv" id="dropdown01" role="button" data-toggle="dropdown" aria-haspopup="true"  data-hover="dropdown" aria-expanded="false">Services</a>
+                    <div  id="sv" class="dropdown-menu bg-dark " aria-labelledby="dropdown01">
+                      <a href="service.html#hailcar" class="dropdown-item  text-white">HAIL Transportation</a>
+
+
+                        <a href="express.html" class="dropdown-item  text-white">HAIL Express</a>
+                          <a href="food.html" class="dropdown-item  text-white">HAIL Food</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white mr-2" href="hailpay.html">HAIL Pay</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white mr-2" href="reward.html">HAIL Reward</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link text-white mr-2" href="index.html#contactUs">Contact Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white mr-2" href="index.html#faq">FAQs</a>
+                </li>
+
+        </div>
+        <div class="collapse navbar-collapse" id="navBarUser">
+          <ul class="nav navbar-nav nav-flex-icons ml-auto">
+            <li class="nav-item">
+                 <a class="nav-link text-white pl-3 pr-4" href="dashboard.html"><i class="fas fa-columns pr-2"></i>Dashboard</a>
+             </li>
+        <li class="nav-item">
+            <a class="nav-link text-white pl-3 pr-4" href="login.html"><i class="far fa-user pr-2"></i>Sign In</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-white pl-3 pr-4 " href="register.html">Sign Up</a>
+        </li>
+
+      </ul>
+    </div>
+
+    </div>
+    </nav>
+
+    <header>
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <!-- Slide One - Set the background image for this slide in the line below -->
+          <div class="carousel-item active" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url('img/hail1.jpg'); background-size: cover;">
+            <div class="carousel-caption d-md-block">
+              <h3 class="display-4 font-weight-bold text-white ">HAIL Car</h3>
+              <p class="lead">Chauffeured cars for your every need.</p>
+                <button type="button" href="#tabs" id="btnCar" class="btn btn-lg btn-warning btn-circle my-4 mr-3">Check Out Now</button>
+            </div>
+          </div>
+          <!-- Slide Two - Set the background image for this slide in the line below -->
+          <div class="carousel-item" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url('img/carpooling.jpg'); background-size: cover;">
+            <div class="carousel-caption  d-md-block">
+              <h3 class="display-4 font-weight-bold text-white">HAIL Share</h3>
+              <p class="lead">This is a description for the second slide.</p>
+                  <button type="button" href="#tabs" id="btnShare" class="btn btn-lg btn-warning btn-circle my-4 mr-3">Check Out Now</button>
+            </div>
+          </div>
+          <!-- Slide Three - Set the background image for this slide in the line below -->
+          <div class="carousel-item"style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url('img/passenger.jpg'); background-size: cover;">
+            <div class="carousel-caption  d-md-block">
+              <h3 class="display-4 font-weight-bold text-white">Just HAIL</h3>
+              <p class="lead">This is a description for the third slide.</p>
+                <button type="button" href="#tabs" id="btnJust" class="btn btn-lg btn-warning btn-circle my-4 mr-3">Check Out Now</button>
+            </div>
+          </div>
+          <div class="carousel-item" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url('img/gps.jpg'); background-size: cover;">
+            <div class="carousel-caption d-md-block">
+              <h3 class="display-4 font-weight-bold text-white">HAIL Rent</h3>
+              <p class="lead">This is a description for the third slide.</p>
+              <button type="button"  href="#tabs" id="btnRent" class="btn btn-lg btn-warning btn-circle my-4 mr-3">Check Out Now</button>
+
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+      </div>
+    </header>
+
+    <!-- Tabs -->
+    <section id="tabs">
+    	<div class="container">
+    		<h1 class=" text-center text-warning font-weight-bold pb-4 ">HAIL Transportation Services</h1>
+    		<div class="row shadow" >
+    			<div class="col-xs-12 ">
+    				<nav>
+    					<div class="nav nav-tabs nav-fill" id="tabServ" role="tablist">
+    						<a class="nav-item nav-link active" id="hailCar" data-toggle="tab" href="#cars" role="tab" aria-controls="nav-home" aria-selected="true">HAIL Car</a>
+    						<a class="nav-item nav-link " id="hailShare" data-toggle="tab" href="#share" role="tab" aria-controls="nav-profile" aria-selected="false">HAIL Share</a>
+    						<a class="nav-item nav-link" id="justHail" data-toggle="tab" href="#just" role="tab" aria-controls="nav-contact" aria-selected="false">Just HAIL </a>
+    						<a class="nav-item nav-link" id="hailRent" data-toggle="tab" href="#rent" role="tab" aria-controls="nav-about" aria-selected="false">HAIL Rent</a>
+    					</div>
+    				</nav>
+    				<div class="tab-content py-3 px-3 px-sm-0" style="background-color: #f9f9f9;" id="nav-tabContent">
+
+    					<div class="tab-pane fade show active" id="cars" role="tabpanel" aria-labelledby="nav-home-tab">
+                <div class="container" >
+                  <h2 class="py-4 px-3 text-dark" >What is HAIL Car?</h2>
+                  <div class="">
+                    <p class="info pt-2 pb-4 px-3  text-dark text-justify" style="font-size:20px;"><span class="font-weight-bold text-warning">HAIL Car</span> is a ride-sharing and request-for-a-ride mode of transportation where customers book a ride via their mobile apps.
+                       Drivers are acquired via mobile app request which only take less than a minute and will fetch you on your pick-up location! While taxi are to be hailed from the streets in order to get a ride.</p>
+                  </div>
+                  <h2 class="px-4 py-4 text-dark" >Why Should You Use HAIL Car?</h2>
+              	<div class="row">
+              		<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+              						<div class="our-services-wrapper mb-60">
+              							<div class="services-inner">
+              								<div class="our-services-img">
+              								<img src="img/money.png" width="88px" alt="">
+              								</div>
+              								<div class="our-services-text">
+              									<h4>Transparent, Fixed Fares</h4>
+              									<p>Know your exact fare even before you book and ride.</p>
+              								</div>
+              							</div>
+              						</div>
+              					</div>
+              					<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+              						<div class="our-services-wrapper mb-60">
+              							<div class="services-inner">
+              								<div class="our-services-img">
+              								<img src="img/car-crash.png" width="98px" alt="">
+              								</div>
+              								<div class="our-services-text">
+              									<h4>Personal Insurance </h4>
+              									<p>We’ve got your back when you enter a HailCar.</p>
+              								</div>
+              							</div>
+              						</div>
+              					</div>
+              					<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+              						<div class="our-services-wrapper mb-60">
+              							<div class="services-inner">
+              								<div class="our-services-img">
+              								<img src="img/car-insurance.png" width="88px" alt="">
+              								</div>
+              								<div class="our-services-text">
+              									<h4>Quality Drivers</h4>
+              									<p>Every HailCar driver is rigorously screened and rated (by you) to ensure you get the best service.</p>
+              								</div>
+              							</div>
+              						</div>
+              					</div>
+                    <!--    <div class="">
+
+
+                      <!  <h2 class="px-4 py-4 text-dark" >Private cars for your everyday needs.</h2>
+                        <button type="button" class="btn btn-lg btn-warning btn-circle float-right my-4 mr-3">Download Now</button>
+                      </div>-->
+              	</div>
+
+
+
+              </div>
+
+            <!--  <div class="container serv ">
+                <div class="row">
+                        <div class="col-xs-12" >
+                            <h2 class="px-5 py-4 text-dark" >How it works</h2>
+                      <!-- design process steps-->
+                      <!-- Nav tabs --
+                      <div id="workTab">
+                      <ul class="nav nav-tabs process-model more-icon-preocess"  role="tablist" >
+                        <li role="presentation" class=""><a href="#discover" aria-controls="discover" role="tab" data-toggle="tab"><i class="fa fa-search" aria-hidden="true"></i>
+                          </a></li>
+                        <li role="presentation"><a href="#strategy" aria-controls="strategy" role="tab" data-toggle="tab"><i class="fa fa-send-o" aria-hidden="true"></i>
+                          <p>Strategy</p>
+                          </a></li>
+                        <li role="presentation"><a href="#optimization" aria-controls="optimization" role="tab" data-toggle="tab"><i class="fa fa-qrcode" aria-hidden="true"></i>
+                          <p>Optimization</p>
+                          </a></li>
+                        <li role="presentation"><a href="#content" aria-controls="content" role="tab" data-toggle="tab"><i class="fa fa-newspaper-o" aria-hidden="true"></i>
+                          <p>Content</p>
+                          </a></li>
+                        <li role="presentation"><a href="#reporting" aria-controls="reporting" role="tab" data-toggle="tab"><i class="fa fa-clipboard" aria-hidden="true"></i>
+                          <p>Reporting</p>
+                          </a></li>
+                      </ul>
+
+                      <!-- end design process steps--
+                      <!-- Tab panes --
+                      <div class="tab-content" >
+                        <div role="tabpanel" class="tab-pane active" id="discover">
+                          <div class="design-process-content">
+                            <h3 class="semi-bold">Discovery</h3>
+                           <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincid unt ut laoreet dolore magna aliquam erat volutpat</p>
+                           </div>
+                        </div>
+                        <div role="tabpanel" class="tab-pane" id="strategy">
+                          <div class="design-process-content">
+                            <h3 class="semi-bold">Strategy</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincid unt ut laoreet dolore magna aliquam erat volutpat</p>
+                            </div>
+                        </div>
+                        <div role="tabpanel" class="tab-pane" id="optimization">
+                          <div class="design-process-content">
+                            <h3 class="semi-bold">Optimization</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincid unt ut laoreet dolore magna aliquam erat volutpat</p>
+                             </div>
+                        </div>
+                        <div role="tabpanel" class="tab-pane" id="content">
+                          <div class="design-process-content">
+                            <h3 class="semi-bold">Content</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincid unt ut laoreet dolore magna aliquam erat volutpat</p>
+                            </div>
+                        </div>
+                        <div role="tabpanel" class="tab-pane" id="reporting">
+                          <div class="design-process-content">
+                            <h3>Reporting</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincid unt ut laoreet dolore magna aliquam erat volutpat. </p>
+                        </div>
+                      </div>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+              </div>-->
+    					</div>
+
+    					<div class="tab-pane fade" id="share" role="tabpanel" aria-labelledby="nav-profile-tab">
+                <div class="container" >
+                  <h2 class="py-4 px-3 text-dark" >What is HAIL Share?</h2>
+                  <div class="">
+                    <p class="info pt-2 pb-4 px-3  text-dark text-justify" style="font-size:20px;"><span class="font-weight-bold text-warning">HAIL Share </span>is a shared Hail ride that allows you to spilt the cost of your ride with a stranger who is headed in a similiar direction as you.</p>
+                  </div>
+                  <h2 class="px-4 py-4 text-dark" >Share the ride. Enjoy lower fares.</h2>
+                <div class="row">
+                  <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                          <div class="our-services-wrapper mb-60">
+                            <div class="services-inner">
+                              <div class="our-services-img">
+                              <img src="img/match.png" width="88px" alt="">
+                              </div>
+                              <div class="our-services-text">
+                                <h4>Match, Share & Save</h4>
+                                <p>Share rides whenever and wherever you want with the HAILCar's driver and passengers </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                          <div class="our-services-wrapper mb-60">
+                            <div class="services-inner">
+                              <div class="our-services-img">
+                              <img src="img/blow.png" width="88px" alt="">
+                              </div>
+                              <div class="our-services-text">
+                                <h4>Lower fares up to 30%</h4>
+                                <p>The fare shown on the app is the ride fare you pay (excluding toll charges)</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                          <div class="our-services-wrapper mb-60">
+                            <div class="services-inner">
+                              <div class="our-services-img">
+                              <img src="img/hailshare.png" width="88px" alt="">
+                              </div>
+                              <div class="our-services-text">
+                                <h4>Reduce your carbon footprint</h4>
+                                <p>Share a ride with other passengers will help the environment</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                </div>
+              </div>
+    					</div>
+    					<div class="tab-pane fade" id="just" role="tabpanel" aria-labelledby="nav-contact-tab">
+                <div class="container" >
+                  <h2 class="py-4 px-3 text-dark" >What is Just HAIL ?</h2>
+                  <div class="">
+                    <p class="info pt-2 pb-4 px-3  text-dark text-justify" style="font-size:20px;"><span class="font-weight-bold text-warning">Just HAIL </span>
+                     automatically assigns the nearest vehicle, either a car or taxi, to you at an upfront fixed fare.
+                     Having more vehicles also allows us to get you a ride much faster than any other app in Malaysia.</p>
+                  </div>
+                    <h2 class="px-4 py-4 text-dark" >Why Should You Use Just HAIL?</h2>
+                <div class="row">
+                  <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                          <div class="our-services-wrapper mb-60">
+                            <div class="services-inner">
+                              <div class="our-services-img">
+                              <img src="img/alow.png" width="88px" alt="">
+                              </div>
+                              <div class="our-services-text">
+                                <h4>Fixed Fares, Transparent</h4>
+                                <p>Enjoy guaranteed upfront fixed fares for any JustGrab ride, regardless of whether it’s a car or a taxi.</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                          <div class="our-services-wrapper mb-60">
+                            <div class="services-inner">
+                              <div class="our-services-img">
+                              <img src="img/speedClock.png" width="88px" alt="">
+                              </div>
+                              <div class="our-services-text">
+                                <h4>Quick and Safe</h4>
+                                <p>Get a ride faster as HAIL assigns you the nearest vehicle, either a car or a taxi, from our combined fleet of HAILCars and HAILTaxis.</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                          <div class="our-services-wrapper mb-60">
+                            <div class="services-inner">
+                              <div class="our-services-img">
+                              <img src="img/xtra.png" width="88px" alt="">
+                              </div>
+                              <div class="our-services-text">
+                                <h4>No extra charges</h4>
+                                <p>Traditional taxi surcharges such as booking fees and midnight charges no longer apply to JustGrab fares.</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                </div>
+                <h2 class="px-4 py-4 text-dark" >Our cars & taxis come together so you can be on your way faster!</h2>
+                <div class="text-center">
+                <img src="img/justhail.png" width="70%" class="center mx-auto pb-4" alt="">
+              </div>
+              </div>
+    					</div>
+    					<div class="tab-pane fade" id="rent" role="tabpanel" aria-labelledby="nav-about-tab">
+                <div class="container" >
+                  <h2 class="py-4 px-3 text-dark" >What is HAIL Rent?</h2>
+                  <div class="">
+                    <p class="info pt-2 pb-4 px-3  text-dark text-justify" style="font-size:20px;"><span class="font-weight-bold text-warning">HAIL Rent </span>
+                  along with a driver, for up to 12 hours, at competitive rates. Whether you’d like to visit attraction spots, go on a food tour, run business errands, or simply roam around, we’re at your service. No advance booking needed.</p>
+                  </div>
+                  <h2 class="px-4 py-4 text-dark" >Why Rent A HAIL Rent?</h2>
+                <div class="row">
+                  <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                          <div class="our-services-wrapper mb-60">
+                            <div class="services-inner">
+                              <div class="our-services-img">
+                              <img src="img/stopclock.png" width="88px" alt="">
+                              </div>
+                              <div class="our-services-text">
+                                <h4>No pre-booking required</h4>
+                                <p>Book your ride instantly when you need it and your car will arrive within minutes.</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                          <div class="our-services-wrapper mb-60">
+                            <div class="services-inner">
+                              <div class="our-services-img">
+                              <img src="img/analysis.png" width="88px" alt="">
+                              </div>
+                              <div class="our-services-text">
+                                <h4>Flexible range of hourly packages</h4>
+                                <p>Choose from a wide range of hourly packages to suit your needs.</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                          <div class="our-services-wrapper mb-60">
+                            <div class="services-inner">
+                              <div class="our-services-img">
+                              <img src="img/fee.png" width="88px" alt="">
+                              </div>
+                              <div class="our-services-text">
+                                <h4>Competitive prices</h4>
+                                <p>All hourly packages are priced comparable to market rates inclusive of fuel & driver charges.</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                </div>
+              </div>
+    					</div>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </section>
+    <div class="container">
+
+
+    <div class="row bg-white mx-1" id="howHail">
+      <div class="col-md-12 col-lg-4 pb-5 ">
+          <h1 class=" section-title text-center text-warning font-weight-bold pt-5  ">How it Works for HAIL Car/ Just Hail/ HailShare ?</h1>
+        <!--  <h4 class="subheading">GetLance makes it easy to connect with clients and begin doing great work.</h4>-->
+          <p class="text-muted text-justify px-3 py-3 ">Downlod HAIL in your smartphone and enjoy the services </p>
+          <div class="d-none d-lg-block" >
+              <button type="button" class=" d-md-none d-lg-block btn btn-lg btn-warning btn-circle w-100 text-center my-4 mr-3 " data-toggle="modal" data-target="#login" data-toggle="modal" data-target="#login">Download Now</button>
+          </div>
+      </div>
+          <div class="col-md-12 col-lg-8 ">
+            <div id="carouselIndicators" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselIndicators" data-slide-to="2"></li>
+
+              </ol>
+              <div class="carousel-inner " role="listbox">
+                <!-- Slide One - Set the background image for this slide in the line below -->
+                <div class="carousel-item active" style="background-image:  url('img/step1.png'); background-size: cover;">
+                </div>
+
+                  <!-- Slide One - Set the background image for this slide in the line below -->
+                  <div class="carousel-item " style="background-image:  url('img/step2.png'); background-size: cover;">
+                  </div>
+
+                    <!-- Slide One - Set the background image for this slide in the line below -->
+                    <div class="carousel-item " style="background-image:  url('img/step3.png'); background-size: cover;">
+                    </div>
+
+              </div>
+              <a class="carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true" style="filter: invert(50%);"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true" style="filter: invert(50%);"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+        <div class="col-md-12 col-lg-4 d-lg-none pb-5 ">
+                <button type="button" class="btn btn-lg btn-warning btn-circle w-100 text-center my-4 mr-3 " data-toggle="modal" data-target="#login">Download Now</button>
+          </div>
+          </div>
+    </div>
+  </div>
+  </div>
+
+    <div class="container">
+
+    <div class="row bg-white mx-1 d-none pb-5" id="howRent">
+        <div class="col-md-12 col-lg-4  ">
+            <h1 class=" section-title text-center text-warning font-weight-bold py-5  ">Something different on HAIL Rent</h1>
+          <!--  <h4 class="subheading">GetLance makes it easy to connect with clients and begin doing great work.</h4>-->
+            <p class="text-muted text-justify px-3 py-3 ">Downlod HAIL in your smartphone and enjoy the services </p>
+            <div class="d-none d-lg-block" >
+                <button type="button" class=" d-md-none d-lg-block btn btn-lg btn-warning btn-circle w-100 text-center my-4 mr-3 " data-toggle="modal" data-target="#login" data-toggle="modal" data-target="#login">Download Now</button>
+            </div>
+
+        </div>
+          <div class="col-md-12 col-lg-8 ">
+            <div id="carouselRent" class="carousel slide " data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carouselRent" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselRent" data-slide-to="1"></li>
+                <li data-target="#carouselRent" data-slide-to="2"></li>
+                <li data-target="#carouselRent" data-slide-to="3"></li>
+              </ol>
+              <div class="carousel-inner" role="listbox">
+                <!-- Slide One - Set the background image for this slide in the line below -->
+                <div class="carousel-item active" style="background-image:  url('img/rent1.png'); background-size: cover;">
+                </div>
+
+                  <!-- Slide One - Set the background image for this slide in the line below -->
+                  <div class="carousel-item " style="background-image:  url('img/rent2.png'); background-size: cover;">
+                  </div>
+
+                    <!-- Slide One - Set the background image for this slide in the line below -->
+                    <div class="carousel-item " style="background-image:  url('img/rent3.png'); background-size: cover;">
+                    </div>
+                    <!-- Slide One - Set the background image for this slide in the line below -->
+                    <div class="carousel-item " style="background-image:  url('img/rent4.png'); background-size: cover;">
+                    </div>
+
+              </div>
+            </div>
+              <a class="carousel-control-prev" href="#carouselRent" role="button" data-slide="prev" onclick="$('#carouselRent').carousel('prev')">
+                <span class="carousel-control-prev-icon" aria-hidden="true" style="filter: invert(50%);"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselRent" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true" style="filter: invert(50%);"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+            <div class="col-md-12 col-lg-4 d-lg-none pb-5 ">
+                    <button type="button" class="btn btn-lg btn-warning btn-circle w-100 text-center my-4 mr-3 " data-toggle="modal" data-target="#login">Download Now</button>
+              </div>
+          </div>
+    </div>
+</div>
+</div>
+
+<div class="modal fade" id="login" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content shadow-lg rounded " >
+      <div class=" text-center py-3 ">
+        <button type="button" class="close pr-2 text-warning" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <h4 class="modal-title text-dark">Download The <span class="text-warning" > HAIL</span>  App Now</h4>
+
+      </div>
+      <div class="modal-body" >
+
+        <div class="login px-2 mx-auto mw-100 ">
+              <img class="d-block w-100" src="img/d.png" alt="Second slide">
+              <div class="footer-app">
+              <img src="img/appstore.png" class="app" alt="">
+                <img src="img/googleplay.png" class="w-50 " alt="">
+              </img>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+</div>
+
+
+
+<footer id="dk-footer" class="dk-footer">
+          <div class="container">
+              <div class="row mt-0">
+                  <div class="col-md-12 col-lg-4">
+                      <div class="dk-footer-box-info">
+                          <a class="navbar-brand text-warning" style='letter-spacing:0.2em' href="index.html"><h2>HAIL</h2></a>
+
+                          <p class="footer-info-text text-white ">
+                            <span><i class="fas fa-map-marker-alt text-warning "></i></span>
+                          15, Jalan Semantan, Bukit Damansara, 50490, Kuala Lumpur
+                          </p>
+                          <div class="footer-social-link">
+                              <h3> Stay In Touch</h3>
+                              <ul>
+                                  <li>
+                                      <a href="#">
+                                          <i class="fa fa-facebook"></i>
+                                      </a>
+                                  </li>
+                                  <li>
+                                      <a href="#">
+                                          <i class="fa fa-twitter"></i>
+                                      </a>
+                                  </li>
+
+                                  <li>
+                                      <a href="#">
+                                          <i class="fa fa-instagram"></i>
+                                      </a>
+                                  </li>
+                              </ul>
+
+                          </div>
+                          <!-- End Social link -->
+
+                      </div>
+                      <!-- End Footer info -->
+
+                      <div class="footer-awarad ">
+                        <h3 class="text-warning ">Download Now</h3>
+                      </div>
+                      <div class="footer-app">
+                      <img src="img/appstore.png" class="app" alt="">
+                        <img src="img/googleplay.png" class="w-50 " alt="">
+                      </img>
+                    </div>
+
+                  </div>
+                  <!-- End Col -->
+                  <div class="col-md-12 col-lg-8">
+
+                      <div class="row">
+                          <div class="col-md-12 col-lg-6">
+                              <div class="footer-widget footer-left-widget">
+                                  <div class="section-heading">
+                                      <h3>Services</h3>
+                                      <span class="animate-border border-black"></span>
+                                  </div>
+                                  <ul>
+
+                                      <li>
+                                            <a href="service.html#hailcar">HAIL Transportation</a>
+                                      </li>
+                                      <li>
+                                          <a href="food.html" >HAIL Food</a>
+
+                                      </li>
+                                      <li>
+                                          <a href="express.html">HAIL Express</a>
+
+                                      </li>
+
+
+                                  </ul>
+                                  <ul>
+                                    <li>
+                                          <a  href="hailpay.html">HAIL Pay</a>
+                                    </li>
+                                    <li>
+                                          <a href="login.html" id="reward">HAIL Reward</a>
+                                    </li>
+                                    <li>
+                                          <a  href="index.html#faq">FAQs</a>
+                                    </li>
+
+                                  </ul>
+                              </div>
+                              <!-- End Footer Widget -->
+                          </div>
+                          <!-- End col -->
+                          <div class="col-md-12 col-lg-6">
+                              <div class="footer-widget footer-left-widget">
+                                  <div class="section-heading">
+                                      <h3>Subscribe</h3>
+                                      <span class="animate-border border-black"></span>
+                                  </div>
+                                  <p class="text-white"> Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
+                                  <form action="#">
+                                      <div class="form-row">
+                                          <div class="col dk-footer-form">
+
+                                            <div class="input-group mb-3">
+                                        <input type="email" class="form-control text-white  form-control-warning bg-dark" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"  placeholder="Email Address">
+                                          <div class="input-group-append">
+                                            <button type="submit" class="btn btn-outline-warning" >
+                                                <i class="fa fa-send"></i>
+                                            </button>
+                                          </div>
+                                        </div>
+
+                                          </div>
+                                      </div>
+                                  </form>
+                                  <!-- End form -->
+                              </div>
+                              <!-- End footer widget -->
+                          </div>
+                          <!-- End Col -->
+                      </div>
+                      <!-- End Row -->
+                  </div>
+                  <!-- End Col -->
+              </div>
+              <!-- End Widget Row -->
+          </div>
+          <!-- End Contact Container -->
+
+              <div class="container-fluid text-dark pt-3 bg-warning">
+                <div class="row">
+                  <div class="col-12 col-lg-6">
+                      <p>&copy; 2020 Hail. All Rights Reserved </p>
+                  </div>
+                  <div class="col-12 col-lg-6">
+                      <p class="float-lg-right">Designed by Group 1</p>
+                  </div>
+                </div>
+              </div>
+
+
+          <!-- Back to top -->
+          <div  class="back-to-top" >
+              <button class="btn btn-dark d-none" id="totop"  onclick="topFunction()" title="Back to Top" >
+                  <i class="fa fa-angle-up"></i>
+              </button>
+          </div>
+
+        </footer>
+        </section>
+        <!--Scripts-->
+
+        <script >
+
+        $("#reward").on("click",function(){
+            alert("Please login to continue");
+
+        });
+
+
+        window.onscroll = function() {
+          scrollFunction()};
+
+        /*  $('div.panel').scroll(function() {
+      didScroll = true;
+  });*/
+        function scrollFunction() {
+            var top= document.getElementById("totop");
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            top.classList.add("d-block");
+          } else {
+            top.classList.remove("d-block");
+          }
+        }
+        function topFunction() {
+
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+
+        }
+
+
+        var hailCar=document.getElementById("hailCar");
+        var hailShare=document.getElementById("hailShare");
+        var justhail=document.getElementById("justHail");
+        var rent=document.getElementById("hailRent");
+        var how1=document.getElementById("howHail");
+        var how2=document.getElementById("howRent");
+
+
+        $("#btnCar").on("click",function(){
+
+              $('#hailCar').tab("show");
+              $('html, body').animate({
+           scrollTop: $("#tabs").offset().top
+         }, 1000);
+
+        /*  console.log("Clicked Share");
+            $('#carouselExampleIndicators').carousel({
+                pause: true,
+                interval: false
+            });
+            console.log("Clicked Car");*/
+
+        });
+
+        $("#btnShare").on("click",function(){
+              $('#hailShare').tab("show");
+              $('html, body').animate({
+           scrollTop: $("#tabs").offset().top
+         }, 1000);
+
+        });
+
+        $("#btnJust").on("click",function(){
+              $('#justHail').tab("show");
+              $('html, body').animate({
+           scrollTop: $("#tabs").offset().top
+         }, 1000);
+
+        });
+
+        $("#btnRent").on("click",function(){
+              $('#hailRent').tab("show");
+
+              $('html, body').animate({
+           scrollTop: $("#tabs").offset().top
+         }, 1000);
+
+         how1.classList.add("d-none");
+         how2.classList.remove("d-none");
+
+
+        });
+
+        $("#hailRent").on("click",function(){
+
+         how1.classList.add("d-none");
+         how2.classList.remove("d-none");
+
+
+        });
+
+        var hailCar=document.getElementById("hailCar");
+        var hailShare=document.getElementById("hailShare");
+        var justhail=document.getElementById("justHail");
+        var rent=document.getElementById("hailRent");
+        var how1=document.getElementById("howHail");
+        var how2=document.getElementById("howRent");
+
+
+        $("#btnCar").on("click",function(){
+
+              $('#hailCar').tab("show");
+              $('html, body').animate({
+           scrollTop: $("#tabs").offset().top
+         }, 1000);
+
+        /*  console.log("Clicked Share");
+            $('#carouselExampleIndicators').carousel({
+                pause: true,
+                interval: false
+            });
+            console.log("Clicked Car");*/
+
+        });
+
+        $("#btnShare").on("click",function(){
+              $('#hailShare').tab("show");
+              $('html, body').animate({
+           scrollTop: $("#tabs").offset().top
+         }, 1000);
+
+        });
+
+        $("#btnJust").on("click",function(){
+              $('#justHail').tab("show");
+              $('html, body').animate({
+           scrollTop: $("#tabs").offset().top
+         }, 1000);
+
+        });
+
+        $("#btnRent").on("click",function(){
+              $('#hailRent').tab("show");
+
+              $('html, body').animate({
+           scrollTop: $("#tabs").offset().top
+         }, 1000);
+
+         how1.classList.add("d-none");
+         how2.classList.remove("d-none");
+
+
+        });
+
+        $("#hailRent").on("click",function(){
+
+         how1.classList.add("d-none");
+         how2.classList.remove("d-none");
+
+
+        });
+
+
+
+
+        </script>
+  </body>
+</html>
