@@ -9,7 +9,7 @@
 </style>
 <header class="mastheadDyl">
     <div class="container jumbotron-padding  text-center">
-      <h1 class="display-4 text-warning font-weight-bold">HAIL Rewards</h1>
+      <h1 class="display-4 text-warning font-weight-bold zoom">HAIL Rewards</h1>
       <p class=" text-white ">Hey there! HAIL provides services that only get better!</p>
       <p class=" text-white ">The more you enjoy, the more you get<span class="text-warning"> rewarded!</span></p>
 
