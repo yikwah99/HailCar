@@ -134,28 +134,38 @@
       </div>
       </section>
       <!-- dash end --><hr>
-      <section>
-      <h1 class="display-4 text-center text-warning font-weight-bold pb-5" id="topupnow">Top Up Now</h1>
+      <section class="bg-warning">
+      <h1 class="display-4 text-center text-dark font-weight-bold pb-5" id="topupnow">Top Up Now</h1>
+      <div class="container">
         <form action="#">
               <div class="row justify-content-center ">
 
-                <div class=" col-md-10 col-lg-8">
-                  <div class="h4 my-3">Enter Amount:</div>
+                <div class=" col-md-10 col-lg-8 bg-white p-3 shadow border rounded">
+
                   <div class="input-group my-3">
-                    <div class="input-group-prepend">
-                      <button class="btn  btn-lg btn-outline-success text-dark " type="button" onclick="document.getElementById('amount').value=20">RM20</button>
-                      <button class="btn  btn-lg btn-outline-success text-dark " type="button" onclick="document.getElementById('amount').value=50">RM50</button>
-                      <button class="btn  btn-lg btn-outline-success text-dark " type="button" onclick="document.getElementById('amount').value=100">RM100</button>
-                    </div>
-                      <input type="number" id="amount" class="form-control form-control-lg border-success p-3" placeholder="Preferred Amount" aria-label="" aria-describedby="basic-addon1" min="0" name="amount">
-                      <!-- Button trigger modal -->
-                        <div class="input-group-append">
-                      <button type="button" class="btn btn-lg btn-warning px-4" data-toggle="modal" data-target="#topupModal">
-                        Top up
-                      </button>
-                      </div>
-                  </div>
+                  <!--  <div class="input-group-prepend">-->
+                    <div class=" col-md-12 col-lg-12 pb-3 h4 p-3">Enter Amount:</div>
+                    <div class=" col-md-12 col-lg-12  pb-4 ">
+                      <button class="btn  btn-lg btn-outline-success text-dark px-5 py-3 mr-2" type="button" onclick="document.getElementById('amount').value=20">RM20</button>
+                      <button class="btn  btn-lg btn-outline-success text-dark px-5 py-3 mr-2" type="button" onclick="document.getElementById('amount').value=50">RM50</button>
+                      <button class="btn  btn-lg btn-outline-success text-dark px-5 py-3 mr-2" type="button" onclick="document.getElementById('amount').value=100">RM100</button>
+
                 </div>
+
+                      <input type="number" id="amount" class="form-control form-control-lg border-success " placeholder="Preferred Amount" aria-label="" aria-describedby="basic-addon1" min="10" max="100" name="amount">
+                      <div class="input-group-append">
+                    <button type="button" class="btn btn-lg btn-warning px-4" data-toggle="modal" data-target="#topupModal">
+                      Top up
+                    </button>
+
+
+                    </div>
+                      <!-- Button trigger modal -->
+
+                  </div>
+                    <p class="text-muted">Min reload amount is RM10</p>
+                </div>
+
 
               </div>
 
@@ -181,6 +191,7 @@
                   </div>
                 </div>
             </form>
+            </div>
       </section>
 
       <section>
