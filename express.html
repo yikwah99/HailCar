@@ -165,23 +165,60 @@
 
       <h2 class="pb-4 text-dark font-weight-bold text-center" >Track and Trace</h2>
       <div class="row">
-        <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
+        <div class="col-sm-9 col-md-7 col-lg-5 mx-auto" id="formTrack">
           <div class="card card-signin shadow-lg">
             <div class="card-body">
 
               <form action="#" method="post" class="form-signin">
                   Enter a valid tracking number
                 <div class="form-label-group my-4">
-                  <input type="tel" id="inputTrack" class="form-control" placeholder="Tracking Number with 12 characters " name="phoneNo" pattern="[0-9]{10}" required autofocus>
+                  <input type="tel" id="inputTrack" class="form-control" placeholder="Tracking Number with 12 characters " id="trackingNumber" name="trackingNumber" minlength="10" required autofocus>
                 </div>
 
-                <input class="btn btn-lg btn-block bg-warning" type="submit" name="submit" value="Submit" class="button">
+                <input id="tsubmit" class="btn btn-lg btn-block bg-warning" type="submit" name="submit" value="Submit" class="button">
               </form>
             </div>
           </div>
 
         </div>
+
+        <div class="col-sm-9 col-md-7 col-lg-5 mx-auto d-none" id="notF">
+            <div class="container">
+             <div class=" text-center">
+               <h4 class="pb-3">Tracking Number Not Found</h4>
+             </div>
+             <div class=" text-center">
+             <input id="back" class="btn  btn-lg bg-secondary w-50 text-white" type="submit" name="submit" value="Back" >
+             </div>
+          </div>'
+        </div>
+
+          <div class="col-sm-9 col-md-3 col-lg-8 py-5 mx-auto bg-white d-none" id="canF">
+               <div class="container ">
+                <div class=" text-center ">
+                  <h4 class="pb-3">Trancking Number is found</h4>
+                </div>
+                <ul class="step d-flex flex-nowrap">
+                 <li class="step-item">
+                   <a href="#!" class="">Parcel dispatched out</a>
+                 </li>
+                 <li class="step-item">
+                   <a href="#!" class="">Parcel processed</a>
+                 </li>
+                 <li class="step-item active">
+                   <a href="#!" class="">Parcel out of delivery</a>
+                 </li>
+                 <li class="step-item">
+                   <a href="#!" class="">Parcel has been received</a>
+                 </li>
+               </ul>
+               <div class=" text-center pt-5">
+               <input id="backT" class="btn btn-lg bg-secondary w-50 text-white" type="submit" name="submit" value="Back" >
+               </div>
+               </div>
+             </div>
       </div>
+
     </div>
     </section>
 
@@ -455,12 +492,33 @@ $("#btnEx").on("click",function(){
         }
 
 
-        $("#inputTrack").on("click",function(){
-            alert(1);
+
+        $(document).on('click','#tsubmit',function(){
+
+          var t= $('input#inputTrack').val();
+          var tF= document.getElementById("canF");
+          var fF= document.getElementById("formTrack");
+
+            console.log(t);
+
+            if(t==""){
+              alert("Enter valid 12 characters");
+            }else{
+                tF.classList.remove("d-none");
+                fF.classList.add("d-none");
+             }
+         });
+
+         $(document).on('click','#backT',function(){
+           //var t= $('input#inputTrack').val();
+           var tF= document.getElementById("canF");
+           var fF= document.getElementById("formTrack");
 
 
-        });
-
+           tF.classList.add("d-none");
+           fF.classList.remove("d-none");
+           $('input#inputTrack').val('');
+         });
 
 
 
