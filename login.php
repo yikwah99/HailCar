@@ -1,12 +1,12 @@
 <?php
 if(!isset($_SESSION))
-  session_start(); 
+  session_start();
 if(isset($_POST['submit']))
 {
   include_once("database.php");
   $phoneNo=$_POST['phoneNo'];
   $password=$_POST['password'];
-  
+
   $sql = "select * from user WHERE phoneNo='".$phoneNo."'  AND password='".$password."';";
   $result = mysqli_query($con,$sql);
   $row = mysqli_fetch_assoc($result);
@@ -18,7 +18,7 @@ if(isset($_POST['submit']))
     $_SESSION['phoneNo'] =$phoneNo;
     $_SESSION['firstVisit']= 1;
     //sweetalert();
-    
+
     header('location:dashboard.php');
   }
 
@@ -60,7 +60,7 @@ if(isset($_POST['submit']))
   background-image: linear-gradient(148deg, #ecd434 33%, #ff4b00 94%);
   ">
     <div class="container">
-        <div class="pb-5 pt-3"><a class="navbar-brand text-white" style='letter-spacing:0.2em' href="index.php"><h4>HAIL</h4></a></div>
+        <div class="pb-5 pt-3"><a class="navbar-brand text-white" style='letter-spacing:0.2em' href="index.html"><h4>HAIL</h4></a></div>
 
       <div class="row">
         <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
@@ -91,7 +91,7 @@ if(isset($_POST['submit']))
         </div>
       </div>
     </div>
-     <?php 
+     <?php
   //function sweetalert() {
     //echo"<script type='text/javascript'>
     //Swal.fire('Login successful','Welcome to HAIL!','success')
@@ -99,5 +99,5 @@ if(isset($_POST['submit']))
   //}
   ?>
   </body>
- 
+
 </html>
