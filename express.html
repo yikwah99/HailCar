@@ -183,7 +183,7 @@
 
                 <input class="form-control form-control form-control-borderless bg-light" type="text" name="trackingNumber" required minlength="12" id="inputTrack" placeholder="Enter 12 valid characters"  >
                 <div class="input-group-append">
-                 <button class="btn btn- btn-warning" type="submit" name="searchbtn" id="tsubmit"> <i class="fas fa-search "></i></button>
+                 <input class="btn btn- btn-warning" type="submit" name="stsubmit" id="tsubmit" value="Submit">
                 </div>
                  </div>
 
@@ -511,7 +511,7 @@ $("#btnEx").on("click",function(){
 
             console.log(t);
 
-            if(t==""){
+            if(t.length<12){
               alert("Enter valid 12 characters");
             }else{
                 tF.classList.remove("d-none");
