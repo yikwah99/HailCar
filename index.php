@@ -162,14 +162,14 @@
   <div class="container h-100">
     <div class="d-flex h-100 text-center align-items-center">
       <div class="w-100 text-white">
-        <p class="text-info">Our Team</p>
+        <p class="text-warning">Our Team</p>
         <a class="btn text-dark bg-white noLine" href="mailto:chngdylan@gmail.com">Dylan Ch'ng</a><br>
         <a class="btn text-dark bg-white noLine" href="mailto:leekeathong729@gmail.com">Dominic Lee</a><br>
         <a class="btn text-dark bg-white noLine" href="mailto:sky.caijuan@gmail.com">Liew Cai Juan</a><br>
         <a class="btn text-dark bg-white noLine" href="mailto:yikwah99@gmail.com">Kam Yik Wah</a><br>
         <br>
         <p class="text-dark mb-0">Kindaly approach us for any enquiries.</p><br>
-        <a class="btn btn-outline-warning text-dark noLine" href="mailto:yikwah99@gmail.com">Email Us</a><br>
+        <a class="btn btn-outline-warning text-dark noLine" href="mailto:hailsupport@gmail.com">Email Us</a><br>
         <br><br><br>
       </div>
     </div>
