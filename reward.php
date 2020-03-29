@@ -7,18 +7,25 @@
     scroll-behavior: smooth;
   }
 </style>
+<header class="mastheadDyl">
+    <div class="container jumbotron-padding  text-center">
+      <h1 class="display-4 text-warning font-weight-bold">HAIL Rewards</h1>
+      <p class=" text-white ">Hey there! HAIL provides services that only get better!</p>
+      <p class=" text-white ">The more you enjoy, the more you get<span class="text-warning"> rewarded!</span></p>
 
+       <p class="paral text-white">
+         <p class="lead text-white"></p>
+         <a class="btn btn-md btn-danger text-white zoom" href="#rewards">View Rewards</a>
+    </div>
+  </header>
 <div class="container">
   <div class=" text-center bg-white">
-    <h1 class="display-4 text-warning font-weight-bold">HAIL Rewards</h1>
-    <p class="lead">Hey there! HAIL provides services that only get better!</p>
     <div class="container"><img class="img-fluid" src="img/line2.png" alt="bigBG"></div>
-    <p class="lead">The more you enjoy, the more you get rewarded!</p>
-    <a class="btn btn-md btn-danger text-white zoom" href="#rewards">View Rewards</a>
-    <hr>
   </div>
+</div>
 
-  <div class="container text-center">
+<div class="container">
+  <div class="container text-center mt-5">
       <h1 class="display-4 text-warning font-weight-bold">Ranking</h1>
     <div class="p-2 mb-2 text-white zoom" style="background:#cd7f32;">Bronze 0-250 Points</div>
     <div class="p-2 mb-2 text-white zoom" style="background:#C0C0C0;">Silver 250-750 Points</div>
@@ -119,7 +126,7 @@
     <br>
     <br>
   </div>
-
+</div>
 
 <?php
   include "footer.php";

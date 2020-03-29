@@ -2,12 +2,6 @@
   $page_title = "Hail Express Services";
   include "header.php";
 ?>
-
-  <style>
-  .html{
-    scroll-behavior: smooth;
-  }
-  </style>
   <header class="masthead2">
     <div class="container jumbotron-padding  text-center">
     <h3 class="display-4 font-weight-bold text-white "><span class="text-danger">HAIL Food</span> Delivery Service</h3>
