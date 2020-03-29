@@ -77,12 +77,12 @@
   <div class="col-sm-6">
     <div class="card glowCard">
       <div class="card-body">
-        <h4 class="text-center text-success mt-3">HAIL SHARE</h4>
-        <img class="card-img-top darken rounded img-fluid p-2" src="img/carpooling.jpg" alt="Card image cap">
-        <p class="card-title">Share a ride to travel around the city with lower PRICE.</p>
+        <h4 class="text-center text-success mt-3">HAIL PAY</h4>
+        <img class="card-img-top darken rounded img-fluid p-0" src="img/epay.jpg" alt="Card image cap">
+        <p class="card-title">Top up credits ANYTIME and ANYWHERE.</p>
       </div>
       <div class="card-footer text-muted">
-          <a class="btn btn-block btn-warning text-dark" href="service.php">Learn More</a>
+          <a class="btn btn-block btn-warning text-dark" href="hailpay.php">Learn More</a>
         </div>
     </div>
   </div>
@@ -162,12 +162,14 @@
   <div class="container h-100">
     <div class="d-flex h-100 text-center align-items-center">
       <div class="w-100 text-white">
-        <a class="text-dark bg-white noLine" href="mailto:chngdylan@gmail.com">Dylan Ch'ng</a><br>
-        <a class="text-dark bg-white noLine" href="mailto:leekeathong729@gmail.com">Dominic Lee</a><br>
-        <a class="text-dark bg-white noLine" href="mailto:sky.caijuan@gmail.com">Liew Cai Juan</a><br>
-        <a class="text-dark bg-white noLine" href="mailto:yikwah99@gmail.com">Kam Yik Wah</a><br>
+        <p class="text-info">Our Team</p>
+        <a class="btn text-dark bg-white noLine" href="mailto:chngdylan@gmail.com">Dylan Ch'ng</a><br>
+        <a class="btn text-dark bg-white noLine" href="mailto:leekeathong729@gmail.com">Dominic Lee</a><br>
+        <a class="btn text-dark bg-white noLine" href="mailto:sky.caijuan@gmail.com">Liew Cai Juan</a><br>
+        <a class="btn text-dark bg-white noLine" href="mailto:yikwah99@gmail.com">Kam Yik Wah</a><br>
         <br>
-        <p class="text-dark lead mb-0">Kindaly approach us for any enquiries.</p>
+        <p class="text-dark mb-0">Kindaly approach us for any enquiries.</p><br>
+        <a class="btn btn-outline-warning text-dark noLine" href="mailto:yikwah99@gmail.com">Email Us</a><br>
         <br><br><br>
       </div>
     </div>

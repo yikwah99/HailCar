@@ -3,18 +3,23 @@
   include "header.php";
 ?>
 
+  <style>
+  .html{
+    scroll-behavior: smooth;
+  }
+  </style>
   <header class="masthead2">
     <div class="container jumbotron-padding  text-center">
-    <h3 class="display-4 font-weight-bold text-white ">HAIL Food Delivery Service</h3>
+    <h3 class="display-4 font-weight-bold text-white "><span class="text-danger">HAIL Food</span> Delivery Service</h3>
        <p class="paral text-white">
          Fast and reliable food delivery for satisfying your cravings
        </p>
-         <a href="" class="btn btn-lg btn-warning btn-circle my-4 mr-3">Check Out Now</a>
+         <a href="#foodCont" id="btnFood" class="btn btn-lg btn-warning btn-circle my-4 mr-3">Check Out Now</a>
     </div>
   </header>
 
-  <div class="container">
-      <h2 class="px-4 py-4 text-dark" >Why Should You Use HAIL Food?</h2>
+  <div class="container" id="foodCont">
+      <h2 class="px-4 py-4 text-dark" >Why Should You Use <span class="text-danger">HAIL Food</span>?</h2>
     <div class="row">
       <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
               <div class="our-services-wrapper mb-60">
@@ -160,6 +165,16 @@
     </div>
   </div>
 
+  <script type="text/javascript">
+  $("#btnFood").on("click",function(){
+
+        $('html, body').animate({
+     scrollTop: $("#foodCont").offset().top
+   }, 1000);
+
+  });
+
+  </script>
 
 
 
