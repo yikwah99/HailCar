@@ -32,7 +32,7 @@
   </script>
 </head>
 
-<body class="shadow-lg rounded" style="background-color: #ecd434;
+<body class="shadow-lg rounded vh-100" style="background-color: #ecd434;
 background-image: linear-gradient(148deg, #ecd434 33%, #ff4b00 94%);">
   <div class="container">
       <div class="pb-2 pt-3"><a class="navbar-brand text-white" style='letter-spacing:0.2em' href="index.html"><h4>HAIL</h4></a></div>
@@ -74,15 +74,10 @@ background-image: linear-gradient(148deg, #ecd434 33%, #ff4b00 94%);">
                 <input type="checkbox" class="custom-control-input" id="tncCheck" checked required>
                 <label class="custom-control-label" for="tncCheck">I have read and agree to the Terms and Condition</label>
               </div>
-              <?php
-              if($errorflag==1)
-                echo "<p class='text-danger'>Account with phone number already exist. <a href='login.php'>Login</a> instead</p>";
-              else if ($errorflag==2)
-                echo "<p class='text-danger'>Password doesn't match!</p>"
-              ?>
 
-              <input type="submit" name="submit" class="btn btn-lg btn-block bg-warning" value="Submit">
+              
             </form>
+            <a href="login.html"><button class="btn btn-lg btn-block bg-warning">Submit</button></a>
           </div>
         </div>
         <div class="text-right text-white h6">Already have an account? <a href="login.html" class="text-white"><u>Sign in</u></a></div>
