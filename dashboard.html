@@ -1,19 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="utf-8" name="viewport" content= "width=device-width, initial-scale=1.0">
+  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
   <title> HAIL Reward Page</title>
-  <link rel="shortcut icon" href="img/hailFav.png"/>
+  <link rel="shortcut icon" href="img/hailFav.png" />
   <!--Styles-->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slim-select/1.17.0/slimselect.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
-    <link rel="stylesheet" type="text/css" href="css/stylesheetCJ.css">
-    <link rel="stylesheet" type="text/css" href="css/newCssForAll.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+  <link rel="stylesheet" type="text/css" href="css/stylesheetCJ.css">
+  <link rel="stylesheet" type="text/css" href="css/newCssForAll.css">
   <!--Scripts-->
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
   <script src="//cdnjs.cloudflare.com/ajax/libs/timepicker/1.3.5/jquery.timepicker.min.js"></script>
@@ -23,469 +24,470 @@
 
   </script>
   <style>
-    html{
+    html {
       scroll-behavior: smooth;
     }
   </style>
 </head>
 <!-- hide show nav -->
+
 <body>
   <!--Nav-->
   <!--LOGO-->
   <nav class="navbar navbar-expand-md py-1 navbar-dark sticky-top bg-dark mb-0 sidebarNavigation" id="mainNav" data-sidebarClass="navbar-dark bg-dark">
-        <div class="container-fluid">
-            <a class="navbar-brand text-warning" style='letter-spacing:0.2em' href="index.html"><h4>HAIL</h4></a>
-        <button class="navbar-toggler leftNavbarToggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
-            aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="icon fas fa-bars fa-1x text-warning"></i>
-        </button>
-        <button type="button" class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#navBarUser" aria-controls="navBarUser" aria-expanded="false" aria-label="Toggle navigation">
+    <div class="container-fluid">
+      <a class="navbar-brand text-warning" style='letter-spacing:0.2em' href="index.html">
+        <h4>HAIL</h4>
+      </a>
+      <button class="navbar-toggler leftNavbarToggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="icon fas fa-bars fa-1x text-warning"></i>
+      </button>
+      <button type="button" class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#navBarUser" aria-controls="navBarUser" aria-expanded="false" aria-label="Toggle navigation">
         <i class="icon fa fa-user text-warning"></i>
       </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="nav navbar-nav nav-flex-icons " >
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="nav navbar-nav nav-flex-icons ">
 
-                  <li class="nav-item  mr-2">
-                      <a class="nav-link text-white active" href="index.html#aboutUs">About Us</a>
-                  </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle text-white mr-2" href="#sv" id="dropdown01" role="button" data-toggle="dropdown" aria-haspopup="true"  data-hover="dropdown" aria-expanded="false">Services</a>
-                    <div  id="sv" class="dropdown-menu bg-dark " aria-labelledby="dropdown01">
-                      <a href="service.html#hailcar" class="dropdown-item  text-white">HAIL Transportation</a>
-
-
-                        <a href="express.html" class="dropdown-item  text-white">HAIL Express</a>
-                          <a href="food.html" class="dropdown-item  text-white">HAIL Food</a>
-                    </div>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-white mr-2" href="hailpay.html">HAIL Pay</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white mr-2" href="reward.html">HAIL Reward</a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link text-white mr-2" href="index.html#contactUs">Contact Us</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-white mr-2" href="index.html#faq">FAQs</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-white mr-2" href="dashboard.html#topupnow">Top Up Credits</a>
-                </li>
+          <li class="nav-item  mr-2">
+            <a class="nav-link text-white active" href="index.html#aboutUs">About Us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-white mr-2" href="#sv" id="dropdown01" role="button" data-toggle="dropdown" aria-haspopup="true" data-hover="dropdown" aria-expanded="false">Services</a>
+            <div id="sv" class="dropdown-menu bg-dark " aria-labelledby="dropdown01">
+              <a href="service.html#hailcar" class="dropdown-item  text-white">HAIL Transportation</a>
 
 
-        </div>
-        <div class="collapse navbar-collapse" id="navBarUser">
-          <ul class="nav navbar-nav nav-flex-icons ml-auto">
-            <li class="nav-item">
-                 <a class="nav-link text-white pl-3 pr-4" href="dashboard.html"><i class="fas fa-columns pr-2"></i>Dashboard</a>
-             </li>
-        <li class="nav-item">
-            <a class="nav-link text-white pl-3 pr-4" href="login.html"><i class="far fa-user pr-2"></i>Sign In</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link text-white pl-3 pr-4 " href="register.html">Sign Up</a>
-        </li>
-
-      </ul>
-    </div>
-
-    </div>
-    </nav>
-    <section>
-      <div class="container ">
-          <h1 class="display-4 text-center text-warning font-weight-bold">Dashboard</h1>
-        <!--dash -->
-          <div class="container-fluid row text-center ml-auto mt-5">
-              <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
-              <div class="card border-warning mb-60 shadow">
-                <div class="card-body ">
-                  <h4 class=" text-center text-warning mt-3">HAIL Pay Balance</h4>
-                  <p class="card-text py-3">RM 322.1</p>
-                </div>
-              </div>
+              <a href="express.html" class="dropdown-item  text-white">HAIL Express</a>
+              <a href="food.html" class="dropdown-item  text-white">HAIL Food</a>
             </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white mr-2" href="hailpay.html">HAIL Pay</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white mr-2" href="reward.html">HAIL Reward</a>
+          </li>
 
-              <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 ">
-            <div class="card border-success mb-60 shadow">
-              <div class="card-body ">
-                <h4 class="text-center text-success mt-3">Hail Points</h4>
-                  <p class="card-text py-3">3028</p>
-              </div>
+          <li class="nav-item">
+            <a class="nav-link text-white mr-2" href="index.html#contactUs">Contact Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white mr-2" href="index.html#faq">FAQs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white mr-2" href="dashboard.html#topupnow">Top Up Credits</a>
+          </li>
+
+
+      </div>
+      <div class="collapse navbar-collapse" id="navBarUser">
+        <ul class="nav navbar-nav nav-flex-icons ml-auto">
+          <li class="nav-item">
+            <a class="nav-link text-white pl-3 pr-4" href="dashboard.html"><i class="fas fa-columns pr-2"></i>Dashboard</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white pl-3 pr-4" href="login.html"><i class="far fa-user pr-2"></i>Sign In</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white pl-3 pr-4 " href="register.html">Sign Up</a>
+          </li>
+
+        </ul>
+      </div>
+
+    </div>
+  </nav>
+  <section>
+    <div class="container ">
+      <h1 class="display-4 text-center text-warning font-weight-bold">Dashboard</h1>
+      <!--dash -->
+      <div class="container-fluid row text-center ml-auto mt-5">
+        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+          <div class="card border-warning mb-60 shadow">
+            <div class="card-body ">
+              <h4 class=" text-center text-warning mt-3">HAIL Pay Balance</h4>
+              <p class="card-text py-3">RM 322.1</p>
             </div>
           </div>
+        </div>
 
-          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
-              <div class="card-body p-0 mb-60 shadow">
-                <div class="text-light">
-                  <div class="card border">
-                    <div class="card-body" style="background:background-color: #933acb;background-image: linear-gradient(270deg, #933acb 31%, #840bb6 73%);">
-                      <h4 class="text-center mt-3">Ranking</h4>
-                      <p class="card-text py-3" >Platinum
-                      </p>
-                    </div>
-                  </div>
+        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 ">
+          <div class="card border-success mb-60 shadow">
+            <div class="card-body ">
+              <h4 class="text-center text-success mt-3">Hail Points</h4>
+              <p class="card-text py-3">3028</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+          <div class="card-body p-0 mb-60 shadow">
+            <div class="text-light">
+              <div class="card border">
+                <div class="card-body" style="background:background-color: #933acb;background-image: linear-gradient(270deg, #933acb 31%, #840bb6 73%);">
+                  <h4 class="text-center mt-3">Ranking</h4>
+                  <p class="card-text py-3">Platinum
+                  </p>
                 </div>
               </div>
+            </div>
           </div>
         </div>
       </div>
-      </section>
-      <!-- dash end --><hr>
-      <section class="bg-warning">
-      <h1 class="display-4 text-center text-dark font-weight-bold pb-5" id="topupnow">Top Up Now</h1>
-      <div class="container">
-        <form action="#">
-              <div class="row justify-content-center ">
+    </div>
+  </section>
+  <!-- dash end --<hr>-->
+  <section class="bg-warning">
+    <h1 class="display-4 text-center text-dark font-weight-bold pb-5" id="topupnow">Top Up Now</h1>
+    <div class="container">
+      <form action="#">
+        <div class="row justify-content-center ">
 
-                <div class=" col-md-10 col-lg-8 bg-white p-3 shadow border rounded">
+          <div class=" col-md-10 col-lg-8 bg-white p-3 shadow border rounded">
 
-                  <div class="input-group my-3">
-                  <!--  <div class="input-group-prepend">-->
-                    <div class=" col-md-12 col-lg-12 pb-3 h4 p-3">Enter Amount:</div>
-                    <div class=" col-md-12 col-lg-12  pb-4 ml-3">
-                      <button class="btn  btn-lg btn-outline-success text-dark px-5 py-3 mr-2 mb-1" type="button" onclick="document.getElementById('amount').value=20">RM20</button>
-                      <button class="btn  btn-lg btn-outline-success text-dark px-5 py-3 mr-2 mb-1" type="button" onclick="document.getElementById('amount').value=50">RM50</button>
-                      <button class="btn  btn-lg btn-outline-success text-dark px-5 py-3 mr-2 mb-1" type="button" onclick="document.getElementById('amount').value=100">RM100</button>
-                      <button class="btn  btn-lg btn-outline-success text-dark px-5 py-3 mr-2 mb-1" type="button" onclick="document.getElementById('amount').value=150">RM150</button>
-
-                </div>
-
-                      <input type="number" id="amount" class="form-control form-control-lg border-success " placeholder="Preferred Amount" aria-label="" aria-describedby="basic-addon1" min="10" max="100" name="amount">
-                      <div class="input-group-append">
-                    <button type="button" class="btn btn-lg btn-warning px-4" data-toggle="modal" data-target="#topupModal">
-                      Top up
-                    </button>
-
-
-                    </div>
-                      <!-- Button trigger modal -->
-
-                  </div>
-                    <p class="text-muted">Min reload amount is RM10</p>
-                </div>
-
+            <div class="input-group my-3">
+              <!--  <div class="input-group-prepend">-->
+              <div class=" col-md-12 col-lg-12 pb-3 h4 p-3">Enter Amount:</div>
+              <div class=" col-md-12 col-lg-12  pb-4 ml-3">
+                <button class="btn  btn-lg btn-outline-success text-dark px-5 py-2 mr-2 mb-1" type="button" onclick="document.getElementById('amount').value=20">RM20</button>
+                <button class="btn  btn-lg btn-outline-success text-dark px-5 py-2 mr-2 mb-1" type="button" onclick="document.getElementById('amount').value=50">RM50</button>
+                <button class="btn  btn-lg btn-outline-success text-dark px-5 py-2 mr-2 mb-1" type="button" onclick="document.getElementById('amount').value=100">RM100</button>
+                <button class="btn  btn-lg btn-outline-success text-dark px-5 py-2 mr-2 mb-1" type="button" onclick="document.getElementById('amount').value=150">RM150</button>
 
               </div>
 
-                  <!-- Modal -->
-                  <div class="modal fade" id="topupModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog" role="document">
-                      <div class="modal-content">
-                        <div class="modal-header">
-                          <h5 class="modal-title" id="exampleModalLabel">Top up</h5>
-                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
+              <div class="input-group  px-3">
+              <input type="number" id="amount" class="form-control form-control-lg border-success " placeholder="Preferred Amount" aria-label="" aria-describedby="basic-addon1" min="10" max="150" name="amount">
+              <div class="input-group-append">
+                <button type="button" class="btn btn-lg btn-warning px-4" data-toggle="modal" data-target="#topupModal">
+                  Top up
+                </button>
+              </div>
+            </div>
+              <!-- Button trigger modal -->
+            </div>
+            <small class="text-muted px-3">Min reload amount is RM10</small>
+          </div>
+
+
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="topupModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Top up</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                Are you sure you want to top up?
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">No</button>
+                <button type="submit" class="btn btn-primary" data-dismiss="modal">Yes</button>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    </form>
+    </div>
+  </section>
+
+  <section>
+    <div class="mx-5 mt-5 mb-5 p-0">
+      <h1 class="display-4 text-center text-warning font-weight-bold pb-5">Transaction History</h1>
+      <div>
+        <table class="table table-striped table-dark rounded-lg mt-0">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">TransactionNo</th>
+              <th scope="col">Date</th>
+              <th scope="col">Amount</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope='row'>1</th>
+              <td>TX0001</td>
+              <td>24/3/2020 10:33</td>
+              <td>20.00</td>
+            </tr>
+            <tr>
+              <th scope='row'>2</th>
+              <td>TX0002</td>
+              <td>25/3/2020 8:12</td>
+              <td>20.00</td>
+            </tr>
+            <tr>
+              <th scope='row'>3</th>
+              <td>TX0003</td>
+              <td>25/3/2020 21:30</td>
+              <td>50.00</td>
+            </tr>
+            <tr>
+              <th scope='row'>4</th>
+              <td>TX0004</td>
+              <td>26/3/2020 10:00</td>
+              <td>100.00</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    </div>
+  </section>
+
+
+
+  <footer id="dk-footer" class="dk-footer">
+    <div class="container">
+      <div class="row mt-0">
+        <div class="col-md-12 col-lg-4">
+          <div class="dk-footer-box-info">
+            <a class="navbar-brand text-warning" style='letter-spacing:0.2em' href="index.html">
+              <h2>HAIL</h2>
+            </a>
+
+            <p class="footer-info-text text-white ">
+              <span><i class="fas fa-map-marker-alt text-warning "></i></span>
+              15, Jalan Semantan, Bukit Damansara, 50490, Kuala Lumpur
+            </p>
+            <div class="footer-social-link">
+              <h3> Stay In Touch</h3>
+              <ul>
+                <li>
+                  <a href="#">
+                    <i class="fa fa-facebook"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fa fa-twitter"></i>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#">
+                    <i class="fa fa-instagram"></i>
+                  </a>
+                </li>
+              </ul>
+
+            </div>
+            <!-- End Social link -->
+
+          </div>
+          <!-- End Footer info -->
+
+          <div class="footer-awarad ">
+            <h3 class="text-warning ">Download Now</h3>
+          </div>
+          <div class="footer-app">
+            <img src="img/appstore.png" class="app" alt="">
+            <img src="img/googleplay.png" class="w-50 " alt="">
+            </img>
+          </div>
+
+        </div>
+        <!-- End Col -->
+        <div class="col-md-12 col-lg-8">
+
+          <div class="row">
+            <div class="col-md-12 col-lg-6">
+              <div class="footer-widget footer-left-widget">
+                <div class="section-heading">
+                  <h3>Services</h3>
+                  <span class="animate-border border-black"></span>
+                </div>
+                <ul>
+
+                  <li>
+                    <a href="service.html#hailcar">HAIL Transportation</a>
+                  </li>
+                  <li>
+                    <a href="food.html">HAIL Food</a>
+
+                  </li>
+                  <li>
+                    <a href="express.html">HAIL Express</a>
+
+                  </li>
+
+
+                </ul>
+                <ul>
+                  <li>
+                    <a href="hailpay.html">HAIL Pay</a>
+                  </li>
+                  <li>
+                    <a href="login.html" id="reward">HAIL Reward</a>
+                  </li>
+                  <li>
+                    <a href="index.html#faq">FAQs</a>
+                  </li>
+
+                </ul>
+              </div>
+              <!-- End Footer Widget -->
+            </div>
+            <!-- End col -->
+            <div class="col-md-12 col-lg-6">
+              <div class="footer-widget footer-left-widget">
+                <div class="section-heading">
+                  <h3>Subscribe</h3>
+                  <span class="animate-border border-black"></span>
+                </div>
+                <p class="text-white"> Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
+                <form action="#">
+                  <div class="form-row">
+                    <div class="col dk-footer-form">
+
+                      <div class="input-group mb-3">
+                        <input type="email" class="form-control text-white  form-control-warning bg-dark" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="Email Address">
+                        <div class="input-group-append">
+                          <button type="submit" class="btn btn-outline-warning">
+                            <i class="fa fa-send"></i>
                           </button>
                         </div>
-                        <div class="modal-body">
-                          Are you sure you want to top up?
-                        </div>
-                        <div class="modal-footer">
-                          <button type="button" class="btn btn-secondary" data-dismiss="modal">No</button>
-                          <button type="submit" class="btn btn-primary" data-dismiss="modal">Yes</button>
-                        </div>
                       </div>
+
                     </div>
                   </div>
-                </div>
-            </form>
+                </form>
+                <!-- End form -->
+              </div>
+              <!-- End footer widget -->
             </div>
-      </section>
+            <!-- End Col -->
+          </div>
+          <!-- End Row -->
+        </div>
+        <!-- End Col -->
+      </div>
+      <!-- End Widget Row -->
+    </div>
+    <!-- End Contact Container -->
 
-      <section>
-          <div class="mx-5 mt-5 mb-5 p-0">
-            <h1 class="display-4 text-center text-warning font-weight-bold pb-5">Transaction History</h1>
-            <div>
-              <table class="table table-striped table-dark rounded-lg mt-0">
-                <thead>
-                  <tr>
-                    <th scope="col">#</th>
-                    <th scope="col">TransactionNo</th>
-                    <th scope="col">Date</th>
-                    <th scope="col">Amount</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <th scope='row'>1</th>
-                    <td>TX0001</td>
-                    <td>24/3/2020 10:33</td>
-                    <td>20.00</td>
-                  </tr>
-                  <tr>
-                    <th scope='row'>2</th>
-                    <td>TX0002</td>
-                    <td>25/3/2020 8:12</td>
-                    <td>20.00</td>
-                  </tr>
-                  <tr>
-                    <th scope='row'>3</th>
-                    <td>TX0003</td>
-                    <td>25/3/2020 21:30</td>
-                    <td>50.00</td>
-                  </tr>
-                  <tr>
-                    <th scope='row'>4</th>
-                    <td>TX0004</td>
-                    <td>26/3/2020 10:00</td>
-                    <td>100.00</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
+    <div class="container-fluid text-dark pt-3 bg-warning">
+      <div class="row">
+        <div class="col-12 col-lg-6">
+          <p>&copy; 2020 Hail. All Rights Reserved </p>
+        </div>
+        <div class="col-12 col-lg-6">
+          <p class="float-lg-right">Designed by Group 1</p>
         </div>
       </div>
-      </section>
+    </div>
 
 
+    <!-- Back to top -->
+    <div class="back-to-top">
+      <button class="btn btn-dark d-none" id="totop" onclick="topFunction()" title="Back to Top">
+        <i class="fa fa-angle-up"></i>
+      </button>
+    </div>
 
-    <footer id="dk-footer" class="dk-footer">
-          <div class="container">
-              <div class="row mt-0">
-                  <div class="col-md-12 col-lg-4">
-                      <div class="dk-footer-box-info">
-                          <a class="navbar-brand text-warning" style='letter-spacing:0.2em' href="index.html"><h2>HAIL</h2></a>
+  </footer>
+  </section>
+  <!--Scripts-->
 
-                          <p class="footer-info-text text-white ">
-                            <span><i class="fas fa-map-marker-alt text-warning "></i></span>
-                          15, Jalan Semantan, Bukit Damansara, 50490, Kuala Lumpur
-                          </p>
-                          <div class="footer-social-link">
-                              <h3> Stay In Touch</h3>
-                              <ul>
-                                  <li>
-                                      <a href="#">
-                                          <i class="fa fa-facebook"></i>
-                                      </a>
-                                  </li>
-                                  <li>
-                                      <a href="#">
-                                          <i class="fa fa-twitter"></i>
-                                      </a>
-                                  </li>
+  <script>
+    $("#reward").on("click", function() {
+      alert("Please login to continue");
 
-                                  <li>
-                                      <a href="#">
-                                          <i class="fa fa-instagram"></i>
-                                      </a>
-                                  </li>
-                              </ul>
-
-                          </div>
-                          <!-- End Social link -->
-
-                      </div>
-                      <!-- End Footer info -->
-
-                      <div class="footer-awarad ">
-                        <h3 class="text-warning ">Download Now</h3>
-                      </div>
-                      <div class="footer-app">
-                      <img src="img/appstore.png" class="app" alt="">
-                        <img src="img/googleplay.png" class="w-50 " alt="">
-                      </img>
-                    </div>
-
-                  </div>
-                  <!-- End Col -->
-                  <div class="col-md-12 col-lg-8">
-
-                      <div class="row">
-                          <div class="col-md-12 col-lg-6">
-                              <div class="footer-widget footer-left-widget">
-                                  <div class="section-heading">
-                                      <h3>Services</h3>
-                                      <span class="animate-border border-black"></span>
-                                  </div>
-                                  <ul>
-
-                                      <li>
-                                            <a href="service.html#hailcar">HAIL Transportation</a>
-                                      </li>
-                                      <li>
-                                          <a href="food.html" >HAIL Food</a>
-
-                                      </li>
-                                      <li>
-                                          <a href="express.html">HAIL Express</a>
-
-                                      </li>
+    });
 
 
-                                  </ul>
-                                  <ul>
-                                    <li>
-                                          <a  href="hailpay.html">HAIL Pay</a>
-                                    </li>
-                                    <li>
-                                          <a href="login.html" id="reward">HAIL Reward</a>
-                                    </li>
-                                    <li>
-                                          <a  href="index.html#faq">FAQs</a>
-                                    </li>
+    window.onscroll = function() {
+      scrollFunction()
+    };
 
-                                  </ul>
-                              </div>
-                              <!-- End Footer Widget -->
-                          </div>
-                          <!-- End col -->
-                          <div class="col-md-12 col-lg-6">
-                              <div class="footer-widget footer-left-widget">
-                                  <div class="section-heading">
-                                      <h3>Subscribe</h3>
-                                      <span class="animate-border border-black"></span>
-                                  </div>
-                                  <p class="text-white"> Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
-                                  <form action="#">
-                                      <div class="form-row">
-                                          <div class="col dk-footer-form">
-
-                                            <div class="input-group mb-3">
-                                        <input type="email" class="form-control text-white  form-control-warning bg-dark" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"  placeholder="Email Address">
-                                          <div class="input-group-append">
-                                            <button type="submit" class="btn btn-outline-warning" >
-                                                <i class="fa fa-send"></i>
-                                            </button>
-                                          </div>
-                                        </div>
-
-                                          </div>
-                                      </div>
-                                  </form>
-                                  <!-- End form -->
-                              </div>
-                              <!-- End footer widget -->
-                          </div>
-                          <!-- End Col -->
-                      </div>
-                      <!-- End Row -->
-                  </div>
-                  <!-- End Col -->
-              </div>
-              <!-- End Widget Row -->
-          </div>
-          <!-- End Contact Container -->
-
-              <div class="container-fluid text-dark pt-3 bg-warning">
-                <div class="row">
-                  <div class="col-12 col-lg-6">
-                      <p>&copy; 2020 Hail. All Rights Reserved </p>
-                  </div>
-                  <div class="col-12 col-lg-6">
-                      <p class="float-lg-right">Designed by Group 1</p>
-                  </div>
-                </div>
-              </div>
-
-
-          <!-- Back to top -->
-          <div  class="back-to-top" >
-              <button class="btn btn-dark d-none" id="totop"  onclick="topFunction()" title="Back to Top" >
-                  <i class="fa fa-angle-up"></i>
-              </button>
-          </div>
-
-        </footer>
-        </section>
-        <!--Scripts-->
-
-        <script >
-
-        $("#reward").on("click",function(){
-            alert("Please login to continue");
-
-        });
-
-
-        window.onscroll = function() {
-          scrollFunction()};
-
-        /*  $('div.panel').scroll(function() {
+    /*  $('div.panel').scroll(function() {
       didScroll = true;
   });*/
-        function scrollFunction() {
-            var top= document.getElementById("totop");
-          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-            top.classList.add("d-block");
-          } else {
-            top.classList.remove("d-block");
-          }
-        }
-        function topFunction() {
+    function scrollFunction() {
+      var top = document.getElementById("totop");
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        top.classList.add("d-block");
+      } else {
+        top.classList.remove("d-block");
+      }
+    }
 
-          document.body.scrollTop = 0;
-          document.documentElement.scrollTop = 0;
+    function topFunction() {
 
-        }
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
 
-
-        var hailCar=document.getElementById("hailCar");
-        var hailShare=document.getElementById("hailShare");
-        var justhail=document.getElementById("justHail");
-        var rent=document.getElementById("hailRent");
-        var how1=document.getElementById("howHail");
-        var how2=document.getElementById("howRent");
+    }
 
 
-        $("#btnCar").on("click",function(){
-
-              $('#hailCar').tab("show");
-              $('html, body').animate({
-           scrollTop: $("#tabs").offset().top
-         }, 1000);
-
-        /*  console.log("Clicked Share");
-            $('#carouselExampleIndicators').carousel({
-                pause: true,
-                interval: false
-            });
-            console.log("Clicked Car");*/
-
-        });
-
-        $("#btnShare").on("click",function(){
-              $('#hailShare').tab("show");
-              $('html, body').animate({
-           scrollTop: $("#tabs").offset().top
-         }, 1000);
-
-        });
-
-        $("#btnJust").on("click",function(){
-              $('#justHail').tab("show");
-              $('html, body').animate({
-           scrollTop: $("#tabs").offset().top
-         }, 1000);
-
-        });
-
-        $("#btnRent").on("click",function(){
-              $('#hailRent').tab("show");
-
-              $('html, body').animate({
-           scrollTop: $("#tabs").offset().top
-         }, 1000);
-
-         how1.classList.add("d-none");
-         how2.classList.remove("d-none");
+    var hailCar = document.getElementById("hailCar");
+    var hailShare = document.getElementById("hailShare");
+    var justhail = document.getElementById("justHail");
+    var rent = document.getElementById("hailRent");
+    var how1 = document.getElementById("howHail");
+    var how2 = document.getElementById("howRent");
 
 
-        });
+    $("#btnCar").on("click", function() {
 
-        $("#hailRent").on("click",function(){
+      $('#hailCar').tab("show");
+      $('html, body').animate({
+        scrollTop: $("#tabs").offset().top
+      }, 1000);
 
-         how1.classList.add("d-none");
-         how2.classList.remove("d-none");
+      /*  console.log("Clicked Share");
+          $('#carouselExampleIndicators').carousel({
+              pause: true,
+              interval: false
+          });
+          console.log("Clicked Car");*/
+
+    });
+
+    $("#btnShare").on("click", function() {
+      $('#hailShare').tab("show");
+      $('html, body').animate({
+        scrollTop: $("#tabs").offset().top
+      }, 1000);
+
+    });
+
+    $("#btnJust").on("click", function() {
+      $('#justHail').tab("show");
+      $('html, body').animate({
+        scrollTop: $("#tabs").offset().top
+      }, 1000);
+
+    });
+
+    $("#btnRent").on("click", function() {
+      $('#hailRent').tab("show");
+
+      $('html, body').animate({
+        scrollTop: $("#tabs").offset().top
+      }, 1000);
+
+      how1.classList.add("d-none");
+      how2.classList.remove("d-none");
 
 
-        });
+    });
+
+    $("#hailRent").on("click", function() {
+
+      how1.classList.add("d-none");
+      how2.classList.remove("d-none");
 
 
+    });
+  </script>
+</body>
 
-
-        </script>
-  </body>
 </html>
